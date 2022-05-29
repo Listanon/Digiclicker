@@ -1,6 +1,3 @@
-///<reference path="pokemons/PokemonFactory.ts"/>
-/// <reference path="../declarations/GameHelper.d.ts" />
-
 /**
  * Handles all logic related to battling
  */
@@ -124,7 +121,11 @@ class Battle {
     protected static calculateActualCatchRate(enemyPokemon: BattlePokemon, pokeBall: GameConstants.Pokeball) {
         const pokeballBonus = App.game.pokeballs.getCatchBonus(pokeBall);
         const oakBonus = App.game.oakItems.calculateBonus(OakItemType.Magic_Ball);
-        const totalChance = GameConstants.clipNumber(enemyPokemon.catchRate + pokeballBonus + oakBonus, 0, 100);
+        const scanBonus = App.game.statistics.pokemonCaptured[enemyPokemon.id]();
+        if (scanBonus > 100){
+        scanBonus = 100;
+        }
+        const totalChance = GameConstants.clipNumber(enemyPokemon.catchRate * scanBonus + pokeballBonus + oakBonus, 0, 100);
         return totalChance;
     }
 
@@ -140,7 +141,7 @@ class Battle {
             this.catching(false);
             return;
         }
-        if (Rand.chance(this.catchRateActual() / 100)) { // Caught
+        if (Rand.chance(100 / 100)) { // Caught
             this.catchPokemon(enemyPokemon);
         } else if (enemyPokemon.shiny) { // Failed to catch, Shiny
             App.game.logbook.newLog(LogBookTypes.ESCAPED, `The Shiny ${enemyPokemon.name} escaped!`);
@@ -155,7 +156,12 @@ class Battle {
         const catchRoute = Battle.route || player.town()?.dungeon?.difficultyRoute || 1;
         App.game.wallet.gainDungeonTokens(PokemonFactory.routeDungeonTokens(catchRoute, player.region));
         App.game.oakItems.use(OakItemType.Magic_Ball);
+        if (this.catchRateActual() >= 100){
         App.game.party.gainPokemonById(enemyPokemon.id, enemyPokemon.shiny);
+        } else
+        GameHelper.incrementObservable(App.game.statistics.pokemonCaptured[pokemon.id]);
+        GameHelper.incrementObservable(App.game.statistics.totalPokemonCaptured);
+        
     }
 
     static gainItem() {
