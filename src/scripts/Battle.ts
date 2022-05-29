@@ -155,7 +155,7 @@ class Battle {
         if (this.catchRateActual() >= 100){
         App.game.party.gainPokemonById(enemyPokemon.id, enemyPokemon.shiny);
         } else {
-        GameHelper.incrementObservable(App.game.statistics.pokemonCaptured[pokemon.id]);
+        GameHelper.incrementObservable(App.game.statistics.pokemonCaptured[enemyPokemon.id]);
         GameHelper.incrementObservable(App.game.statistics.totalPokemonCaptured);
         }
         this.catchRateActual(null);
