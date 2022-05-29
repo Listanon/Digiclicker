@@ -122,9 +122,6 @@ class Battle {
         const pokeballBonus = App.game.pokeballs.getCatchBonus(pokeBall);
         const oakBonus = App.game.oakItems.calculateBonus(OakItemType.Magic_Ball);
         const scanBonus = App.game.statistics.pokemonCaptured[enemyPokemon.id]();
-        if (scanBonus > 100){
-        scanBonus = 100;
-        }
         const totalChance = GameConstants.clipNumber(enemyPokemon.catchRate * scanBonus + pokeballBonus + oakBonus, 0, 100);
         return totalChance;
     }
