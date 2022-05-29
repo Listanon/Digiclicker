@@ -47,7 +47,7 @@
 <script type="text/html" id="pokeballSelectionTemplate">
   <td class="text-center">
     <img class="pokeball-small"
-      data-bind="attr: {src: 'assets/images/pokeball/' + GameConstants.Pokeball[$data.type] + '.svg'}, css: {'pokeball-selected': App.game.pokeballs.selectedSelection()() === $data.type}"/>
+      data-bind="attr: {src: 'assets/images/pokeball/' + GameConstants.Pokeball[$data.type] + '.png'}, css: {'pokeball-selected': App.game.pokeballs.selectedSelection()() === $data.type}"/>
   </td>
   <td class="align-middle">
     <span data-bind="text: $data.description"></span>
