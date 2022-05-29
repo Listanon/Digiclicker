@@ -149,7 +149,6 @@ class Battle {
             App.game.logbook.newLog(LogBookTypes.ESCAPED, `The wild ${enemyPokemon.name} escaped!`);
         }
         this.catching(false);
-        this.catchRateActual(null);
     }
 
     public static catchPokemon(enemyPokemon: BattlePokemon) {
@@ -158,10 +157,11 @@ class Battle {
         App.game.oakItems.use(OakItemType.Magic_Ball);
         if (this.catchRateActual() >= 100){
         App.game.party.gainPokemonById(enemyPokemon.id, enemyPokemon.shiny);
-        } else
+        } else {
         GameHelper.incrementObservable(App.game.statistics.pokemonCaptured[pokemon.id]);
         GameHelper.incrementObservable(App.game.statistics.totalPokemonCaptured);
-        
+        }
+        this.catchRateActual(null);
     }
 
     static gainItem() {
