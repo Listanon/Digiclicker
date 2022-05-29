@@ -146,6 +146,7 @@ class Battle {
             App.game.logbook.newLog(LogBookTypes.ESCAPED, `The wild ${enemyPokemon.name} escaped!`);
         }
         this.catching(false);
+        this.catchRateActual(null);
     }
 
     public static catchPokemon(enemyPokemon: BattlePokemon) {
@@ -158,7 +159,6 @@ class Battle {
         GameHelper.incrementObservable(App.game.statistics.pokemonCaptured[enemyPokemon.id]);
         GameHelper.incrementObservable(App.game.statistics.totalPokemonCaptured);
         }
-        this.catchRateActual(null);
     }
 
     static gainItem() {
