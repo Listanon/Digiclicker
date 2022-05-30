@@ -13,7 +13,7 @@ type ItemNameType
     = 'xAttack'
     | 'xClick'
     | 'Lucky_egg'
-    | 'Token_collector'
+    | 'Intel_floppy'
     | 'Item_magnet'
     | 'Lucky_incense'
     | 'ChopleBerry'
