@@ -265,13 +265,20 @@ export enum Pokeball {
 }
 
 export enum Currency {
-    money,
-    questPoint,
-    dungeonToken,
-    diamond,
-    farmPoint,
-    battlePoint,
-}
+     money,
+     questPoint,
+     dungeonToken,
+     diamond,
+     farmPoint,
+     battlePoint,
+     explorecoin,
+     healthcoin,
+     attackcoin,
+     defencecoin,
+     speedcoin,
+     magiccoin,
+     intcoin,
+    }
 
 export enum TypeEffectiveness {
     Immune,
@@ -632,7 +639,7 @@ export enum BattleItemType {
     'xAttack' = 'xAttack',
     'xClick' = 'xClick',
     'Lucky_egg' = 'Lucky_egg',
-    'Token_collector' = 'Token_collector',
+    'Intel_floppy' = 'Intel_floppy',
     'Item_magnet' = 'Item_magnet',
     'Lucky_incense' = 'Lucky_incense',
 }
