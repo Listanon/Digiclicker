@@ -238,7 +238,7 @@ class DungeonRunner {
     }
 
     public static hasEnoughTokens() {
-        return App.game.wallet.hasAmount(new Amount(DungeonRunner.dungeon.tokenCost, GameConstants.Currency.dungeonToken));
+        return App.game.wallet.hasAmount(new Amount(DungeonRunner.dungeon.tokenCost, GameConstants.Currency.explorecoin));
     }
 
     public static dungeonLevel(): number {
