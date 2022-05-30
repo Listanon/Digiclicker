@@ -22,12 +22,12 @@ class DungeonRunner {
 
         if (!DungeonRunner.hasEnoughTokens()) {
             Notifier.notify({
-                message: 'You don\'t have enough dungeon tokens',
+                message: 'You don\'t have enough scan coins',
                 type: NotificationConstants.NotificationOption.danger,
             });
             return false;
         }
-        App.game.wallet.loseAmount(new Amount(DungeonRunner.dungeon.tokenCost, GameConstants.Currency.dungeonToken));
+        App.game.wallet.loseAmount(new Amount(DungeonRunner.dungeon.tokenCost, GameConstants.Currency.explorecoin));
         // Reset any trainers/pokemon if there was one previously
         DungeonBattle.trainer(null);
         DungeonBattle.trainerPokemonIndex(0);
