@@ -4,6 +4,7 @@ enum MultiplierType {
     exp,
     money,
     dungeonToken,
+    explorecoin,
     shiny,
     eggStep,
     roaming,
