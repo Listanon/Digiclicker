@@ -132,7 +132,7 @@ UndergroundItem.addItem('Jaw Fossil',   209, [[0,0,1,1,1], [0,1,1,1,1], [1,1,1,1
 UndergroundItem.addItem('Sail Fossil',  210, [[1,1,1,0,0], [1,1,1,1,1], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
 
 // Evolution Stones
-UndergroundItem.addItem('Fire Stone',    300, [[0,1,1], [1,1,1], [1,1,1] [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Fire_stone]);
+UndergroundItem.addItem('Fire Stone',    300, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Fire_stone]);
 UndergroundItem.addItem('Water Stone',   301, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Water_stone]);
 UndergroundItem.addItem('Thunder Stone', 302, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Thunder_stone]);
 UndergroundItem.addItem('Leaf Stone',    303, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1], [0,0,0,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Leaf_stone]);
