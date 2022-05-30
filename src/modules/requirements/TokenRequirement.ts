@@ -7,10 +7,10 @@ export default class TokenRequirement extends AchievementRequirement {
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.totalDungeonTokens(), this.requiredValue);
+        return Math.min(App.game.statistics.totalExploreCoins(), this.requiredValue);
     }
 
     public hint(): string {
-        return `${this.requiredValue} Dungeon Tokens need to be obtained.`;
+        return `${this.requiredValue} Scan Coins need to be obtained.`;
     }
 }
