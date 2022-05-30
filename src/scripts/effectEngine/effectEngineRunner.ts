@@ -69,7 +69,7 @@ class EffectEngineRunner {
     }
 
     public static getDungeonTokenMultiplier() {
-        return this.isActive(GameConstants.BattleItemType.Token_collector)() ? 1.5 : 1;
+        return this.isActive(GameConstants.BattleItemType.Intel_floppy)() ? 1.5 : 1;
     }
 
 
