@@ -179,11 +179,11 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Pfft, I Don\'t Need a Bike Voucher', 'Obtain 1,000,000 Pokédollars', new MoneyRequirement(1000000), 0.25);
         AchievementHandler.addAchievement('A billion Poképennies', 'Obtain 10,000,000 Pokédollars', new MoneyRequirement(10000000), 0.5);
 
-        AchievementHandler.addAchievement('Dungeon Time', 'Obtain 100 Dungeon Tokens', new TokenRequirement(100), 0.05);
-        AchievementHandler.addAchievement('Token Collector', 'Obtain 1,000 Dungeon Tokens', new TokenRequirement(1000), 0.10);
-        AchievementHandler.addAchievement('Dungeon Grinder', 'Obtain 10,000 Dungeon Tokens', new TokenRequirement(10000), 0.15);
-        AchievementHandler.addAchievement('Dungeon Master', 'Obtain 100,000 Dungeon Tokens', new TokenRequirement(100000), 0.20);
-        AchievementHandler.addAchievement('Dungeon Legend', 'Obtain 1,000,000 Dungeon Tokens', new TokenRequirement(1000000), 0.25);
+        AchievementHandler.addAchievement('Dungeon Time', 'Obtain 100 Scan Coins', new TokenRequirement(100), 0.05);
+        AchievementHandler.addAchievement('Dungeon Collector', 'Obtain 1,000 Scan Coins', new TokenRequirement(1000), 0.10);
+        AchievementHandler.addAchievement('Dungeon Grinder', 'Obtain 10,000 Scan Coins', new TokenRequirement(10000), 0.15);
+        AchievementHandler.addAchievement('Dungeon Master', 'Obtain 100,000 Scan Coins', new TokenRequirement(100000), 0.20);
+        AchievementHandler.addAchievement('Dungeon Legend', 'Obtain 1,000,000 Scan Coins', new TokenRequirement(1000000), 0.25);
 
         AchievementHandler.addAchievement('Basic Trainer', 'Have 100 Attack', new AttackRequirement(100), 0.05);
         AchievementHandler.addAchievement('Improving', 'Have 1,000 Attack', new AttackRequirement(1000), 0.10);
