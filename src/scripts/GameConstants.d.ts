@@ -170,6 +170,13 @@ namespace GameConstants {
         diamond,
         farmPoint,
         battlePoint,
+        explorecoin,
+        healthcoin,
+        attackcoin,
+        defencecoin,
+        speedcoin,
+        magiccoin,
+        intcoin,
     }
     declare enum TypeEffectiveness {
         Immune,
