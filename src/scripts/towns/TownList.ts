@@ -12,7 +12,7 @@ const pokeMartShop = new Shop([
     ItemList['xAttack'],
     ItemList['xClick'],
     ItemList['Lucky_egg'],
-    ItemList['Token_collector'],
+    ItemList['Intel_floppy'],
     ItemList['Item_magnet'],
     ItemList['Lucky_incense'],
     ItemList['SmallRestore'],
@@ -28,7 +28,7 @@ const DepartmentStoreShop = new Shop([
     ItemList['xClick'],
     ItemList['Lucky_egg'],
     ItemList['Item_magnet'],
-    ItemList['Token_collector'],
+    ItemList['Intel_floppy'],
     ItemList['Lucky_incense'],
     ItemList['SmallRestore'],
     ItemList['MediumRestore'],
@@ -48,7 +48,7 @@ const pokeLeagueShop = () => new Shop([
 //Kanto Shops
 const PewterCityShop = new Shop([
     ItemList['Pokeball'],
-    ItemList['Token_collector'],
+    ItemList['Intel_floppy'],
     ItemList['Lucky_egg'],
     ItemList['Mystery_egg'],
 ]);
@@ -79,7 +79,7 @@ const CeladonDepartmentStoreShop = new Shop([
     ItemList['xClick'],
     ItemList['Lucky_egg'],
     ItemList['Item_magnet'],
-    ItemList['Token_collector'],
+    ItemList['Intel_floppy'],
     ItemList['Lucky_incense'],
 ], 'Department Store');
 const SaffronCityShop = new Shop([
@@ -381,7 +381,7 @@ const GoldenrodDepartmentStoreShop = new Shop([
     ItemList['xClick'],
     ItemList['Lucky_egg'],
     ItemList['Item_magnet'],
-    ItemList['Token_collector'],
+    ItemList['Intel_floppy'],
     ItemList['Lucky_incense'],
     ItemList['SmallRestore'],
     ItemList['MediumRestore'],
@@ -2849,7 +2849,7 @@ const WyndonShop = new Shop([
     ItemList['xAttack'],
     ItemList['xClick'],
     ItemList['Lucky_egg'],
-    ItemList['Token_collector'],
+    ItemList['Intel_floppy'],
     ItemList['Item_magnet'],
     ItemList['Lucky_incense'],
 ]);
