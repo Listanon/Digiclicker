@@ -44,6 +44,34 @@ export default class Wallet implements Feature {
     public gainBattlePoints(base: number, ignoreBonus = false): Amount {
         return this.addAmount(new Amount(base, Currency.battlePoint), ignoreBonus);
     }
+    
+    public gainExplorecoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.explorecoin), ignoreBonus);
+    }
+    
+    public gainAttackcoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.attackcoin), ignoreBonus);
+    }
+    
+    public gainDefencecoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.defencecoin), ignoreBonus);
+    }
+    
+    public gainSpeedcoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.speedcoin), ignoreBonus);
+    }
+    
+    public gainHealthcoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.healthcoin), ignoreBonus);
+    }
+    
+    public gainMagiccoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.magiccoin), ignoreBonus);
+    }
+    
+    public gainIntcoin(base: number, ignoreBonus = false): Amount {
+        return this.addAmount(new Amount(base, Currency.intcoin), ignoreBonus);
+    }
 
     public calcBonus(amount: Amount) {
         switch (amount.currency) {
@@ -55,6 +83,13 @@ export default class Wallet implements Feature {
             case Currency.diamond:
             case Currency.farmPoint:
             case Currency.battlePoint:
+            case Currency.explorecoin:
+            case Currency.attackcoin:
+            case Currency.defencecoin:
+            case Currency.speedcoin:
+            case Currency.healthcoin:
+            case Currency.magiccoin:
+            case Currency.intcoin:
             default:
                 return 1;
         }
@@ -92,6 +127,27 @@ export default class Wallet implements Feature {
                 break;
             case Currency.battlePoint:
                 GameHelper.incrementObservable(App.game.statistics.totalBattlePoints, amount.amount);
+                break;
+            case Currency.explorecoin:
+                GameHelper.incrementObservable(App.game.statistics.totalExploreCoins, amount.amount);
+                break;
+            case Currency.attackcoin:
+                GameHelper.incrementObservable(App.game.statistics.totalAttackCoins, amount.amount);
+                break;
+            case Currency.defencecoin:
+                GameHelper.incrementObservable(App.game.statistics.totalDefenceCoins, amount.amount);
+                break;
+            case Currency.speedcoin:
+                GameHelper.incrementObservable(App.game.statistics.totalSpeedCoins, amount.amount);
+                break;
+            case Currency.healthcoin:
+                GameHelper.incrementObservable(App.game.statistics.totalHealthCoins, amount.amount);
+                break;
+            case Currency.magiccoin:
+                GameHelper.incrementObservable(App.game.statistics.totalMagicCoins, amount.amount);
+                break;
+            case Currency.intcoin:
+                GameHelper.incrementObservable(App.game.statistics.totalIntCoins, amount.amount);
                 break;
             default:
                 break;
