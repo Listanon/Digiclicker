@@ -25,14 +25,14 @@
                 <!--If all Pokémon in the dungeon are caught-->
                 <knockout data-bind="if: (!DungeonRunner.dungeonCompleted(DungeonRunner.dungeon, true) && DungeonRunner.dungeonCompleted(DungeonRunner.dungeon, false))">
                     <img title="You have captured all Pokémon on this route!" class="pokeball-smallest"
-                         src="assets/images/pokeball/Pokeball.svg"/>
+                         src="assets/images/pokeball/Pokeball.png"/>
                 </knockout>
 
                 <!--If all Pokémon in the dungeon are caught shiny-->
                 <knockout data-bind="if: DungeonRunner.dungeonCompleted(DungeonRunner.dungeon, true)">
                     <img title="You have captured all Pokémon shiny on this route!"
                          class="pokeball-smallest"
-                         src="assets/images/pokeball/Pokeball-shiny.svg"/>
+                         src="assets/images/pokeball/Masterball.png"/>
                 </knockout>
 
                 <!-- /ko -->
@@ -46,10 +46,10 @@
             <!-- ko if: DungeonBattle.trainer() -->
             <knockout class="right">
                 <span data-bind="foreach: new Array(DungeonBattle.defeatedTrainerPokemon())">
-                    <img src="assets/images/pokeball/Pokeball.svg" class="pokeball-smallest pokeball-defeated"/>
+                    <img src="assets/images/pokeball/Pokeball.png" class="pokeball-smallest pokeball-defeated"/>
                 </span>
                 <span data-bind="foreach: new Array(DungeonBattle.remainingTrainerPokemon())">
-                    <img src="assets/images/pokeball/Pokeball.svg" class="pokeball-smallest"/>
+                    <img src="assets/images/pokeball/Pokeball.png" class="pokeball-smallest"/>
                 </span>
             </knockout>
             <!-- /ko -->
@@ -76,7 +76,7 @@
                 </div>
                 <div data-bind="if: DungeonBattle.catching" class="catchChance">
                     <img class="pokeball-animated"
-                         data-bind="attr:{ src: 'assets/images/pokeball/' + GameConstants.Pokeball[DungeonBattle.pokeball()] + '.svg' }"
+                         data-bind="attr:{ src: 'assets/images/pokeball/' + GameConstants.Pokeball[DungeonBattle.pokeball()] + '.png' }"
                          src=""/>
                     <br>
                     Catch Chance:
