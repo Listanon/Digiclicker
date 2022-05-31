@@ -45,7 +45,7 @@ export default class Wallet implements Feature {
         return this.addAmount(new Amount(base, Currency.battlePoint), ignoreBonus);
     }
     
-    public gainExplorecoin(base: number, ignoreBonus = false): Amount {
+    public gainScancoin(base: number, ignoreBonus = false): Amount {
         return this.addAmount(new Amount(base, Currency.explorecoin), ignoreBonus);
     }
     
