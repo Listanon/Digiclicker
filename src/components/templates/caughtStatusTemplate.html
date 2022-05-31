@@ -2,16 +2,19 @@
     <knockout style="display: inline;">
         <!-- ko if: $data.status == CaughtStatus.NotCaught -->
         <img title="You have not scanned this Pokémon yet!"
+            class="pokeball-smallest"
              src="assets/images/pokeball/None.png"
         />
         <!-- /ko -->
         <!-- ko if: $data.status == CaughtStatus.Caught -->
         <img title="You have scanned this Pokémon!"
+             class="pokeball-smallest"
              src="assets/images/pokeball/None.svg"
         />
         <!-- /ko -->
         <!-- ko if: $data.status == CaughtStatus.CaughtShiny -->
         <img title="You have scanned this Pokémon shiny!"
+             class="pokeball-smallest"
              src="assets/images/pokeball/None.svg"
         />
         <!-- /ko -->
