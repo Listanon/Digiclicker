@@ -68,13 +68,19 @@ class BattlePokemon implements EnemyPokemonInterface {
         if (this.heldItem) {
             const name = BagHandler.displayName(this.heldItem);
             BagHandler.gainItem(this.heldItem);
-            const msg = `${this.name} dropped ${GameHelper.anOrA(name)} ${name}!`;
-            Notifier.notify({
-                message: `The enemy ${msg}`,
-                type: NotificationConstants.NotificationOption.success,
-                setting: NotificationConstants.NotificationSetting.Items.dropped_item,
-            });
-            App.game.logbook.newLog(LogBookTypes.FOUND, `An enemy ${msg}`);
+            if (name  ===  "Attack Block"){
+            App.game.wallet.gainAttackcoin(1);}
+            else if (name === "Defense Block"){
+            App.game.wallet.gainDefensecoin(1);}
+            else if (name === "Speed Block"){
+            App.game.wallet.gainSpeedcoin(1);}
+            else if (name === "Intellect Block"){
+            App.game.wallet.gainIntcoin(1);}
+            else if (name === "Health Block"){
+            App.game.wallet.gainHealthcoin(1);}
+            else if (name === "Magic Block"){
+            App.game.wallet.gainMagiccoin(1);}
+
         }
         App.game.party.gainExp(this.exp, this.level, trainer);
         App.game.gems.gainGems(this.gemReward, this.type1);
