@@ -3,7 +3,7 @@ class PokeBlock extends Item {
     type: GameConstants.PokeBlockColor;
 
     constructor(color: GameConstants.PokeBlockColor, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.money) {
-        super(`PokeBlock_${GameConstants.PokeBlockColor[color]}`, basePrice, currency);
+        super(`PokeBlock_${GameConstants.PokeBlockColor[color]}`, basePrice, currency, undefined);
         this.type = color;
     }
 
