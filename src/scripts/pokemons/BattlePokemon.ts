@@ -71,7 +71,7 @@ class BattlePokemon implements EnemyPokemonInterface {
             if (name  ===  "FightDisk"){
             App.game.wallet.gainAttackcoin(1);}
             else if (name === "ToughDisk"){
-            App.game.wallet.gainDefensecoin(1);}
+            App.game.wallet.gainDefencecoin(1);}
             else if (name === "ChargeDisk"){
             App.game.wallet.gainSpeedcoin(1);}
             else if (name === "OracleDisk"){
