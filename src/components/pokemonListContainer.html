@@ -57,12 +57,14 @@
             <tbody data-bind="foreach: PartyController.getSortedList()">
                 <tr data-bind="hidden: $data.breeding">
                     <td>
-                        <img
+                        <button class="btn btn-primary m-0" onclick="ShopHandler.showShop(pokeMartShop);" href="#shopModal" data-toggle="modal">
+                            <img
                             class="smallImage"
                             data-bind="attr: { src: PokemonHelper.getImage($data, App.game.party.alreadyCaughtPokemon($data.id, true)) }"
                             src=""
                             alt=""
-                        />
+                            />
+                        </button>
                     </td>
                     <td>
                         <div>
@@ -72,7 +74,6 @@
                             </div>
                             <div class="pokemonAttack" data-bind="text: attack.toLocaleString()"></div>
                             <div class="pokemonLevel" data-bind="text: level"></div>
-                            <a class="overlay" href="#shopModal" data-toggle="modal" onclick="ShopHandler.showShop(pokeMartShop);"></a>
                         </div>
                     </td>
                 </tr>
