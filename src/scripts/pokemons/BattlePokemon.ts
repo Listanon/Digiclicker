@@ -68,17 +68,17 @@ class BattlePokemon implements EnemyPokemonInterface {
         if (this.heldItem) {
             const name = BagHandler.displayName(this.heldItem);
             BagHandler.gainItem(this.heldItem);
-            if (name  ===  "FightDisk"){
+            if (name  ===  "FightDisk Berry"){
             App.game.wallet.gainAttackcoin(1);}
-            else if (name === "ToughDisk"){
+            else if (name === "ToughDisk Berry"){
             App.game.wallet.gainDefencecoin(1);}
-            else if (name === "ChargeDisk"){
+            else if (name === "ChargeDisk Berry"){
             App.game.wallet.gainSpeedcoin(1);}
-            else if (name === "OracleDisk"){
+            else if (name === "OracleDisk Berry"){
             App.game.wallet.gainIntcoin(1);}
-            else if (name === "EnergyDisk"){
+            else if (name === "EnergyDisk Berry"){
             App.game.wallet.gainHealthcoin(1);}
-            else if (name === "MageDisk"){
+            else if (name === "MageDisk Berry"){
             App.game.wallet.gainMagiccoin(1);}
 
         }
