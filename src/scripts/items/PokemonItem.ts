@@ -5,7 +5,7 @@ class PokemonItem extends CaughtIndicatingItem {
     type: PokemonNameType;
 
     constructor(pokemon: PokemonNameType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.questPoint, levelreq: number) {
-        super(pokemon, basePrice, currency, undefined, undefined, undefined, 'pokemonItem');
+        super(pokemon, basePrice, currency, undefined, levelreq, undefined, 'pokemonItem');
         this.type = pokemon;
     }
 
@@ -27,7 +27,7 @@ class PokemonItem extends CaughtIndicatingItem {
     getCaughtStatus(): CaughtStatus {
         return PartyController.getCaughtStatusByName(this.name as PokemonNameType);
     }
-       
+
     get image() {
         const subDirectory = this.imageDirectory ? `${this.imageDirectory}/` : '';
         return `assets/images/items/${subDirectory}${this.name.replace(/[^\s\w.()-]/g, '')}.png`;
