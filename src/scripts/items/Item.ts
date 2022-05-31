@@ -87,8 +87,18 @@ class Item {
             return Math.max(0, Math.round(total));
         }
     }
+              
 
     buy(n: number) {
+        
+        if (PokemonHelper.getPokemonByName(this._displayName).id).level < this.levelreq) {
+            Notifier.notify({
+                message: `${GameConstants.humanifyString(this.displayName)}'s level isn't high enough!`,
+                type: NotificationConstants.NotificationOption.danger,
+            });
+            return;
+        }
+        
         if (n <= 0) {
             return;
         }
@@ -100,7 +110,7 @@ class Item {
             });
             n = this.maxAmount;
         }
-
+                
         if (!this.isAvailable()) {
             Notifier.notify({
                 message: `${GameConstants.humanifyString(this.displayName)} is sold out!`,
