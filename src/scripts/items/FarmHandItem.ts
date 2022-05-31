@@ -3,7 +3,7 @@
 class FarmHandItem extends Item {
 
     constructor(public farmHandName: string, basePrice: number, currency = GameConstants.Currency.farmPoint) {
-        super(`FarmHand${farmHandName}`, basePrice, currency, undefined, { maxAmount: 1 }, `Farm Hand ${farmHandName}`);
+        super(`FarmHand${farmHandName}`, basePrice, currency, { maxAmount: 1 }, undefined, `Farm Hand ${farmHandName}`);
     }
 
     get farmHand(): FarmHand {
