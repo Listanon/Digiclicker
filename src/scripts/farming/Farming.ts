@@ -110,27 +110,27 @@ class Farming implements Feature {
         //#endregion
 
         //#region Second Generation
-        this.berryData[BerryType.Persim]    = new Berry(BerryType.Persim,   [20, 40, 50, 90, 180],
+        this.berryData[BerryType.FightDisk]    = new Berry(BerryType.FightDisk,   [20, 40, 50, 90, 180],
             5, 0.4, 10, 2,
             [10, 10, 10, 0, 10], BerryColor.Pink,
             ['The more this Berry absorbs energy from sunlight, the more vividly colorful it grows.'], undefined, ['Oricorio (Pa\'u)']);
-        this.berryData[BerryType.Razz]      = new Berry(BerryType.Razz,     [100, 150, 200, 250, 500],
+        this.berryData[BerryType.ToughDisk]      = new Berry(BerryType.ToughDisk,     [100, 150, 200, 250, 500],
             7, 0.4, 15, 2,
             [10, 10, 0, 0, 0], BerryColor.Red,
             ['A small hint of spiciness lingers in the red granules surrounding this Berry. Their centers have a dry taste.'], undefined, ['Oricorio (Baile)']);
-        this.berryData[BerryType.Bluk]      = new Berry(BerryType.Bluk,     [200, 250, 300, 330, 660],
+        this.berryData[BerryType.ChargeDisk]      = new Berry(BerryType.ChargeDisk,     [200, 250, 300, 330, 660],
             9, 0.4, 20, 2,
             [0, 10, 10, 0, 0], BerryColor.Purple,
             ['Though this small, delicately skinned Berry is blue in color, it dyes the mouth black when eaten.'], undefined, ['Oricorio (Sensu)']);
-        this.berryData[BerryType.Nanab]     = new Berry(BerryType.Nanab,    [25, 30, 35, 250, 500],
+        this.berryData[BerryType.OracleDisk]     = new Berry(BerryType.OracleDisk,    [25, 30, 35, 250, 500],
             11, 0.4, 25, 2,
             [0, 0, 10, 10, 0], BerryColor.Pink,
-            ['Bitter, but with a trace of sweetness, the Nanab Berry was the seventh to be discovered in the world.'], undefined, ['Oricorio (Pa\'u)']);
-        this.berryData[BerryType.Wepear]    = new Berry(BerryType.Wepear,   [150, 350, 375, 400, 800],
+            ['Bitter, but with a trace of sweetness, the OracleDisk Berry was the seventh to be discovered in the world.'], undefined, ['Oricorio (Pa\'u)']);
+        this.berryData[BerryType.EnergyDisk]    = new Berry(BerryType.EnergyDisk,   [150, 350, 375, 400, 800],
             12, 0.4, 30, 2,
             [0, 0, 0, 10, 10], BerryColor.Green,
             ['The potent mix of bitter and sour in this Berry seems to promote digestion. The flower is white and beautiful.']);
-        this.berryData[BerryType.Pinap]     = new Berry(BerryType.Pinap,    [30, 60, 180, 240, 480],
+        this.berryData[BerryType.MageDisk]     = new Berry(BerryType.MageDisk,    [30, 60, 180, 240, 480],
             13, 0.4, 35, 2,
             [10, 0, 0, 0, 10], BerryColor.Yellow,
             ['It is said that when the sour skin is peeled, this spicy Berry can be crushed to make medicine.'], undefined, ['Flabébé (Yellow)', 'Oricorio (Pom-pom)']);
@@ -437,38 +437,38 @@ class Farming implements Feature {
 
         //#region Second Generation
 
-        // Persim
-        this.mutations.push(new GrowNearBerryMutation(.02, BerryType.Persim,
+        // FightDisk
+        this.mutations.push(new GrowNearBerryMutation(.02, BerryType.FightDisk,
             [
                 BerryType.Pecha,
                 BerryType.Oran,
             ]));
-        // Razz
-        this.mutations.push(new GrowNearBerryMutation(.019, BerryType.Razz,
+        // ToughDisk
+        this.mutations.push(new GrowNearBerryMutation(.019, BerryType.ToughDisk,
             [
                 BerryType.Cheri,
                 BerryType.Leppa,
             ]));
-        // Bluk
-        this.mutations.push(new GrowNearBerryMutation(.018, BerryType.Bluk,
+        // ChargeDisk
+        this.mutations.push(new GrowNearBerryMutation(.018, BerryType.ChargeDisk,
             [
                 BerryType.Chesto,
                 BerryType.Leppa,
             ]));
-        // Nanab
-        this.mutations.push(new GrowNearBerryMutation(.017, BerryType.Nanab,
+        // OracleDisk
+        this.mutations.push(new GrowNearBerryMutation(.017, BerryType.OracleDisk,
             [
                 BerryType.Pecha,
                 BerryType.Aspear,
             ]));
-        // Wepear
-        this.mutations.push(new GrowNearBerryMutation(.016, BerryType.Wepear,
+        // EnergyDisk
+        this.mutations.push(new GrowNearBerryMutation(.016, BerryType.EnergyDisk,
             [
                 BerryType.Rawst,
                 BerryType.Oran,
             ]));
-        // Pinap
-        this.mutations.push(new GrowNearBerryMutation(.015, BerryType.Pinap,
+        // MageDisk
+        this.mutations.push(new GrowNearBerryMutation(.015, BerryType.MageDisk,
             [
                 BerryType.Sitrus,
                 BerryType.Aspear,
@@ -549,7 +549,7 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0005, BerryType.Kelpsy,
             [
                 BerryType.Chesto,
-                BerryType.Persim,
+                BerryType.FightDisk,
             ]));
         // Qualot
         this.mutations.push(new GrowNearFlavorMutation(.0005, BerryType.Qualot,
@@ -578,26 +578,26 @@ class Farming implements Feature {
                 BerryType.Figy,
             ]));
         // Tamato
-        this.mutations.push(new EvolveNearBerryMutation(.0005, BerryType.Tamato, BerryType.Razz, [BerryType.Pomeg]));
+        this.mutations.push(new EvolveNearBerryMutation(.0005, BerryType.Tamato, BerryType.ToughDisk, [BerryType.Pomeg]));
         // Cornn
         this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Cornn,
             [
                 BerryType.Leppa,
-                BerryType.Bluk,
+                BerryType.ChargeDisk,
                 BerryType.Wiki,
             ]));
         // Magost
         this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Magost,
             [
                 BerryType.Pecha,
-                BerryType.Nanab,
+                BerryType.OracleDisk,
                 BerryType.Mago,
             ]));
         // Rabuta
         this.mutations.push(new EvolveNearBerryMutation(.0003, BerryType.Rabuta, BerryType.Aspear, [BerryType.Aguav]));
         // Nomel
         this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Nomel,
-            [BerryType.Pinap]));
+            [BerryType.MageDisk]));
         // Spelon
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Spelon, BerryType.Tamato,
             [[130, 160], [0, 80], [0, 80], [0, 80], [0, 80]], {
@@ -634,7 +634,7 @@ class Farming implements Feature {
         // Occa
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Occa,
             [
-                BerryType.Razz,
+                BerryType.ToughDisk,
                 BerryType.Figy,
                 BerryType.Tamato,
                 BerryType.Spelon,
@@ -652,7 +652,7 @@ class Farming implements Feature {
         // Wacan
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Wacan,
             [
-                BerryType.Pinap,
+                BerryType.MageDisk,
                 BerryType.Iapapa,
                 BerryType.Qualot,
                 BerryType.Grepa,
@@ -695,7 +695,7 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Payapa,
             [
                 BerryType.Wiki,
-                BerryType.Bluk,
+                BerryType.ChargeDisk,
                 BerryType.Cornn,
                 BerryType.Pamtre,
             ]));
@@ -743,7 +743,7 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Roseli,
             [
                 BerryType.Mago,
-                BerryType.Nanab,
+                BerryType.OracleDisk,
                 BerryType.Magost,
                 BerryType.Watmel,
             ]));
@@ -1035,11 +1035,11 @@ class Farming implements Feature {
     //#region Plot Unlocking
 
     static unlockMatrix = [
-        BerryType.Kelpsy, BerryType.Mago, BerryType.Persim, BerryType.Wepear, BerryType.Qualot,
+        BerryType.Kelpsy, BerryType.Mago, BerryType.FightDisk, BerryType.EnergyDisk, BerryType.Qualot,
         BerryType.Wiki, BerryType.Aspear, BerryType.Cheri, BerryType.Leppa, BerryType.Aguav,
-        BerryType.Nanab, BerryType.Rawst, BerryType.None, BerryType.Chesto, BerryType.Razz,
-        BerryType.Pomeg, BerryType.Sitrus, BerryType.Pecha, BerryType.Oran, BerryType.Pinap,
-        BerryType.Grepa, BerryType.Figy, BerryType.Bluk, BerryType.Iapapa, BerryType.Hondew,
+        BerryType.OracleDisk, BerryType.Rawst, BerryType.None, BerryType.Chesto, BerryType.ToughDisk,
+        BerryType.Pomeg, BerryType.Sitrus, BerryType.Pecha, BerryType.Oran, BerryType.MageDisk,
+        BerryType.Grepa, BerryType.Figy, BerryType.ChargeDisk, BerryType.Iapapa, BerryType.Hondew,
     ]
 
     unlockPlot(index: number) {
