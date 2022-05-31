@@ -576,6 +576,7 @@ const pokemonList = createPokemonArray(
             'specialDefense': 35,
             'speed': 72,
         },
+        'heldItem': {type: GameConstants.Currency.questPoint},
     },
     {
         'id': 19.01,
