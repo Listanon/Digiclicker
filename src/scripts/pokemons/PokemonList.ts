@@ -578,7 +578,7 @@ const pokemonList = createPokemonArray(
             'specialDefense': 35,
             'speed': 72,
         },
-        'heldItem': {type: GameConstants.Currency.questPoint},
+        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
     },
     {
         'id': 19.01,
