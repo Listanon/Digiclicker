@@ -3,7 +3,7 @@
 class HatcheryHelperItem extends Item {
 
     constructor(public hatcheryHelperName: string, basePrice: number, currency = GameConstants.Currency.money) {
-        super(`HatcheryHelper${hatcheryHelperName}`, basePrice, currency, { maxAmount: 1 }, `Hatchery Helper ${hatcheryHelperName}`);
+        super(`HatcheryHelper${hatcheryHelperName}`, basePrice, currency, undefined, { maxAmount: 1 }, `Hatchery Helper ${hatcheryHelperName}`);
     }
 
     get hatcheryHelper(): HatcheryHelper {
