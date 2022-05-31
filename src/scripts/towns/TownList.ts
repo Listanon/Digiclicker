@@ -2029,7 +2029,7 @@ const VanivilleTownShop = new Shop([
 const SantaluneCityShop = new Shop([
     ItemList['Mystery_egg'],
 ]);
-const FriseurFurfrouShop = new Shop([
+const Pidgey = new Shop([
     ItemList['Furfrou (Debutante)'],
     ItemList['Furfrou (Diamond)'],
     ItemList['Furfrou (Matron)'],
