@@ -17,7 +17,7 @@ ItemList['Berry_Shovel']   = new ShovelItem(300, 'Berry Shovel', 'Removes Berry 
 class MulchShovelItem extends Item {
 
     constructor(basePrice: number, displayName: string, description: string) {
-        super('Mulch_Shovel', basePrice, GameConstants.Currency.farmPoint, { multiplierDecreaser: MultiplierDecreaser.Berry }, displayName, description, 'farm');
+        super('Mulch_Shovel', basePrice, GameConstants.Currency.farmPoint, undefined, { multiplierDecreaser: MultiplierDecreaser.Berry }, displayName, description, 'farm');
     }
 
     gain(amt: number) {
