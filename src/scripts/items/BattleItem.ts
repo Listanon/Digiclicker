@@ -12,7 +12,7 @@ class BattleItem extends Item {
         public multiplierType?: keyof typeof MultiplierType,
         public multiplyBy?: number
     ) {
-        super(GameConstants.BattleItemType[type], basePrice, currency, undefined, displayName, description, 'battleItem');
+        super(GameConstants.BattleItemType[type], basePrice, currency, undefined, undefined, displayName, description, 'battleItem');
         this.type = type;
     }
 
