@@ -82,19 +82,11 @@
                   html: true
                 }">
                <knockout data-bind="if: ($data instanceof CaughtIndicatingItem)">
-                   <span style="position: absolute; top: 15px; right: 20px;"
+                   <span style="position: absolute; z-index=1;"
                          data-bind="template: { name: 'caughtStatusTemplate', data: {'status': $data.getCaughtStatus()}}">
                    </span>
                </knockout>
-               <knockout data-bind="if: $data.status == CaughtStatus.NotCaught>
-                  <img src="" height="36px" src="assets/images/pokeball/None.svg">
-               </knockout>
-               <knockout data-bind="if: $data.status == CaughtStatus.Caught>
-                  <img src="" height="36px" data-bind="attr:{ src: $data.image }"> 
-               </knockout>
-               <knockout data-bind="if: $data.status == CaughtStatus.CaughtShiny>
-                  <img src="" height="36px" data-bind="attr:{ src: $data.image }"> 
-               </knockout>
+               <img src="" height="36px" data-bind="attr:{ src: $data.image }">
                <p data-bind="text: $data.displayName">Item Name</p>
                <div data-bind="if: $data.isAvailable()">
                     <span data-bind="template: { name: 'currencyTemplate', data: {'amount': totalPrice(ShopHandler.amount()), 'currency': currency, 'reducedThreshold': 1e10}}"></span>
