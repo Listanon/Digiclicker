@@ -2036,7 +2036,7 @@ const Pidgey = new Shop([
     ItemList['Furfrou (Dandy)'],
     ItemList['Furfrou (Kabuki)'],
     ItemList['Furfrou (Pharaoh)'],
-], 'Friseur Furfrou');
+], 'Pidgey');
 const CamphrierTownShop = new Shop([
     ItemList['Greatball'],
     ItemList['Thunder_stone'],
