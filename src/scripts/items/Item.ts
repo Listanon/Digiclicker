@@ -93,15 +93,15 @@ class Item {
 
         console.log(this.name);
         console.log(this.levelreq);
-        console.log(PokemonHelper.getPokemonByName(this.name).id);
+        console.log(App.game.party.getPokemon(PokemonHelper.getPokemonByName(this.name as any).id).level);
 
-        /* if (PokemonHelper.getPokemonByName(this.name).id).level < this.levelreq) {
+        if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(this.name as any).id).level < this.levelreq) {
             Notifier.notify({
                 message: `${GameConstants.humanifyString(this.displayName)}'s level isn't high enough!`,
                 type: NotificationConstants.NotificationOption.danger,
             });
             return;
-        }*/
+        }
 
         if (n <= 0) {
             return;
