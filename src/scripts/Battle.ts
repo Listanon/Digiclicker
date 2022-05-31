@@ -154,7 +154,7 @@ class Battle {
 
     public static catchPokemon(enemyPokemon: BattlePokemon) {
         const catchRoute = Battle.route || player.town()?.dungeon?.difficultyRoute || 1;
-        App.game.wallet.gainDungeonTokens(PokemonFactory.routeDungeonTokens(catchRoute, player.region));
+        App.game.wallet.gainScancoin(PokemonFactory.routeDungeonTokens(catchRoute, player.region));
         App.game.oakItems.use(OakItemType.Magic_Ball);
         if (this.catchRateActual() >= 100){
         App.game.party.gainPokemonById(enemyPokemon.id, enemyPokemon.shiny);
