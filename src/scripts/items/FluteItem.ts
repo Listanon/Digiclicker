@@ -9,7 +9,7 @@ class FluteItem extends Item {
         public multiplierType: keyof typeof MultiplierType,
         public multiplyBy: number
     ) {
-        super(name, Infinity, undefined, { maxAmount : 1 }, undefined, description, 'fluteItem');
+        super(name, Infinity, undefined, { maxAmount : 1 }, undefined, description, undefined, 'fluteItem');
     }
 
     use(): boolean {
