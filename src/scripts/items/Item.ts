@@ -91,7 +91,7 @@ class Item {
 
     buy(n: number) {
         
-        if (PokemonHelper.getPokemonByName(this._displayName).id).level < this.levelreq) {
+        if (PokemonHelper.getPokemonByName(this.name).id).level < this.levelreq) {
             Notifier.notify({
                 message: `${GameConstants.humanifyString(this.displayName)}'s level isn't high enough!`,
                 type: NotificationConstants.NotificationOption.danger,
