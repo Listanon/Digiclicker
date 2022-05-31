@@ -523,6 +523,7 @@ const pokemonList = createPokemonArray(
             'specialDefense': 35,
             'speed': 56,
         },
+        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
     },
     {
         'id': 17,
@@ -541,6 +542,7 @@ const pokemonList = createPokemonArray(
             'specialDefense': 50,
             'speed': 71,
         },
+        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
     },
     {
         'id': 18,
