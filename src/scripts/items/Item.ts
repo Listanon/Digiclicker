@@ -45,6 +45,7 @@ class Item {
             multiplierDecrease = true,
             multiplierDecreaser = MultiplierDecreaser.Battle,
         } : ShopOptions = {},
+        public levelreq: number,
         displayName?: string,
         description?: string,
         imageDirectory?: string) {
