@@ -2029,7 +2029,7 @@ const VanivilleTownShop = new Shop([
 const SantaluneCityShop = new Shop([
     ItemList['Mystery_egg'],
 ]);
-const Pidgey = new Shop([
+const 16 = new Shop([
     ItemList['Furfrou (Debutante)'],
     ItemList['Furfrou (Diamond)'],
     ItemList['Furfrou (Matron)'],
@@ -2159,7 +2159,7 @@ TownList['Santalune City'] = new Town(
 TownList['Lumiose City'] = new Town(
     'Lumiose City',
     GameConstants.Region.kalos,
-    [DepartmentStoreShop,Pidgey],
+    [DepartmentStoreShop,16],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.kalos, 4)],
         npcs: [ProfSycamore, LumioseEngineer],
