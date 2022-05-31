@@ -5,7 +5,7 @@ class MulchItem extends Item {
     type: MulchType;
 
     constructor(type: MulchType, basePrice: number, displayName: string, description: string) {
-        super(MulchType[type], basePrice, GameConstants.Currency.farmPoint, { multiplierDecreaser: MultiplierDecreaser.Berry }, displayName, description, 'farm');
+        super(MulchType[type], basePrice, GameConstants.Currency.farmPoint, undefined, { multiplierDecreaser: MultiplierDecreaser.Berry }, displayName, description, 'farm');
         this.type = type;
     }
 
