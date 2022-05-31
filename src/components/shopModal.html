@@ -88,9 +88,10 @@
                </knockout>
                <img src="" height="36px" data-bind="attr:{ src: $data.image }">
                <p data-bind="text: $data.displayName">Item Name</p>
-               <p data-bind="text: "Lv "+$data.levelreq">Level Needed</p>
+               <span display: flex>Required Lv:</span>
+               <span display: flex data-bind="text: $data.levelreq">Level Needed</span>
                <div data-bind="if: $data.isAvailable()">
-                    <span data-bind="template: { name: 'currencyTemplate', data: {'amount': totalPrice(ShopHandler.amount()), 'currency': currency, 'reducedThreshold': 1e10}}"></span>
+                    <p data-bind="template: { name: 'currencyTemplate', data: {'amount': totalPrice(ShopHandler.amount()), 'currency': currency, 'reducedThreshold': 1e10}}"></p>
                 </div>
                 <div data-bind="ifnot: $data.isAvailable()">
                     <span>Sold Out</span>
