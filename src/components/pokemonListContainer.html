@@ -57,7 +57,7 @@
             <tbody data-bind="foreach: PartyController.getSortedList()">
                 <tr data-bind="hidden: $data.breeding">
                     <td>
-                        <button class="btn btn-primary m-0" onclick="ShopHandler.showShop(pokeMartShop);" href="#shopModal" data-toggle="modal">
+                        <button class="btn btn-primary m-0" onclick="ShopHandler.showShop(FriseurFurfrouShop);" href="#shopModal" data-toggle="modal">
                             <img
                             class="smallImage"
                             data-bind="attr: { src: PokemonHelper.getImage($data, App.game.party.alreadyCaughtPokemon($data.id, true)) }"
