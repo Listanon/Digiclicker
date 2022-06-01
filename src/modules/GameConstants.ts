@@ -455,20 +455,20 @@ export const TypeColor = [
     '#EE8130', // Fire
     '#6390F0', // Water
     '#F7D02C', // Electric
-    '#7AC74C', // Grass
+    '#7AC74C', // Plant
     '#96D9D6', // Ice
-    '#C22E28', // Fighting
+    '#DC143C', // Vaccine
     '#A33EA1', // Poison
-    '#E2BF65', // Ground
+    '#E2BF65', // Earth
     '#A98FF3', // Flying
-    '#F95587', // Psychic
-    '#A6B91A', // Bug
+    '#C22E28', // Virus
+    '#A6B91A', // Data
     '#B6A136', // Rock
     '#735797', // Ghost
-    '#6F35FC', // Dragon
-    '#705746', // Dark
-    '#B7B7CE', // Steel
-    '#D685AD', // Fairy
+    '#6F35FC', // Dark
+    '#705746', // Free
+    '#B7B7CE', // Neutral
+    '#D685AD', // Light
 ];
 
 export const ROUTE_KILLS_NEEDED = 10;
