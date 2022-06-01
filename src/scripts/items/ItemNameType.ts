@@ -12,10 +12,10 @@ Replace the everything in this file (except for this comment) with what was copi
 type ItemNameType
     = 'xAttack'
     | 'xClick'
-    | 'Lucky_egg'
+    | 'Lucky_pill'
     | 'Intel_floppy'
     | 'Item_magnet'
-    | 'Lucky_incense'
+    | 'Lucky_floppy'
     | 'ChopleBerry'
     | 'KebiaBerry'
     | 'ShucaBerry'
