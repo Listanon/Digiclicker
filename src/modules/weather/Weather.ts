@@ -79,7 +79,7 @@ export default class Weather {
             WeatherType.Sunny,
             WeatherType.Sandstorm,
             WeatherType.Fog,
-            WeatherType.Wind,
+            WeatherType.Windy,
         ],
         [Region.johto]: [
             WeatherType.Clear,
@@ -91,7 +91,7 @@ export default class Weather {
             WeatherType.Sunny,
             WeatherType.Sandstorm,
             WeatherType.Fog,
-            WeatherType.Wind,
+            WeatherType.Windy,
         ],
         [Region.hoenn]: [
             WeatherType.Clear,
@@ -103,7 +103,7 @@ export default class Weather {
             WeatherType.Sunny,
             WeatherType.Sandstorm,
             WeatherType.Fog,
-            WeatherType.Wind,
+            WeatherType.Windy,
         ],
         [Region.sinnoh]: [
             WeatherType.Clear,
@@ -115,7 +115,7 @@ export default class Weather {
             WeatherType.Sunny,
             WeatherType.Sandstorm,
             WeatherType.Fog,
-            WeatherType.Wind,
+            WeatherType.Windy,
         ],
     };
 
