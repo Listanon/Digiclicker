@@ -87,21 +87,21 @@ class QuestLineHelper {
         const route129 = new DefeatPokemonsQuest(50, 0, 129, GameConstants.Region.hoenn);
         deoxysQuestLine.addQuest(route129);
 
-        // Defeat 500 Psychic type Pokemon
+        // Defeat 500 Virus type Pokemon
         const psychicGemReward = () => {
-            App.game.gems.gainGems(500, PokemonType.Psychic);
+            App.game.gems.gainGems(500, PokemonType.Virus);
             Notifier.notify({
                 title: deoxysQuestLine.name,
-                message: 'You have gained 500 Psychic gems',
+                message: 'You have gained 500 Virus chips',
                 type: NotificationConstants.NotificationOption.success,
             });
         };
-        const defeatPsychic = new CustomQuest(500, psychicGemReward, 'Defeat 500 Psychic type Pokémon', () => {
-            return pokemonMap.filter(p => p.type.includes(PokemonType.Psychic)).map(p => App.game.statistics.pokemonDefeated[p.id]()).reduce((a,b) => a + b, 0);
+        const defeatPsychic = new CustomQuest(500, psychicGemReward, 'Defeat 500 Virus type Digimon', () => {
+            return pokemonMap.filter(p => p.type.includes(PokemonType.Virus)).map(p => App.game.statistics.pokemonDefeated[p.id]()).reduce((a,b) => a + b, 0);
         });
         deoxysQuestLine.addQuest(defeatPsychic);
 
-        // Capture 200 Psychic type Pokemon
+        // Capture 200 Virus type Pokemon
         const mindPlateReward = () => {
             const mindPlate = UndergroundItem.list.find(item => item.name == 'Mind Plate');
             if (!mindPlate) {
@@ -114,8 +114,8 @@ class QuestLineHelper {
                 type: NotificationConstants.NotificationOption.success,
             });
         };
-        const catchPsychic = new CustomQuest(200, mindPlateReward, 'Capture 200 Psychic type Pokémon', () => {
-            return pokemonMap.filter(p => p.type.includes(PokemonType.Psychic)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
+        const catchPsychic = new CustomQuest(200, mindPlateReward, 'Capture 200 Virus type Digimon', () => {
+            return pokemonMap.filter(p => p.type.includes(PokemonType.Virus)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
         });
         deoxysQuestLine.addQuest(catchPsychic);
 
@@ -205,21 +205,21 @@ class QuestLineHelper {
         };
 
         createVivillonQuest(PokemonType.Water, 'Vivillon (Marine)', ['Lake Verity', 'Lake Valor', 'Lake Acuity'], 'It has been spotted at some Lakes.');
-        createVivillonQuest(PokemonType.Psychic, 'Vivillon (Modern)', ['Cerulean Cave'], 'It\'s surrounded by strong Pokémon.');
+        createVivillonQuest(PokemonType.Virus, 'Vivillon (Modern)', ['Cerulean Cave'], 'It\'s surrounded by strong Pokémon.');
         createVivillonQuest(PokemonType.Poison, 'Vivillon (Jungle)', ['Moor of Icirrus'], 'It has been spotted in a swamp.');
-        createVivillonQuest(PokemonType.Dark, 'Vivillon (Monsoon)', ['Dark Cave'], 'It\'s hiding at a dark place.');
-        createVivillonQuest(PokemonType.Steel, 'Vivillon (Tundra)', ['Pokéball Factory'], 'It flew into a factory.');
+        createVivillonQuest(PokemonType.Free, 'Vivillon (Monsoon)', ['Dark Cave'], 'It\'s hiding at a dark place.');
+        createVivillonQuest(PokemonType.Neutral, 'Vivillon (Tundra)', ['Pokéball Factory'], 'It flew into a factory.');
         createVivillonQuest(PokemonType.Fire, 'Vivillon (Sun)', ['Mt. Chimney Crater'], 'It seems to like hot places.');
-        createVivillonQuest(PokemonType.Fighting, 'Vivillon (Archipelago)', ['Sprout Tower'], 'It\'s sitting on a swaying pillar.');
+        createVivillonQuest(PokemonType.Vaccine, 'Vivillon (Archipelago)', ['Sprout Tower'], 'It\'s sitting on a swaying pillar.');
         createVivillonQuest(PokemonType.Ghost, 'Vivillon (Elegant)', ['Lost Hotel'], 'It\'s visiting an abandoned and spooky place.');
-        createVivillonQuest(PokemonType.Fairy, 'Vivillon (Ocean)', ['Dreamyard'], 'It\'s flying around an overgrown place full of dreams.');
+        createVivillonQuest(PokemonType.Light, 'Vivillon (Ocean)', ['Dreamyard'], 'It\'s flying around an overgrown place full of dreams.');
         createVivillonQuest(PokemonType.Electric, 'Vivillon (Continental)', ['New Mauville'], 'It\'s currently in a City full of Electric type Pokémon.');
-        createVivillonQuest(PokemonType.Bug, 'Vivillon (River)', ['Eterna Forest'], 'It hides in a dark Forest.');
+        createVivillonQuest(PokemonType.Data, 'Vivillon (River)', ['Eterna Forest'], 'It hides in a dark Forest.');
         createVivillonQuest(PokemonType.Flying, 'Vivillon (Polar)', ['Sky Pillar'], 'It\'s high up in the sky.');
-        createVivillonQuest(PokemonType.Ground, 'Vivillon (Sandstorm)', ['Relic Castle'], 'It got lost in the desert sand.');
-        createVivillonQuest(PokemonType.Grass, 'Vivillon (Garden)', ['Flower Paradise'], 'It only shows up amongst the most beautiful flowers.');
+        createVivillonQuest(PokemonType.Earth, 'Vivillon (Sandstorm)', ['Relic Castle'], 'It got lost in the desert sand.');
+        createVivillonQuest(PokemonType.Plant, 'Vivillon (Garden)', ['Flower Paradise'], 'It only shows up amongst the most beautiful flowers.');
         createVivillonQuest(PokemonType.Rock, 'Vivillon (High Plains)', ['Mt. Moon'], 'It has been spotted dancing in the moonlight.');
-        createVivillonQuest(PokemonType.Dragon, 'Vivillon (Savanna)', ['Dragonspiral Tower'], 'It\'s surrounded by dragons.');
+        createVivillonQuest(PokemonType.Dark, 'Vivillon (Savanna)', ['Dragonspiral Tower'], 'It\'s surrounded by dragons.');
         createVivillonQuest(PokemonType.Ice, 'Vivillon (Icy Snow)', ['Frost Cavern'], 'It can be found at a very cold place.');
 
         // Capture 200 Normal type Pokemon
