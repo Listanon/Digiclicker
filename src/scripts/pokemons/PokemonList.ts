@@ -41,7 +41,7 @@ const pokemonList = createPokemonArray(
         'id': 1,
         'name': 'Bulbasaur',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -60,7 +60,7 @@ const pokemonList = createPokemonArray(
         'name': 'Bulbasaur (clone)',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -79,7 +79,7 @@ const pokemonList = createPokemonArray(
         'name': 'Spooky Bulbasaur',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 25,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -97,7 +97,7 @@ const pokemonList = createPokemonArray(
         'name': 'Bulbasaur (Rose)',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 25,
-        'type': [PokemonType.Grass, PokemonType.Fairy],
+        'type': [PokemonType.Plant, PokemonType.Light],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -114,7 +114,7 @@ const pokemonList = createPokemonArray(
         'id': 2,
         'name': 'Ivysaur',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 142,
         'eggCycles': 20,
@@ -133,7 +133,7 @@ const pokemonList = createPokemonArray(
         'name': 'Ivysaur (clone)',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 142,
         'eggCycles': 20,
@@ -151,7 +151,7 @@ const pokemonList = createPokemonArray(
         'id': 3,
         'name': 'Venusaur',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 236,
         'eggCycles': 20,
@@ -169,7 +169,7 @@ const pokemonList = createPokemonArray(
         'name': 'Venusaur (clone)',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 236,
         'eggCycles': 20,
@@ -260,7 +260,7 @@ const pokemonList = createPokemonArray(
         'id': 6,
         'name': 'Charizard',
         'catchRate': 45,
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 240,
         'eggCycles': 20,
@@ -278,7 +278,7 @@ const pokemonList = createPokemonArray(
         'name': 'Charizard (clone)',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 45,
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 240,
         'eggCycles': 20,
@@ -404,7 +404,7 @@ const pokemonList = createPokemonArray(
         'id': 10,
         'name': 'Caterpie',
         'catchRate': 255,
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'levelType': LevelType.mediumfast,
         'exp': 39,
         'eggCycles': 15,
@@ -422,7 +422,7 @@ const pokemonList = createPokemonArray(
         'id': 11,
         'name': 'Metapod',
         'catchRate': 120,
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'levelType': LevelType.mediumfast,
         'exp': 72,
         'eggCycles': 15,
@@ -440,7 +440,7 @@ const pokemonList = createPokemonArray(
         'id': 12,
         'name': 'Butterfree',
         'catchRate': 45,
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 178,
         'eggCycles': 15,
@@ -457,7 +457,7 @@ const pokemonList = createPokemonArray(
         'id': 13,
         'name': 'Weedle',
         'catchRate': 255,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.mediumfast,
         'exp': 39,
         'eggCycles': 15,
@@ -475,7 +475,7 @@ const pokemonList = createPokemonArray(
         'id': 14,
         'name': 'Kakuna',
         'catchRate': 120,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.mediumfast,
         'exp': 72,
         'eggCycles': 15,
@@ -493,7 +493,7 @@ const pokemonList = createPokemonArray(
         'id': 15,
         'name': 'Beedrill',
         'catchRate': 45,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.mediumfast,
         'exp': 178,
         'eggCycles': 15,
@@ -510,7 +510,7 @@ const pokemonList = createPokemonArray(
         'id': 16,
         'name': 'Pidgey',
         'catchRate': 255,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 50,
         'eggCycles': 15,
@@ -529,7 +529,7 @@ const pokemonList = createPokemonArray(
         'id': 17,
         'name': 'Pidgeotto',
         'catchRate': 120,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 122,
         'eggCycles': 15,
@@ -548,7 +548,7 @@ const pokemonList = createPokemonArray(
         'id': 18,
         'name': 'Pidgeot',
         'catchRate': 45,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 216,
         'eggCycles': 15,
@@ -585,7 +585,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Rattata',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 255,
-        'type': [PokemonType.Dark, PokemonType.Normal],
+        'type': [PokemonType.Free, PokemonType.Normal],
         'levelType': LevelType.mediumfast,
         'exp': 51,
         'eggCycles': 15,
@@ -621,7 +621,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Raticate',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 127,
-        'type': [PokemonType.Dark, PokemonType.Normal],
+        'type': [PokemonType.Free, PokemonType.Normal],
         'levelType': LevelType.mediumfast,
         'exp': 145,
         'eggCycles': 15,
@@ -639,7 +639,7 @@ const pokemonList = createPokemonArray(
         'name': 'Totem Raticate',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 127,
-        'type': [PokemonType.Dark, PokemonType.Normal],
+        'type': [PokemonType.Free, PokemonType.Normal],
         'levelType': LevelType.mediumfast,
         'exp': 145,
         'eggCycles': 23,
@@ -656,7 +656,7 @@ const pokemonList = createPokemonArray(
         'id': 21,
         'name': 'Spearow',
         'catchRate': 255,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 52,
         'eggCycles': 15,
@@ -674,7 +674,7 @@ const pokemonList = createPokemonArray(
         'id': 21.1,
         'name': 'Red Spearow',
         'catchRate': 255,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 52,
         'eggCycles': 15,
@@ -691,7 +691,7 @@ const pokemonList = createPokemonArray(
         'id': 22,
         'name': 'Fearow',
         'catchRate': 90,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 155,
         'eggCycles': 15,
@@ -884,7 +884,7 @@ const pokemonList = createPokemonArray(
         'name': 'Flying Pikachu',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 50,
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 112,
         'eggCycles': 20,
@@ -973,7 +973,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Raichu',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 75,
-        'type': [PokemonType.Electric, PokemonType.Psychic],
+        'type': [PokemonType.Electric, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 218,
         'eggCycles': 10,
@@ -990,7 +990,7 @@ const pokemonList = createPokemonArray(
         'id': 27,
         'name': 'Sandshrew',
         'catchRate': 255,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 60,
         'eggCycles': 20,
@@ -1009,7 +1009,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Sandshrew',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 255,
-        'type': [PokemonType.Ice, PokemonType.Steel],
+        'type': [PokemonType.Ice, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 60,
         'eggCycles': 20,
@@ -1027,7 +1027,7 @@ const pokemonList = createPokemonArray(
         'id': 28,
         'name': 'Sandslash',
         'catchRate': 90,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 158,
         'eggCycles': 20,
@@ -1045,7 +1045,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Sandslash',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 90,
-        'type': [PokemonType.Ice, PokemonType.Steel],
+        'type': [PokemonType.Ice, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 158,
         'eggCycles': 20,
@@ -1098,7 +1098,7 @@ const pokemonList = createPokemonArray(
         'id': 31,
         'name': 'Nidoqueen',
         'catchRate': 45,
-        'type': [PokemonType.Poison, PokemonType.Ground],
+        'type': [PokemonType.Poison, PokemonType.Earth],
         'levelType': LevelType.mediumslow,
         'exp': 227,
         'eggCycles': 20,
@@ -1151,7 +1151,7 @@ const pokemonList = createPokemonArray(
         'id': 34,
         'name': 'Nidoking',
         'catchRate': 45,
-        'type': [PokemonType.Poison, PokemonType.Ground],
+        'type': [PokemonType.Poison, PokemonType.Earth],
         'levelType': LevelType.mediumslow,
         'exp': 227,
         'eggCycles': 20,
@@ -1168,7 +1168,7 @@ const pokemonList = createPokemonArray(
         'id': 35,
         'name': 'Clefairy',
         'catchRate': 150,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 113,
         'eggCycles': 10,
@@ -1187,7 +1187,7 @@ const pokemonList = createPokemonArray(
         'id': 36,
         'name': 'Clefable',
         'catchRate': 25,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 217,
         'eggCycles': 10,
@@ -1260,7 +1260,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Ninetales',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 75,
-        'type': [PokemonType.Ice, PokemonType.Fairy],
+        'type': [PokemonType.Ice, PokemonType.Light],
         'levelType': LevelType.mediumfast,
         'exp': 177,
         'eggCycles': 20,
@@ -1277,7 +1277,7 @@ const pokemonList = createPokemonArray(
         'id': 39,
         'name': 'Jigglypuff',
         'catchRate': 170,
-        'type': [PokemonType.Normal, PokemonType.Fairy],
+        'type': [PokemonType.Normal, PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 95,
         'eggCycles': 10,
@@ -1295,7 +1295,7 @@ const pokemonList = createPokemonArray(
         'id': 40,
         'name': 'Wigglytuff',
         'catchRate': 50,
-        'type': [PokemonType.Normal, PokemonType.Fairy],
+        'type': [PokemonType.Normal, PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 196,
         'eggCycles': 10,
@@ -1312,7 +1312,7 @@ const pokemonList = createPokemonArray(
         'id': 41,
         'name': 'Zubat',
         'catchRate': 255,
-        'type': [PokemonType.Poison, PokemonType.Flying],
+        'type': [PokemonType.Poison, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 49,
         'eggCycles': 15,
@@ -1330,7 +1330,7 @@ const pokemonList = createPokemonArray(
         'id': 42,
         'name': 'Golbat',
         'catchRate': 90,
-        'type': [PokemonType.Poison, PokemonType.Flying],
+        'type': [PokemonType.Poison, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 15,
@@ -1348,7 +1348,7 @@ const pokemonList = createPokemonArray(
         'id': 43,
         'name': 'Oddish',
         'catchRate': 255,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -1366,7 +1366,7 @@ const pokemonList = createPokemonArray(
         'id': 44,
         'name': 'Gloom',
         'catchRate': 120,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 138,
         'eggCycles': 20,
@@ -1387,7 +1387,7 @@ const pokemonList = createPokemonArray(
         'id': 45,
         'name': 'Vileplume',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 221,
         'eggCycles': 20,
@@ -1404,7 +1404,7 @@ const pokemonList = createPokemonArray(
         'id': 46,
         'name': 'Paras',
         'catchRate': 190,
-        'type': [PokemonType.Bug, PokemonType.Grass],
+        'type': [PokemonType.Data, PokemonType.Plant],
         'levelType': LevelType.mediumfast,
         'exp': 57,
         'eggCycles': 20,
@@ -1422,7 +1422,7 @@ const pokemonList = createPokemonArray(
         'id': 47,
         'name': 'Parasect',
         'catchRate': 75,
-        'type': [PokemonType.Bug, PokemonType.Grass],
+        'type': [PokemonType.Data, PokemonType.Plant],
         'levelType': LevelType.mediumfast,
         'exp': 142,
         'eggCycles': 20,
@@ -1439,7 +1439,7 @@ const pokemonList = createPokemonArray(
         'id': 48,
         'name': 'Venonat',
         'catchRate': 190,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.mediumfast,
         'exp': 61,
         'eggCycles': 20,
@@ -1457,7 +1457,7 @@ const pokemonList = createPokemonArray(
         'id': 49,
         'name': 'Venomoth',
         'catchRate': 75,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.mediumfast,
         'exp': 158,
         'eggCycles': 20,
@@ -1474,7 +1474,7 @@ const pokemonList = createPokemonArray(
         'id': 50,
         'name': 'Diglett',
         'catchRate': 255,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 53,
         'eggCycles': 20,
@@ -1493,7 +1493,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Diglett',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 255,
-        'type': [PokemonType.Ground, PokemonType.Steel],
+        'type': [PokemonType.Earth, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 53,
         'eggCycles': 20,
@@ -1511,7 +1511,7 @@ const pokemonList = createPokemonArray(
         'id': 51,
         'name': 'Dugtrio',
         'catchRate': 50,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 149,
         'eggCycles': 20,
@@ -1529,7 +1529,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Dugtrio',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 50,
-        'type': [PokemonType.Ground, PokemonType.Steel],
+        'type': [PokemonType.Earth, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 149,
         'eggCycles': 20,
@@ -1565,7 +1565,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Meowth',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 255,
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'levelType': LevelType.mediumfast,
         'exp': 58,
         'eggCycles': 20,
@@ -1584,7 +1584,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Meowth',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 255,
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 58,
         'eggCycles': 20,
@@ -1620,7 +1620,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Persian',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 90,
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'levelType': LevelType.mediumfast,
         'exp': 154,
         'eggCycles': 20,
@@ -1672,7 +1672,7 @@ const pokemonList = createPokemonArray(
         'id': 56,
         'name': 'Mankey',
         'catchRate': 190,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 61,
         'eggCycles': 20,
@@ -1690,7 +1690,7 @@ const pokemonList = createPokemonArray(
         'id': 57,
         'name': 'Primeape',
         'catchRate': 75,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 20,
@@ -1779,7 +1779,7 @@ const pokemonList = createPokemonArray(
         'id': 62,
         'name': 'Poliwrath',
         'catchRate': 45,
-        'type': [PokemonType.Water, PokemonType.Fighting],
+        'type': [PokemonType.Water, PokemonType.Vaccine],
         'levelType': LevelType.mediumslow,
         'exp': 230,
         'eggCycles': 20,
@@ -1797,7 +1797,7 @@ const pokemonList = createPokemonArray(
         'id': 63,
         'name': 'Abra',
         'catchRate': 200,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumslow,
         'exp': 62,
         'eggCycles': 20,
@@ -1815,7 +1815,7 @@ const pokemonList = createPokemonArray(
         'id': 64,
         'name': 'Kadabra',
         'catchRate': 100,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumslow,
         'exp': 140,
         'eggCycles': 20,
@@ -1833,7 +1833,7 @@ const pokemonList = createPokemonArray(
         'id': 65,
         'name': 'Alakazam',
         'catchRate': 50,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumslow,
         'exp': 225,
         'eggCycles': 20,
@@ -1850,7 +1850,7 @@ const pokemonList = createPokemonArray(
         'id': 66,
         'name': 'Machop',
         'catchRate': 180,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumslow,
         'exp': 61,
         'eggCycles': 20,
@@ -1868,7 +1868,7 @@ const pokemonList = createPokemonArray(
         'id': 67,
         'name': 'Machoke',
         'catchRate': 90,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumslow,
         'exp': 142,
         'eggCycles': 20,
@@ -1886,7 +1886,7 @@ const pokemonList = createPokemonArray(
         'id': 68,
         'name': 'Machamp',
         'catchRate': 45,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumslow,
         'exp': 227,
         'eggCycles': 20,
@@ -1903,7 +1903,7 @@ const pokemonList = createPokemonArray(
         'id': 69,
         'name': 'Bellsprout',
         'catchRate': 255,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 60,
         'eggCycles': 20,
@@ -1921,7 +1921,7 @@ const pokemonList = createPokemonArray(
         'id': 70,
         'name': 'Weepinbell',
         'catchRate': 120,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 137,
         'eggCycles': 20,
@@ -1939,7 +1939,7 @@ const pokemonList = createPokemonArray(
         'id': 71,
         'name': 'Victreebel',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'levelType': LevelType.mediumslow,
         'exp': 221,
         'eggCycles': 20,
@@ -1991,7 +1991,7 @@ const pokemonList = createPokemonArray(
         'id': 74,
         'name': 'Geodude',
         'catchRate': 255,
-        'type': [PokemonType.Rock, PokemonType.Ground],
+        'type': [PokemonType.Rock, PokemonType.Earth],
         'levelType': LevelType.mediumslow,
         'exp': 60,
         'eggCycles': 15,
@@ -2029,7 +2029,7 @@ const pokemonList = createPokemonArray(
         'id': 75,
         'name': 'Graveler',
         'catchRate': 120,
-        'type': [PokemonType.Rock, PokemonType.Ground],
+        'type': [PokemonType.Rock, PokemonType.Earth],
         'levelType': LevelType.mediumslow,
         'exp': 137,
         'eggCycles': 15,
@@ -2067,7 +2067,7 @@ const pokemonList = createPokemonArray(
         'id': 76,
         'name': 'Golem',
         'catchRate': 45,
-        'type': [PokemonType.Rock, PokemonType.Ground],
+        'type': [PokemonType.Rock, PokemonType.Earth],
         'levelType': LevelType.mediumslow,
         'exp': 223,
         'eggCycles': 15,
@@ -2122,7 +2122,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Ponyta',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 190,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 82,
         'eggCycles': 20,
@@ -2158,7 +2158,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Rapidash',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 60,
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'levelType': LevelType.mediumfast,
         'exp': 175,
         'eggCycles': 20,
@@ -2175,7 +2175,7 @@ const pokemonList = createPokemonArray(
         'id': 79,
         'name': 'Slowpoke',
         'catchRate': 190,
-        'type': [PokemonType.Water, PokemonType.Psychic],
+        'type': [PokemonType.Water, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 63,
         'eggCycles': 20,
@@ -2198,7 +2198,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Slowpoke',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 190,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 63,
         'eggCycles': 20,
@@ -2215,7 +2215,7 @@ const pokemonList = createPokemonArray(
         'id': 80,
         'name': 'Slowbro',
         'catchRate': 75,
-        'type': [PokemonType.Water, PokemonType.Psychic],
+        'type': [PokemonType.Water, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 172,
         'eggCycles': 20,
@@ -2234,7 +2234,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Slowbro',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 75,
-        'type': [PokemonType.Poison, PokemonType.Psychic],
+        'type': [PokemonType.Poison, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 172,
         'eggCycles': 20,
@@ -2251,7 +2251,7 @@ const pokemonList = createPokemonArray(
         'id': 81,
         'name': 'Magnemite',
         'catchRate': 190,
-        'type': [PokemonType.Electric, PokemonType.Steel],
+        'type': [PokemonType.Electric, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 65,
         'eggCycles': 20,
@@ -2270,7 +2270,7 @@ const pokemonList = createPokemonArray(
         'id': 82,
         'name': 'Magneton',
         'catchRate': 60,
-        'type': [PokemonType.Electric, PokemonType.Steel],
+        'type': [PokemonType.Electric, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 163,
         'eggCycles': 20,
@@ -2295,7 +2295,7 @@ const pokemonList = createPokemonArray(
         'id': 83,
         'name': 'Farfetch\'d',
         'catchRate': 45,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 132,
         'eggCycles': 20,
@@ -2313,7 +2313,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Farfetch\'d',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 45,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 132,
         'eggCycles': 20,
@@ -2331,7 +2331,7 @@ const pokemonList = createPokemonArray(
         'id': 84,
         'name': 'Doduo',
         'catchRate': 190,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 62,
         'eggCycles': 20,
@@ -2349,7 +2349,7 @@ const pokemonList = createPokemonArray(
         'id': 85,
         'name': 'Dodrio',
         'catchRate': 45,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 165,
         'eggCycles': 20,
@@ -2420,7 +2420,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Grimer',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 190,
-        'type': [PokemonType.Poison, PokemonType.Dark],
+        'type': [PokemonType.Poison, PokemonType.Free],
         'levelType': LevelType.mediumfast,
         'exp': 65,
         'eggCycles': 20,
@@ -2456,7 +2456,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Muk',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 75,
-        'type': [PokemonType.Poison, PokemonType.Dark],
+        'type': [PokemonType.Poison, PokemonType.Free],
         'levelType': LevelType.mediumfast,
         'exp': 175,
         'eggCycles': 20,
@@ -2561,7 +2561,7 @@ const pokemonList = createPokemonArray(
         'id': 95,
         'name': 'Onix',
         'catchRate': 45,
-        'type': [PokemonType.Rock, PokemonType.Ground],
+        'type': [PokemonType.Rock, PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 77,
         'eggCycles': 25,
@@ -2580,7 +2580,7 @@ const pokemonList = createPokemonArray(
         'id': 96,
         'name': 'Drowzee',
         'catchRate': 190,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 66,
         'eggCycles': 20,
@@ -2598,7 +2598,7 @@ const pokemonList = createPokemonArray(
         'id': 97,
         'name': 'Hypno',
         'catchRate': 75,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 169,
         'eggCycles': 20,
@@ -2685,7 +2685,7 @@ const pokemonList = createPokemonArray(
         'id': 102,
         'name': 'Exeggcute',
         'catchRate': 90,
-        'type': [PokemonType.Grass, PokemonType.Psychic],
+        'type': [PokemonType.Plant, PokemonType.Virus],
         'levelType': LevelType.slow,
         'exp': 65,
         'eggCycles': 20,
@@ -2706,7 +2706,7 @@ const pokemonList = createPokemonArray(
         'id': 103,
         'name': 'Exeggutor',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Psychic],
+        'type': [PokemonType.Plant, PokemonType.Virus],
         'levelType': LevelType.slow,
         'exp': 186,
         'eggCycles': 20,
@@ -2724,7 +2724,7 @@ const pokemonList = createPokemonArray(
         'name': 'Alolan Exeggutor',
         'nativeRegion': GameConstants.Region.alola,
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Dragon],
+        'type': [PokemonType.Plant, PokemonType.Dark],
         'levelType': LevelType.slow,
         'exp': 186,
         'eggCycles': 20,
@@ -2741,7 +2741,7 @@ const pokemonList = createPokemonArray(
         'id': 104,
         'name': 'Cubone',
         'catchRate': 190,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 64,
         'eggCycles': 20,
@@ -2764,7 +2764,7 @@ const pokemonList = createPokemonArray(
         'id': 105,
         'name': 'Marowak',
         'catchRate': 75,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 149,
         'eggCycles': 20,
@@ -2818,7 +2818,7 @@ const pokemonList = createPokemonArray(
         'id': 106,
         'name': 'Hitmonlee',
         'catchRate': 45,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 25,
@@ -2835,7 +2835,7 @@ const pokemonList = createPokemonArray(
         'id': 107,
         'name': 'Hitmonchan',
         'catchRate': 45,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 25,
@@ -2909,7 +2909,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Weezing',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 60,
-        'type': [PokemonType.Poison, PokemonType.Fairy],
+        'type': [PokemonType.Poison, PokemonType.Light],
         'levelType': LevelType.mediumfast,
         'exp': 172,
         'eggCycles': 20,
@@ -2926,7 +2926,7 @@ const pokemonList = createPokemonArray(
         'id': 111,
         'name': 'Rhyhorn',
         'catchRate': 120,
-        'type': [PokemonType.Ground, PokemonType.Rock],
+        'type': [PokemonType.Earth, PokemonType.Rock],
         'levelType': LevelType.slow,
         'exp': 69,
         'eggCycles': 20,
@@ -2944,7 +2944,7 @@ const pokemonList = createPokemonArray(
         'id': 112,
         'name': 'Rhydon',
         'catchRate': 60,
-        'type': [PokemonType.Ground, PokemonType.Rock],
+        'type': [PokemonType.Earth, PokemonType.Rock],
         'levelType': LevelType.slow,
         'exp': 170,
         'eggCycles': 20,
@@ -2981,7 +2981,7 @@ const pokemonList = createPokemonArray(
         'id': 114,
         'name': 'Tangela',
         'catchRate': 45,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumfast,
         'exp': 87,
         'eggCycles': 20,
@@ -3107,7 +3107,7 @@ const pokemonList = createPokemonArray(
         'id': 121,
         'name': 'Starmie',
         'catchRate': 60,
-        'type': [PokemonType.Water, PokemonType.Psychic],
+        'type': [PokemonType.Water, PokemonType.Virus],
         'levelType': LevelType.slow,
         'exp': 182,
         'eggCycles': 20,
@@ -3124,7 +3124,7 @@ const pokemonList = createPokemonArray(
         'id': 122,
         'name': 'Mr. Mime',
         'catchRate': 45,
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'levelType': LevelType.mediumfast,
         'exp': 161,
         'eggCycles': 25,
@@ -3142,7 +3142,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Mr. Mime',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 45,
-        'type': [PokemonType.Psychic, PokemonType.Ice],
+        'type': [PokemonType.Virus, PokemonType.Ice],
         'levelType': LevelType.mediumfast,
         'exp': 161,
         'eggCycles': 25,
@@ -3160,7 +3160,7 @@ const pokemonList = createPokemonArray(
         'id': 123,
         'name': 'Scyther',
         'catchRate': 45,
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 100,
         'eggCycles': 25,
@@ -3178,7 +3178,7 @@ const pokemonList = createPokemonArray(
         'id': 124,
         'name': 'Jynx',
         'catchRate': 45,
-        'type': [PokemonType.Ice, PokemonType.Psychic],
+        'type': [PokemonType.Ice, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 25,
@@ -3233,7 +3233,7 @@ const pokemonList = createPokemonArray(
         'id': 127,
         'name': 'Pinsir',
         'catchRate': 45,
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'levelType': LevelType.slow,
         'exp': 175,
         'eggCycles': 25,
@@ -3285,7 +3285,7 @@ const pokemonList = createPokemonArray(
         'id': 130,
         'name': 'Gyarados',
         'catchRate': 45,
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 189,
         'eggCycles': 5,
@@ -3526,7 +3526,7 @@ const pokemonList = createPokemonArray(
         'id': 142,
         'name': 'Aerodactyl',
         'catchRate': 45,
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 180,
         'eggCycles': 35,
@@ -3578,7 +3578,7 @@ const pokemonList = createPokemonArray(
         'id': 144,
         'name': 'Articuno',
         'catchRate': 3,
-        'type': [PokemonType.Ice, PokemonType.Flying],
+        'type': [PokemonType.Ice, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 261,
         'eggCycles': 80,
@@ -3596,7 +3596,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Articuno',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 3,
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 261,
         'eggCycles': 80,
@@ -3613,7 +3613,7 @@ const pokemonList = createPokemonArray(
         'id': 145,
         'name': 'Zapdos',
         'catchRate': 3,
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 261,
         'eggCycles': 80,
@@ -3631,7 +3631,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Zapdos',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 3,
-        'type': [PokemonType.Fighting, PokemonType.Flying],
+        'type': [PokemonType.Vaccine, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 261,
         'eggCycles': 80,
@@ -3648,7 +3648,7 @@ const pokemonList = createPokemonArray(
         'id': 146,
         'name': 'Moltres',
         'catchRate': 3,
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 261,
         'eggCycles': 80,
@@ -3666,7 +3666,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Moltres',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 3,
-        'type': [PokemonType.Dark, PokemonType.Flying],
+        'type': [PokemonType.Free, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 261,
         'eggCycles': 80,
@@ -3683,7 +3683,7 @@ const pokemonList = createPokemonArray(
         'id': 147,
         'name': 'Dratini',
         'catchRate': 45,
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'levelType': LevelType.slow,
         'exp': 60,
         'eggCycles': 40,
@@ -3702,7 +3702,7 @@ const pokemonList = createPokemonArray(
         'id': 148,
         'name': 'Dragonair',
         'catchRate': 45,
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'levelType': LevelType.slow,
         'exp': 147,
         'eggCycles': 40,
@@ -3721,7 +3721,7 @@ const pokemonList = createPokemonArray(
         'id': 149,
         'name': 'Dragonite',
         'catchRate': 45,
-        'type': [PokemonType.Dragon, PokemonType.Flying],
+        'type': [PokemonType.Dark, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 270,
         'eggCycles': 40,
@@ -3739,7 +3739,7 @@ const pokemonList = createPokemonArray(
         'id': 150,
         'name': 'Mewtwo',
         'catchRate': 3,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.slow,
         'exp': 306,
         'eggCycles': 120,
@@ -3757,7 +3757,7 @@ const pokemonList = createPokemonArray(
         'name': 'Armored Mewtwo',
         'nativeRegion': GameConstants.Region.kanto,
         'catchRate': 2,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.slow,
         'exp': 306,
         'eggCycles': 120,
@@ -3774,7 +3774,7 @@ const pokemonList = createPokemonArray(
         'id': 151,
         'name': 'Mew',
         'catchRate': 45,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumslow,
         'exp': 270,
         'eggCycles': 120,
@@ -3792,7 +3792,7 @@ const pokemonList = createPokemonArray(
         'id': 152,
         'name': 'Chikorita',
         'catchRate': 45,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -3810,7 +3810,7 @@ const pokemonList = createPokemonArray(
         'id': 153,
         'name': 'Bayleef',
         'catchRate': 45,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 142,
         'eggCycles': 20,
@@ -3828,7 +3828,7 @@ const pokemonList = createPokemonArray(
         'id': 154,
         'name': 'Meganium',
         'catchRate': 45,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 236,
         'eggCycles': 20,
@@ -3986,7 +3986,7 @@ const pokemonList = createPokemonArray(
         'id': 163,
         'name': 'Hoothoot',
         'catchRate': 255,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 52,
         'eggCycles': 15,
@@ -4004,7 +4004,7 @@ const pokemonList = createPokemonArray(
         'id': 164,
         'name': 'Noctowl',
         'catchRate': 90,
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 158,
         'eggCycles': 15,
@@ -4021,7 +4021,7 @@ const pokemonList = createPokemonArray(
         'id': 165,
         'name': 'Ledyba',
         'catchRate': 255,
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'levelType': LevelType.fast,
         'exp': 53,
         'eggCycles': 15,
@@ -4039,7 +4039,7 @@ const pokemonList = createPokemonArray(
         'id': 166,
         'name': 'Ledian',
         'catchRate': 90,
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'levelType': LevelType.fast,
         'exp': 137,
         'eggCycles': 15,
@@ -4056,7 +4056,7 @@ const pokemonList = createPokemonArray(
         'id': 167,
         'name': 'Spinarak',
         'catchRate': 255,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.fast,
         'exp': 50,
         'eggCycles': 15,
@@ -4074,7 +4074,7 @@ const pokemonList = createPokemonArray(
         'id': 168,
         'name': 'Ariados',
         'catchRate': 90,
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'levelType': LevelType.fast,
         'exp': 140,
         'eggCycles': 15,
@@ -4091,7 +4091,7 @@ const pokemonList = createPokemonArray(
         'id': 169,
         'name': 'Crobat',
         'catchRate': 90,
-        'type': [PokemonType.Poison, PokemonType.Flying],
+        'type': [PokemonType.Poison, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 241,
         'eggCycles': 15,
@@ -4164,7 +4164,7 @@ const pokemonList = createPokemonArray(
         'id': 173,
         'name': 'Cleffa',
         'catchRate': 150,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 44,
         'eggCycles': 10,
@@ -4184,7 +4184,7 @@ const pokemonList = createPokemonArray(
         'id': 174,
         'name': 'Igglybuff',
         'catchRate': 170,
-        'type': [PokemonType.Normal, PokemonType.Fairy],
+        'type': [PokemonType.Normal, PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 42,
         'eggCycles': 10,
@@ -4203,7 +4203,7 @@ const pokemonList = createPokemonArray(
         'id': 175,
         'name': 'Togepi',
         'catchRate': 190,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 49,
         'eggCycles': 10,
@@ -4222,7 +4222,7 @@ const pokemonList = createPokemonArray(
         'name': 'Spooky Togepi',
         'nativeRegion': GameConstants.Region.johto,
         'catchRate': 30,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 49,
         'eggCycles': 10,
@@ -4240,7 +4240,7 @@ const pokemonList = createPokemonArray(
         'name': 'Surprise Togepi',
         'nativeRegion': GameConstants.Region.johto,
         'catchRate': 30,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 49,
         'eggCycles': 10,
@@ -4257,7 +4257,7 @@ const pokemonList = createPokemonArray(
         'id': 176,
         'name': 'Togetic',
         'catchRate': 75,
-        'type': [PokemonType.Fairy, PokemonType.Flying],
+        'type': [PokemonType.Light, PokemonType.Wind],
         'levelType': LevelType.fast,
         'exp': 142,
         'eggCycles': 10,
@@ -4275,7 +4275,7 @@ const pokemonList = createPokemonArray(
         'id': 177,
         'name': 'Natu',
         'catchRate': 190,
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 64,
         'eggCycles': 20,
@@ -4293,7 +4293,7 @@ const pokemonList = createPokemonArray(
         'id': 178,
         'name': 'Xatu',
         'catchRate': 75,
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 165,
         'eggCycles': 20,
@@ -4363,7 +4363,7 @@ const pokemonList = createPokemonArray(
         'id': 182,
         'name': 'Bellossom',
         'catchRate': 45,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 221,
         'eggCycles': 20,
@@ -4380,7 +4380,7 @@ const pokemonList = createPokemonArray(
         'id': 183,
         'name': 'Marill',
         'catchRate': 190,
-        'type': [PokemonType.Water, PokemonType.Fairy],
+        'type': [PokemonType.Water, PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 88,
         'eggCycles': 10,
@@ -4398,7 +4398,7 @@ const pokemonList = createPokemonArray(
         'id': 184,
         'name': 'Azumarill',
         'catchRate': 75,
-        'type': [PokemonType.Water, PokemonType.Fairy],
+        'type': [PokemonType.Water, PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 189,
         'eggCycles': 10,
@@ -4450,7 +4450,7 @@ const pokemonList = createPokemonArray(
         'id': 187,
         'name': 'Hoppip',
         'catchRate': 255,
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 50,
         'eggCycles': 20,
@@ -4468,7 +4468,7 @@ const pokemonList = createPokemonArray(
         'id': 188,
         'name': 'Skiploom',
         'catchRate': 120,
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 119,
         'eggCycles': 20,
@@ -4486,7 +4486,7 @@ const pokemonList = createPokemonArray(
         'id': 189,
         'name': 'Jumpluff',
         'catchRate': 45,
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 207,
         'eggCycles': 20,
@@ -4521,7 +4521,7 @@ const pokemonList = createPokemonArray(
         'id': 191,
         'name': 'Sunkern',
         'catchRate': 235,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 36,
         'eggCycles': 20,
@@ -4539,7 +4539,7 @@ const pokemonList = createPokemonArray(
         'id': 192,
         'name': 'Sunflora',
         'catchRate': 120,
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 149,
         'eggCycles': 20,
@@ -4556,7 +4556,7 @@ const pokemonList = createPokemonArray(
         'id': 193,
         'name': 'Yanma',
         'catchRate': 75,
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
         'exp': 78,
         'eggCycles': 20,
@@ -4574,7 +4574,7 @@ const pokemonList = createPokemonArray(
         'id': 194,
         'name': 'Wooper',
         'catchRate': 255,
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 42,
         'eggCycles': 20,
@@ -4592,7 +4592,7 @@ const pokemonList = createPokemonArray(
         'id': 195,
         'name': 'Quagsire',
         'catchRate': 90,
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 151,
         'eggCycles': 20,
@@ -4609,7 +4609,7 @@ const pokemonList = createPokemonArray(
         'id': 196,
         'name': 'Espeon',
         'catchRate': 45,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 184,
         'eggCycles': 35,
@@ -4626,7 +4626,7 @@ const pokemonList = createPokemonArray(
         'id': 197,
         'name': 'Umbreon',
         'catchRate': 45,
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'levelType': LevelType.mediumfast,
         'exp': 184,
         'eggCycles': 35,
@@ -4643,7 +4643,7 @@ const pokemonList = createPokemonArray(
         'id': 198,
         'name': 'Murkrow',
         'catchRate': 30,
-        'type': [PokemonType.Dark, PokemonType.Flying],
+        'type': [PokemonType.Free, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 81,
         'eggCycles': 20,
@@ -4661,7 +4661,7 @@ const pokemonList = createPokemonArray(
         'id': 199,
         'name': 'Slowking',
         'catchRate': 70,
-        'type': [PokemonType.Water, PokemonType.Psychic],
+        'type': [PokemonType.Water, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 172,
         'eggCycles': 20,
@@ -4680,7 +4680,7 @@ const pokemonList = createPokemonArray(
         'name': 'Galarian Slowking',
         'nativeRegion': GameConstants.Region.galar,
         'catchRate': 70,
-        'type': [PokemonType.Poison, PokemonType.Psychic],
+        'type': [PokemonType.Poison, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 172,
         'eggCycles': 20,
@@ -4715,7 +4715,7 @@ const pokemonList = createPokemonArray(
         'id': 201,
         'name': 'Unown (A)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4732,7 +4732,7 @@ const pokemonList = createPokemonArray(
         'id': 201.01,
         'name': 'Unown (B)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4749,7 +4749,7 @@ const pokemonList = createPokemonArray(
         'id': 201.02,
         'name': 'Unown (C)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4766,7 +4766,7 @@ const pokemonList = createPokemonArray(
         'id': 201.03,
         'name': 'Unown (D)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4783,7 +4783,7 @@ const pokemonList = createPokemonArray(
         'id': 201.04,
         'name': 'Unown (E)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4800,7 +4800,7 @@ const pokemonList = createPokemonArray(
         'id': 201.05,
         'name': 'Unown (F)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4817,7 +4817,7 @@ const pokemonList = createPokemonArray(
         'id': 201.06,
         'name': 'Unown (G)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4834,7 +4834,7 @@ const pokemonList = createPokemonArray(
         'id': 201.07,
         'name': 'Unown (H)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4851,7 +4851,7 @@ const pokemonList = createPokemonArray(
         'id': 201.08,
         'name': 'Unown (I)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4868,7 +4868,7 @@ const pokemonList = createPokemonArray(
         'id': 201.09,
         'name': 'Unown (J)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4885,7 +4885,7 @@ const pokemonList = createPokemonArray(
         'id': 201.10,
         'name': 'Unown (K)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4902,7 +4902,7 @@ const pokemonList = createPokemonArray(
         'id': 201.11,
         'name': 'Unown (L)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4919,7 +4919,7 @@ const pokemonList = createPokemonArray(
         'id': 201.12,
         'name': 'Unown (M)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4936,7 +4936,7 @@ const pokemonList = createPokemonArray(
         'id': 201.13,
         'name': 'Unown (N)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4953,7 +4953,7 @@ const pokemonList = createPokemonArray(
         'id': 201.14,
         'name': 'Unown (O)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4970,7 +4970,7 @@ const pokemonList = createPokemonArray(
         'id': 201.15,
         'name': 'Unown (P)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -4987,7 +4987,7 @@ const pokemonList = createPokemonArray(
         'id': 201.16,
         'name': 'Unown (Q)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5004,7 +5004,7 @@ const pokemonList = createPokemonArray(
         'id': 201.17,
         'name': 'Unown (R)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5021,7 +5021,7 @@ const pokemonList = createPokemonArray(
         'id': 201.18,
         'name': 'Unown (S)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5038,7 +5038,7 @@ const pokemonList = createPokemonArray(
         'id': 201.19,
         'name': 'Unown (T)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5055,7 +5055,7 @@ const pokemonList = createPokemonArray(
         'id': 201.20,
         'name': 'Unown (U)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5072,7 +5072,7 @@ const pokemonList = createPokemonArray(
         'id': 201.21,
         'name': 'Unown (V)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5089,7 +5089,7 @@ const pokemonList = createPokemonArray(
         'id': 201.22,
         'name': 'Unown (W)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5106,7 +5106,7 @@ const pokemonList = createPokemonArray(
         'id': 201.23,
         'name': 'Unown (X)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5123,7 +5123,7 @@ const pokemonList = createPokemonArray(
         'id': 201.24,
         'name': 'Unown (Y)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5140,7 +5140,7 @@ const pokemonList = createPokemonArray(
         'id': 201.25,
         'name': 'Unown (Z)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5157,7 +5157,7 @@ const pokemonList = createPokemonArray(
         'id': 201.26,
         'name': 'Unown (!)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5174,7 +5174,7 @@ const pokemonList = createPokemonArray(
         'id': 201.27,
         'name': 'Unown (?)',
         'catchRate': 225,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 118,
         'eggCycles': 40,
@@ -5191,7 +5191,7 @@ const pokemonList = createPokemonArray(
         'id': 202,
         'name': 'Wobbuffet',
         'catchRate': 45,
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 142,
         'eggCycles': 20,
@@ -5208,7 +5208,7 @@ const pokemonList = createPokemonArray(
         'id': 203,
         'name': 'Girafarig',
         'catchRate': 60,
-        'type': [PokemonType.Normal, PokemonType.Psychic],
+        'type': [PokemonType.Normal, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 20,
@@ -5225,7 +5225,7 @@ const pokemonList = createPokemonArray(
         'id': 204,
         'name': 'Pineco',
         'catchRate': 190,
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'levelType': LevelType.mediumfast,
         'exp': 58,
         'eggCycles': 20,
@@ -5243,7 +5243,7 @@ const pokemonList = createPokemonArray(
         'id': 205,
         'name': 'Forretress',
         'catchRate': 75,
-        'type': [PokemonType.Bug, PokemonType.Steel],
+        'type': [PokemonType.Data, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 163,
         'eggCycles': 20,
@@ -5277,7 +5277,7 @@ const pokemonList = createPokemonArray(
         'id': 207,
         'name': 'Gligar',
         'catchRate': 60,
-        'type': [PokemonType.Ground, PokemonType.Flying],
+        'type': [PokemonType.Earth, PokemonType.Wind],
         'levelType': LevelType.mediumslow,
         'exp': 86,
         'eggCycles': 20,
@@ -5295,7 +5295,7 @@ const pokemonList = createPokemonArray(
         'id': 208,
         'name': 'Steelix',
         'catchRate': 25,
-        'type': [PokemonType.Steel, PokemonType.Ground],
+        'type': [PokemonType.Neutral, PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 179,
         'eggCycles': 25,
@@ -5313,7 +5313,7 @@ const pokemonList = createPokemonArray(
         'id': 209,
         'name': 'Snubbull',
         'catchRate': 190,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 60,
         'eggCycles': 20,
@@ -5331,7 +5331,7 @@ const pokemonList = createPokemonArray(
         'id': 210,
         'name': 'Granbull',
         'catchRate': 75,
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'levelType': LevelType.fast,
         'exp': 158,
         'eggCycles': 20,
@@ -5365,7 +5365,7 @@ const pokemonList = createPokemonArray(
         'id': 212,
         'name': 'Scizor',
         'catchRate': 25,
-        'type': [PokemonType.Bug, PokemonType.Steel],
+        'type': [PokemonType.Data, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
         'exp': 175,
         'eggCycles': 25,
@@ -5382,7 +5382,7 @@ const pokemonList = createPokemonArray(
         'id': 213,
         'name': 'Shuckle',
         'catchRate': 190,
-        'type': [PokemonType.Bug, PokemonType.Rock],
+        'type': [PokemonType.Data, PokemonType.Rock],
         'levelType': LevelType.mediumslow,
         'exp': 177,
         'eggCycles': 20,
@@ -5399,7 +5399,7 @@ const pokemonList = createPokemonArray(
         'id': 214,
         'name': 'Heracross',
         'catchRate': 45,
-        'type': [PokemonType.Bug, PokemonType.Fighting],
+        'type': [PokemonType.Data, PokemonType.Vaccine],
         'levelType': LevelType.slow,
         'exp': 175,
         'eggCycles': 25,
@@ -5416,7 +5416,7 @@ const pokemonList = createPokemonArray(
         'id': 215,
         'name': 'Sneasel',
         'catchRate': 60,
-        'type': [PokemonType.Dark, PokemonType.Ice],
+        'type': [PokemonType.Free, PokemonType.Ice],
         'levelType': LevelType.mediumslow,
         'exp': 86,
         'eggCycles': 20,
@@ -5504,7 +5504,7 @@ const pokemonList = createPokemonArray(
         'id': 220,
         'name': 'Swinub',
         'catchRate': 225,
-        'type': [PokemonType.Ice, PokemonType.Ground],
+        'type': [PokemonType.Ice, PokemonType.Earth],
         'levelType': LevelType.slow,
         'exp': 50,
         'eggCycles': 20,
@@ -5522,7 +5522,7 @@ const pokemonList = createPokemonArray(
         'id': 221,
         'name': 'Piloswine',
         'catchRate': 75,
-        'type': [PokemonType.Ice, PokemonType.Ground],
+        'type': [PokemonType.Ice, PokemonType.Earth],
         'levelType': LevelType.slow,
         'exp': 158,
         'eggCycles': 20,
@@ -5612,7 +5612,7 @@ const pokemonList = createPokemonArray(
         'id': 225,
         'name': 'Delibird',
         'catchRate': 45,
-        'type': [PokemonType.Ice, PokemonType.Flying],
+        'type': [PokemonType.Ice, PokemonType.Wind],
         'levelType': LevelType.fast,
         'exp': 116,
         'eggCycles': 20,
@@ -5629,7 +5629,7 @@ const pokemonList = createPokemonArray(
         'id': 226,
         'name': 'Mantine',
         'catchRate': 25,
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 170,
         'eggCycles': 25,
@@ -5646,7 +5646,7 @@ const pokemonList = createPokemonArray(
         'id': 227,
         'name': 'Skarmory',
         'catchRate': 25,
-        'type': [PokemonType.Steel, PokemonType.Flying],
+        'type': [PokemonType.Neutral, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 163,
         'eggCycles': 25,
@@ -5664,7 +5664,7 @@ const pokemonList = createPokemonArray(
         'id': 228,
         'name': 'Houndour',
         'catchRate': 120,
-        'type': [PokemonType.Dark, PokemonType.Fire],
+        'type': [PokemonType.Free, PokemonType.Fire],
         'levelType': LevelType.slow,
         'exp': 66,
         'eggCycles': 20,
@@ -5682,7 +5682,7 @@ const pokemonList = createPokemonArray(
         'id': 229,
         'name': 'Houndoom',
         'catchRate': 45,
-        'type': [PokemonType.Dark, PokemonType.Fire],
+        'type': [PokemonType.Free, PokemonType.Fire],
         'levelType': LevelType.slow,
         'exp': 175,
         'eggCycles': 20,
@@ -5699,7 +5699,7 @@ const pokemonList = createPokemonArray(
         'id': 230,
         'name': 'Kingdra',
         'catchRate': 45,
-        'type': [PokemonType.Water, PokemonType.Dragon],
+        'type': [PokemonType.Water, PokemonType.Dark],
         'levelType': LevelType.mediumfast,
         'exp': 243,
         'eggCycles': 20,
@@ -5717,7 +5717,7 @@ const pokemonList = createPokemonArray(
         'id': 231,
         'name': 'Phanpy',
         'catchRate': 120,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 66,
         'eggCycles': 20,
@@ -5735,7 +5735,7 @@ const pokemonList = createPokemonArray(
         'id': 232,
         'name': 'Donphan',
         'catchRate': 60,
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'levelType': LevelType.mediumfast,
         'exp': 175,
         'eggCycles': 20,
@@ -5805,7 +5805,7 @@ const pokemonList = createPokemonArray(
         'id': 236,
         'name': 'Tyrogue',
         'catchRate': 75,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 42,
         'eggCycles': 25,
@@ -5828,7 +5828,7 @@ const pokemonList = createPokemonArray(
         'id': 237,
         'name': 'Hitmontop',
         'catchRate': 45,
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'levelType': LevelType.mediumfast,
         'exp': 159,
         'eggCycles': 25,
@@ -5845,7 +5845,7 @@ const pokemonList = createPokemonArray(
         'id': 238,
         'name': 'Smoochum',
         'catchRate': 45,
-        'type': [PokemonType.Ice, PokemonType.Psychic],
+        'type': [PokemonType.Ice, PokemonType.Virus],
         'levelType': LevelType.mediumfast,
         'exp': 61,
         'eggCycles': 25,
@@ -5990,7 +5990,7 @@ const pokemonList = createPokemonArray(
         'id': 246,
         'name': 'Larvitar',
         'catchRate': 45,
-        'type': [PokemonType.Rock, PokemonType.Ground],
+        'type': [PokemonType.Rock, PokemonType.Earth],
         'levelType': LevelType.slow,
         'exp': 60,
         'eggCycles': 40,
@@ -6008,7 +6008,7 @@ const pokemonList = createPokemonArray(
         'id': 247,
         'name': 'Pupitar',
         'catchRate': 45,
-        'type': [PokemonType.Rock, PokemonType.Ground],
+        'type': [PokemonType.Rock, PokemonType.Earth],
         'levelType': LevelType.slow,
         'exp': 144,
         'eggCycles': 40,
@@ -6026,7 +6026,7 @@ const pokemonList = createPokemonArray(
         'id': 248,
         'name': 'Tyranitar',
         'catchRate': 45,
-        'type': [PokemonType.Rock, PokemonType.Dark],
+        'type': [PokemonType.Rock, PokemonType.Free],
         'levelType': LevelType.slow,
         'exp': 270,
         'eggCycles': 40,
@@ -6043,7 +6043,7 @@ const pokemonList = createPokemonArray(
         'id': 249,
         'name': 'Lugia',
         'catchRate': 3,
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 306,
         'eggCycles': 120,
@@ -6060,7 +6060,7 @@ const pokemonList = createPokemonArray(
         'id': 250,
         'name': 'Ho-Oh',
         'catchRate': 3,
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'levelType': LevelType.slow,
         'exp': 306,
         'eggCycles': 120,
@@ -6077,7 +6077,7 @@ const pokemonList = createPokemonArray(
         'id': 251,
         'name': 'Celebi',
         'catchRate': 45,
-        'type': [PokemonType.Psychic, PokemonType.Grass],
+        'type': [PokemonType.Virus, PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 270,
         'eggCycles': 120,
@@ -6095,7 +6095,7 @@ const pokemonList = createPokemonArray(
         'id': 251.1,
         'name': 'Grinch Celebi',
         'catchRate': 45,
-        'type': [PokemonType.Psychic, PokemonType.Grass],
+        'type': [PokemonType.Virus, PokemonType.Plant],
         'levelType': LevelType.mediumslow,
         'exp': 270,
         'eggCycles': 120,
@@ -6112,7 +6112,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 252,
         'name': 'Treecko',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 62,
@@ -6130,7 +6130,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 253,
         'name': 'Grovyle',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -6148,7 +6148,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 254,
         'name': 'Sceptile',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -6183,7 +6183,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 256,
         'name': 'Combusken',
-        'type': [PokemonType.Fire, PokemonType.Fighting],
+        'type': [PokemonType.Fire, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -6201,7 +6201,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 257,
         'name': 'Blaziken',
-        'type': [PokemonType.Fire, PokemonType.Fighting],
+        'type': [PokemonType.Fire, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -6236,7 +6236,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 259,
         'name': 'Marshtomp',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -6254,7 +6254,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 260,
         'name': 'Swampert',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 241,
@@ -6271,7 +6271,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 261,
         'name': 'Poochyena',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -6289,7 +6289,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 262,
         'name': 'Mightyena',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 147,
@@ -6326,7 +6326,7 @@ const pokemonList = createPokemonArray(
         'id': 263.1,
         'name': 'Galarian Zigzagoon',
         'nativeRegion': GameConstants.Region.galar,
-        'type': [PokemonType.Normal, PokemonType.Dark],
+        'type': [PokemonType.Normal, PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -6363,7 +6363,7 @@ const pokemonList = createPokemonArray(
         'id': 264.1,
         'name': 'Galarian Linoone',
         'nativeRegion': GameConstants.Region.galar,
-        'type': [PokemonType.Normal, PokemonType.Dark],
+        'type': [PokemonType.Normal, PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 147,
@@ -6381,7 +6381,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 265,
         'name': 'Wurmple',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -6402,7 +6402,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 266,
         'name': 'Silcoon',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 72,
@@ -6420,7 +6420,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 267,
         'name': 'Beautifly',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 178,
@@ -6437,7 +6437,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 268,
         'name': 'Cascoon',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 72,
@@ -6455,7 +6455,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 269,
         'name': 'Dustox',
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 173,
@@ -6472,7 +6472,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 270,
         'name': 'Lotad',
-        'type': [PokemonType.Water, PokemonType.Grass],
+        'type': [PokemonType.Water, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 44,
@@ -6490,7 +6490,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 271,
         'name': 'Lombre',
-        'type': [PokemonType.Water, PokemonType.Grass],
+        'type': [PokemonType.Water, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 119,
@@ -6508,7 +6508,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 272,
         'name': 'Ludicolo',
-        'type': [PokemonType.Water, PokemonType.Grass],
+        'type': [PokemonType.Water, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 216,
@@ -6525,7 +6525,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 273,
         'name': 'Seedot',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 44,
@@ -6543,7 +6543,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 274,
         'name': 'Nuzleaf',
-        'type': [PokemonType.Grass, PokemonType.Dark],
+        'type': [PokemonType.Plant, PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 119,
@@ -6561,7 +6561,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 275,
         'name': 'Shiftry',
-        'type': [PokemonType.Grass, PokemonType.Dark],
+        'type': [PokemonType.Plant, PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 216,
@@ -6578,7 +6578,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 276,
         'name': 'Taillow',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 54,
@@ -6596,7 +6596,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 277,
         'name': 'Swellow',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 159,
@@ -6613,7 +6613,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 278,
         'name': 'Wingull',
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 54,
@@ -6631,7 +6631,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 279,
         'name': 'Pelipper',
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 154,
@@ -6648,7 +6648,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 280,
         'name': 'Ralts',
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 40,
@@ -6666,7 +6666,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 281,
         'name': 'Kirlia',
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 97,
@@ -6687,7 +6687,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 282,
         'name': 'Gardevoir',
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 233,
@@ -6704,7 +6704,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 283,
         'name': 'Surskit',
-        'type': [PokemonType.Bug, PokemonType.Water],
+        'type': [PokemonType.Data, PokemonType.Water],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 54,
@@ -6722,7 +6722,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 284,
         'name': 'Masquerain',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 159,
@@ -6739,7 +6739,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 285,
         'name': 'Shroomish',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.fluctuating,
         'exp': 59,
@@ -6757,7 +6757,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 286,
         'name': 'Breloom',
-        'type': [PokemonType.Grass, PokemonType.Fighting],
+        'type': [PokemonType.Plant, PokemonType.Vaccine],
         'eggCycles': 15,
         'levelType': LevelType.fluctuating,
         'exp': 161,
@@ -6827,7 +6827,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 290,
         'name': 'Nincada',
-        'type': [PokemonType.Bug, PokemonType.Ground],
+        'type': [PokemonType.Data, PokemonType.Earth],
         'eggCycles': 15,
         'levelType': LevelType.erratic,
         'exp': 53,
@@ -6848,7 +6848,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 291,
         'name': 'Ninjask',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.erratic,
         'exp': 160,
@@ -6865,7 +6865,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 292,
         'name': 'Shedinja',
-        'type': [PokemonType.Bug, PokemonType.Ghost],
+        'type': [PokemonType.Data, PokemonType.Ghost],
         'eggCycles': 15,
         'levelType': LevelType.erratic,
         'exp': 83,
@@ -6935,7 +6935,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 296,
         'name': 'Makuhita',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.fluctuating,
         'exp': 47,
@@ -6953,7 +6953,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 297,
         'name': 'Hariyama',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.fluctuating,
         'exp': 166,
@@ -6971,7 +6971,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 298,
         'name': 'Azurill',
-        'type': [PokemonType.Normal, PokemonType.Fairy],
+        'type': [PokemonType.Normal, PokemonType.Light],
         'eggCycles': 10,
         'levelType': LevelType.fast,
         'exp': 38,
@@ -7050,7 +7050,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 302,
         'name': 'Sableye',
-        'type': [PokemonType.Dark, PokemonType.Ghost],
+        'type': [PokemonType.Free, PokemonType.Ghost],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 133,
@@ -7067,7 +7067,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 303,
         'name': 'Mawile',
-        'type': [PokemonType.Steel, PokemonType.Fairy],
+        'type': [PokemonType.Neutral, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.fast,
         'exp': 133,
@@ -7085,7 +7085,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 304,
         'name': 'Aron',
-        'type': [PokemonType.Steel, PokemonType.Rock],
+        'type': [PokemonType.Neutral, PokemonType.Rock],
         'eggCycles': 35,
         'levelType': LevelType.slow,
         'exp': 66,
@@ -7104,7 +7104,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 305,
         'name': 'Lairon',
-        'type': [PokemonType.Steel, PokemonType.Rock],
+        'type': [PokemonType.Neutral, PokemonType.Rock],
         'eggCycles': 35,
         'levelType': LevelType.slow,
         'exp': 151,
@@ -7123,7 +7123,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 306,
         'name': 'Aggron',
-        'type': [PokemonType.Steel, PokemonType.Rock],
+        'type': [PokemonType.Neutral, PokemonType.Rock],
         'eggCycles': 35,
         'levelType': LevelType.slow,
         'exp': 239,
@@ -7141,7 +7141,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 307,
         'name': 'Meditite',
-        'type': [PokemonType.Fighting, PokemonType.Psychic],
+        'type': [PokemonType.Vaccine, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -7159,7 +7159,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 308,
         'name': 'Medicham',
-        'type': [PokemonType.Fighting, PokemonType.Psychic],
+        'type': [PokemonType.Vaccine, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 144,
@@ -7245,7 +7245,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 313,
         'name': 'Volbeat',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.erratic,
         'exp': 151,
@@ -7262,7 +7262,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 314,
         'name': 'Illumise',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.fluctuating,
         'exp': 151,
@@ -7279,7 +7279,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 315,
         'name': 'Roselia',
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 140,
@@ -7332,7 +7332,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 318,
         'name': 'Carvanha',
-        'type': [PokemonType.Water, PokemonType.Dark],
+        'type': [PokemonType.Water, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 61,
@@ -7351,7 +7351,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 319,
         'name': 'Sharpedo',
-        'type': [PokemonType.Water, PokemonType.Dark],
+        'type': [PokemonType.Water, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 161,
@@ -7404,7 +7404,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 322,
         'name': 'Numel',
-        'type': [PokemonType.Fire, PokemonType.Ground],
+        'type': [PokemonType.Fire, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -7422,7 +7422,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 323,
         'name': 'Camerupt',
-        'type': [PokemonType.Fire, PokemonType.Ground],
+        'type': [PokemonType.Fire, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 161,
@@ -7456,7 +7456,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 325,
         'name': 'Spoink',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.fast,
         'exp': 66,
@@ -7474,7 +7474,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 326,
         'name': 'Grumpig',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.fast,
         'exp': 165,
@@ -7508,7 +7508,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 328,
         'name': 'Trapinch',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 58,
@@ -7526,7 +7526,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 329,
         'name': 'Vibrava',
-        'type': [PokemonType.Ground, PokemonType.Dragon],
+        'type': [PokemonType.Earth, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 119,
@@ -7544,7 +7544,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 330,
         'name': 'Flygon',
-        'type': [PokemonType.Ground, PokemonType.Dragon],
+        'type': [PokemonType.Earth, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 234,
@@ -7561,7 +7561,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 331,
         'name': 'Cacnea',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 67,
@@ -7579,7 +7579,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 332,
         'name': 'Cacturne',
-        'type': [PokemonType.Grass, PokemonType.Dark],
+        'type': [PokemonType.Plant, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 166,
@@ -7596,7 +7596,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 333,
         'name': 'Swablu',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.erratic,
         'exp': 62,
@@ -7614,7 +7614,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 334,
         'name': 'Altaria',
-        'type': [PokemonType.Dragon, PokemonType.Flying],
+        'type': [PokemonType.Dark, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.erratic,
         'exp': 172,
@@ -7665,7 +7665,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 337,
         'name': 'Lunatone',
-        'type': [PokemonType.Rock, PokemonType.Psychic],
+        'type': [PokemonType.Rock, PokemonType.Virus],
         'eggCycles': 25,
         'levelType': LevelType.fast,
         'exp': 161,
@@ -7683,7 +7683,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 338,
         'name': 'Solrock',
-        'type': [PokemonType.Rock, PokemonType.Psychic],
+        'type': [PokemonType.Rock, PokemonType.Virus],
         'eggCycles': 25,
         'levelType': LevelType.fast,
         'exp': 161,
@@ -7701,7 +7701,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 339,
         'name': 'Barboach',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 58,
@@ -7719,7 +7719,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 340,
         'name': 'Whiscash',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 164,
@@ -7754,7 +7754,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 342,
         'name': 'Crawdaunt',
-        'type': [PokemonType.Water, PokemonType.Dark],
+        'type': [PokemonType.Water, PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.fluctuating,
         'exp': 164,
@@ -7771,7 +7771,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 343,
         'name': 'Baltoy',
-        'type': [PokemonType.Ground, PokemonType.Psychic],
+        'type': [PokemonType.Earth, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 60,
@@ -7789,7 +7789,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 344,
         'name': 'Claydol',
-        'type': [PokemonType.Ground, PokemonType.Psychic],
+        'type': [PokemonType.Earth, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 175,
@@ -7806,7 +7806,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 345,
         'name': 'Lileep',
-        'type': [PokemonType.Rock, PokemonType.Grass],
+        'type': [PokemonType.Rock, PokemonType.Plant],
         'eggCycles': 30,
         'levelType': LevelType.erratic,
         'exp': 71,
@@ -7824,7 +7824,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 346,
         'name': 'Cradily',
-        'type': [PokemonType.Rock, PokemonType.Grass],
+        'type': [PokemonType.Rock, PokemonType.Plant],
         'eggCycles': 30,
         'levelType': LevelType.erratic,
         'exp': 173,
@@ -7841,7 +7841,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 347,
         'name': 'Anorith',
-        'type': [PokemonType.Rock, PokemonType.Bug],
+        'type': [PokemonType.Rock, PokemonType.Data],
         'eggCycles': 30,
         'levelType': LevelType.erratic,
         'exp': 71,
@@ -7859,7 +7859,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 348,
         'name': 'Armaldo',
-        'type': [PokemonType.Rock, PokemonType.Bug],
+        'type': [PokemonType.Rock, PokemonType.Data],
         'eggCycles': 30,
         'levelType': LevelType.erratic,
         'exp': 173,
@@ -8067,7 +8067,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 357,
         'name': 'Tropius',
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.slow,
         'exp': 161,
@@ -8084,7 +8084,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 358,
         'name': 'Chimecho',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 25,
         'levelType': LevelType.fast,
         'exp': 159,
@@ -8101,7 +8101,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 359,
         'name': 'Absol',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 163,
@@ -8118,7 +8118,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 360,
         'name': 'Wynaut',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 52,
@@ -8321,7 +8321,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 371,
         'name': 'Bagon',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 60,
@@ -8340,7 +8340,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 372,
         'name': 'Shelgon',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 147,
@@ -8359,7 +8359,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 373,
         'name': 'Salamence',
-        'type': [PokemonType.Dragon, PokemonType.Flying],
+        'type': [PokemonType.Dark, PokemonType.Wind],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8377,7 +8377,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 374,
         'name': 'Beldum',
-        'type': [PokemonType.Steel, PokemonType.Psychic],
+        'type': [PokemonType.Neutral, PokemonType.Virus],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 60,
@@ -8396,7 +8396,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 375,
         'name': 'Metang',
-        'type': [PokemonType.Steel, PokemonType.Psychic],
+        'type': [PokemonType.Neutral, PokemonType.Virus],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 147,
@@ -8415,7 +8415,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 376,
         'name': 'Metagross',
-        'type': [PokemonType.Steel, PokemonType.Psychic],
+        'type': [PokemonType.Neutral, PokemonType.Virus],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8467,7 +8467,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 379,
         'name': 'Registeel',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -8484,7 +8484,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 380,
         'name': 'Latias',
-        'type': [PokemonType.Dragon, PokemonType.Psychic],
+        'type': [PokemonType.Dark, PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8501,7 +8501,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 381,
         'name': 'Latios',
-        'type': [PokemonType.Dragon, PokemonType.Psychic],
+        'type': [PokemonType.Dark, PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8535,7 +8535,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 383,
         'name': 'Groudon',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 302,
@@ -8552,7 +8552,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 384,
         'name': 'Rayquaza',
-        'type': [PokemonType.Dragon, PokemonType.Flying],
+        'type': [PokemonType.Dark, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -8569,7 +8569,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 385,
         'name': 'Jirachi',
-        'type': [PokemonType.Steel, PokemonType.Psychic],
+        'type': [PokemonType.Neutral, PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8587,7 +8587,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 386,
         'name': 'Deoxys',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8604,7 +8604,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 386.1,
         'name': 'Deoxys (attack)',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8621,7 +8621,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 386.2,
         'name': 'Deoxys (defense)',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8638,7 +8638,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 386.3,
         'name': 'Deoxys (speed)',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -8655,7 +8655,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 387,
         'name': 'Turtwig',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 64,
@@ -8673,7 +8673,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 388,
         'name': 'Grotle',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -8691,7 +8691,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 389,
         'name': 'Torterra',
-        'type': [PokemonType.Grass, PokemonType.Ground],
+        'type': [PokemonType.Plant, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 236,
@@ -8726,7 +8726,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 391,
         'name': 'Monferno',
-        'type': [PokemonType.Fire, PokemonType.Fighting],
+        'type': [PokemonType.Fire, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -8744,7 +8744,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 392,
         'name': 'Infernape',
-        'type': [PokemonType.Fire, PokemonType.Fighting],
+        'type': [PokemonType.Fire, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 240,
@@ -8797,7 +8797,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 395,
         'name': 'Empoleon',
-        'type': [PokemonType.Water, PokemonType.Steel],
+        'type': [PokemonType.Water, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -8814,7 +8814,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 396,
         'name': 'Starly',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 49,
@@ -8832,7 +8832,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 397,
         'name': 'Staravia',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 119,
@@ -8850,7 +8850,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 398,
         'name': 'Staraptor',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 218,
@@ -8902,7 +8902,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 401,
         'name': 'Kricketot',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 39,
@@ -8920,7 +8920,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 402,
         'name': 'Kricketune',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 134,
@@ -8990,7 +8990,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 406,
         'name': 'Budew',
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 56,
@@ -9009,7 +9009,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 407,
         'name': 'Roserade',
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 232,
@@ -9061,7 +9061,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 410,
         'name': 'Shieldon',
-        'type': [PokemonType.Rock, PokemonType.Steel],
+        'type': [PokemonType.Rock, PokemonType.Neutral],
         'eggCycles': 30,
         'levelType': LevelType.erratic,
         'exp': 70,
@@ -9079,7 +9079,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 411,
         'name': 'Bastiodon',
-        'type': [PokemonType.Rock, PokemonType.Steel],
+        'type': [PokemonType.Rock, PokemonType.Neutral],
         'eggCycles': 30,
         'levelType': LevelType.erratic,
         'exp': 173,
@@ -9096,7 +9096,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 412,
         'name': 'Burmy (plant)',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 45,
@@ -9122,7 +9122,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 412.1,
         'name': 'Burmy (sand)',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 45,
@@ -9143,7 +9143,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 412.2,
         'name': 'Burmy (trash)',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 45,
@@ -9164,7 +9164,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 413,
         'name': 'Wormadam (plant)',
-        'type': [PokemonType.Bug, PokemonType.Grass],
+        'type': [PokemonType.Data, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 148,
@@ -9181,7 +9181,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 413.1,
         'name': 'Wormadam (sand)',
-        'type': [PokemonType.Bug, PokemonType.Ground],
+        'type': [PokemonType.Data, PokemonType.Earth],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 148,
@@ -9198,7 +9198,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 413.2,
         'name': 'Wormadam (trash)',
-        'type': [PokemonType.Bug, PokemonType.Steel],
+        'type': [PokemonType.Data, PokemonType.Neutral],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 148,
@@ -9215,7 +9215,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 414,
         'name': 'Mothim',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 148,
@@ -9232,7 +9232,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 415,
         'name': 'Combee',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 49,
@@ -9250,7 +9250,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 416,
         'name': 'Vespiquen',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 166,
@@ -9319,7 +9319,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 420,
         'name': 'Cherubi',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 55,
@@ -9337,7 +9337,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 421,
         'name': 'Cherrim (overcast)',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 158,
@@ -9355,7 +9355,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 421.1,
         'name': 'Cherrim (sunshine)',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 158,
@@ -9408,7 +9408,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 423,
         'name': 'Gastrodon (west)',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -9425,7 +9425,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 423.1,
         'name': 'Gastrodon (east)',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -9459,7 +9459,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 425,
         'name': 'Drifloon',
-        'type': [PokemonType.Ghost, PokemonType.Flying],
+        'type': [PokemonType.Ghost, PokemonType.Wind],
         'eggCycles': 30,
         'levelType': LevelType.fluctuating,
         'exp': 70,
@@ -9477,7 +9477,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 426,
         'name': 'Drifblim',
-        'type': [PokemonType.Ghost, PokemonType.Flying],
+        'type': [PokemonType.Ghost, PokemonType.Wind],
         'eggCycles': 30,
         'levelType': LevelType.fluctuating,
         'exp': 174,
@@ -9546,7 +9546,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 430,
         'name': 'Honchkrow',
-        'type': [PokemonType.Dark, PokemonType.Flying],
+        'type': [PokemonType.Free, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 177,
@@ -9598,7 +9598,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 433,
         'name': 'Chingling',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 25,
         'levelType': LevelType.fast,
         'exp': 57,
@@ -9617,7 +9617,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 434,
         'name': 'Stunky',
-        'type': [PokemonType.Poison, PokemonType.Dark],
+        'type': [PokemonType.Poison, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 66,
@@ -9635,7 +9635,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 435,
         'name': 'Skuntank',
-        'type': [PokemonType.Poison, PokemonType.Dark],
+        'type': [PokemonType.Poison, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -9652,7 +9652,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 436,
         'name': 'Bronzor',
-        'type': [PokemonType.Steel, PokemonType.Psychic],
+        'type': [PokemonType.Neutral, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 60,
@@ -9671,7 +9671,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 437,
         'name': 'Bronzong',
-        'type': [PokemonType.Steel, PokemonType.Psychic],
+        'type': [PokemonType.Neutral, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 175,
@@ -9712,7 +9712,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 439,
         'name': 'Mime Jr.',
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 62,
@@ -9759,7 +9759,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 441,
         'name': 'Chatot',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 144,
@@ -9776,7 +9776,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 442,
         'name': 'Spiritomb',
-        'type': [PokemonType.Ghost, PokemonType.Dark],
+        'type': [PokemonType.Ghost, PokemonType.Free],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 170,
@@ -9793,7 +9793,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 443,
         'name': 'Gible',
-        'type': [PokemonType.Dragon, PokemonType.Ground],
+        'type': [PokemonType.Dark, PokemonType.Earth],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 60,
@@ -9811,7 +9811,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 444,
         'name': 'Gabite',
-        'type': [PokemonType.Dragon, PokemonType.Ground],
+        'type': [PokemonType.Dark, PokemonType.Earth],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 144,
@@ -9829,7 +9829,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 445,
         'name': 'Garchomp',
-        'type': [PokemonType.Dragon, PokemonType.Ground],
+        'type': [PokemonType.Dark, PokemonType.Earth],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -9884,7 +9884,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 447,
         'name': 'Riolu',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 57,
@@ -9902,7 +9902,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 448,
         'name': 'Lucario',
-        'type': [PokemonType.Fighting, PokemonType.Steel],
+        'type': [PokemonType.Vaccine, PokemonType.Neutral],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 184,
@@ -9919,7 +9919,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 449,
         'name': 'Hippopotas',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 30,
         'levelType': LevelType.slow,
         'exp': 66,
@@ -9937,7 +9937,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 450,
         'name': 'Hippowdon',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 30,
         'levelType': LevelType.slow,
         'exp': 184,
@@ -9954,7 +9954,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 451,
         'name': 'Skorupi',
-        'type': [PokemonType.Poison, PokemonType.Bug],
+        'type': [PokemonType.Poison, PokemonType.Data],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 66,
@@ -9972,7 +9972,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 452,
         'name': 'Drapion',
-        'type': [PokemonType.Poison, PokemonType.Dark],
+        'type': [PokemonType.Poison, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 175,
@@ -9989,7 +9989,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 453,
         'name': 'Croagunk',
-        'type': [PokemonType.Poison, PokemonType.Fighting],
+        'type': [PokemonType.Poison, PokemonType.Vaccine],
         'eggCycles': 10,
         'levelType': LevelType.mediumfast,
         'exp': 60,
@@ -10007,7 +10007,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 454,
         'name': 'Toxicroak',
-        'type': [PokemonType.Poison, PokemonType.Fighting],
+        'type': [PokemonType.Poison, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 172,
@@ -10024,7 +10024,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 455,
         'name': 'Carnivine',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 25,
         'levelType': LevelType.slow,
         'exp': 159,
@@ -10076,7 +10076,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 458,
         'name': 'Mantyke',
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.slow,
         'exp': 69,
@@ -10098,7 +10098,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 459,
         'name': 'Snover',
-        'type': [PokemonType.Grass, PokemonType.Ice],
+        'type': [PokemonType.Plant, PokemonType.Ice],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 67,
@@ -10116,7 +10116,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 460,
         'name': 'Abomasnow',
-        'type': [PokemonType.Grass, PokemonType.Ice],
+        'type': [PokemonType.Plant, PokemonType.Ice],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 173,
@@ -10133,7 +10133,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 461,
         'name': 'Weavile',
-        'type': [PokemonType.Dark, PokemonType.Ice],
+        'type': [PokemonType.Free, PokemonType.Ice],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 179,
@@ -10150,7 +10150,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 462,
         'name': 'Magnezone',
-        'type': [PokemonType.Electric, PokemonType.Steel],
+        'type': [PokemonType.Electric, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 241,
@@ -10185,7 +10185,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 464,
         'name': 'Rhyperior',
-        'type': [PokemonType.Ground, PokemonType.Rock],
+        'type': [PokemonType.Earth, PokemonType.Rock],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 241,
@@ -10202,7 +10202,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 465,
         'name': 'Tangrowth',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 187,
@@ -10255,7 +10255,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 468,
         'name': 'Togekiss',
-        'type': [PokemonType.Fairy, PokemonType.Flying],
+        'type': [PokemonType.Light, PokemonType.Wind],
         'eggCycles': 10,
         'levelType': LevelType.fast,
         'exp': 245,
@@ -10272,7 +10272,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 469,
         'name': 'Yanmega',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 180,
@@ -10289,7 +10289,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 470,
         'name': 'Leafeon',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
         'exp': 184,
@@ -10323,7 +10323,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 472,
         'name': 'Gliscor',
-        'type': [PokemonType.Ground, PokemonType.Flying],
+        'type': [PokemonType.Earth, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 179,
@@ -10340,7 +10340,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 473,
         'name': 'Mamoswine',
-        'type': [PokemonType.Ice, PokemonType.Ground],
+        'type': [PokemonType.Ice, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 239,
@@ -10374,7 +10374,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 475,
         'name': 'Gallade',
-        'type': [PokemonType.Psychic, PokemonType.Fighting],
+        'type': [PokemonType.Virus, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 233,
@@ -10391,7 +10391,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 476,
         'name': 'Probopass',
-        'type': [PokemonType.Rock, PokemonType.Steel],
+        'type': [PokemonType.Rock, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 184,
@@ -10511,7 +10511,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 479.4,
         'name': 'Rotom (fan)',
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 182,
@@ -10528,7 +10528,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 479.5,
         'name': 'Rotom (mow)',
-        'type': [PokemonType.Electric, PokemonType.Grass],
+        'type': [PokemonType.Electric, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 182,
@@ -10562,7 +10562,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 480,
         'name': 'Uxie',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -10579,7 +10579,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 481,
         'name': 'Mesprit',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -10596,7 +10596,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 482,
         'name': 'Azelf',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -10613,7 +10613,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 483,
         'name': 'Dialga',
-        'type': [PokemonType.Steel, PokemonType.Dragon],
+        'type': [PokemonType.Neutral, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -10630,7 +10630,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 484,
         'name': 'Palkia',
-        'type': [PokemonType.Water, PokemonType.Dragon],
+        'type': [PokemonType.Water, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -10647,7 +10647,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 485,
         'name': 'Heatran',
-        'type': [PokemonType.Fire, PokemonType.Steel],
+        'type': [PokemonType.Fire, PokemonType.Neutral],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -10681,7 +10681,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 487,
         'name': 'Giratina (altered)',
-        'type': [PokemonType.Ghost, PokemonType.Dragon],
+        'type': [PokemonType.Ghost, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -10698,7 +10698,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 487.1,
         'name': 'Giratina (origin)',
-        'type': [PokemonType.Ghost, PokemonType.Dragon],
+        'type': [PokemonType.Ghost, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -10715,7 +10715,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 488,
         'name': 'Cresselia',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -10769,7 +10769,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 491,
         'name': 'Darkrai',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -10786,7 +10786,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 492,
         'name': 'Shaymin (land)',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 120,
         'levelType': LevelType.mediumslow,
         'exp': 270,
@@ -10804,7 +10804,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 492.1,
         'name': 'Shaymin (sky)',
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.mediumslow,
         'exp': 270,
@@ -10889,7 +10889,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.04,
         'name': 'Arceus (grass)',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -10923,7 +10923,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.06,
         'name': 'Arceus (fighting)',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -10957,7 +10957,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.08,
         'name': 'Arceus (ground)',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -10974,7 +10974,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.09,
         'name': 'Arceus (flying)',
-        'type': [PokemonType.Flying],
+        'type': [PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -10991,7 +10991,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.10,
         'name': 'Arceus (psychic)',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -11008,7 +11008,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.11,
         'name': 'Arceus (bug)',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -11059,7 +11059,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.14,
         'name': 'Arceus (dragon)',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -11076,7 +11076,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.15,
         'name': 'Arceus (dark)',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -11093,7 +11093,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.16,
         'name': 'Arceus (steel)',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -11110,7 +11110,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 493.17,
         'name': 'Arceus (fairy)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 324,
@@ -11127,7 +11127,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 494,
         'name': 'Victini',
-        'type': [PokemonType.Psychic, PokemonType.Fire],
+        'type': [PokemonType.Virus, PokemonType.Fire],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -11144,7 +11144,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 495,
         'name': 'Snivy',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 62,
@@ -11162,7 +11162,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 496,
         'name': 'Servine',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 145,
@@ -11180,7 +11180,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 497,
         'name': 'Serperior',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 238,
@@ -11215,7 +11215,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 499,
         'name': 'Pignite',
-        'type': [PokemonType.Fire, PokemonType.Fighting],
+        'type': [PokemonType.Fire, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 146,
@@ -11233,7 +11233,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 500,
         'name': 'Emboar',
-        'type': [PokemonType.Fire, PokemonType.Fighting],
+        'type': [PokemonType.Fire, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 238,
@@ -11391,7 +11391,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 509,
         'name': 'Purrloin',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -11409,7 +11409,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 510,
         'name': 'Liepard',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 156,
@@ -11426,7 +11426,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 511,
         'name': 'Pansage',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 63,
@@ -11444,7 +11444,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 512,
         'name': 'Simisage',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 174,
@@ -11531,7 +11531,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 517,
         'name': 'Munna',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 10,
         'levelType': LevelType.fast,
         'exp': 58,
@@ -11549,7 +11549,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 518,
         'name': 'Musharna',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 10,
         'levelType': LevelType.fast,
         'exp': 170,
@@ -11566,7 +11566,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 519,
         'name': 'Pidove',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 53,
@@ -11584,7 +11584,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 520,
         'name': 'Tranquill',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 125,
@@ -11602,7 +11602,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 521,
         'name': 'Unfezant',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 220,
@@ -11710,7 +11710,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 527,
         'name': 'Woobat',
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 65,
@@ -11728,7 +11728,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 528,
         'name': 'Swoobat',
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 149,
@@ -11745,7 +11745,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 529,
         'name': 'Drilbur',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 66,
@@ -11763,7 +11763,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 530,
         'name': 'Excadrill',
-        'type': [PokemonType.Ground, PokemonType.Steel],
+        'type': [PokemonType.Earth, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 178,
@@ -11797,7 +11797,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 532,
         'name': 'Timburr',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 61,
@@ -11815,7 +11815,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 533,
         'name': 'Gurdurr',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -11833,7 +11833,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 534,
         'name': 'Conkeldurr',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 227,
@@ -11868,7 +11868,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 536,
         'name': 'Palpitoad',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 134,
@@ -11886,7 +11886,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 537,
         'name': 'Seismitoad',
-        'type': [PokemonType.Water, PokemonType.Ground],
+        'type': [PokemonType.Water, PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 229,
@@ -11903,7 +11903,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 538,
         'name': 'Throh',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 163,
@@ -11920,7 +11920,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 539,
         'name': 'Sawk',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 163,
@@ -11937,7 +11937,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 540,
         'name': 'Sewaddle',
-        'type': [PokemonType.Bug, PokemonType.Grass],
+        'type': [PokemonType.Data, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 62,
@@ -11955,7 +11955,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 541,
         'name': 'Swadloon',
-        'type': [PokemonType.Bug, PokemonType.Grass],
+        'type': [PokemonType.Data, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 133,
@@ -11973,7 +11973,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 542,
         'name': 'Leavanny',
-        'type': [PokemonType.Bug, PokemonType.Grass],
+        'type': [PokemonType.Data, PokemonType.Plant],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 225,
@@ -11990,7 +11990,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 543,
         'name': 'Venipede',
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 52,
@@ -12008,7 +12008,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 544,
         'name': 'Whirlipede',
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 126,
@@ -12026,7 +12026,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 545,
         'name': 'Scolipede',
-        'type': [PokemonType.Bug, PokemonType.Poison],
+        'type': [PokemonType.Data, PokemonType.Poison],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 218,
@@ -12043,7 +12043,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 546,
         'name': 'Cottonee',
-        'type': [PokemonType.Grass, PokemonType.Fairy],
+        'type': [PokemonType.Plant, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -12061,7 +12061,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 547,
         'name': 'Whimsicott',
-        'type': [PokemonType.Grass, PokemonType.Fairy],
+        'type': [PokemonType.Plant, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -12078,7 +12078,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 548,
         'name': 'Petilil',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 56,
@@ -12096,7 +12096,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 549,
         'name': 'Lilligant',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -12149,7 +12149,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 551,
         'name': 'Sandile',
-        'type': [PokemonType.Ground, PokemonType.Dark],
+        'type': [PokemonType.Earth, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 58,
@@ -12167,7 +12167,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 552,
         'name': 'Krokorok',
-        'type': [PokemonType.Ground, PokemonType.Dark],
+        'type': [PokemonType.Earth, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 123,
@@ -12185,7 +12185,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 553,
         'name': 'Krookodile',
-        'type': [PokemonType.Ground, PokemonType.Dark],
+        'type': [PokemonType.Earth, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 234,
@@ -12256,7 +12256,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 555.1,
         'name': 'Darmanitan (Zen)',
-        'type': [PokemonType.Fire, PokemonType.Psychic],
+        'type': [PokemonType.Fire, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 189,
@@ -12309,7 +12309,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 556,
         'name': 'Maractus',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 161,
@@ -12326,7 +12326,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 557,
         'name': 'Dwebble',
-        'type': [PokemonType.Bug, PokemonType.Rock],
+        'type': [PokemonType.Data, PokemonType.Rock],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 65,
@@ -12345,7 +12345,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 558,
         'name': 'Crustle',
-        'type': [PokemonType.Bug, PokemonType.Rock],
+        'type': [PokemonType.Data, PokemonType.Rock],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 170,
@@ -12363,7 +12363,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 559,
         'name': 'Scraggy',
-        'type': [PokemonType.Dark, PokemonType.Fighting],
+        'type': [PokemonType.Free, PokemonType.Vaccine],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 70,
@@ -12381,7 +12381,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 560,
         'name': 'Scrafty',
-        'type': [PokemonType.Dark, PokemonType.Fighting],
+        'type': [PokemonType.Free, PokemonType.Vaccine],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 171,
@@ -12398,7 +12398,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 561,
         'name': 'Sigilyph',
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 172,
@@ -12434,7 +12434,7 @@ const pokemonList = createPokemonArray(
         'id': 562.1,
         'name': 'Galarian Yamask',
         'nativeRegion': GameConstants.Region.galar,
-        'type': [PokemonType.Ghost, PokemonType.Ground],
+        'type': [PokemonType.Ghost, PokemonType.Earth],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -12504,7 +12504,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 566,
         'name': 'Archen',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 71,
@@ -12522,7 +12522,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 567,
         'name': 'Archeops',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 177,
@@ -12574,7 +12574,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 570,
         'name': 'Zorua',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 66,
@@ -12592,7 +12592,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 571,
         'name': 'Zoroark',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 179,
@@ -12644,7 +12644,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 574,
         'name': 'Gothita',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 58,
@@ -12662,7 +12662,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 575,
         'name': 'Gothorita',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 137,
@@ -12680,7 +12680,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 576,
         'name': 'Gothitelle',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 221,
@@ -12697,7 +12697,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 577,
         'name': 'Solosis',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 58,
@@ -12715,7 +12715,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 578,
         'name': 'Duosion',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 130,
@@ -12733,7 +12733,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 579,
         'name': 'Reuniclus',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 221,
@@ -12750,7 +12750,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 580,
         'name': 'Ducklett',
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -12768,7 +12768,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 581,
         'name': 'Swanna',
-        'type': [PokemonType.Water, PokemonType.Flying],
+        'type': [PokemonType.Water, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -12838,7 +12838,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 585,
         'name': 'Deerling (Spring)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 67,
@@ -12856,7 +12856,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 585.01,
         'name': 'Deerling (Summer)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 67,
@@ -12874,7 +12874,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 585.02,
         'name': 'Deerling (Autumn)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 67,
@@ -12892,7 +12892,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 585.03,
         'name': 'Deerling (Winter)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 67,
@@ -12910,7 +12910,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 586,
         'name': 'Sawsbuck (Spring)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -12927,7 +12927,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 586.01,
         'name': 'Sawsbuck (Summer)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -12944,7 +12944,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 586.02,
         'name': 'Sawsbuck (Autumn)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -12961,7 +12961,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 586.03,
         'name': 'Sawsbuck (Winter)',
-        'type': [PokemonType.Normal, PokemonType.Grass],
+        'type': [PokemonType.Normal, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -12978,7 +12978,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 587,
         'name': 'Emolga',
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 150,
@@ -12995,7 +12995,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 588,
         'name': 'Karrablast',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 63,
@@ -13013,7 +13013,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 589,
         'name': 'Escavalier',
-        'type': [PokemonType.Bug, PokemonType.Steel],
+        'type': [PokemonType.Data, PokemonType.Neutral],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 173,
@@ -13030,7 +13030,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 590,
         'name': 'Foongus',
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 59,
@@ -13048,7 +13048,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 591,
         'name': 'Amoonguss',
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 162,
@@ -13117,7 +13117,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 595,
         'name': 'Joltik',
-        'type': [PokemonType.Bug, PokemonType.Electric],
+        'type': [PokemonType.Data, PokemonType.Electric],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 64,
@@ -13135,7 +13135,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 596,
         'name': 'Galvantula',
-        'type': [PokemonType.Bug, PokemonType.Electric],
+        'type': [PokemonType.Data, PokemonType.Electric],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 165,
@@ -13152,7 +13152,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 597,
         'name': 'Ferroseed',
-        'type': [PokemonType.Grass, PokemonType.Steel],
+        'type': [PokemonType.Plant, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -13170,7 +13170,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 598,
         'name': 'Ferrothorn',
-        'type': [PokemonType.Grass, PokemonType.Steel],
+        'type': [PokemonType.Plant, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 171,
@@ -13187,7 +13187,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 599,
         'name': 'Klink',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 60,
@@ -13205,7 +13205,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 600,
         'name': 'Klang',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -13223,7 +13223,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 601,
         'name': 'Klinklang',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 234,
@@ -13293,7 +13293,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 605,
         'name': 'Elgyem',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 67,
@@ -13311,7 +13311,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 606,
         'name': 'Beheeyem',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 170,
@@ -13381,7 +13381,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 610,
         'name': 'Axew',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 64,
@@ -13399,7 +13399,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 611,
         'name': 'Fraxure',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 144,
@@ -13417,7 +13417,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 612,
         'name': 'Haxorus',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 243,
@@ -13486,7 +13486,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 616,
         'name': 'Shelmet',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -13504,7 +13504,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 617,
         'name': 'Accelgor',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 173,
@@ -13521,7 +13521,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 618,
         'name': 'Stunfisk',
-        'type': [PokemonType.Ground, PokemonType.Electric],
+        'type': [PokemonType.Earth, PokemonType.Electric],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 165,
@@ -13539,7 +13539,7 @@ const pokemonList = createPokemonArray(
         'id': 618.1,
         'name': 'Galarian Stunfisk',
         'nativeRegion': GameConstants.Region.galar,
-        'type': [PokemonType.Ground, PokemonType.Steel],
+        'type': [PokemonType.Earth, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 165,
@@ -13556,7 +13556,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 619,
         'name': 'Mienfoo',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 70,
@@ -13574,7 +13574,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 620,
         'name': 'Mienshao',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 179,
@@ -13591,7 +13591,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 621,
         'name': 'Druddigon',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 170,
@@ -13608,7 +13608,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 622,
         'name': 'Golett',
-        'type': [PokemonType.Ground, PokemonType.Ghost],
+        'type': [PokemonType.Earth, PokemonType.Ghost],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -13626,7 +13626,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 623,
         'name': 'Golurk',
-        'type': [PokemonType.Ground, PokemonType.Ghost],
+        'type': [PokemonType.Earth, PokemonType.Ghost],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 169,
@@ -13643,7 +13643,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 624,
         'name': 'Pawniard',
-        'type': [PokemonType.Dark, PokemonType.Steel],
+        'type': [PokemonType.Free, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 68,
@@ -13661,7 +13661,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 625,
         'name': 'Bisharp',
-        'type': [PokemonType.Dark, PokemonType.Steel],
+        'type': [PokemonType.Free, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 172,
@@ -13695,7 +13695,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 627,
         'name': 'Rufflet',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 70,
@@ -13713,7 +13713,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 628,
         'name': 'Braviary',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 179,
@@ -13730,7 +13730,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 629,
         'name': 'Vullaby',
-        'type': [PokemonType.Dark, PokemonType.Flying],
+        'type': [PokemonType.Free, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 74,
@@ -13748,7 +13748,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 630,
         'name': 'Mandibuzz',
-        'type': [PokemonType.Dark, PokemonType.Flying],
+        'type': [PokemonType.Free, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 179,
@@ -13782,7 +13782,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 632,
         'name': 'Durant',
-        'type': [PokemonType.Bug, PokemonType.Steel],
+        'type': [PokemonType.Data, PokemonType.Neutral],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 169,
@@ -13799,7 +13799,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 633,
         'name': 'Deino',
-        'type': [PokemonType.Dark, PokemonType.Dragon],
+        'type': [PokemonType.Free, PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 60,
@@ -13817,7 +13817,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 634,
         'name': 'Zweilous',
-        'type': [PokemonType.Dark, PokemonType.Dragon],
+        'type': [PokemonType.Free, PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 147,
@@ -13835,7 +13835,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 635,
         'name': 'Hydreigon',
-        'type': [PokemonType.Dark, PokemonType.Dragon],
+        'type': [PokemonType.Free, PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -13852,7 +13852,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 636,
         'name': 'Larvesta',
-        'type': [PokemonType.Bug, PokemonType.Fire],
+        'type': [PokemonType.Data, PokemonType.Fire],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 72,
@@ -13871,7 +13871,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 637,
         'name': 'Volcarona',
-        'type': [PokemonType.Bug, PokemonType.Fire],
+        'type': [PokemonType.Data, PokemonType.Fire],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 248,
@@ -13888,7 +13888,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 638,
         'name': 'Cobalion',
-        'type': [PokemonType.Steel, PokemonType.Fighting],
+        'type': [PokemonType.Neutral, PokemonType.Vaccine],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -13905,7 +13905,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 639,
         'name': 'Terrakion',
-        'type': [PokemonType.Rock, PokemonType.Fighting],
+        'type': [PokemonType.Rock, PokemonType.Vaccine],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -13922,7 +13922,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 640,
         'name': 'Virizion',
-        'type': [PokemonType.Grass, PokemonType.Fighting],
+        'type': [PokemonType.Plant, PokemonType.Vaccine],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -13939,7 +13939,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 641,
         'name': 'Tornadus',
-        'type': [PokemonType.Flying],
+        'type': [PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -13956,7 +13956,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 641.1,
         'name': 'Tornadus (Therian)',
-        'type': [PokemonType.Flying],
+        'type': [PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -13973,7 +13973,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 642,
         'name': 'Thundurus',
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -13990,7 +13990,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 642.1,
         'name': 'Thundurus (Therian)',
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -14007,7 +14007,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 643,
         'name': 'Reshiram',
-        'type': [PokemonType.Dragon, PokemonType.Fire],
+        'type': [PokemonType.Dark, PokemonType.Fire],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -14025,7 +14025,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 644,
         'name': 'Zekrom',
-        'type': [PokemonType.Dragon, PokemonType.Electric],
+        'type': [PokemonType.Dark, PokemonType.Electric],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -14043,7 +14043,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 645,
         'name': 'Landorus',
-        'type': [PokemonType.Ground, PokemonType.Flying],
+        'type': [PokemonType.Earth, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -14060,7 +14060,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 645.1,
         'name': 'Landorus (Therian)',
-        'type': [PokemonType.Ground, PokemonType.Flying],
+        'type': [PokemonType.Earth, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -14077,7 +14077,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 646,
         'name': 'Kyurem',
-        'type': [PokemonType.Dragon, PokemonType.Ice],
+        'type': [PokemonType.Dark, PokemonType.Ice],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 297,
@@ -14098,7 +14098,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 646.1,
         'name': 'Kyurem (White)',
-        'type': [PokemonType.Dragon, PokemonType.Ice],
+        'type': [PokemonType.Dark, PokemonType.Ice],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 297,
@@ -14115,7 +14115,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 646.2,
         'name': 'Kyurem (Black)',
-        'type': [PokemonType.Dragon, PokemonType.Ice],
+        'type': [PokemonType.Dark, PokemonType.Ice],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 297,
@@ -14132,7 +14132,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 647,
         'name': 'Keldeo',
-        'type': [PokemonType.Water, PokemonType.Fighting],
+        'type': [PokemonType.Water, PokemonType.Vaccine],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -14149,7 +14149,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 647.1,
         'name': 'Keldeo (Resolute)',
-        'type': [PokemonType.Water, PokemonType.Fighting],
+        'type': [PokemonType.Water, PokemonType.Vaccine],
         'eggCycles': 80,
         'levelType': LevelType.slow,
         'exp': 261,
@@ -14166,7 +14166,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 648,
         'name': 'Meloetta (aria)',
-        'type': [PokemonType.Normal, PokemonType.Psychic],
+        'type': [PokemonType.Normal, PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -14184,7 +14184,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 648.1,
         'name': 'Meloetta (pirouette)',
-        'type': [PokemonType.Normal, PokemonType.Fighting],
+        'type': [PokemonType.Normal, PokemonType.Vaccine],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -14201,7 +14201,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 649,
         'name': 'Genesect',
-        'type': [PokemonType.Bug, PokemonType.Steel],
+        'type': [PokemonType.Data, PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -14218,7 +14218,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 650,
         'name': 'Chespin',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 63,
@@ -14236,7 +14236,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 651,
         'name': 'Quilladin',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 142,
@@ -14254,7 +14254,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 652,
         'name': 'Chesnaught',
-        'type': [PokemonType.Grass, PokemonType.Fighting],
+        'type': [PokemonType.Plant, PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -14307,7 +14307,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 655,
         'name': 'Delphox',
-        'type': [PokemonType.Fire, PokemonType.Psychic],
+        'type': [PokemonType.Fire, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 240,
@@ -14360,7 +14360,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 658,
         'name': 'Greninja',
-        'type': [PokemonType.Water, PokemonType.Dark],
+        'type': [PokemonType.Water, PokemonType.Free],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -14395,7 +14395,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 660,
         'name': 'Diggersby',
-        'type': [PokemonType.Normal, PokemonType.Ground],
+        'type': [PokemonType.Normal, PokemonType.Earth],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 148,
@@ -14412,7 +14412,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 661,
         'name': 'Fletchling',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 56,
@@ -14430,7 +14430,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 662,
         'name': 'Fletchinder',
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 134,
@@ -14448,7 +14448,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 663,
         'name': 'Talonflame',
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 175,
@@ -14465,7 +14465,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 664,
         'name': 'Scatterbug',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 40,
@@ -14483,7 +14483,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 665,
         'name': 'Spewpa',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 75,
@@ -14501,7 +14501,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666,
         'name': 'Vivillon (Meadow)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 185,
@@ -14518,7 +14518,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.01,
         'name': 'Vivillon (Pokéball)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14536,7 +14536,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.02,
         'name': 'Vivillon (Polar)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14554,7 +14554,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.03,
         'name': 'Vivillon (Tundra)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14572,7 +14572,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.04,
         'name': 'Vivillon (Continental)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14590,7 +14590,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.05,
         'name': 'Vivillon (Garden)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14608,7 +14608,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.06,
         'name': 'Vivillon (Elegant)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14626,7 +14626,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.07,
         'name': 'Vivillon (Icy Snow)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14644,7 +14644,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.08,
         'name': 'Vivillon (Modern)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14662,7 +14662,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.09,
         'name': 'Vivillon (Marine)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14680,7 +14680,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.10,
         'name': 'Vivillon (Archipelago)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14698,7 +14698,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.11,
         'name': 'Vivillon (High Plains)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14716,7 +14716,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.12,
         'name': 'Vivillon (Sandstorm)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14734,7 +14734,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.13,
         'name': 'Vivillon (River)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14752,7 +14752,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.14,
         'name': 'Vivillon (Monsoon)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14770,7 +14770,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.15,
         'name': 'Vivillon (Savanna)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14788,7 +14788,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.16,
         'name': 'Vivillon (Sun)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14806,7 +14806,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.17,
         'name': 'Vivillon (Ocean)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14824,7 +14824,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.18,
         'name': 'Vivillon (Jungle)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14842,7 +14842,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 666.19,
         'name': 'Vivillon (Fancy)',
-        'type': [PokemonType.Bug, PokemonType.Flying],
+        'type': [PokemonType.Data, PokemonType.Wind],
         // Boosted to match standard Vivillon (Meadow)
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
@@ -14895,7 +14895,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 669,
         'name': 'Flabébé (Red)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -14913,7 +14913,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 669.01,
         'name': 'Flabébé (Yellow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -14931,7 +14931,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 669.02,
         'name': 'Flabébé (Blue)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -14949,7 +14949,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 669.03,
         'name': 'Flabébé (Orange)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -14967,7 +14967,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 669.04,
         'name': 'Flabébé (White)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -14985,7 +14985,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 670,
         'name': 'Floette (Red)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 130,
@@ -15003,7 +15003,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 670.01,
         'name': 'Floette (Yellow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 130,
@@ -15021,7 +15021,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 670.02,
         'name': 'Floette (Blue)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 130,
@@ -15039,7 +15039,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 670.03,
         'name': 'Floette (Orange)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 130,
@@ -15057,7 +15057,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 670.04,
         'name': 'Floette (White)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 130,
@@ -15075,7 +15075,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 670.05,
         'name': 'Floette (Eternal)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 130,
@@ -15092,7 +15092,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 671,
         'name': 'Florges (Red)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 248,
@@ -15109,7 +15109,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 671.01,
         'name': 'Florges (Yellow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 248,
@@ -15126,7 +15126,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 671.02,
         'name': 'Florges (Blue)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 248,
@@ -15143,7 +15143,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 671.03,
         'name': 'Florges (Orange)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 248,
@@ -15160,7 +15160,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 671.04,
         'name': 'Florges (White)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 248,
@@ -15177,7 +15177,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 672,
         'name': 'Skiddo',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 70,
@@ -15195,7 +15195,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 673,
         'name': 'Gogoat',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 186,
@@ -15212,7 +15212,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 674,
         'name': 'Pancham',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 70,
@@ -15230,7 +15230,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 675,
         'name': 'Pangoro',
-        'type': [PokemonType.Fighting, PokemonType.Dark],
+        'type': [PokemonType.Vaccine, PokemonType.Free],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 173,
@@ -15417,7 +15417,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 677,
         'name': 'Espurr',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 71,
@@ -15435,7 +15435,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 678,
         'name': 'Meowstic',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 163,
@@ -15452,7 +15452,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 679,
         'name': 'Honedge',
-        'type': [PokemonType.Steel, PokemonType.Ghost],
+        'type': [PokemonType.Neutral, PokemonType.Ghost],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 65,
@@ -15470,7 +15470,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 680,
         'name': 'Doublade',
-        'type': [PokemonType.Steel, PokemonType.Ghost],
+        'type': [PokemonType.Neutral, PokemonType.Ghost],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 157,
@@ -15488,7 +15488,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 681,
         'name': 'Aegislash',
-        'type': [PokemonType.Steel, PokemonType.Ghost],
+        'type': [PokemonType.Neutral, PokemonType.Ghost],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 234,
@@ -15505,7 +15505,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 682,
         'name': 'Spritzee',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 68,
@@ -15523,7 +15523,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 683,
         'name': 'Aromatisse',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 162,
@@ -15540,7 +15540,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 684,
         'name': 'Swirlix',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 68,
@@ -15558,7 +15558,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 685,
         'name': 'Slurpuff',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -15575,7 +15575,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 686,
         'name': 'Inkay',
-        'type': [PokemonType.Dark, PokemonType.Psychic],
+        'type': [PokemonType.Free, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 58,
@@ -15593,7 +15593,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 687,
         'name': 'Malamar',
-        'type': [PokemonType.Dark, PokemonType.Psychic],
+        'type': [PokemonType.Free, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 169,
@@ -15663,7 +15663,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 691,
         'name': 'Dragalge',
-        'type': [PokemonType.Poison, PokemonType.Dragon],
+        'type': [PokemonType.Poison, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 173,
@@ -15750,7 +15750,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 696,
         'name': 'Tyrunt',
-        'type': [PokemonType.Rock, PokemonType.Dragon],
+        'type': [PokemonType.Rock, PokemonType.Dark],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 72,
@@ -15768,7 +15768,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 697,
         'name': 'Tyrantrum',
-        'type': [PokemonType.Rock, PokemonType.Dragon],
+        'type': [PokemonType.Rock, PokemonType.Dark],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 182,
@@ -15820,7 +15820,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 700,
         'name': 'Sylveon',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
         'exp': 184,
@@ -15837,7 +15837,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 701,
         'name': 'Hawlucha',
-        'type': [PokemonType.Fighting, PokemonType.Flying],
+        'type': [PokemonType.Vaccine, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 175,
@@ -15855,7 +15855,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 702,
         'name': 'Dedenne',
-        'type': [PokemonType.Electric, PokemonType.Fairy],
+        'type': [PokemonType.Electric, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 151,
@@ -15872,7 +15872,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 703,
         'name': 'Carbink',
-        'type': [PokemonType.Rock, PokemonType.Fairy],
+        'type': [PokemonType.Rock, PokemonType.Light],
         'eggCycles': 25,
         'levelType': LevelType.slow,
         'exp': 100,
@@ -15889,7 +15889,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 704,
         'name': 'Goomy',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 60,
@@ -15907,7 +15907,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 705,
         'name': 'Sliggoo',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 158,
@@ -15925,7 +15925,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 706,
         'name': 'Goodra',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -15942,7 +15942,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 707,
         'name': 'Klefki',
-        'type': [PokemonType.Steel, PokemonType.Fairy],
+        'type': [PokemonType.Neutral, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.fast,
         'exp': 165,
@@ -15959,7 +15959,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 708,
         'name': 'Phantump',
-        'type': [PokemonType.Ghost, PokemonType.Grass],
+        'type': [PokemonType.Ghost, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 62,
@@ -15977,7 +15977,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 709,
         'name': 'Trevenant',
-        'type': [PokemonType.Ghost, PokemonType.Grass],
+        'type': [PokemonType.Ghost, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -15994,7 +15994,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 710,
         'name': 'Pumpkaboo',
-        'type': [PokemonType.Ghost, PokemonType.Grass],
+        'type': [PokemonType.Ghost, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 67,
@@ -16012,7 +16012,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 711,
         'name': 'Gourgeist',
-        'type': [PokemonType.Ghost, PokemonType.Grass],
+        'type': [PokemonType.Ghost, PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 173,
@@ -16064,7 +16064,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 714,
         'name': 'Noibat',
-        'type': [PokemonType.Flying, PokemonType.Dragon],
+        'type': [PokemonType.Wind, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 49,
@@ -16082,7 +16082,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 715,
         'name': 'Noivern',
-        'type': [PokemonType.Flying, PokemonType.Dragon],
+        'type': [PokemonType.Wind, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 187,
@@ -16099,7 +16099,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 716,
         'name': 'Xerneas',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -16116,7 +16116,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 717,
         'name': 'Yveltal',
-        'type': [PokemonType.Dark, PokemonType.Flying],
+        'type': [PokemonType.Free, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 306,
@@ -16133,7 +16133,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 718,
         'name': 'Zygarde',
-        'type': [PokemonType.Dragon, PokemonType.Ground],
+        'type': [PokemonType.Dark, PokemonType.Earth],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -16150,7 +16150,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 719,
         'name': 'Diancie',
-        'type': [PokemonType.Rock, PokemonType.Fairy],
+        'type': [PokemonType.Rock, PokemonType.Light],
         'eggCycles': 25,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -16167,7 +16167,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 720,
         'name': 'Hoopa',
-        'type': [PokemonType.Psychic, PokemonType.Ghost],
+        'type': [PokemonType.Virus, PokemonType.Ghost],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -16201,7 +16201,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 722,
         'name': 'Rowlet',
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 64,
@@ -16219,7 +16219,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 723,
         'name': 'Dartrix',
-        'type': [PokemonType.Grass, PokemonType.Flying],
+        'type': [PokemonType.Plant, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 147,
@@ -16237,7 +16237,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 724,
         'name': 'Decidueye',
-        'type': [PokemonType.Grass, PokemonType.Ghost],
+        'type': [PokemonType.Plant, PokemonType.Ghost],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -16290,7 +16290,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 727,
         'name': 'Incineroar',
-        'type': [PokemonType.Fire, PokemonType.Dark],
+        'type': [PokemonType.Fire, PokemonType.Free],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -16343,7 +16343,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 730,
         'name': 'Primarina',
-        'type': [PokemonType.Water, PokemonType.Fairy],
+        'type': [PokemonType.Water, PokemonType.Light],
         'eggCycles': 15,
         'levelType': LevelType.mediumslow,
         'exp': 239,
@@ -16360,7 +16360,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 731,
         'name': 'Pikipek',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 53,
@@ -16378,7 +16378,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 732,
         'name': 'Trumbeak',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 124,
@@ -16396,7 +16396,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 733,
         'name': 'Toucannon',
-        'type': [PokemonType.Normal, PokemonType.Flying],
+        'type': [PokemonType.Normal, PokemonType.Wind],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 218,
@@ -16465,7 +16465,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 736,
         'name': 'Grubbin',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 60,
@@ -16483,7 +16483,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 737,
         'name': 'Charjabug',
-        'type': [PokemonType.Bug, PokemonType.Electric],
+        'type': [PokemonType.Data, PokemonType.Electric],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 140,
@@ -16501,7 +16501,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 738,
         'name': 'Vikavolt',
-        'type': [PokemonType.Bug, PokemonType.Electric],
+        'type': [PokemonType.Data, PokemonType.Electric],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 225,
@@ -16518,7 +16518,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 738.01,
         'name': 'Totem Vikavolt',
-        'type': [PokemonType.Bug, PokemonType.Electric],
+        'type': [PokemonType.Data, PokemonType.Electric],
         'eggCycles': 35,
         'levelType': LevelType.mediumfast,
         'exp': 225,
@@ -16535,7 +16535,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 739,
         'name': 'Crabrawler',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 68,
@@ -16553,7 +16553,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 740,
         'name': 'Crabominable',
-        'type': [PokemonType.Fighting, PokemonType.Ice],
+        'type': [PokemonType.Vaccine, PokemonType.Ice],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -16570,7 +16570,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 741,
         'name': 'Oricorio (Baile)',
-        'type': [PokemonType.Fire, PokemonType.Flying],
+        'type': [PokemonType.Fire, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -16587,7 +16587,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 741.01,
         'name': 'Oricorio (Pom-pom)',
-        'type': [PokemonType.Electric, PokemonType.Flying],
+        'type': [PokemonType.Electric, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -16604,7 +16604,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 741.02,
         'name': 'Oricorio (Pa\'u)',
-        'type': [PokemonType.Psychic, PokemonType.Flying],
+        'type': [PokemonType.Virus, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -16621,7 +16621,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 741.03,
         'name': 'Oricorio (Sensu)',
-        'type': [PokemonType.Ghost, PokemonType.Flying],
+        'type': [PokemonType.Ghost, PokemonType.Wind],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -16638,7 +16638,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 742,
         'name': 'Cutiefly',
-        'type': [PokemonType.Bug, PokemonType.Fairy],
+        'type': [PokemonType.Data, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 61,
@@ -16656,7 +16656,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 743,
         'name': 'Ribombee',
-        'type': [PokemonType.Bug, PokemonType.Fairy],
+        'type': [PokemonType.Data, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 162,
@@ -16834,7 +16834,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 749,
         'name': 'Mudbray',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 77,
@@ -16852,7 +16852,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 750,
         'name': 'Mudsdale',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 175,
@@ -16869,7 +16869,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 751,
         'name': 'Dewpider',
-        'type': [PokemonType.Water, PokemonType.Bug],
+        'type': [PokemonType.Water, PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 54,
@@ -16887,7 +16887,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 752,
         'name': 'Araquanid',
-        'type': [PokemonType.Water, PokemonType.Bug],
+        'type': [PokemonType.Water, PokemonType.Data],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 159,
@@ -16904,7 +16904,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 752.01,
         'name': 'Totem Araquanid',
-        'type': [PokemonType.Water, PokemonType.Bug],
+        'type': [PokemonType.Water, PokemonType.Data],
         'eggCycles': 23,
         'levelType': LevelType.mediumfast,
         'exp': 159,
@@ -16921,7 +16921,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 753,
         'name': 'Fomantis',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 50,
@@ -16939,7 +16939,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 754,
         'name': 'Lurantis',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -16956,7 +16956,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 754.01,
         'name': 'Totem Lurantis',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 30,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -16973,7 +16973,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 755,
         'name': 'Morelull',
-        'type': [PokemonType.Grass, PokemonType.Fairy],
+        'type': [PokemonType.Plant, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 57,
@@ -16991,7 +16991,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 756,
         'name': 'Shiinotic',
-        'type': [PokemonType.Grass, PokemonType.Fairy],
+        'type': [PokemonType.Plant, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 142,
@@ -17060,7 +17060,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 759,
         'name': 'Stufful',
-        'type': [PokemonType.Normal, PokemonType.Fighting],
+        'type': [PokemonType.Normal, PokemonType.Vaccine],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 68,
@@ -17078,7 +17078,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 760,
         'name': 'Bewear',
-        'type': [PokemonType.Normal, PokemonType.Fighting],
+        'type': [PokemonType.Normal, PokemonType.Vaccine],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 175,
@@ -17095,7 +17095,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 761,
         'name': 'Bounsweet',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 42,
@@ -17113,7 +17113,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 762,
         'name': 'Steenee',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 102,
@@ -17131,7 +17131,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 763,
         'name': 'Tsareena',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'eggCycles': 20,
         'levelType': LevelType.mediumslow,
         'exp': 230,
@@ -17148,7 +17148,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 764,
         'name': 'Comfey',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.fast,
         'exp': 170,
@@ -17165,7 +17165,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 765,
         'name': 'Oranguru',
-        'type': [PokemonType.Normal, PokemonType.Psychic],
+        'type': [PokemonType.Normal, PokemonType.Virus],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 172,
@@ -17182,7 +17182,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 766,
         'name': 'Passimian',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'eggCycles': 20,
         'levelType': LevelType.slow,
         'exp': 172,
@@ -17199,7 +17199,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 767,
         'name': 'Wimpod',
-        'type': [PokemonType.Bug, PokemonType.Water],
+        'type': [PokemonType.Data, PokemonType.Water],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 46,
@@ -17217,7 +17217,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 768,
         'name': 'Golisopod',
-        'type': [PokemonType.Bug, PokemonType.Water],
+        'type': [PokemonType.Data, PokemonType.Water],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 186,
@@ -17234,7 +17234,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 769,
         'name': 'Sandygast',
-        'type': [PokemonType.Ghost, PokemonType.Ground],
+        'type': [PokemonType.Ghost, PokemonType.Earth],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 64,
@@ -17252,7 +17252,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 770,
         'name': 'Palossand',
-        'type': [PokemonType.Ghost, PokemonType.Ground],
+        'type': [PokemonType.Ghost, PokemonType.Earth],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 168,
@@ -17321,7 +17321,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774,
         'name': 'Minior (Meteor)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17339,7 +17339,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.01,
         'name': 'Minior (Blue-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17356,7 +17356,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.02,
         'name': 'Minior (Green-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17373,7 +17373,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.03,
         'name': 'Minior (Indigo-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17390,7 +17390,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.04,
         'name': 'Minior (Orange-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17407,7 +17407,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.05,
         'name': 'Minior (Red-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17424,7 +17424,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.06,
         'name': 'Minior (Violet-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17441,7 +17441,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 774.07,
         'name': 'Minior (Yellow-core)',
-        'type': [PokemonType.Rock, PokemonType.Flying],
+        'type': [PokemonType.Rock, PokemonType.Wind],
         'eggCycles': 25,
         'levelType': LevelType.mediumslow,
         'exp': 154,
@@ -17475,7 +17475,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 776,
         'name': 'Turtonator',
-        'type': [PokemonType.Fire, PokemonType.Dragon],
+        'type': [PokemonType.Fire, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 170,
@@ -17492,7 +17492,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 777,
         'name': 'Togedemaru',
-        'type': [PokemonType.Electric, PokemonType.Steel],
+        'type': [PokemonType.Electric, PokemonType.Neutral],
         'eggCycles': 10,
         'levelType': LevelType.mediumfast,
         'exp': 152,
@@ -17509,7 +17509,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 777.01,
         'name': 'Totem Togedemaru',
-        'type': [PokemonType.Electric, PokemonType.Steel],
+        'type': [PokemonType.Electric, PokemonType.Neutral],
         'eggCycles': 10,
         'levelType': LevelType.mediumfast,
         'exp': 152,
@@ -17526,7 +17526,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 778,
         'name': 'Mimikyu',
-        'type': [PokemonType.Ghost, PokemonType.Fairy],
+        'type': [PokemonType.Ghost, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -17543,7 +17543,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 778.01,
         'name': 'Totem Mimikyu',
-        'type': [PokemonType.Ghost, PokemonType.Fairy],
+        'type': [PokemonType.Ghost, PokemonType.Light],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 167,
@@ -17560,7 +17560,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 779,
         'name': 'Bruxish',
-        'type': [PokemonType.Water, PokemonType.Psychic],
+        'type': [PokemonType.Water, PokemonType.Virus],
         'eggCycles': 15,
         'levelType': LevelType.mediumfast,
         'exp': 166,
@@ -17578,7 +17578,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 780,
         'name': 'Drampa',
-        'type': [PokemonType.Normal, PokemonType.Dragon],
+        'type': [PokemonType.Normal, PokemonType.Dark],
         'eggCycles': 20,
         'levelType': LevelType.mediumfast,
         'exp': 170,
@@ -17595,7 +17595,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 781,
         'name': 'Dhelmise',
-        'type': [PokemonType.Ghost, PokemonType.Grass],
+        'type': [PokemonType.Ghost, PokemonType.Plant],
         'eggCycles': 25,
         'levelType': LevelType.mediumfast,
         'exp': 181,
@@ -17612,7 +17612,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 782,
         'name': 'Jangmo-o',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 60,
@@ -17631,7 +17631,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 783,
         'name': 'Hakamo-o',
-        'type': [PokemonType.Dragon, PokemonType.Fighting],
+        'type': [PokemonType.Dark, PokemonType.Vaccine],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 147,
@@ -17650,7 +17650,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 784,
         'name': 'Kommo-o',
-        'type': [PokemonType.Dragon, PokemonType.Fighting],
+        'type': [PokemonType.Dark, PokemonType.Vaccine],
         'eggCycles': 40,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -17668,7 +17668,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 784.01,
         'name': 'Totem Kommo-o',
-        'type': [PokemonType.Dragon, PokemonType.Fighting],
+        'type': [PokemonType.Dark, PokemonType.Vaccine],
         'eggCycles': 90,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -17685,7 +17685,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 785,
         'name': 'Tapu Koko',
-        'type': [PokemonType.Electric, PokemonType.Fairy],
+        'type': [PokemonType.Electric, PokemonType.Light],
         'eggCycles': 15,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17702,7 +17702,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 786,
         'name': 'Tapu Lele',
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'eggCycles': 15,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17719,7 +17719,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 787,
         'name': 'Tapu Bulu',
-        'type': [PokemonType.Grass, PokemonType.Fairy],
+        'type': [PokemonType.Plant, PokemonType.Light],
         'eggCycles': 15,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17736,7 +17736,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 788,
         'name': 'Tapu Fini',
-        'type': [PokemonType.Water, PokemonType.Fairy],
+        'type': [PokemonType.Water, PokemonType.Light],
         'eggCycles': 15,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17753,7 +17753,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 789,
         'name': 'Cosmog',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 40,
@@ -17771,7 +17771,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 790,
         'name': 'Cosmoem',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17792,7 +17792,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 791,
         'name': 'Solgaleo',
-        'type': [PokemonType.Psychic, PokemonType.Steel],
+        'type': [PokemonType.Virus, PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17809,7 +17809,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 792,
         'name': 'Lunala',
-        'type': [PokemonType.Psychic, PokemonType.Ghost],
+        'type': [PokemonType.Virus, PokemonType.Ghost],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17843,7 +17843,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 794,
         'name': 'Buzzwole',
-        'type': [PokemonType.Bug, PokemonType.Fighting],
+        'type': [PokemonType.Data, PokemonType.Vaccine],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17860,7 +17860,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 795,
         'name': 'Pheromosa',
-        'type': [PokemonType.Bug, PokemonType.Fighting],
+        'type': [PokemonType.Data, PokemonType.Vaccine],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17894,7 +17894,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 797,
         'name': 'Celesteela',
-        'type': [PokemonType.Steel, PokemonType.Flying],
+        'type': [PokemonType.Neutral, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17911,7 +17911,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 798,
         'name': 'Kartana',
-        'type': [PokemonType.Grass, PokemonType.Steel],
+        'type': [PokemonType.Plant, PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17928,7 +17928,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 799,
         'name': 'Guzzlord',
-        'type': [PokemonType.Dark, PokemonType.Dragon],
+        'type': [PokemonType.Free, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -17945,7 +17945,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 800,
         'name': 'Necrozma',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -17962,7 +17962,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 800.01,
         'name': 'Necrozma (Dusk Mane)',
-        'type': [PokemonType.Psychic, PokemonType.Steel],
+        'type': [PokemonType.Virus, PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -17979,7 +17979,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 800.02,
         'name': 'Necrozma (Dawn Wings)',
-        'type': [PokemonType.Psychic, PokemonType.Ghost],
+        'type': [PokemonType.Virus, PokemonType.Ghost],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -17996,7 +17996,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 800.03,
         'name': 'Necrozma (Ultra)',
-        'type': [PokemonType.Psychic, PokemonType.Dragon],
+        'type': [PokemonType.Virus, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -18013,7 +18013,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 801,
         'name': 'Magearna',
-        'type': [PokemonType.Steel, PokemonType.Fairy],
+        'type': [PokemonType.Neutral, PokemonType.Light],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -18030,7 +18030,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 801.1,
         'name': 'Magearna (Original Color)',
-        'type': [PokemonType.Steel, PokemonType.Fairy],
+        'type': [PokemonType.Neutral, PokemonType.Light],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -18047,7 +18047,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 802,
         'name': 'Marshadow',
-        'type': [PokemonType.Fighting, PokemonType.Ghost],
+        'type': [PokemonType.Vaccine, PokemonType.Ghost],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': null,
@@ -18082,7 +18082,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 804,
         'name': 'Naganadel',
-        'type': [PokemonType.Poison, PokemonType.Dragon],
+        'type': [PokemonType.Poison, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 243,
@@ -18099,7 +18099,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 805,
         'name': 'Stakataka',
-        'type': [PokemonType.Rock, PokemonType.Steel],
+        'type': [PokemonType.Rock, PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 257,
@@ -18151,7 +18151,7 @@ const pokemonList = createPokemonArray(
         'id': 808,
         'name': 'Meltan',
         'nativeRegion': GameConstants.Region.none,
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 135,
@@ -18170,7 +18170,7 @@ const pokemonList = createPokemonArray(
         'id': 809,
         'name': 'Melmetal',
         'nativeRegion': GameConstants.Region.none,
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 270,
@@ -18187,7 +18187,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 810,
         'name': 'Grookey',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'base': {
             'hitpoints': 50,
             'attack': 65,
@@ -18205,7 +18205,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 811,
         'name': 'Thwackey',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'base': {
             'hitpoints': 70,
             'attack': 85,
@@ -18223,7 +18223,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 812,
         'name': 'Rillaboom',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'base': {
             'hitpoints': 100,
             'attack': 125,
@@ -18381,7 +18381,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 821,
         'name': 'Rookidee',
-        'type': [PokemonType.Flying],
+        'type': [PokemonType.Wind],
         'base': {
             'hitpoints': 38,
             'attack': 47,
@@ -18399,7 +18399,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 822,
         'name': 'Corvisquire',
-        'type': [PokemonType.Flying],
+        'type': [PokemonType.Wind],
         'base': {
             'hitpoints': 68,
             'attack': 67,
@@ -18418,8 +18418,8 @@ const pokemonList = createPokemonArray(
         'id': 823,
         'name': 'Corviknight',
         'type': [
-            PokemonType.Flying,
-            PokemonType.Steel,
+            PokemonType.Wind,
+            PokemonType.Neutral,
         ],
         'base': {
             'hitpoints': 98,
@@ -18437,7 +18437,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 824,
         'name': 'Blipbug',
-        'type': [PokemonType.Bug],
+        'type': [PokemonType.Data],
         'base': {
             'hitpoints': 25,
             'attack': 20,
@@ -18456,8 +18456,8 @@ const pokemonList = createPokemonArray(
         'id': 825,
         'name': 'Dottler',
         'type': [
-            PokemonType.Bug,
-            PokemonType.Psychic,
+            PokemonType.Data,
+            PokemonType.Virus,
         ],
         'base': {
             'hitpoints': 50,
@@ -18477,8 +18477,8 @@ const pokemonList = createPokemonArray(
         'id': 826,
         'name': 'Orbeetle',
         'type': [
-            PokemonType.Bug,
-            PokemonType.Psychic,
+            PokemonType.Data,
+            PokemonType.Virus,
         ],
         'base': {
             'hitpoints': 60,
@@ -18496,7 +18496,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 827,
         'name': 'Nickit',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'base': {
             'hitpoints': 40,
             'attack': 28,
@@ -18514,7 +18514,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 828,
         'name': 'Thievul',
-        'type': [PokemonType.Dark],
+        'type': [PokemonType.Free],
         'base': {
             'hitpoints': 70,
             'attack': 58,
@@ -18531,7 +18531,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 829,
         'name': 'Gossifleur',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'base': {
             'hitpoints': 40,
             'attack': 40,
@@ -18549,7 +18549,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 830,
         'name': 'Eldegoss',
-        'type': [PokemonType.Grass],
+        'type': [PokemonType.Plant],
         'base': {
             'hitpoints': 60,
             'attack': 50,
@@ -18734,8 +18734,8 @@ const pokemonList = createPokemonArray(
         'id': 840,
         'name': 'Applin',
         'type': [
-            PokemonType.Grass,
-            PokemonType.Dragon,
+            PokemonType.Plant,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 40,
@@ -18754,8 +18754,8 @@ const pokemonList = createPokemonArray(
         'id': 841,
         'name': 'Flapple',
         'type': [
-            PokemonType.Grass,
-            PokemonType.Dragon,
+            PokemonType.Plant,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 70,
@@ -18774,8 +18774,8 @@ const pokemonList = createPokemonArray(
         'id': 842,
         'name': 'Appletun',
         'type': [
-            PokemonType.Grass,
-            PokemonType.Dragon,
+            PokemonType.Plant,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 110,
@@ -18793,7 +18793,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 843,
         'name': 'Silicobra',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'base': {
             'hitpoints': 52,
             'attack': 57,
@@ -18811,7 +18811,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 844,
         'name': 'Sandaconda',
-        'type': [PokemonType.Ground],
+        'type': [PokemonType.Earth],
         'base': {
             'hitpoints': 72,
             'attack': 107,
@@ -18829,7 +18829,7 @@ const pokemonList = createPokemonArray(
         'id': 845,
         'name': 'Cramorant',
         'type': [
-            PokemonType.Flying,
+            PokemonType.Wind,
             PokemonType.Water,
         ],
         'base': {
@@ -18949,7 +18949,7 @@ const pokemonList = createPokemonArray(
         'name': 'Sizzlipede',
         'type': [
             PokemonType.Fire,
-            PokemonType.Bug,
+            PokemonType.Data,
         ],
         'base': {
             'hitpoints': 50,
@@ -18970,7 +18970,7 @@ const pokemonList = createPokemonArray(
         'name': 'Centiskorch',
         'type': [
             PokemonType.Fire,
-            PokemonType.Bug,
+            PokemonType.Data,
         ],
         'base': {
             'hitpoints': 100,
@@ -18988,7 +18988,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 852,
         'name': 'Clobbopus',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'base': {
             'hitpoints': 50,
             'attack': 68,
@@ -19006,7 +19006,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 853,
         'name': 'Grapploct',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'base': {
             'hitpoints': 80,
             'attack': 118,
@@ -19057,7 +19057,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 856,
         'name': 'Hatenna',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'base': {
             'hitpoints': 42,
             'attack': 30,
@@ -19075,7 +19075,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 857,
         'name': 'Hattrem',
-        'type': [PokemonType.Psychic],
+        'type': [PokemonType.Virus],
         'base': {
             'hitpoints': 57,
             'attack': 40,
@@ -19094,8 +19094,8 @@ const pokemonList = createPokemonArray(
         'id': 858,
         'name': 'Hatterene',
         'type': [
-            PokemonType.Psychic,
-            PokemonType.Fairy,
+            PokemonType.Virus,
+            PokemonType.Light,
         ],
         'base': {
             'hitpoints': 57,
@@ -19114,8 +19114,8 @@ const pokemonList = createPokemonArray(
         'id': 859,
         'name': 'Impidimp',
         'type': [
-            PokemonType.Dark,
-            PokemonType.Fairy,
+            PokemonType.Free,
+            PokemonType.Light,
         ],
         'base': {
             'hitpoints': 45,
@@ -19135,8 +19135,8 @@ const pokemonList = createPokemonArray(
         'id': 860,
         'name': 'Morgrem',
         'type': [
-            PokemonType.Dark,
-            PokemonType.Fairy,
+            PokemonType.Free,
+            PokemonType.Light,
         ],
         'base': {
             'hitpoints': 65,
@@ -19156,8 +19156,8 @@ const pokemonList = createPokemonArray(
         'id': 861,
         'name': 'Grimmsnarl',
         'type': [
-            PokemonType.Dark,
-            PokemonType.Fairy,
+            PokemonType.Free,
+            PokemonType.Light,
         ],
         'base': {
             'hitpoints': 95,
@@ -19176,7 +19176,7 @@ const pokemonList = createPokemonArray(
         'id': 862,
         'name': 'Obstagoon',
         'type': [
-            PokemonType.Dark,
+            PokemonType.Free,
             PokemonType.Normal,
         ],
         'base': {
@@ -19196,7 +19196,7 @@ const pokemonList = createPokemonArray(
         'id': 863,
         'name': 'Perrserker',
         'nativeRegion': GameConstants.Region.galar,
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'base': {
             'hitpoints': 70,
             'attack': 110,
@@ -19230,7 +19230,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 865,
         'name': 'Sirfetch\'d',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'base': {
             'hitpoints': 62,
             'attack': 135,
@@ -19248,7 +19248,7 @@ const pokemonList = createPokemonArray(
         'id': 866,
         'name': 'Mr. Rime',
         'type': [
-            PokemonType.Psychic,
+            PokemonType.Virus,
             PokemonType.Ice,
         ],
         'base': {
@@ -19268,7 +19268,7 @@ const pokemonList = createPokemonArray(
         'id': 867,
         'name': 'Runerigus',
         'type': [
-            PokemonType.Ground,
+            PokemonType.Earth,
             PokemonType.Ghost,
         ],
         'base': {
@@ -19287,7 +19287,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 868,
         'name': 'Milcery',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 45,
             'attack': 40,
@@ -19304,7 +19304,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869,
         'name': 'Alcremie (Strawberry Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19321,7 +19321,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.01,
         'name': 'Alcremie (Strawberry Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19338,7 +19338,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.02,
         'name': 'Alcremie (Strawberry Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19355,7 +19355,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.03,
         'name': 'Alcremie (Strawberry Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19372,7 +19372,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.04,
         'name': 'Alcremie (Strawberry Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19389,7 +19389,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.05,
         'name': 'Alcremie (Strawberry Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19406,7 +19406,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.06,
         'name': 'Alcremie (Strawberry Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19423,7 +19423,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.07,
         'name': 'Alcremie (Strawberry Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19440,7 +19440,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.08,
         'name': 'Alcremie (Strawberry Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19457,7 +19457,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.1,
         'name': 'Alcremie (Berry Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19474,7 +19474,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.11,
         'name': 'Alcremie (Berry Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19491,7 +19491,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.12,
         'name': 'Alcremie (Berry Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19508,7 +19508,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.13,
         'name': 'Alcremie (Berry Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19525,7 +19525,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.14,
         'name': 'Alcremie (Berry Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19542,7 +19542,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.15,
         'name': 'Alcremie (Berry Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19559,7 +19559,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.16,
         'name': 'Alcremie (Berry Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19576,7 +19576,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.17,
         'name': 'Alcremie (Berry Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19593,7 +19593,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.18,
         'name': 'Alcremie (Berry Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19610,7 +19610,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.2,
         'name': 'Alcremie (Love Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19627,7 +19627,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.21,
         'name': 'Alcremie (Love Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19644,7 +19644,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.22,
         'name': 'Alcremie (Love Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19661,7 +19661,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.23,
         'name': 'Alcremie (Love Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19678,7 +19678,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.24,
         'name': 'Alcremie (Love Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19695,7 +19695,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.25,
         'name': 'Alcremie (Love Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19712,7 +19712,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.26,
         'name': 'Alcremie (Love Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19729,7 +19729,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.27,
         'name': 'Alcremie (Love Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19746,7 +19746,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.28,
         'name': 'Alcremie (Love Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19763,7 +19763,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.3,
         'name': 'Alcremie (Star Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19780,7 +19780,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.31,
         'name': 'Alcremie (Star Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19797,7 +19797,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.32,
         'name': 'Alcremie (Star Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19814,7 +19814,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.33,
         'name': 'Alcremie (Star Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19831,7 +19831,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.34,
         'name': 'Alcremie (Star Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19848,7 +19848,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.35,
         'name': 'Alcremie (Star Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19865,7 +19865,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.36,
         'name': 'Alcremie (Star Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19882,7 +19882,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.37,
         'name': 'Alcremie (Star Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19899,7 +19899,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.38,
         'name': 'Alcremie (Star Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19916,7 +19916,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.4,
         'name': 'Alcremie (Clover Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19933,7 +19933,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.41,
         'name': 'Alcremie (Clover Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19950,7 +19950,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.42,
         'name': 'Alcremie (Clover Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19967,7 +19967,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.43,
         'name': 'Alcremie (Clover Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -19984,7 +19984,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.44,
         'name': 'Alcremie (Clover Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20001,7 +20001,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.45,
         'name': 'Alcremie (Clover Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20018,7 +20018,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.46,
         'name': 'Alcremie (Clover Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20035,7 +20035,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.47,
         'name': 'Alcremie (Clover Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20052,7 +20052,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.48,
         'name': 'Alcremie (Clover Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20069,7 +20069,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.5,
         'name': 'Alcremie (Flower Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20086,7 +20086,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.51,
         'name': 'Alcremie (Flower Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20103,7 +20103,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.52,
         'name': 'Alcremie (Flower Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20120,7 +20120,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.53,
         'name': 'Alcremie (Flower Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20137,7 +20137,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.54,
         'name': 'Alcremie (Flower Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20154,7 +20154,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.55,
         'name': 'Alcremie (Flower Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20171,7 +20171,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.56,
         'name': 'Alcremie (Flower Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20188,7 +20188,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.57,
         'name': 'Alcremie (Flower Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20205,7 +20205,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.58,
         'name': 'Alcremie (Flower Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20222,7 +20222,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.6,
         'name': 'Alcremie (Ribbon Vanilla)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20239,7 +20239,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.61,
         'name': 'Alcremie (Ribbon Lemon)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20256,7 +20256,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.62,
         'name': 'Alcremie (Ribbon Mint)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20273,7 +20273,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.63,
         'name': 'Alcremie (Ribbon Matcha)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20290,7 +20290,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.64,
         'name': 'Alcremie (Ribbon Ruby Cream)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20307,7 +20307,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.65,
         'name': 'Alcremie (Ribbon Caramel)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20324,7 +20324,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.66,
         'name': 'Alcremie (Ribbon Rainbow)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20341,7 +20341,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.67,
         'name': 'Alcremie (Ribbon Ruby Swirl)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20358,7 +20358,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 869.68,
         'name': 'Alcremie (Ribbon Salted)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 65,
             'attack': 60,
@@ -20375,7 +20375,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 870,
         'name': 'Falinks',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'base': {
             'hitpoints': 65,
             'attack': 100,
@@ -20411,7 +20411,7 @@ const pokemonList = createPokemonArray(
         'name': 'Snom',
         'type': [
             PokemonType.Ice,
-            PokemonType.Bug,
+            PokemonType.Data,
         ],
         'base': {
             'hitpoints': 30,
@@ -20432,7 +20432,7 @@ const pokemonList = createPokemonArray(
         'name': 'Frosmoth',
         'type': [
             PokemonType.Ice,
-            PokemonType.Bug,
+            PokemonType.Data,
         ],
         'base': {
             'hitpoints': 70,
@@ -20502,7 +20502,7 @@ const pokemonList = createPokemonArray(
         'id': 876,
         'name': 'Indeedee',
         'type': [
-            PokemonType.Psychic,
+            PokemonType.Virus,
             PokemonType.Normal,
         ],
         'base': {
@@ -20523,7 +20523,7 @@ const pokemonList = createPokemonArray(
         'name': 'Morpeko',
         'type': [
             PokemonType.Electric,
-            PokemonType.Dark,
+            PokemonType.Free,
         ],
         'base': {
             'hitpoints': 58,
@@ -20543,7 +20543,7 @@ const pokemonList = createPokemonArray(
         'name': 'Morpeko (hangry)',
         'type': [
             PokemonType.Electric,
-            PokemonType.Dark,
+            PokemonType.Free,
         ],
         'base': {
             'hitpoints': 58,
@@ -20561,7 +20561,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 878,
         'name': 'Cufant',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'base': {
             'hitpoints': 72,
             'attack': 80,
@@ -20579,7 +20579,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 879,
         'name': 'Copperajah',
-        'type': [PokemonType.Steel],
+        'type': [PokemonType.Neutral],
         'base': {
             'hitpoints': 122,
             'attack': 130,
@@ -20598,7 +20598,7 @@ const pokemonList = createPokemonArray(
         'name': 'Dracozolt',
         'type': [
             PokemonType.Electric,
-            PokemonType.Dragon,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 90,
@@ -20638,7 +20638,7 @@ const pokemonList = createPokemonArray(
         'name': 'Dracovish',
         'type': [
             PokemonType.Water,
-            PokemonType.Dragon,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 90,
@@ -20677,8 +20677,8 @@ const pokemonList = createPokemonArray(
         'id': 884,
         'name': 'Duraludon',
         'type': [
-            PokemonType.Steel,
-            PokemonType.Dragon,
+            PokemonType.Neutral,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 70,
@@ -20697,7 +20697,7 @@ const pokemonList = createPokemonArray(
         'id': 885,
         'name': 'Dreepy',
         'type': [
-            PokemonType.Dragon,
+            PokemonType.Dark,
             PokemonType.Ghost,
         ],
         'base': {
@@ -20718,7 +20718,7 @@ const pokemonList = createPokemonArray(
         'id': 886,
         'name': 'Drakloak',
         'type': [
-            PokemonType.Dragon,
+            PokemonType.Dark,
             PokemonType.Ghost,
         ],
         'base': {
@@ -20739,7 +20739,7 @@ const pokemonList = createPokemonArray(
         'id': 887,
         'name': 'Dragapult',
         'type': [
-            PokemonType.Dragon,
+            PokemonType.Dark,
             PokemonType.Ghost,
         ],
         'base': {
@@ -20758,7 +20758,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 888,
         'name': 'Zacian (Battle Hero)',
-        'type': [PokemonType.Fairy],
+        'type': [PokemonType.Light],
         'base': {
             'hitpoints': 92,
             'attack': 130,
@@ -20775,7 +20775,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 888.1,
         'name': 'Zacian (Crowned Sword)',
-        'type': [PokemonType.Fairy, PokemonType.Steel],
+        'type': [PokemonType.Light, PokemonType.Neutral],
         'base': {
             'hitpoints': 92,
             'attack': 170,
@@ -20792,7 +20792,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 889,
         'name': 'Zamazenta (Battle Hero)',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'base': {
             'hitpoints': 92,
             'attack': 130,
@@ -20809,7 +20809,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 889.1,
         'name': 'Zamazenta (Crowned Shield)',
-        'type': [PokemonType.Fighting, PokemonType.Steel],
+        'type': [PokemonType.Vaccine, PokemonType.Neutral],
         'base': {
             'hitpoints': 92,
             'attack': 130,
@@ -20828,7 +20828,7 @@ const pokemonList = createPokemonArray(
         'name': 'Eternatus',
         'type': [
             PokemonType.Poison,
-            PokemonType.Dragon,
+            PokemonType.Dark,
         ],
         'base': {
             'hitpoints': 140,
@@ -20846,7 +20846,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 891,
         'name': 'Kubfu',
-        'type': [PokemonType.Fighting],
+        'type': [PokemonType.Vaccine],
         'base': {
             'hitpoints': 60,
             'attack': 90,
@@ -20868,8 +20868,8 @@ const pokemonList = createPokemonArray(
         'id': 892,
         'name': 'Urshifu (Single Strike)',
         'type': [
-            PokemonType.Fighting,
-            PokemonType.Dark,
+            PokemonType.Vaccine,
+            PokemonType.Free,
         ],
         'base': {
             'hitpoints': 100,
@@ -20888,7 +20888,7 @@ const pokemonList = createPokemonArray(
         'id': 892.1,
         'name': 'Urshifu (Rapid Strike)',
         'type': [
-            PokemonType.Fighting,
+            PokemonType.Vaccine,
             PokemonType.Water,
         ],
         'base': {
@@ -20908,8 +20908,8 @@ const pokemonList = createPokemonArray(
         'id': 893,
         'name': 'Zarude',
         'type': [
-            PokemonType.Dark,
-            PokemonType.Grass,
+            PokemonType.Free,
+            PokemonType.Plant,
         ],
         'base': {
             'hitpoints': 105,
@@ -20944,7 +20944,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 895,
         'name': 'Regidrago',
-        'type': [PokemonType.Dragon],
+        'type': [PokemonType.Dark],
         'base': {
             'hitpoints': 200,
             'attack': 100,
@@ -20995,7 +20995,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 898,
         'name': 'Calyrex',
-        'type': [PokemonType.Psychic, PokemonType.Grass],
+        'type': [PokemonType.Virus, PokemonType.Plant],
         'base': {
             'hitpoints': 100,
             'attack': 80,
@@ -21012,7 +21012,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 898.1,
         'name': 'Ice Rider Calyrex',
-        'type': [PokemonType.Psychic, PokemonType.Ice],
+        'type': [PokemonType.Virus, PokemonType.Ice],
         'base': {
             'hitpoints': 100,
             'attack': 165,
@@ -21029,7 +21029,7 @@ const pokemonList = createPokemonArray(
     {
         'id': 898.2,
         'name': 'Shadow Rider Calyrex',
-        'type': [PokemonType.Psychic, PokemonType.Ghost],
+        'type': [PokemonType.Virus, PokemonType.Ghost],
         'base': {
             'hitpoints': 100,
             'attack': 85,
@@ -21049,7 +21049,7 @@ const pokemonList = createPokemonArray(
         'name': 'MissingNo.',
         'nativeRegion': GameConstants.Region.none,
         'catchRate': 45,
-        'type': [PokemonType.Flying, PokemonType.Normal],
+        'type': [PokemonType.Wind, PokemonType.Normal],
         'levelType': LevelType.mediumslow,
         'exp': 64,
         'eggCycles': 20,
@@ -21067,7 +21067,7 @@ const pokemonList = createPokemonArray(
         'id': -100,
         'name': 'Mega Venusaur',
         'nativeRegion': GameConstants.Region.kanto,
-        'type': [PokemonType.Grass, PokemonType.Poison],
+        'type': [PokemonType.Plant, PokemonType.Poison],
         'eggCycles': 120,
         'levelType': LevelType.mediumslow,
         'exp': 281,
@@ -21085,7 +21085,7 @@ const pokemonList = createPokemonArray(
         'id': -101,
         'name': 'Mega Charizard X',
         'nativeRegion': GameConstants.Region.kanto,
-        'type': [PokemonType.Fire, PokemonType.Dragon],
+        'type': [PokemonType.Fire, PokemonType.Dark],
         'eggCycles': 120,
         'levelType': LevelType.mediumslow,
         'exp': 285,
@@ -21102,7 +21102,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -102,
     //     'name': 'Mega Charizard Y',
-    //     'type': [PokemonType.Fire, PokemonType.Flying],
+    //     'type': [PokemonType.Fire, PokemonType.Wind],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 285,
@@ -21136,7 +21136,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -104,
     //     'name': 'Mega Beedrill',
-    //     'type': [PokemonType.Bug, PokemonType.Poison],
+    //     'type': [PokemonType.Data, PokemonType.Poison],
     //     'eggCycles': 80,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 223,
@@ -21153,7 +21153,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -105,
     //     'name': 'Mega Pidgeot',
-    //     'type': [PokemonType.Normal, PokemonType.Flying],
+    //     'type': [PokemonType.Normal, PokemonType.Wind],
     //     'eggCycles': 80,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 261,
@@ -21170,7 +21170,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -106,
     //     'name': 'Mega Alakazam',
-    //     'type': [PokemonType.Psychic],
+    //     'type': [PokemonType.Virus],
     //     'eggCycles': 80,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 270,
@@ -21187,7 +21187,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -107,
     //     'name': 'Mega Slowbro',
-    //     'type': [PokemonType.Water, PokemonType.Psychic],
+    //     'type': [PokemonType.Water, PokemonType.Virus],
     //     'eggCycles': 80,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 207,
@@ -21238,7 +21238,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -110,
     //     'name': 'Mega Pinsir',
-    //     'type': [PokemonType.Bug, PokemonType.Flying],
+    //     'type': [PokemonType.Data, PokemonType.Wind],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 210,
@@ -21256,7 +21256,7 @@ const pokemonList = createPokemonArray(
         'id': -111,
         'name': 'Mega Gyarados',
         'nativeRegion': GameConstants.Region.kanto,
-        'type': [PokemonType.Water, PokemonType.Dark],
+        'type': [PokemonType.Water, PokemonType.Free],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 224,
@@ -21273,7 +21273,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -112,
     //     'name': 'Mega Aerodactyl',
-    //     'type': [PokemonType.Rock, PokemonType.Flying],
+    //     'type': [PokemonType.Rock, PokemonType.Wind],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 215,
@@ -21290,7 +21290,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -113,
     //     'name': 'Mega Mewtwo X',
-    //     'type': [PokemonType.Psychic, PokemonType.Fighting],
+    //     'type': [PokemonType.Virus, PokemonType.Vaccine],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21307,7 +21307,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -114,
     //     'name': 'Mega Mewtwo Y',
-    //     'type': [PokemonType.Psychic],
+    //     'type': [PokemonType.Virus],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21324,7 +21324,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -115,
     //     'name': 'Mega Ampharos',
-    //     'type': [PokemonType.Electric, PokemonType.Dragon],
+    //     'type': [PokemonType.Electric, PokemonType.Dark],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 351,
@@ -21341,7 +21341,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -116,
     //     'name': 'Mega Steelix',
-    //     'type': [PokemonType.Steel, PokemonType.Ground],
+    //     'type': [PokemonType.Neutral, PokemonType.Earth],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 351,
@@ -21358,7 +21358,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -117,
     //     'name': 'Mega Scizor',
-    //     'type': [PokemonType.Bug, PokemonType.Steel],
+    //     'type': [PokemonType.Data, PokemonType.Neutral],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 351,
@@ -21375,7 +21375,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -118,
     //     'name': 'Mega Heracross',
-    //     'type': [PokemonType.Bug, PokemonType.Fighting],
+    //     'type': [PokemonType.Data, PokemonType.Vaccine],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21392,7 +21392,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -119,
     //     'name': 'Mega Houndoom',
-    //     'type': [PokemonType.Fire, PokemonType.Dark],
+    //     'type': [PokemonType.Fire, PokemonType.Free],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21409,7 +21409,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -120,
     //     'name': 'Mega Tyranitar',
-    //     'type': [PokemonType.Rock, PokemonType.Dark],
+    //     'type': [PokemonType.Rock, PokemonType.Free],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21426,7 +21426,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -121,
     //     'name': 'Mega Sceptile',
-    //     'type': [PokemonType.Grass, PokemonType.Dragon],
+    //     'type': [PokemonType.Plant, PokemonType.Dark],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 351,
@@ -21443,7 +21443,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -122,
     //     'name': 'Mega Blaziken',
-    //     'type': [PokemonType.Fire, PokemonType.Fighting],
+    //     'type': [PokemonType.Fire, PokemonType.Vaccine],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 351,
@@ -21460,7 +21460,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -123,
     //     'name': 'Mega Swampert',
-    //     'type': [PokemonType.Water, PokemonType.Ground],
+    //     'type': [PokemonType.Water, PokemonType.Earth],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 351,
@@ -21477,7 +21477,7 @@ const pokemonList = createPokemonArray(
     {
         'id': -124,
         'name': 'Mega Gardevoir',
-        'type': [PokemonType.Psychic, PokemonType.Fairy],
+        'type': [PokemonType.Virus, PokemonType.Light],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 351,
@@ -21494,7 +21494,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -125,
     //     'name': 'Mega Sableye',
-    //     'type': [PokemonType.Dark, PokemonType.Ghost],
+    //     'type': [PokemonType.Free, PokemonType.Ghost],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 351,
@@ -21511,7 +21511,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -126,
     //     'name': 'Mega Mawile',
-    //     'type': [PokemonType.Steel, PokemonType.Fairy],
+    //     'type': [PokemonType.Neutral, PokemonType.Light],
     //     'eggCycles': 120,
     //     'levelType': LevelType.fast,
     //     'exp': 351,
@@ -21528,7 +21528,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -127,
     //     'name': 'Mega Aggron',
-    //     'type': [PokemonType.Steel],
+    //     'type': [PokemonType.Neutral],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21545,7 +21545,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -128,
     //     'name': 'Mega Medicham',
-    //     'type': [PokemonType.Fighting, PokemonType.Psychic],
+    //     'type': [PokemonType.Vaccine, PokemonType.Virus],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 351,
@@ -21579,7 +21579,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -130,
     //     'name': 'Mega Sharpedo',
-    //     'type': [PokemonType.Water, PokemonType.Dark],
+    //     'type': [PokemonType.Water, PokemonType.Free],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21596,7 +21596,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -131,
     //     'name': 'Mega Camerupt',
-    //     'type': [PokemonType.Fire, PokemonType.Ground],
+    //     'type': [PokemonType.Fire, PokemonType.Earth],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 351,
@@ -21613,7 +21613,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -132,
     //     'name': 'Mega Altaria',
-    //     'type': [PokemonType.Dragon, PokemonType.Fairy],
+    //     'type': [PokemonType.Dark, PokemonType.Light],
     //     'eggCycles': 120,
     //     'levelType': LevelType.erratic,
     //     'exp': 351,
@@ -21647,7 +21647,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -134,
     //     'name': 'Mega Absol',
-    //     'type': [PokemonType.Dark],
+    //     'type': [PokemonType.Free],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 351,
@@ -21681,7 +21681,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -136,
     //     'name': 'Mega Salamence',
-    //     'type': [PokemonType.Dragon, PokemonType.Flying],
+    //     'type': [PokemonType.Dark, PokemonType.Wind],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21698,7 +21698,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -137,
     //     'name': 'Mega Metagross',
-    //     'type': [PokemonType.Steel, PokemonType.Psychic],
+    //     'type': [PokemonType.Neutral, PokemonType.Virus],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21715,7 +21715,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -138,
     //     'name': 'Mega Latias',
-    //     'type': [PokemonType.Dragon, PokemonType.Psychic],
+    //     'type': [PokemonType.Dark, PokemonType.Virus],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21732,7 +21732,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -139,
     //     'name': 'Mega Latios',
-    //     'type': [PokemonType.Dragon, PokemonType.Psychic],
+    //     'type': [PokemonType.Dark, PokemonType.Virus],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 351,
@@ -21766,7 +21766,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -141,
     //     'name': 'Primal Groudon',
-    //     'type': [PokemonType.Ground, PokemonType.Fire],
+    //     'type': [PokemonType.Earth, PokemonType.Fire],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 347,
@@ -21784,7 +21784,7 @@ const pokemonList = createPokemonArray(
         'id': -142,
         'name': 'Mega Rayquaza',
         'nativeRegion': GameConstants.Region.hoenn,
-        'type': [PokemonType.Dragon, PokemonType.Flying],
+        'type': [PokemonType.Dark, PokemonType.Wind],
         'eggCycles': 120,
         'levelType': LevelType.slow,
         'exp': 351,
@@ -21801,7 +21801,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -143,
     //     'name': 'Mega Lopunny',
-    //     'type': [PokemonType.Normal, PokemonType.Fighting],
+    //     'type': [PokemonType.Normal, PokemonType.Vaccine],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumfast,
     //     'exp': 347,
@@ -21818,7 +21818,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -144,
     //     'name': 'Mega Garchomp',
-    //     'type': [PokemonType.Dragon, PokemonType.Ground],
+    //     'type': [PokemonType.Dark, PokemonType.Earth],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 347,
@@ -21835,7 +21835,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -145,
     //     'name': 'Mega Lucario',
-    //     'type': [PokemonType.Fighting, PokemonType.Steel],
+    //     'type': [PokemonType.Vaccine, PokemonType.Neutral],
     //     'eggCycles': 120,
     //     'levelType': LevelType.mediumslow,
     //     'exp': 347,
@@ -21852,7 +21852,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -146,
     //     'name': 'Mega Abomasnow',
-    //     'type': [PokemonType.Grass, PokemonType.Ice],
+    //     'type': [PokemonType.Plant, PokemonType.Ice],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 347,
@@ -21869,7 +21869,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -147,
     //     'name': 'Mega Gallade',
-    //     'type': [PokemonType.Psychic, PokemonType.Fighting],
+    //     'type': [PokemonType.Virus, PokemonType.Vaccine],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 347,
@@ -21886,7 +21886,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -148,
     //     'name': 'Mega Audino',
-    //     'type': [PokemonType.Normal, PokemonType.Fairy],
+    //     'type': [PokemonType.Normal, PokemonType.Light],
     //     'eggCycles': 120,
     //     'levelType': LevelType.fast,
     //     'exp': 347,
@@ -21903,7 +21903,7 @@ const pokemonList = createPokemonArray(
     // {
     //     'id': -149,
     //     'name': 'Mega Diancie',
-    //     'type': [PokemonType.Rock, PokemonType.Fairy],
+    //     'type': [PokemonType.Rock, PokemonType.Light],
     //     'eggCycles': 120,
     //     'levelType': LevelType.slow,
     //     'exp': 347,
