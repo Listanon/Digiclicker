@@ -645,18 +645,18 @@ export enum BattleItemType {
 }
 
 export enum FluteItemType {
-    'Red_Flute' = 'Red_Flute',
-    'White_Flute' = 'White_Flute',
-    'Black_Flute' = 'Black_Flute',
-    'Yellow_Flute' = 'Yellow_Flute',
-    'Blue_Flute' = 'Blue_Flute',
-    'Poke_Flute' = 'Poke_Flute',
+    'H_Fire_Spirit' = 'H_Fire_Spirit',
+    'H_Light_Spirit' = 'H_Light_Spirit',
+    'H_Wind_Spirit' = 'H_Wind_Spirit',
+    'H_Steel_Spirit' = 'H_Steel_Spirit',
+    'H_Water_Spirit' = 'H_Water_Spirit',
+    'H_Thunder_Spirit' = 'H_Thunder_Spirit',
     'Azure_Flute' = 'Azure_Flute',
-    'Eon_Flute' = 'Eon_Flute',
-    'Sun_Flute' = 'Sun_Flute',
-    'Moon_Flute' = 'Moon_Flute',
-    'Time_Flute' = 'Time_Flute',
-    'Grass_Flute' = 'Grass_Flute',
+    'CH_Dark_Spirit' = 'CH_Dark_Spirit',
+    'H_Dark_Spirit' = 'H_Dark_Spirit',
+    'H_Earth_Spirit' = 'H_Earth_Spirit',
+    'H_Ice_Spirit' = 'H_Ice_Spirit',
+    'H_Wood_Spirit' = 'H_Wood_Spirit',
 }
 
 export enum PokemonItemType {
