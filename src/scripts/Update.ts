@@ -37,7 +37,7 @@ class Update implements Saveable {
         },
 
         '0.4.15': ({ playerData, saveData }) => {
-            playerData._itemList.Lucky_egg = playerData._itemList.xExp;
+            playerData._itemList.Lucky_pill = playerData._itemList.xExp;
             delete playerData._itemList.xExp;
             delete localStorage.mine;
         },
@@ -458,8 +458,8 @@ class Update implements Saveable {
                 [140, '10 x Fire Stone'],
                 [150, '200 x Medium Restore'],
                 [151, 'Deoxys (attack)'],
-                [160, '100 x Lucky Egg'],
-                [170, '100 x Lucky Incense'],
+                [160, '100 x Lucky Pill'],
+                [170, '100 x Lucky Floppy'],
                 [180, '100 x Item Magnet'],
                 [190, '10 x Mystery Egg'],
                 [200, '100 x Large Restore'],
