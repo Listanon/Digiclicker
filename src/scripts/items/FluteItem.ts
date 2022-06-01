@@ -66,15 +66,15 @@ class FluteItem extends Item {
 
 }
 
-ItemList['Red_Flute']         = new FluteItem(GameConstants.FluteItemType.Red_Flute, 'Click Attack', ['Fighting', 'Fire', 'Poison'], 'clickAttack', 1.02);
-ItemList['White_Flute']       = new FluteItem(GameConstants.FluteItemType.White_Flute, 'Exp Yield', ['Normal', 'Bug', 'Rock'], 'exp', 1.02);
-ItemList['Black_Flute']       = new FluteItem(GameConstants.FluteItemType.Black_Flute, 'Item Drop Rate', ['Normal', 'Flying', 'Poison'], undefined, 1.02);
-ItemList['Yellow_Flute']      = new FluteItem(GameConstants.FluteItemType.Yellow_Flute, 'Pokedollar Yield', ['Dark', 'Electric', 'Steel'], 'money', 1.02);
-ItemList['Blue_Flute']        = new FluteItem(GameConstants.FluteItemType.Blue_Flute, 'Dungeon Token Yield', ['Dark', 'Ghost', 'Ice'], 'dungeonToken', 1.02);
-ItemList['Poke_Flute']        = new FluteItem(GameConstants.FluteItemType.Poke_Flute, 'Pokémon Attack', ['Fighting', 'Ice', 'Fairy'], 'pokemonAttack', 1.02);
-ItemList['Azure_Flute']       = new FluteItem(GameConstants.FluteItemType.Azure_Flute, 'Shiny Chance', ['Dragon', 'Ghost', 'Steel'], 'shiny', 1.02);
-ItemList['Eon_Flute']         = new FluteItem(GameConstants.FluteItemType.Eon_Flute, 'Roaming Chance', ['Flying', 'Dragon', 'Psychic'], 'roaming', 1.02);
-ItemList['Sun_Flute']         = new FluteItem(GameConstants.FluteItemType.Sun_Flute, 'Egg Steps', ['Fire', 'Ground', 'Water'], 'eggStep', 1.02);
-ItemList['Moon_Flute']        = new FluteItem(GameConstants.FluteItemType.Moon_Flute, 'Mining Energy Regeneration Yield and Time', ['Rock', 'Ground', 'Electric'], undefined, 1.02);
-ItemList['Time_Flute']        = new FluteItem(GameConstants.FluteItemType.Time_Flute, 'Dungeon Timer', ['Grass', 'Psychic', 'Water'], undefined, 1.02);
-ItemList['Grass_Flute']       = new FluteItem(GameConstants.FluteItemType.Grass_Flute, 'Berry Replant and Growth Multipliers', ['Grass', 'Bug', 'Fairy'], undefined, 1.02);
+ItemList['H_Fire_Spirit']        = new FluteItem(GameConstants.FluteItemType.H_Fire_Spirit, 'Click Attack', ['Fighting', 'Fire', 'Poison'], 'clickAttack', 1.02);
+ItemList['H_Light_Spirit']       = new FluteItem(GameConstants.FluteItemType.H_Light_Spirit, 'Exp Yield', ['Normal', 'Bug', 'Rock'], 'exp', 1.02);
+ItemList['H_Wind_Spirit']        = new FluteItem(GameConstants.FluteItemType.H_Wind_Spirit, 'Item Drop Rate', ['Normal', 'Flying', 'Poison'], undefined, 1.02);
+ItemList['H_Steel_Spirit']       = new FluteItem(GameConstants.FluteItemType.H_Steel_Spirit, 'Digidollar Yield', ['Dark', 'Electric', 'Steel'], 'money', 1.02);
+ItemList['H_Water_Spirit']       = new FluteItem(GameConstants.FluteItemType.H_Water_Spirit, 'Scan Coin Yield', ['Dark', 'Ghost', 'Ice'], 'dungeonToken', 1.02);
+ItemList['H_Thunder_Spirit']     = new FluteItem(GameConstants.FluteItemType.H_Thunder_Spirit, 'Digimon Attack', ['Fighting', 'Ice', 'Fairy'], 'pokemonAttack', 1.02);
+ItemList['Azure_Flute']          = new FluteItem(GameConstants.FluteItemType.Azure_Flute, 'Shiny Chance', ['Dragon', 'Ghost', 'Steel'], 'shiny', 1.02);
+ItemList['CH_Dark_Spirit']       = new FluteItem(GameConstants.FluteItemType.CH_Dark_Spirit, 'Roaming Chance', ['Flying', 'Dragon', 'Psychic'], 'roaming', 1.02);
+ItemList['H_Dark_Spirit']        = new FluteItem(GameConstants.FluteItemType.H_Dark_Spirit, 'Egg Steps', ['Fire', 'Ground', 'Water'], 'eggStep', 1.02);
+ItemList['H_Earth_Spirit']       = new FluteItem(GameConstants.FluteItemType.H_Earth_Spirit, 'Mining Energy Regeneration Yield and Time', ['Rock', 'Ground', 'Electric'], undefined, 1.02);
+ItemList['H_Ice_Spirit']         = new FluteItem(GameConstants.FluteItemType.H_Ice_Spirit, 'Dungeon Timer', ['Grass', 'Psychic', 'Water'], undefined, 1.02);
+ItemList['H_Wood_Spirit']        = new FluteItem(GameConstants.FluteItemType.H_Wood_Spirit, 'Farm Replant and Growth Multipliers', ['Grass', 'Bug', 'Fairy'], undefined, 1.02);
