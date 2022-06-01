@@ -273,10 +273,10 @@ namespace GameConstants {
     declare enum BattleItemType {
         'xAttack' = '',
         'xClick' = '',
-        'Lucky_egg' = '',
+        'Lucky_pill' = '',
         'Intel_floppy' = '',
         'Item_magnet' = '',
-        'Lucky_incense' = '',
+        'Lucky_floppy' = '',
     }
     declare enum FluteItemType {
         'H_Fire_Spirit' = '',
