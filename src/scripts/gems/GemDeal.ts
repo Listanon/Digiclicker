@@ -37,7 +37,7 @@ class GemDeal {
                 {gemType: PokemonType['Fighting'], amount: 50000},
                 {gemType: PokemonType['Poison'], amount: 50000},
             ],
-            ItemList['Red_Flute'],
+            ItemList['H_Fire_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -46,7 +46,7 @@ class GemDeal {
                 {gemType: PokemonType['Bug'], amount: 10000},
                 {gemType: PokemonType['Rock'], amount: 10000},
             ],
-            ItemList['White_Flute'],
+            ItemList['H_Light_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -55,7 +55,7 @@ class GemDeal {
                 {gemType: PokemonType['Flying'], amount: 10000},
                 {gemType: PokemonType['Poison'], amount: 10000},
             ],
-            ItemList['Black_Flute'],
+            ItemList['H_Wind_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -64,7 +64,7 @@ class GemDeal {
                 {gemType: PokemonType['Electric'], amount: 10000},
                 {gemType: PokemonType['Steel'], amount: 10000},
             ],
-            ItemList['Yellow_Flute'],
+            ItemList['H_Steel_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -73,7 +73,7 @@ class GemDeal {
                 {gemType: PokemonType['Ghost'], amount: 10000},
                 {gemType: PokemonType['Ice'], amount: 10000},
             ],
-            ItemList['Blue_Flute'],
+            ItemList['H_Water_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -82,7 +82,7 @@ class GemDeal {
                 {gemType: PokemonType['Ice'], amount: 10000},
                 {gemType: PokemonType['Fairy'], amount: 10000},
             ],
-            ItemList['Poke_Flute'],
+            ItemList['H_Thunder_Spirit'],
             1
         ));
         return list;
@@ -106,7 +106,7 @@ class GemDeal {
                 {gemType: PokemonType['Dragon'], amount: 50000},
                 {gemType: PokemonType['Psychic'], amount: 50000},
             ],
-            ItemList['Eon_Flute'],
+            ItemList['CH_Dark_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -115,7 +115,7 @@ class GemDeal {
                 {gemType: PokemonType['Ground'], amount: 50000},
                 {gemType: PokemonType['Water'], amount: 50000},
             ],
-            ItemList['Sun_Flute'],
+            ItemList['H_Dark_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -124,7 +124,7 @@ class GemDeal {
                 {gemType: PokemonType['Ground'], amount: 50000},
                 {gemType: PokemonType['Electric'], amount: 50000},
             ],
-            ItemList['Moon_Flute'],
+            ItemList['H_Earth_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -133,7 +133,7 @@ class GemDeal {
                 {gemType: PokemonType['Psychic'], amount: 50000},
                 {gemType: PokemonType['Water'], amount: 50000},
             ],
-            ItemList['Time_Flute'],
+            ItemList['H_Ice_Spirit'],
             1
         ));
         list.push(new GemDeal(
@@ -142,7 +142,7 @@ class GemDeal {
                 {gemType: PokemonType['Bug'], amount: 50000},
                 {gemType: PokemonType['Fairy'], amount: 50000},
             ],
-            ItemList['Grass_Flute'],
+            ItemList['H_Wood_Spirit'],
             1
         ));
         return list;
