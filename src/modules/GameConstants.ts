@@ -638,10 +638,10 @@ export enum StoneType {
 export enum BattleItemType {
     'xAttack' = 'xAttack',
     'xClick' = 'xClick',
-    'Lucky_egg' = 'Lucky_egg',
+    'Lucky_pill' = 'Lucky_pill',
     'Intel_floppy' = 'Intel_floppy',
     'Item_magnet' = 'Item_magnet',
-    'Lucky_incense' = 'Lucky_incense',
+    'Lucky_floppy' = 'Lucky_floppy',
 }
 
 export enum FluteItemType {
