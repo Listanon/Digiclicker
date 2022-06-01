@@ -460,7 +460,7 @@ export const TypeColor = [
     '#DC143C', // Vaccine
     '#A33EA1', // Poison
     '#E2BF65', // Earth
-    '#A98FF3', // Flying
+    '#A98FF3', // Wind
     '#C22E28', // Virus
     '#A6B91A', // Data
     '#B6A136', // Rock
