@@ -215,7 +215,7 @@ class QuestLineHelper {
         createVivillonQuest(PokemonType.Light, 'Vivillon (Ocean)', ['Dreamyard'], 'It\'s flying around an overgrown place full of dreams.');
         createVivillonQuest(PokemonType.Electric, 'Vivillon (Continental)', ['New Mauville'], 'It\'s currently in a City full of Electric type Pokémon.');
         createVivillonQuest(PokemonType.Data, 'Vivillon (River)', ['Eterna Forest'], 'It hides in a dark Forest.');
-        createVivillonQuest(PokemonType.Flying, 'Vivillon (Polar)', ['Sky Pillar'], 'It\'s high up in the sky.');
+        createVivillonQuest(PokemonType.Wind, 'Vivillon (Polar)', ['Sky Pillar'], 'It\'s high up in the sky.');
         createVivillonQuest(PokemonType.Earth, 'Vivillon (Sandstorm)', ['Relic Castle'], 'It got lost in the desert sand.');
         createVivillonQuest(PokemonType.Plant, 'Vivillon (Garden)', ['Flower Paradise'], 'It only shows up amongst the most beautiful flowers.');
         createVivillonQuest(PokemonType.Rock, 'Vivillon (High Plains)', ['Mt. Moon'], 'It has been spotted dancing in the moonlight.');
