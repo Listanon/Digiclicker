@@ -11,10 +11,10 @@ const pokeMartShop = new Shop([
     ItemList['Ultraball'],
     ItemList['xAttack'],
     ItemList['xClick'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Intel_floppy'],
     ItemList['Item_magnet'],
-    ItemList['Lucky_incense'],
+    ItemList['Lucky_floppy'],
     ItemList['SmallRestore'],
     ItemList['MediumRestore'],
     ItemList['LargeRestore'],
@@ -26,10 +26,10 @@ const DepartmentStoreShop = new Shop([
     ItemList['Ultraball'],
     ItemList['xAttack'],
     ItemList['xClick'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Item_magnet'],
     ItemList['Intel_floppy'],
-    ItemList['Lucky_incense'],
+    ItemList['Lucky_floppy'],
     ItemList['SmallRestore'],
     ItemList['MediumRestore'],
     ItemList['LargeRestore'],
@@ -49,7 +49,7 @@ const pokeLeagueShop = () => new Shop([
 const PewterCityShop = new Shop([
     ItemList['Pokeball'],
     ItemList['Intel_floppy'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Mystery_egg'],
 ]);
 const Route3Shop = new Shop([
@@ -62,7 +62,7 @@ const CeruleanCityShop = new Shop([
 ]);
 const VermilionCityShop = new Shop([
     ItemList['Thunder_stone'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Electric_egg'],
 ]);
 const CeladonCityShop = new Shop([
@@ -77,10 +77,10 @@ const CeladonDepartmentStoreShop = new Shop([
     ItemList['Greatball'],
     ItemList['xAttack'],
     ItemList['xClick'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Item_magnet'],
     ItemList['Intel_floppy'],
-    ItemList['Lucky_incense'],
+    ItemList['Lucky_floppy'],
 ], 'Department Store');
 const SaffronCityShop = new Shop([
     ItemList['Moon_stone'],
@@ -91,7 +91,7 @@ const SaffronCityShop = new Shop([
 const FuchsiaCityShop = new Shop([
     ItemList['Ultraball'],
     ItemList['Trade_stone'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Dragon_egg'],
 ]);
 const CinnabarIslandShop = new Shop([
@@ -112,7 +112,7 @@ const ViridianCityShop = new Shop([
 const LavenderTownShop = new Shop([
     ItemList['Greatball'],
     ItemList['Item_magnet'],
-    ItemList['Lucky_incense'],
+    ItemList['Lucky_floppy'],
     ItemList['Grass_egg'],
 ]);
 
@@ -379,10 +379,10 @@ const GoldenrodDepartmentStoreShop = new Shop([
     ItemList['Ultraball'],
     ItemList['xAttack'],
     ItemList['xClick'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Item_magnet'],
     ItemList['Intel_floppy'],
-    ItemList['Lucky_incense'],
+    ItemList['Lucky_floppy'],
     ItemList['SmallRestore'],
     ItemList['MediumRestore'],
 ], 'Department Store');
@@ -2848,10 +2848,10 @@ const WyndonShop = new Shop([
     ItemList['LargeRestore'],
     ItemList['xAttack'],
     ItemList['xClick'],
-    ItemList['Lucky_egg'],
+    ItemList['Lucky_pill'],
     ItemList['Intel_floppy'],
     ItemList['Item_magnet'],
-    ItemList['Lucky_incense'],
+    ItemList['Lucky_floppy'],
 ]);
 
 
