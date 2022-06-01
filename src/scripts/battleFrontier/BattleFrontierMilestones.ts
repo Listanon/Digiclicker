@@ -70,8 +70,8 @@ BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(130, 'Thun
 BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(140, 'Fire_stone', 10));
 BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(150, 'MediumRestore', 200));
 BattleFrontierMilestones.addMilestone(new BattleFrontierMilestonePokemon(151, 'Deoxys (attack)'));
-BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(160, 'Lucky_egg', 100));
-BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(170, 'Lucky_incense', 100));
+BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(160, 'Lucky_pill', 100));
+BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(170, 'Lucky_floppy', 100));
 BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(180, 'Item_magnet', 100));
 BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(190, 'Mystery_egg', 10));
 BattleFrontierMilestones.addMilestone(new BattleFrontierMilestoneItem(200, 'LargeRestore', 100));
