@@ -93,9 +93,9 @@ class GemDeal {
 
         list.push(new GemDeal(
             [
+                {gemType: PokemonType['Neutral'], amount: 50000},
+                {gemType: PokemonType['Earth'], amount: 50000},
                 {gemType: PokemonType['Dark'], amount: 50000},
-                {gemType: PokemonType['Wind'], amount: 50000},
-                {gemType: PokemonType['Virus'], amount: 50000},
             ],
             ItemList['Azure_Flute'],
             1
