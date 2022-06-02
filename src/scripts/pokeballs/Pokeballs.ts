@@ -23,7 +23,7 @@ class Pokeballs implements Feature {
 
     constructor() {
         this.pokeballs = [
-            new Pokeball(GameConstants.Pokeball.Pokeball, () => 0, 1250, 'A standard Pokéball', undefined, 25),
+            new Pokeball(GameConstants.Pokeball.Pokeball, () => 0, 1250, 'A standard Scan Module', undefined, 25),
             new Pokeball(GameConstants.Pokeball.Greatball, () => 5, 1000, '+5% chance to catch'),
             new Pokeball(GameConstants.Pokeball.Ultraball, () => 10, 750, '+10% chance to catch'),
             new Pokeball(GameConstants.Pokeball.Masterball, () => 100, 500, '100% chance to catch'),
