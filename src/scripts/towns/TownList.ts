@@ -2032,11 +2032,21 @@ const SantaluneCityShop = new Shop([
 const Charmander = new Shop([
     ItemList['Furfrou (Debutante)'],
     ItemList['Furfrou (Diamond)'],
+    ItemList['Charmander'],
+    ItemList['Pidgey'],
     ItemList['Furfrou (Matron)'],
     ItemList['Furfrou (Dandy)'],
     ItemList['Furfrou (Kabuki)'],
     ItemList['Furfrou (Pharaoh)'],
 ], 'Charmander');
+const Pidgey = new Shop([
+    ItemList['Furfrou (Debutante)'],
+    ItemList['Furfrou (Diamond)'],
+    ItemList['Furfrou (Matron)'],
+    ItemList['Furfrou (Dandy)'],
+    ItemList['Furfrou (Kabuki)'],
+    ItemList['Furfrou (Pharaoh)'],
+], 'Pidgey');
 const CamphrierTownShop = new Shop([
     ItemList['Greatball'],
     ItemList['Thunder_stone'],
