@@ -59,3 +59,5 @@ ItemList['Type: Null']           = new PokemonItem('Type: Null', 1, Currency.hea
 ItemList['Poipole']              = new PokemonItem('Poipole', 1, Currency.healthcoin, 1);
 ItemList['Eternatus']            = new PokemonItem('Eternatus', 1, Currency.healthcoin, 1);
 ItemList['Toxel']                = new PokemonItem('Toxel', 1, Currency.healthcoin, 1);
+ItemList['Charmander']           = new PokemonItem('Charmander', 1, Currency.healthcoin, 1);
+ItemList['Pidgey']               = new PokemonItem('Pidgey', 1, Currency.healthcoin, 1);
