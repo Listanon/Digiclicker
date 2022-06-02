@@ -30,6 +30,15 @@ class PokedexHelper {
             }
         });
     }
+    public static pokemonScanned(id: number): KnockoutComputed<boolean> {
+        return ko.pureComputed(() => {
+            try {
+                return App.game.statistics.pokemonCaptured[id]() > 0 || App.game.party.alreadyCaughtPokemon(id);
+            } catch (error) {
+                return false;
+            }
+        });
+    }
 
     public static filteredList: KnockoutObservableArray<Record<string, any>> = ko.observableArray([]);
 
