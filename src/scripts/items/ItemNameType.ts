@@ -1271,7 +1271,7 @@ type ItemNameType
     | ' Kaus Gammamon'
     | ' Komondomon'
     | ' Potamon'
-    | ' Simbare Angoramon'
+    | ' Symbare Angoramon'
     | ' Tesla Jellymon'
     | ' Wezen Gammamon'
     | ' Black Tailmon Uver.'
