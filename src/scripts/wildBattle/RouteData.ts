@@ -10,14 +10,14 @@ KANTO
 Routes.add(new RegionRoute(
     'Kanto Route 1', GameConstants.Region.kanto, 1,
     new RoutePokemon({
-        land: ['Pidgey', 'Rattata'],
+        land: ['Burpmon', 'Burpmon'],
     })
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 22', GameConstants.Region.kanto, 22,
     new RoutePokemon({
-        land: ['Rattata', 'Spearow', 'Nidoran(F)', 'Nidoran(M)', 'Mankey'],
-        water: ['Magikarp', 'Poliwag', 'Poliwhirl', 'Goldeen'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 1)],
     1.1
@@ -25,14 +25,14 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 2', GameConstants.Region.kanto, 2,
     new RoutePokemon({
-        land: ['Pidgey', 'Rattata', 'Nidoran(F)', 'Nidoran(M)'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 1)]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 3', GameConstants.Region.kanto, 3,
     new RoutePokemon({
-        land: ['Rattata', 'Spearow', 'Sandshrew', 'Mankey'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 2),
@@ -42,8 +42,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 4', GameConstants.Region.kanto, 4,
     new RoutePokemon({
-        land: ['Rattata', 'Spearow', 'Ekans', 'Sandshrew', 'Mankey'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Seaking'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 3),
@@ -53,8 +53,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 24', GameConstants.Region.kanto, 24,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Oddish', 'Venonat', 'Bellsprout'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Seaking'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 4)],
     4.1
@@ -62,8 +62,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 25', GameConstants.Region.kanto, 25,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Oddish', 'Venonat', 'Bellsprout'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Krabby', 'Kingler'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 24)],
     4.2
@@ -71,7 +71,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 5', GameConstants.Region.kanto, 5,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Rattata', 'Jigglypuff', 'Meowth', 'Abra'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         // Need to reach bills house
@@ -81,16 +81,16 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 6', GameConstants.Region.kanto, 6,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Rattata', 'Jigglypuff', 'Meowth', 'Abra'],
-        water: ['Psyduck', 'Golduck', 'Magikarp', 'Poliwag', 'Goldeen'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 5)]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 11', GameConstants.Region.kanto, 11,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Raticate', 'Rattata', 'Drowzee'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Tentacool', 'Horsea'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 6)],
     6.1
@@ -98,7 +98,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 9', GameConstants.Region.kanto, 9,
     new RoutePokemon({
-        land: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Nidoran(F)', 'Nidoran(M)', 'Nidorina', 'Nidorino'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 6),
@@ -108,8 +108,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 10', GameConstants.Region.kanto, 10,
     new RoutePokemon({
-        land: ['Rattata', 'Raticate', 'Nidoran(F)', 'Nidoran(M)', 'Machop', 'Magnemite'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Krabby', 'Kingler', 'Horsea'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 9),
@@ -119,7 +119,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 8', GameConstants.Region.kanto, 8,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Rattata', 'Vulpix', 'Jigglypuff', 'Meowth', 'Abra', 'Kadabra'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 10)],
     10.1
@@ -127,7 +127,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 7', GameConstants.Region.kanto, 7,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Rattata', 'Vulpix', 'Jigglypuff', 'Meowth', 'Abra'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 8)],
     10.2
@@ -135,16 +135,16 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 12', GameConstants.Region.kanto, 12,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Bellsprout', 'Weepinbell', 'Farfetch\'d', 'Snorlax'],
-        water: ['Slowpoke', 'Slowbro', 'Magikarp', 'Poliwag', 'Goldeen', 'Horsea', 'Seadra'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower'))]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 13', GameConstants.Region.kanto, 13,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Bellsprout', 'Weepinbell', 'Farfetch\'d'],
-        water: ['Slowpoke', 'Slowbro', 'Magikarp', 'Poliwag', 'Goldeen', 'Tentacool', 'Horsea', 'Seadra'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -156,8 +156,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 14', GameConstants.Region.kanto, 14,
     new RoutePokemon({
-        land: ['Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Venomoth', 'Bellsprout', 'Weepinbell'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -169,7 +169,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 15', GameConstants.Region.kanto, 15,
     new RoutePokemon({
-        land: ['Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Venomoth', 'Bellsprout', 'Weepinbell'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -181,15 +181,15 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 16', GameConstants.Region.kanto, 16,
     new RoutePokemon({
-        land: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Doduo', 'Snorlax'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower'))]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 17', GameConstants.Region.kanto, 17,
     new RoutePokemon({
-        land: ['Fearow', 'Ponyta', 'Doduo', 'Dodrio'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Tentacool', 'Shellder'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -201,8 +201,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 18', GameConstants.Region.kanto, 18,
     new RoutePokemon({
-        land: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Doduo'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Tentacool', 'Shellder'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -214,14 +214,14 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 19', GameConstants.Region.kanto, 19,
     new RoutePokemon({
-        water: ['Tentacool', 'Magikarp', 'Poliwag', 'Goldeen', 'Tentacruel', 'Staryu'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Soul)]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 20', GameConstants.Region.kanto, 20,
     new RoutePokemon({
-        water: ['Tentacool', 'Magikarp', 'Poliwag', 'Goldeen', 'Tentacruel', 'Staryu'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -233,16 +233,16 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 21', GameConstants.Region.kanto, 21,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Rattata', 'Raticate', 'Tangela'],
-        water: ['Tentacool', 'Magikarp', 'Poliwag', 'Goldeen', 'Tentacruel', 'Staryu'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Soul)]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 23', GameConstants.Region.kanto, 23,
     new RoutePokemon({
-        land: ['Fearow', 'Nidorina', 'Nidorino', 'Mankey', 'Primeape'],
-        water: ['Magikarp', 'Poliwag', 'Goldeen', 'Poliwhirl'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 22),
@@ -256,100 +256,100 @@ JOHTO
 Routes.add(new RegionRoute(
     'Johto Route 29', GameConstants.Region.johto, 29,
     new RoutePokemon({
-        land: ['Pidgey', 'Rattata', 'Sentret', 'Hoothoot'],
-        headbutt: ['Exeggcute', 'Ledyba', 'Spinarak', 'Hoothoot', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 30', GameConstants.Region.johto, 30,
     new RoutePokemon({
-        land: ['Pidgey', 'Rattata', 'Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Zubat', 'Hoothoot', 'Ledyba', 'Spinarak'],
-        water: ['Poliwag', 'Poliwhirl', 'Magikarp'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 29)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 31', GameConstants.Region.johto, 31,
     new RoutePokemon({
-        land: ['Pidgey', 'Rattata', 'Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Zubat', 'Poliwag', 'Hoothoot', 'Ledyba', 'Spinarak', 'Bellsprout'],
-        water: ['Poliwag', 'Poliwhirl', 'Magikarp'],
-        headbutt: ['Spearow', 'Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Aipom', 'Pineco', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 30)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 32', GameConstants.Region.johto, 32,
     new RoutePokemon({
-        land: ['Rattata', 'Ekans', 'Zubat', 'Bellsprout', 'Mareep', 'Hoppip', 'Wooper'],
-        water: ['Tentacool', 'Tentacruel', 'Quagsire', 'Magikarp', 'Qwilfish'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Zephyr)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 33', GameConstants.Region.johto, 33,
     new RoutePokemon({
-        land: ['Spearow', 'Rattata', 'Ekans', 'Zubat', 'Hoppip'],
-        headbutt: ['Spearow', 'Aipom', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Union Cave'))]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 34', GameConstants.Region.johto, 34,
     new RoutePokemon({
-        land: ['Rattata', 'Abra', 'Drowzee', 'Ditto'],
-        water: ['Tentacool', 'Tentacruel', 'Krabby', 'Magikarp', 'Staryu', 'Corsola', 'Kingler'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Ilex Forest'))]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 35', GameConstants.Region.johto, 35,
     new RoutePokemon({
-        land: ['Pidgey', 'Nidoran(F)', 'Nidoran(M)', 'Abra', 'Drowzee', 'Ditto', 'Hoothoot', 'Yanma'],
-        water: ['Psyduck', 'Golduck', 'Poliwag', 'Magikarp'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 34)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 36', GameConstants.Region.johto, 36,
     new RoutePokemon({
-        land: ['Pidgey', 'Nidoran(M)', 'Nidoran(F)', 'Vulpix', 'Growlithe', 'Hoothoot', 'Stantler', 'Sudowoodo'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Plain)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 37', GameConstants.Region.johto, 37,
     new RoutePokemon({
-        land: ['Pidgey', 'Pidgeotto', 'Vulpix', 'Growlithe', 'Hoothoot', 'Ledyba', 'Spinarak', 'Stantler'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 36)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 38', GameConstants.Region.johto, 38,
     new RoutePokemon({
-        land: ['Rattata', 'Raticate', 'Meowth', 'Magnemite', 'Farfetch\'d', 'Tauros', 'Snubbull', 'Miltank'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 37)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 39', GameConstants.Region.johto, 39,
     new RoutePokemon({
-        land: ['Rattata', 'Raticate', 'Meowth', 'Magnemite', 'Farfetch\'d', 'Tauros', 'Miltank'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 38)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 40', GameConstants.Region.johto, 40,
     new RoutePokemon({
-        water: ['Tentacool', 'Tentacruel', 'Krabby', 'Magikarp', 'Staryu', 'Corsola', 'Kingler'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.johto, 39),
@@ -359,25 +359,25 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Johto Route 41', GameConstants.Region.johto, 41,
     new RoutePokemon({
-        water: ['Tentacool', 'Tentacruel', 'Mantine', 'Magikarp', 'Chinchou', 'Shellder'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 40)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 42', GameConstants.Region.johto, 42,
     new RoutePokemon({
-        land: ['Spearow', 'Zubat', 'Mankey', 'Mareep', 'Flaaffy'],
-        water: ['Goldeen', 'Seaking', 'Magikarp'],
-        headbutt: ['Spearow', 'Aipom', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Fog)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 43', GameConstants.Region.johto, 43,
     new RoutePokemon({
-        land: ['Pidgeotto', 'Venonat', 'Noctowl', 'Mareep', 'Flaaffy', 'Girafarig'],
-        water: ['Magikarp', 'Poliwag'],
-        headbutt: ['Venonat', 'Exeggcute', 'Hoothoot', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -392,26 +392,26 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Johto Route 44', GameConstants.Region.johto, 44,
     new RoutePokemon({
-        land: ['Bellsprout', 'Weepinbell', 'Lickitung', 'Tangela'],
-        water: ['Poliwag', 'Poliwhirl', 'Magikarp', 'Remoraid'],
-        headbutt: ['Spearow', 'Aipom', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Radio Tower'))]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 45', GameConstants.Region.johto, 45,
     new RoutePokemon({
-        land: ['Geodude', 'Graveler', 'Gligar', 'Teddiursa', 'Skarmory', 'Phanpy'],
-        water: ['Magikarp', 'Poliwag', 'Dratini'],
-        headbutt: ['Spearow', 'Aipom', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Ice Path'))]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 46', GameConstants.Region.johto, 46,
     new RoutePokemon({
-        land: ['Spearow', 'Rattata', 'Geodude'],
-        headbutt: ['Spearow', 'Aipom', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 29)],
     29.1
@@ -419,26 +419,26 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Johto Route 47', GameConstants.Region.johto, 47,
     new RoutePokemon({
-        land: ['Raticate', 'Spearow', 'Fearow', 'Gloom', 'Farfetch\'d', 'Ditto', 'Noctowl', 'Miltank'],
-        water: ['Tentacool', 'Seel', 'Staryu', 'Magikarp', 'Shellder', 'Chinchou', 'Lanturn'],
-        headbutt: ['Metapod', 'Butterfree', 'Kakuna', 'Beedrill', 'Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Mineral)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 48', GameConstants.Region.johto, 48,
     new RoutePokemon({
-        land: ['Fearow', 'Vulpix', 'Gloom', 'Diglett', 'Growlithe', 'Farfetch\'d', 'Tauros', 'Hoppip', 'Girafarig'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 47)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 26', GameConstants.Region.johto, 26,
     new RoutePokemon({
-        land: ['Raticate', 'Arbok', 'Sandslash', 'Ponyta', 'Doduo', 'Dodrio', 'Quagsire'],
-        water: ['Tentacool', 'Tentacruel', 'Magikarp', 'Shellder', 'Chinchou', 'Lanturn'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.johto, 27)],
     50
@@ -446,9 +446,9 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Johto Route 27', GameConstants.Region.johto, 27,
     new RoutePokemon({
-        land: ['Raticate', 'Arbok', 'Sandslash', 'Ponyta', 'Doduo', 'Dodrio', 'Quagsire'],
-        water: ['Tentacool', 'Tentacruel', 'Magikarp', 'Shellder', 'Chinchou', 'Lanturn'],
-        headbutt: ['Exeggcute', 'Hoothoot', 'Ledyba', 'Spinarak', 'Pineco'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Rising)],
     49
@@ -456,9 +456,9 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Johto Route 28', GameConstants.Region.johto, 28,
     new RoutePokemon({
-        land: ['Ponyta', 'Tangela', 'Donphan', 'Ursaring', 'Rapidash', 'Doduo', 'Dodrio', 'Sneasel', 'Murkrow'],
-        water: ['Poliwag', 'Poliwhirl', 'Magikarp'],
-        headbutt: ['Natu', 'Aipom', 'Heracross'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion)],
     51
@@ -470,23 +470,23 @@ HOENN
 Routes.add(new RegionRoute(
     'Hoenn Route 101', GameConstants.Region.hoenn, 101,
     new RoutePokemon({
-        land: ['Wurmple', 'Poochyena', 'Zigzagoon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 102', GameConstants.Region.hoenn, 102,
     new RoutePokemon({
-        land: ['Surskit', 'Poochyena', 'Wurmple', 'Lotad', 'Zigzagoon', 'Ralts', 'Seedot'],
-        water: ['Marill', 'Goldeen', 'Magikarp', 'Corphish'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 101)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 103', GameConstants.Region.hoenn, 103,
     new RoutePokemon({
-        land: ['Poochyena', 'Wingull', 'Zigzagoon'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 101)],
     101.1
@@ -494,15 +494,15 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 104', GameConstants.Region.hoenn, 104,
     new RoutePokemon({
-        land: ['Poochyena', 'Wurmple', 'Marill', 'Taillow', 'Wingull'],
-        water: ['Wingull', 'Pelipper', 'Magikarp'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 102)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 105', GameConstants.Region.hoenn, 105,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Balance)],
     115.1
@@ -510,7 +510,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 106', GameConstants.Region.hoenn, 106,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        water: ['Tentacool', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -523,7 +523,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 107', GameConstants.Region.hoenn, 107,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -536,7 +536,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 108', GameConstants.Region.hoenn, 108,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -549,7 +549,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 109', GameConstants.Region.hoenn, 109,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Balance)],
     115.5
@@ -557,8 +557,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 110', GameConstants.Region.hoenn, 110,
     new RoutePokemon({
-        land: ['Poochyena', 'Gulpin', 'Minun', 'Oddish', 'Wingull', 'Plusle'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Granite Cave')),
@@ -568,47 +568,47 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 111', GameConstants.Region.hoenn, 111,
     new RoutePokemon({
-        land: ['Sandshrew', 'Trapinch', 'Baltoy', 'Cacnea'],
-        water: ['Marill', 'Goldeen', 'Magikarp', 'Barboach'],
-        headbutt: ['Geodude'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Dynamo)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 112', GameConstants.Region.hoenn, 112,
     new RoutePokemon({
-        land: ['Numel', 'Marill'],
+        land: ['Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 111)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 113', GameConstants.Region.hoenn, 113,
     new RoutePokemon({
-        land: ['Spinda', 'Slugma', 'Skarmory'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Fiery Path'))]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 114', GameConstants.Region.hoenn, 114,
     new RoutePokemon({
-        land: ['Zangoose', 'Surskit', 'Swablu', 'Lotad', 'Lombre', 'Seviper', 'Nuzleaf'],
-        water: ['Marill', 'Goldeen', 'Magikarp', 'Barboach'],
-        headbutt: ['Geodude'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        headbutt: ['Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 113)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 115', GameConstants.Region.hoenn, 115,
     new RoutePokemon({
-        land: ['Swablu', 'Taillow', 'Swellow', 'Jigglypuff', 'Wingull'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Meteor Falls'))]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 116', GameConstants.Region.hoenn, 116,
     new RoutePokemon({
-        land: ['Poochyena', 'Whismur', 'Nincada', 'Abra', 'Taillow', 'Skitty'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Petalburg Woods'))],
     104.1
@@ -616,8 +616,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 117', GameConstants.Region.hoenn, 117,
     new RoutePokemon({
-        land: ['Surskit', 'Poochyena', 'Oddish', 'Marill', 'Illumise', 'Volbeat', 'Seedot'],
-        water: ['Marill', 'Goldeen', 'Magikarp', 'Corphish'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 110)],
     110.1
@@ -625,27 +625,27 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 118', GameConstants.Region.hoenn, 118,
     new RoutePokemon({
-        land: ['Zigzagoon', 'Linoone', 'Wingull', 'Kecleon'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Carvanha', 'Sharpedo'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Balance)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 119', GameConstants.Region.hoenn, 119,
     new RoutePokemon({
-        land: ['Zigzagoon', 'Linoone', 'Oddish', 'Tropius', 'Kecleon'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Carvanha'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
-          new SpecialRoutePokemon(['Castform (sunny)'], new MultiRequirement([
+          new SpecialRoutePokemon(['Burpmon'], new MultiRequirement([
               new ObtainedPokemonRequirement(pokemonMap.Castform),
               new WeatherRequirement([WeatherType.Sunny]),
           ])),
-          new SpecialRoutePokemon(['Castform (rainy)'], new MultiRequirement([
+          new SpecialRoutePokemon(['Burpmon'], new MultiRequirement([
               new ObtainedPokemonRequirement(pokemonMap.Castform),
               new WeatherRequirement([WeatherType.Rain, WeatherType.Thunderstorm]),
           ])),
-          new SpecialRoutePokemon(['Castform (snowy)'], new MultiRequirement([
+          new SpecialRoutePokemon(['Burpmon'], new MultiRequirement([
               new ObtainedPokemonRequirement(pokemonMap.Castform),
               new WeatherRequirement([WeatherType.Snow, WeatherType.Blizzard, WeatherType.Hail, WeatherType.Fog]),
           ])),
@@ -656,8 +656,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 120', GameConstants.Region.hoenn, 120,
     new RoutePokemon({
-        land: ['Surskit', 'Poochyena', 'Mightyena', 'Oddish', 'Marill', 'Absol', 'Kecleon', 'Seedot'],
-        water: ['Marill', 'Goldeen', 'Magikarp', 'Barboach'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.hoenn, 119),
@@ -667,15 +667,15 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 121', GameConstants.Region.hoenn, 121,
     new RoutePokemon({
-        land: ['Poochyena', 'Shuppet', 'Mightyena', 'Oddish', 'Gloom', 'Wingull', 'Kecleon'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 120)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 122', GameConstants.Region.hoenn, 122,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.hoenn, 121),
@@ -685,36 +685,36 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 123', GameConstants.Region.hoenn, 123,
     new RoutePokemon({
-        land: ['Poochyena', 'Shuppet', 'Mightyena', 'Oddish', 'Gloom', 'Wingull', 'Kecleon'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 122)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 124', GameConstants.Region.hoenn, 124,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo', 'Clamperl', 'Relicanth'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Aqua Hideout'))]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 125', GameConstants.Region.hoenn, 125,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 124)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 126', GameConstants.Region.hoenn, 126,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo', 'Clamperl', 'Relicanth'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 124)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 127', GameConstants.Region.hoenn, 127,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new OneFromManyRequirement([
@@ -726,14 +726,14 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Hoenn Route 128', GameConstants.Region.hoenn, 128,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Luvdisc', 'Wailmer', 'Corsola'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 127)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 129', GameConstants.Region.hoenn, 129,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Wailord', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 128)]
 ));
@@ -741,35 +741,35 @@ Routes.add(new RegionRoute(
     'Hoenn Route 130', GameConstants.Region.hoenn, 130,
     new RoutePokemon({
         land: ['Wynaut'],
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 129)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 131', GameConstants.Region.hoenn, 131,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 130)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 132', GameConstants.Region.hoenn, 132,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo', 'Horsea'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 131)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 133', GameConstants.Region.hoenn, 133,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo', 'Horsea'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 132)]
 ));
 Routes.add(new RegionRoute(
     'Hoenn Route 134', GameConstants.Region.hoenn, 134,
     new RoutePokemon({
-        water: ['Tentacool', 'Wingull', 'Pelipper', 'Magikarp', 'Wailmer', 'Sharpedo', 'Horsea'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.hoenn, 133)]
 ));
@@ -780,7 +780,7 @@ SINNOH
 Routes.add(new RegionRoute(
     'Sinnoh Route 201', GameConstants.Region.sinnoh, 201,
     new RoutePokemon({
-        land: ['Starly', 'Bidoof', 'Kricketot'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Elite_HoennChampion)]
 ));
