@@ -17,7 +17,7 @@ class Egg implements Saveable {
     constructor(
         public type = EggType.None,
         public totalSteps = 0,
-        public pokemon: PokemonNameType = 'MissingNo.',
+        public pokemon: PokemonNameType = 'Ohakadamon',
         steps = 0,
         public shinyChance = GameConstants.SHINY_CHANCE_BREEDING,
         public notified = false
