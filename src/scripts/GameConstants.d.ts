@@ -1528,7 +1528,7 @@ namespace GameConstants {
     declare enum EggItemType {
         'Fire_egg',
         'Water_egg',
-        'Grass_egg',
+        'Plant_egg',
         'Earth_egg',
         'Electric_egg',
         'Wind_egg',
