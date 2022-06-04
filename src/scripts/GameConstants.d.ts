@@ -232,10 +232,10 @@ namespace GameConstants {
     declare const EnvironmentCssClass:Record<Environment, string>;
     declare enum Starter {
         'None' = '',
-        'Bulbasaur',
-        'Charmander',
-        'Squirtle',
-        'Pikachu'
+        'Botamon',
+        'Punimon',
+        'Poyomon',
+        'Yukimi Botamon'
     }
     declare enum StoneType {
         'None',
