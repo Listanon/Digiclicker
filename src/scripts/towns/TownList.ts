@@ -86,13 +86,13 @@ const SaffronCityShop = new Shop([
     ItemList['Moon_stone'],
     ItemList['xClick'],
     ItemList['Leaf_stone'],
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
 ]);
 const FuchsiaCityShop = new Shop([
     ItemList['Ultraball'],
     ItemList['Trade_stone'],
     ItemList['Lucky_pill'],
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
 ]);
 const CinnabarIslandShop = new Shop([
     ItemList['Fire_stone'],
@@ -113,7 +113,7 @@ const LavenderTownShop = new Shop([
     ItemList['Greatball'],
     ItemList['Item_magnet'],
     ItemList['Lucky_floppy'],
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
 ]);
 
 // Kanto NPCs
@@ -370,7 +370,7 @@ const VioletCityShop = new Shop([
 ]);
 const AzaleaTownShop = new Shop([
     ItemList['Kings_rock'],
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
     ItemList['Leaf_stone'],
 ]);
 const GoldenrodDepartmentStoreShop = new Shop([
@@ -402,7 +402,7 @@ const OlivineCityShop = new Shop([
 ]);
 const CianwoodCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
     ItemList['Sun_stone'],
 ]);
 const MahoganyTownShop = new Shop([
@@ -413,7 +413,7 @@ const MahoganyTownShop = new Shop([
 const BlackthornCityShop = new Shop([
     ItemList['LargeRestore'],
     ItemList['Dragon_scale'],
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
 ]);
 
 // Johto NPCs
@@ -677,7 +677,7 @@ const RustboroCityShop = new Shop([
     ItemList['Mystery_egg'],
 ]);
 const DewfordTownShop = new Shop([
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
 ]);
 const SlateportCityShop = new Shop([
     ItemList['Greatball'],
@@ -691,7 +691,7 @@ const MauvilleCityShop = new Shop([
     ItemList['HatcheryHelperJasmine'],
 ]);
 const VerdanturfTownShop = new Shop([
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
     ItemList['Soothe_bell'],
 ]);
 const LavaridgeTownShop = new Shop([
@@ -719,7 +719,7 @@ const PacifidlogTownShop = new Shop([
     ItemList['Deepsea_scale'],
 ]);
 const EverGrandeCityShop = new Shop([
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
     ItemList['Dragon_scale'],
 ]);
 // TODO: finalize items and prices
@@ -1095,7 +1095,7 @@ const FloaromaTownShop = new Shop([
     ItemList['Trade_stone'],
 ]);
 const EternaCityShop = new Shop([
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
     ItemList['Leaf_stone'],
 ]);
 const HearthomeCityShop = new Shop([
@@ -1111,11 +1111,11 @@ const SolaceonTownShop = new Shop([
     ItemList['Spiritomb'],
 ]);
 const CelesticTownShop = new Shop([
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
     ItemList['Dragon_scale'],
 ]);
 const CanalaveCityShop = new Shop ([
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
     ItemList['Metal_coat'],
 ]);
 const PalParkShop = new Shop([
@@ -1565,7 +1565,7 @@ const CasteliaCityShop = new Shop([
     ItemList['Kings_rock'],
 ]);
 const NimbasaCityShop = new Shop([
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
     ItemList['Electric_egg'],
     ItemList['Metal_coat'],
 ]);
@@ -1587,10 +1587,10 @@ const UndellaTownShop = new Shop([
     ItemList['Deepsea_tooth'],
 ]);
 const LacunosaTownShop = new Shop([
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
 ]);
 const OpelucidCityShop = new Shop([
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
     ItemList['Dragon_scale'],
 ]);
 const HumilauCityShop = new Shop([
@@ -2062,13 +2062,13 @@ const GeosengeTownShop = new Shop([
     ItemList['Kings_rock'],
 ]);
 const ShalourCityShop = new Shop([
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
     ItemList['Metal_coat'],
     ItemList['Trade_stone'],
 ]);
 const CoumarineCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
     ItemList['Leaf_stone'],
     ItemList['Electirizer'],
     ItemList['Magmarizer'],
@@ -2092,7 +2092,7 @@ const AnistarCityShop = new Shop([
     ItemList['Razor_fang'],
 ]);
 const CouriwayTownShop = new Shop([
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
     ItemList['Dragon_scale'],
     ItemList['Prism_scale'],
 ]);
@@ -2389,7 +2389,7 @@ const HeaheaCityShop = new Shop([
     ItemList['Kings_rock'],
 ]);
 const PaniolaTownShop = new Shop([
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
     ItemList['Fire_egg'],
     ItemList['Water_egg'],
 ]);
@@ -2415,7 +2415,7 @@ const TapuVillageShop = new Shop([
     ItemList['Razor_fang'],
 ]);
 const SeafolkVillageShop = new Shop([
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
     ItemList['Deepsea_scale'],
     ItemList['Deepsea_tooth'],
     ItemList['Prism_scale'],
@@ -2423,7 +2423,7 @@ const SeafolkVillageShop = new Shop([
     ItemList['Whipped_dream'],
 ]);
 const ExeggutorIslandShop = new Shop([
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
     ItemList['Leaf_stone'],
     ItemList['Dragon_scale'],
     ItemList['Protector'],
@@ -2830,7 +2830,7 @@ const CirchesterShop = new Shop([
     ItemList['Ice_stone'],
 ]);
 const TurffieldShop = new Shop([
-    ItemList['Grass_egg'],
+    ItemList['Plant_egg'],
 ]);
 const HulburyShop = new Shop([
     ItemList['Water_egg'],
@@ -2840,11 +2840,11 @@ const MotostokeShop = new Shop([
     ItemList['Fire_egg'],
 ]);
 const HammerlockeShop = new Shop([
-    ItemList['Dragon_egg'],
+    ItemList['Wind_egg'],
     ItemList['Eternatus'],
 ]);
 const StowonSideShop: Shop = new Shop([
-    ItemList['Fighting_egg'],
+    ItemList['Earth_egg'],
 ]);
 const SpikemuthShop = new Shop([
     ItemList['Electric_egg'],
