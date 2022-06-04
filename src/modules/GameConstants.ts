@@ -660,6 +660,7 @@ export enum FluteItemType {
 }
 
 export enum PokemonItemType {
+    'Ohakadamon',
     'Botamon',
     'Punimon',
     'Koromon',
