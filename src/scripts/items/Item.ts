@@ -89,7 +89,6 @@ class Item {
     }
 
     buy(n: number) {
-        console.log(App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level);
 
         if (PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id != 0) {
             if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level < this.levelreq) {
