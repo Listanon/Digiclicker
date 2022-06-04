@@ -64,13 +64,13 @@ class Player {
                 case GameConstants.Starter.None:
                     this.regionStarters.push(ko.observable(undefined));
                     break;
-                case GameConstants.Starter.Bulbasaur:
+                case GameConstants.Starter.Botamon:
                     this.regionStarters.push(ko.observable(0));
                     break;
-                case GameConstants.Starter.Charmander:
+                case GameConstants.Starter.Punimon:
                     this.regionStarters.push(ko.observable(1));
                     break;
-                case GameConstants.Starter.Squirtle:
+                case GameConstants.Starter.Poyomon:
                     this.regionStarters.push(ko.observable(2));
                     break;
             }
