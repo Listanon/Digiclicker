@@ -93,7 +93,7 @@ class Item {
 
         if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level < this.levelreq) {
             Notifier.notify({
-                message: `${GameConstants.humanifyString(this.displayName)}'s level isn't high enough!`,
+                message: `Your Digimon's level isn't high enough!`,
                 type: NotificationConstants.NotificationOption.danger,
             });
             return;
