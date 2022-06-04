@@ -5763,7 +5763,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 318,
-        'name': 'Moon=Millenniumon',
+        'name': 'Moon Millenniumon',
         'catchRate': 5,
         'type': [PokemonType.Virus, PokemonType.Neutral],
         'levelType': LevelType.fluctuating,
