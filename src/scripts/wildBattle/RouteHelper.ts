@@ -16,7 +16,7 @@ class RouteHelper {
         // If the route is somehow higher than allowed, use the first route to generateWildPokemon Pokémon
         const possiblePokemons = Routes.getRoute(region, route)?.pokemon;
         if (!possiblePokemons) {
-            return ['Rattata'];
+            return ['Patamon'];
         }
 
         // Land Pokémon
