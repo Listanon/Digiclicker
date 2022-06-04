@@ -3108,6 +3108,9 @@ TownList['Crown Shrine'] = new DungeonTown(
     GameConstants.Region.galar,
     [new RouteKillRequirement(10, GameConstants.Region.galar, 53)]
 );
+const Ohakadamon = new Shop([
+    ItemList['Ohakadamon'],
+], 'Ohakadamon');
 const Botamon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Botamon');
