@@ -70,8 +70,8 @@ SpecialEvents.newEvent('Easter', 'Encounter Surprise Togepi for a limited time w
 SpecialEvents.newEvent('Flying Pikachu', 'Encounter Flying Pikachu and Red Spearow for a limited time roaming Kanto.',
     // Start
     new Date(new Date().getFullYear(), 6, 6, 1), () => {
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Flying Pikachu'));
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Red Spearow'));
+        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
     },
     // End
     new Date(new Date().getFullYear(), 6, 12, 23), () => {
@@ -141,7 +141,7 @@ SpecialEvents.newEvent('Merry Christmas!', 'Encounter Santa Snorlax roaming the 
         GameHelper.enumNumbers(GameConstants.Region).filter(i => i != GameConstants.Region.none).forEach(region => {
             RoamingPokemonList.add(region, new RoamingPokemon('Burpmon'));
         });
-        dungeonList['Ilex Forest'].bossList.push(new DungeonBossPokemon('Grinch Celebi', 1600000, 100, {requirement: new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion)}));
+        dungeonList['Ilex Forest'].bossList.push(new DungeonBossPokemon('Burpmon', 1600000, 100, {requirement: new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion)}));
     },
     // End
     new Date(new Date().getFullYear(), 11, 30, 23), () => {
@@ -149,14 +149,14 @@ SpecialEvents.newEvent('Merry Christmas!', 'Encounter Santa Snorlax roaming the 
         GameHelper.enumNumbers(GameConstants.Region).filter(i => i != GameConstants.Region.none).forEach(region => {
             RoamingPokemonList.remove(region, 'Burpmon');
         });
-        dungeonList['Ilex Forest'].bossList = dungeonList['Ilex Forest'].bossList.filter(boss => boss.name != 'Grinch Celebi');
+        dungeonList['Ilex Forest'].bossList = dungeonList['Ilex Forest'].bossList.filter(boss => boss.name != 'Burpmon');
     }
 );
 // Golden Week
 SpecialEvents.newEvent('Golden Week', 'Enjoy your time off in the "Golden Week"! Travel tip: Visit the Flower Paradise in Sinnoh on your well earned vacation and enjoy the bloom of roses.',
     // Start
     new Date(new Date().getFullYear(), 3, 29, 1), () => {
-        dungeonList['Flower Paradise'].bossList.push(new DungeonBossPokemon('Bulbasaur (Rose)', 1600000, 100, {requirement: new ClearDungeonRequirement(10, GameConstants.getDungeonIndex('Flower Paradise'))}));
+        dungeonList['Flower Paradise'].bossList.push(new DungeonBossPokemon('Burpmon', 1600000, 100, {requirement: new ClearDungeonRequirement(10, GameConstants.getDungeonIndex('Flower Paradise'))}));
     },
     // End
     new Date(new Date().getFullYear(), 4, 6, 23), () => {
