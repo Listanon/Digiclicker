@@ -125,8 +125,8 @@ const PalletProfOak = new ProfNPC('Prof. Oak',
     'assets/images/oak.png');
 
 const ViridianCityOldMan = new NPC('Old Man', [
-    'Ahh, I\'ve had my coffee now and I feel great!',
-    'You can use the Pokéball Selector to select which type of Pokéball to use on specific Pokémon based on caught status.',
+    'In order to reduce server costs a caching system is in place.',
+    'Sometimes when you venture in dungeons you might encounter hostile cached echos of tamers who were there before you.',
 ]);
 
 const PewterBattleItemRival = new NPC('Battle Item Master', [
