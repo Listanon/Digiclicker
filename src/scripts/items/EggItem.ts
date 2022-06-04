@@ -51,9 +51,9 @@ class EggItem extends CaughtIndicatingItem {
 
 ItemList['Fire_egg']     = new EggItem(GameConstants.EggItemType.Fire_egg, 1000, undefined, 'Fire Egg');
 ItemList['Water_egg']    = new EggItem(GameConstants.EggItemType.Water_egg, 1000, undefined, 'Water Egg');
-ItemList['Grass_egg']    = new EggItem(GameConstants.EggItemType.Grass_egg, 1000, undefined, 'Grass Egg');
-ItemList['Fighting_egg'] = new EggItem(GameConstants.EggItemType.Fighting_egg, 1000, undefined, 'Fighting Egg');
+ItemList['Plant_egg']    = new EggItem(GameConstants.EggItemType.Plant_egg, 1000, undefined, 'Plant Egg');
+ItemList['Earth_egg'] = new EggItem(GameConstants.EggItemType.Earth_egg, 1000, undefined, 'Earth egg');
 ItemList['Electric_egg'] = new EggItem(GameConstants.EggItemType.Electric_egg, 1000, undefined, 'Electric Egg');
-ItemList['Dragon_egg']   = new EggItem(GameConstants.EggItemType.Dragon_egg, 1000, undefined, 'Dragon Egg');
+ItemList['Wind_egg']   = new EggItem(GameConstants.EggItemType.Dragon_egg, 1000, undefined, 'Wind_egg');
 ItemList['Pokemon_egg']  = new EggItem(GameConstants.EggItemType.Pokemon_egg, 1000, undefined, 'Pokémon Egg');
 ItemList['Mystery_egg']  = new EggItem(GameConstants.EggItemType.Mystery_egg, 700, undefined, 'Mystery Egg');
