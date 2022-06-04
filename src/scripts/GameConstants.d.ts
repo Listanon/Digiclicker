@@ -1529,9 +1529,9 @@ namespace GameConstants {
         'Fire_egg',
         'Water_egg',
         'Grass_egg',
-        'Fighting_egg',
+        'Earth_egg',
         'Electric_egg',
-        'Dragon_egg',
+        'Wind_egg',
         'Pokemon_egg',
         'Mystery_egg'
     }
