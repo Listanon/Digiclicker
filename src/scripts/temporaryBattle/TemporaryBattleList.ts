@@ -8,7 +8,7 @@ TemporaryBattleList['Ultra Wormhole'] = new TemporaryBattle(
 );
 TemporaryBattleList['Ultra Megalopolis'] = new TemporaryBattle(
     'Ultra Megalopolis',
-    [new GymPokemon('Necrozma (Ultra)', 282601920, 60)],
+    [new GymPokemon('Burpmon', 282601920, 60)],
     'Necrozma fled.',
     [new GymBadgeRequirement(BadgeEnums.DarkiniumZ)]
 );
