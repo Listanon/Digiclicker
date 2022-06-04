@@ -13,7 +13,8 @@ Change the type of `PokemonListData -> name` back to `PokemonNameType`
 */
 
 export type PokemonNameType
-    = 'Botamon'
+    = 'Ohakadamon'
+    | 'Botamon'
     | 'Punimon'
     | 'Koromon'
     | 'Tunomon'
