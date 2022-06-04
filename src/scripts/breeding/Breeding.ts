@@ -62,7 +62,7 @@ class Breeding implements Feature {
             ['Popplio', 'Wimpod'],
             ['Sobble', 'Chewtle'],
         ];
-        this.hatchList[EggType.Grass] = [
+        this.hatchList[EggType.Plant] = [
             ['Bulbasaur', 'Oddish', 'Tangela', 'Bellsprout'],
             ['Chikorita', 'Hoppip', 'Sunkern'],
             ['Treecko', 'Tropius', 'Roselia'],
@@ -72,7 +72,7 @@ class Breeding implements Feature {
             ['Rowlet', 'Morelull'],
             ['Grookey', 'Gossifleur'],
         ];
-        this.hatchList[EggType.Fighting] = [
+        this.hatchList[EggType.Earth] = [
             ['Hitmonlee', 'Hitmonchan', 'Machop', 'Mankey'],
             ['Tyrogue'],
             ['Makuhita', 'Meditite'],
@@ -92,7 +92,7 @@ class Breeding implements Feature {
             [],
             ['Toxel', 'Pincurchin'],
         ];
-        this.hatchList[EggType.Dragon] = [
+        this.hatchList[EggType.Wind] = [
             ['Dratini', 'Dragonair', 'Dragonite'],
             [],
             ['Bagon', 'Shelgon', 'Salamence'],
