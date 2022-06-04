@@ -978,7 +978,7 @@ export enum PokemonItemType {
     'Imperialdramon Fighter Mode',
     'Lampmon',
     'Metal Garurumon Black',
-    'Moon=Millenniumon',
+    'Moon Millenniumon',
     'Pharaohmon',
     'Prince Mamemon',
     'Qinglongmon',
