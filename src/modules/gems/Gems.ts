@@ -49,7 +49,7 @@ export default class Gems implements Feature {
     }
 
     public static image(type: number): string {
-        return `assets/images/gems/${PokemonType[type]} Gem.png`;
+        return `assets/images/gems/${PokemonType[type]} Chip.png`;
     }
 
     public gainGems(amt: number, typeNum: PokemonType) {
