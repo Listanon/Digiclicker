@@ -1525,7 +1525,7 @@ GymList['Stow-on-Side1'] = new Gym(
     [
         new GymPokemon('Burpmon', 65892712, 34),
         new GymPokemon('Burpmon', 65892712, 34),
-        new GymPokemon('Sirfetch\'d', 66586319, 35),
+        new GymPokemon('Burpmon', 66586319, 35),
         new GymPokemon('Burpmon', 69360749, 36),
     ],
     BadgeEnums.Galar_Fighting,
@@ -1554,7 +1554,7 @@ GymList['Ballonlea'] = new Gym(
         new GymPokemon('Burpmon', 71622513, 36),
         new GymPokemon('Burpmon', 71622513, 36),
         new GymPokemon('Burpmon', 73130355, 37),
-        new GymPokemon('Alcremie (Strawberry Vanilla)', 75392119, 38),
+        new GymPokemon('Burpmon', 75392119, 38),
     ],
     BadgeEnums.Galar_Fairy,
     80000,
