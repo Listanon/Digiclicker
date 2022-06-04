@@ -165,7 +165,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 7,
-        'name': 'Damemon C\'mon',
+        'name': 'Damemon Cmon',
         'catchRate': 35,
         'type': [PokemonType.Free, PokemonType.Neutral],
         'levelType': LevelType.mediumfast,
@@ -579,7 +579,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 30,
-        'name': 'Deathmon C\'mon',
+        'name': 'Deathmon Cmon',
         'catchRate': 20,
         'type': [PokemonType.Free, PokemonType.Neutral],
         'levelType': LevelType.fast,
@@ -15357,7 +15357,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 851,
-        'name': 'Z\'d Garurumon',
+        'name': 'Zd Garurumon',
         'catchRate': 5,
         'type': [PokemonType.Data, PokemonType.Electric],
         'levelType': LevelType.fluctuating,
@@ -21880,8 +21880,8 @@ const maxEggCycles = Math.max(...pokemonList.map(p => p.eggCycles));
 // Specifically Roamers not sure what else.
 pokemonList.forEach(p => {
     // Calculate our attack values
-    const baseOffense = 2 * Math.round(Math.sqrt(p.base.attack * p.base.specialAttack) + Math.sqrt(p.base.speed));
-    const baseDefense = 2 * Math.round(Math.sqrt(p.base.defense * p.base.specialDefense) + Math.sqrt(p.base.speed));
+    const baseOffense = 2 * Math.round(Math.sqrt(p.base.attack * p.base.magic) + Math.sqrt(p.base.speed));
+    const baseDefense = 2 * Math.round(Math.sqrt(p.base.defense * p.base.intellect) + Math.sqrt(p.base.speed));
     const baseStamina = 2 * p.base.hitpoints;
     (p as PokemonListData).attack = Math.max(10, Math.floor(Math.sqrt(baseDefense * baseStamina) * baseOffense / 250));
 
