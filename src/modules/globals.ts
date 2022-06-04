@@ -65,10 +65,10 @@ type TmpPokemonListData = {
     type: PokemonType[];
     base: {
         hitpoints: number;
+        magic: number;
         attack: number;
-        specialAttack: number;
         defense: number;
-        specialDefense: number;
+        intellect: number;
         speed: number;
     };
     levelType: LevelType;
