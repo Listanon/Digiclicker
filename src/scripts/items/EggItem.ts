@@ -54,6 +54,6 @@ ItemList['Water_egg']    = new EggItem(GameConstants.EggItemType.Water_egg, 1000
 ItemList['Plant_egg']    = new EggItem(GameConstants.EggItemType.Plant_egg, 1000, undefined, 'Plant Egg');
 ItemList['Earth_egg'] = new EggItem(GameConstants.EggItemType.Earth_egg, 1000, undefined, 'Earth egg');
 ItemList['Electric_egg'] = new EggItem(GameConstants.EggItemType.Electric_egg, 1000, undefined, 'Electric Egg');
-ItemList['Wind_egg']   = new EggItem(GameConstants.EggItemType.Dragon_egg, 1000, undefined, 'Wind_egg');
+ItemList['Wind_egg']   = new EggItem(GameConstants.EggItemType.Wind_egg, 1000, undefined, 'Wind_egg');
 ItemList['Pokemon_egg']  = new EggItem(GameConstants.EggItemType.Pokemon_egg, 1000, undefined, 'Pokémon Egg');
 ItemList['Mystery_egg']  = new EggItem(GameConstants.EggItemType.Mystery_egg, 700, undefined, 'Mystery Egg');
