@@ -5892,7 +5892,7 @@ const Shademon = new Shop([
 const ShootingStarmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shooting Starmon');
-const ShoutmonKingVer. = new Shop([
+const ShoutmonKingVer = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shoutmon King Ver.');
 const Targetmon = new Shop([
