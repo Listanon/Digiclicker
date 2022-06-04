@@ -5699,13 +5699,13 @@ const Shoutmon = new Shop([
 ], 'Shoutmon');
 const ShoutmonDoruluCannon = new Shop([
     ItemList['Ohakadamon'],
-], 'Shoutmon + Dorulu Cannon');
+], 'Shoutmon-Dorulu Cannon');
 const ShoutmonJetSparrow = new Shop([
     ItemList['Ohakadamon'],
-], 'Shoutmon + Jet Sparrow');
+], 'Shoutmon-Jet Sparrow');
 const ShoutmonStarSword = new Shop([
     ItemList['Ohakadamon'],
-], 'Shoutmon + Star Sword');
+], 'Shoutmon-Star Sword');
 const Spadamon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Spadamon');
@@ -5798,7 +5798,7 @@ const MetalGreymon2010 = new Shop([
 ], 'Metal Greymon 2010 ');
 const MetalGreymonCyberLauncher = new Shop([
     ItemList['Ohakadamon'],
-], 'Metal Greymon + Cyber Launcher');
+], 'Metal Greymon-Cyber Launcher');
 const ShoutmonX4B = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shoutmon X4B');
@@ -5894,7 +5894,7 @@ const ShootingStarmon = new Shop([
 ], 'Shooting Starmon');
 const ShoutmonKingVer = new Shop([
     ItemList['Ohakadamon'],
-], 'Shoutmon King Ver.');
+], 'Shoutmon King Ver');
 const Targetmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Targetmon');
@@ -6680,7 +6680,7 @@ const WezenGammamon = new Shop([
 ], 'Wezen Gammamon');
 const BlackTailmonUver = new Shop([
     ItemList['Ohakadamon'],
-], 'Black Tailmon Uver.');
+], 'Black Tailmon Uver');
 const Canoweissmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Canoweissmon');
