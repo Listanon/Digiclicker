@@ -91,12 +91,16 @@ class Item {
 
     buy(n: number) {
 
-        if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level < this.levelreq) {
-            Notifier.notify({
-                message: `Your Digimon's level isn't high enough!`,
-                type: NotificationConstants.NotificationOption.danger,
-            });
-            return;
+        if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level != undefined) {
+            if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level < this.levelreq) {
+                Notifier.notify({
+                    message: `Your Digimon's level isn't high enough!`,
+                    type: NotificationConstants.NotificationOption.danger,
+                });
+                return;
+            }
+        else {
+
         }
 
         if (n <= 0) {
