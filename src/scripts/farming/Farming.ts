@@ -217,7 +217,7 @@ class Farming implements Feature {
             [
                 'This Berry drifted from a faraway sea. It is now cultivated in the Sinnoh region.' ,
                 'It has a tendency to expand into nearby plots.',
-            ] , undefined, ['Oricorio (Sensu)']);
+            ] , undefined, ['Burpmon']);
         this.berryData[BerryType.Watmel]    = new Berry(BerryType.Watmel,   [2300, 3400, 9800, 16560, 33120],
             32, 0.1, 1000, 10,
             [0, 0, 30, 10, 0], BerryColor.Pink,
@@ -294,7 +294,7 @@ class Farming implements Feature {
             29, 0.05, 1800, 15,
             [0, 10, 0, 15, 0], BerryColor.Blue,
             ['This Berry is said to be a new kind that is a cross of two Berries brought together by winds from far away.'],
-            undefined, ['Tropius', 'Flabébé (Blue)']);
+            undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Payapa]    = new Berry(BerryType.Payapa,   [4680, 11880, 23400, 34200, 68400],
             30, 0.05, 1900, 15,
             [0, 0, 10, 0, 15], BerryColor.Purple,
@@ -365,7 +365,7 @@ class Farming implements Feature {
         this.berryData[BerryType.Custap]    = new Berry(BerryType.Custap,   [3240, 8280, 13320, 27360, 54720],
             1, 0.05, 2700, 20,
             [0, 0, 40, 10, 0], BerryColor.Red,
-            ['The flesh underneath the Custap Berry\'s tough skin is sweet and creamy soft.'], undefined, ['Oricorio (Baile)']);
+            ['The flesh underneath the Custap Berry\'s tough skin is sweet and creamy soft.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Jaboca]    = new Berry(BerryType.Jaboca,   [4320, 8640, 16560, 33480, 66960],
             1, 0.05, 2800, 20,
             [0, 0, 0, 40, 10], BerryColor.Yellow,
@@ -419,7 +419,7 @@ class Farming implements Feature {
             0.5, 0, 15000, 20,
             [30, 10, 30, 10, 30], BerryColor.Green,
             ['This Berry is considered a mirage. It was said to be so strong that it had to be abandoned at the world\'s edge.'],
-            new Aura(AuraType.Shiny, [1.005, 1.01, 1.015]), ['Jirachi']);
+            new Aura(AuraType.Shiny, [1.005, 1.01, 1.015]), ['Burpmon']);
 
         this.berryData[BerryType.Enigma]    = new Berry(BerryType.Enigma,   [10800, 21600, 43200, 86400, 604800],
             0.5, 0, 15000, 20,
@@ -786,26 +786,26 @@ class Farming implements Feature {
 
         // Liechi
         this.mutations.push(new FieldMutation(.00001, BerryType.Liechi, BerryType.Passho, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Kyogre').id](),
+            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Ganlon
         this.mutations.push(new FieldMutation(.00001, BerryType.Ganlon, BerryType.Shuca, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Groudon').id](),
+            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Salac
         this.mutations.push(new FieldMutation(.00001, BerryType.Salac, BerryType.Coba, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Rayquaza').id](),
+            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Petaya
         this.mutations.push(new PetayaMutation(.00001));
         // Apicot
         this.mutations.push(new FieldMutation(.00001, BerryType.Apicot, BerryType.Chilan, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Palkia').id](),
+            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Lansat
         // TODO: HLXII - Add Mutation to evolve Payapa when Milotic, Gardevoir, Blissey, and Togekiss in party.
         this.mutations.push(new FieldMutation(.00001, BerryType.Lansat, BerryType.Roseli, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Dialga').id](),
+            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
 
         // Starf
