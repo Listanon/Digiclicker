@@ -595,10 +595,10 @@ export const EnvironmentCssClass: Record<Environment, string> = {
 
 export enum Starter {
     'None' = -1,
-    'Bulbasaur' = 0,
-    'Charmander' = 1,
-    'Squirtle' = 2,
-    'Pikachu' = 3,
+    'Botamon' = 0,
+    'Punimon' = 1,
+    'Poyomon' = 2,
+    'Yukimi Botamon' = 3,
 }
 
 export enum StoneType {
