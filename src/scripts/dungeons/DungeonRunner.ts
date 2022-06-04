@@ -145,7 +145,7 @@ class DungeonRunner {
 
             return Underground.gainMineItem(Underground.getMineItemByName(input).id, amount);
 
-        }  else if (PokemonHelper.getPokemonByName(input).name != 'MissingNo.') {
+        }  else if (PokemonHelper.getPokemonByName(input).name != 'Ohakadamon') {
             Notifier.notify({
                 message: `Found ${1} × ${GameConstants.humanifyString(input)} in a dungeon chest`,
                 type: NotificationConstants.NotificationOption.success,
