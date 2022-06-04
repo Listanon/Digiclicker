@@ -44,7 +44,7 @@ class Breeding implements Feature {
     initialize(): void {
         this.hatchList[EggType.Fire] = [
             ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-            ['Burpmon', 'SluBurpmongma', 'Burpmon', 'Burpmon'],
+            ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon'],
             ['Burpmon'],
             ['Burpmon', 'Burpmon'],
