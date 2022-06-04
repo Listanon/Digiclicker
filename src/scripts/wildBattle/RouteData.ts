@@ -809,8 +809,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 205', GameConstants.Region.sinnoh, 205,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (west)'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (west)', 'Gastrodon (west)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Valley Windworks'))]
 ));
@@ -872,8 +872,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 213', GameConstants.Region.sinnoh, 213,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Shellos (east)', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (east)', 'Gastrodon (east)'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.sinnoh, 214)],
     210.3
@@ -881,8 +881,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 212', GameConstants.Region.sinnoh, 212,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (east)', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (east)', 'Gastrodon (east)'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.sinnoh, 213)],
     210.4
@@ -898,8 +898,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 218', GameConstants.Region.sinnoh, 218,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Gastrodon (west)', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (west)', 'Gastrodon (west)', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Fen)],
     210.6
@@ -935,7 +935,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 221', GameConstants.Region.sinnoh, 221,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Shellos (west)', 'Gastrodon (west)', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.sinnoh, 220)]
@@ -943,7 +943,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 222', GameConstants.Region.sinnoh, 222,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Gastrodon (east)', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Distortion World'))]
@@ -958,8 +958,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Sinnoh Route 224', GameConstants.Region.sinnoh, 224,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Gastrodon (east)', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Gastrodon (east)'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Elite_SinnohChampion)]
 ));
@@ -1019,7 +1019,7 @@ Routes.add(new RegionRoute(
     'Unova Route 19', GameConstants.Region.unova, 19,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon'],
-        water: ['Basculin (Red-Striped)', 'Basculin (Blue-Striped)'],
+        water: ['Burpmon', 'Burpmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Elite_SinnohChampion)],
     0.1
@@ -1028,7 +1028,7 @@ Routes.add(new RegionRoute(
     'Unova Route 20', GameConstants.Region.unova, 20,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Basculin (Red-Striped)', 'Basculin (Blue-Striped)'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.unova, 19)],
     0.2
@@ -1160,7 +1160,7 @@ Routes.add(new RegionRoute(
     'Unova Route 22', GameConstants.Region.unova, 22,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Basculin (Blue-Striped)'],
+        water: ['Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.unova, 21)]
 ));
@@ -1265,7 +1265,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kalos Route 3', GameConstants.Region.kalos, 3,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burmy (plant)', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Santalune Forest'))]
@@ -1483,7 +1483,7 @@ Routes.add(new RegionRoute(
     'Kala\'e Bay', GameConstants.Region.alola, 20,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Wishiwashi (Solo)'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [
         new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Seaward Cave')),
@@ -1985,7 +1985,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Circhester Bay', GameConstants.Region.galar, 21,
     new RoutePokemon({
-        land: ['Gastrodon (east)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         headbutt: ['Burpmon'],
     }),
@@ -1994,7 +1994,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Outer Spikemuth', GameConstants.Region.galar, 22,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon','Burpmon', 'Burpmon (hangry)', 'Burpmon', 'Burpmon', 'Burpmon','Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon','Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon','Burpmon', 'Burpmon', 'Burpmon'],
         headbutt: ['Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.galar, 21)]
@@ -2009,7 +2009,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Galar Route 10 North', GameConstants.Region.galar, 24,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon (noice)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon','Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon','Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.galar, 23)]
 ));
@@ -2092,7 +2092,7 @@ Routes.add(new RegionRoute(
     'Challenge Beach', GameConstants.Region.galar, 28,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Wishiwashi (Solo)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Clear])),
@@ -2275,11 +2275,11 @@ Routes.add(new RegionRoute(
         water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon (mow)'],  new WeatherRequirement([WeatherType.Clear])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon (fan)', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Overcast])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon (frost)', 'Burpmon'], new WeatherRequirement([WeatherType.Rain])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon (wash)', 'Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Thunderstorm])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon (heat)', 'Burpmon'], new WeatherRequirement([WeatherType.Sunny])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Overcast])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Rain])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Thunderstorm])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Sunny])),
           new SpecialRoutePokemon(['Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Sandstorm])),
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Fog])),
       ],
@@ -2297,7 +2297,7 @@ Routes.add(new RegionRoute(
     'Stepping-Stone Sea', GameConstants.Region.galar, 37,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Wishiwashi (Solo)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Clear])),
@@ -2324,7 +2324,7 @@ Routes.add(new RegionRoute(
     'Insular Sea', GameConstants.Region.galar, 38,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Wishiwashi (Solo)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Clear])),
@@ -2347,7 +2347,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Honeycalm Sea', GameConstants.Region.galar, 39,
     new RoutePokemon({
-        water: ['Burpmon', 'Burpmon', 'Wishiwashi (Solo)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Clear])),
@@ -2372,7 +2372,7 @@ Routes.add(new RegionRoute(
     'Honeycalm Island', GameConstants.Region.galar, 40,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Wishiwashi (Solo)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon'], new WeatherRequirement([WeatherType.Clear])),
@@ -2412,11 +2412,11 @@ Routes.add(new RegionRoute(
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Nidoran(M)', 'Nidoran(F)', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Nidoran(M)', 'Nidoran(F)', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Overcast])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Nidoran(M)', 'Nidoran(F)', 'Burpmon'],  new WeatherRequirement([WeatherType.Snow])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Nidoran(M)', 'Nidoran(F)', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Blizzard])),
-          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Nidoran(M)', 'Nidoran(F)', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Sunny])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Overcast])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Snow])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Blizzard])),
+          new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Sunny])),
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Fog])),
       ],
         headbutt: ['Burpmon', 'Burpmon'],
@@ -2426,8 +2426,8 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Giants Bed', GameConstants.Region.galar, 43,
     new RoutePokemon({
-        land: ['Nidoran(M)', 'Nidoran(F)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Basculin (Red-Striped)', 'Basculin (Blue-Striped)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
@@ -2446,7 +2446,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Old Cemetery', GameConstants.Region.galar, 44,
     new RoutePokemon({
-        land: ['Nidoran(M)', 'Nidoran(F)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
@@ -2465,7 +2465,7 @@ Routes.add(new RegionRoute(
     'Giants Foot', GameConstants.Region.galar, 45,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Basculin (Red-Striped)', 'Basculin (Blue-Striped)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
@@ -2484,7 +2484,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Roaring-Sea Caves', GameConstants.Region.galar, 46,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Basculin (Red-Striped)', 'Basculin (Blue-Striped)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon'],  new WeatherRequirement([WeatherType.Snow])),
@@ -2497,7 +2497,7 @@ Routes.add(new RegionRoute(
     'Frigid Sea', GameConstants.Region.galar, 47,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Basculin (Red-Striped)', 'Basculin (Blue-Striped)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
@@ -2540,7 +2540,7 @@ Routes.add(new RegionRoute(
     'Ballimere Lake', GameConstants.Region.galar, 50,
     new RoutePokemon({
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Basculin (Red-Striped)', 'Basculin (Blue-Striped)', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         special:
       [
           new SpecialRoutePokemon(['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],  new WeatherRequirement([WeatherType.Clear])),
