@@ -352,7 +352,7 @@ ItemList['Imperialdramon Dragon Mode Black'] = new PokemonItem('Imperialdramon D
 ItemList['Imperialdramon Fighter Mode'] = new PokemonItem('Imperialdramon Fighter Mode', 203, Currency.attackcoin, 56);
 ItemList['Lampmon'] = new PokemonItem('Lampmon', 195, Currency.healthcoin, 51);
 ItemList['Metal Garurumon Black'] = new PokemonItem('Metal Garurumon Black', 165, Currency.attackcoin, 52);
-ItemList['Moon=Millenniumon'] = new PokemonItem('Moon=Millenniumon', 153, Currency.defencecoin, 51);
+ItemList['Moon Millenniumon'] = new PokemonItem('Moon Millenniumon', 153, Currency.defencecoin, 51);
 ItemList['Pharaohmon'] = new PokemonItem('Pharaohmon', 207, Currency.defencecoin, 57);
 ItemList['Prince Mamemon'] = new PokemonItem('Prince Mamemon', 165, Currency.defencecoin, 49);
 ItemList['Qinglongmon'] = new PokemonItem('Qinglongmon', 207, Currency.speedcoin, 61);
