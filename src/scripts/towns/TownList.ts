@@ -1868,7 +1868,7 @@ TownList['Pledge Grove'] = new DungeonTown(
     'Pledge Grove',
     GameConstants.Region.unova,
     [
-        new ObtainedPokemonRequirement(pokemonMap.Keldeo),
+        new ObtainedPokemonRequirement(pokemonMap.Burpmon),
         new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Moor of Icirrus')),
     ]
 );
@@ -1968,8 +1968,8 @@ TownList['Abundant Shrine'] = new DungeonTown(
     [
         new RouteKillRequirement(10, GameConstants.Region.unova, 23),
         new RouteKillRequirement(10, GameConstants.Region.unova, 14),
-        new ObtainedPokemonRequirement(pokemonMap.Tornadus),
-        new ObtainedPokemonRequirement(pokemonMap.Thundurus),
+        new ObtainedPokemonRequirement(pokemonMap.Burpmon),
+        new ObtainedPokemonRequirement(pokemonMap.Burpmon),
     ]
 );
 TownList['Victory Road Unova'] = new DungeonTown(
@@ -2001,9 +2001,9 @@ TownList['Moor of Icirrus'] = new DungeonTown(
     GameConstants.Region.unova,
     [
         new RouteKillRequirement(10, GameConstants.Region.unova, 8),
-        new ObtainedPokemonRequirement(pokemonMap.Cobalion),
-        new ObtainedPokemonRequirement(pokemonMap.Terrakion),
-        new ObtainedPokemonRequirement(pokemonMap.Virizion),
+        new ObtainedPokemonRequirement(pokemonMap.Burpmon),
+        new ObtainedPokemonRequirement(pokemonMap.Burpmon),
+        new ObtainedPokemonRequirement(pokemonMap.Burpmon),
     ]
 );
 TownList['Pinwheel Forest'] = new DungeonTown(
@@ -4059,7 +4059,7 @@ const Lampmon = new Shop([
 const MetalGarurumonBlack = new Shop([
     ItemList['Ohakadamon'],
 ], 'Metal Garurumon Black');
-const Moon=Millenniumon = new Shop([
+const MoonMillenniumon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Moon=Millenniumon');
 const Pharaohmon = new Shop([
@@ -5460,7 +5460,7 @@ const Peckmon = new Shop([
 const Sunflowmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Sunflowmon');
-const Yoxtu!Yoxtu!mon = new Shop([
+const YoxtuYoxtumon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Yoxtu!Yoxtu!mon');
 const AlgomonPerfect = new Shop([
@@ -5697,13 +5697,13 @@ const Monitamon = new Shop([
 const Shoutmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shoutmon');
-const Shoutmon+DoruluCannon = new Shop([
+const ShoutmonDoruluCannon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shoutmon + Dorulu Cannon');
-const Shoutmon+JetSparrow = new Shop([
+const ShoutmonJetSparrow = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shoutmon + Jet Sparrow');
-const Shoutmon+StarSword = new Shop([
+const ShoutmonStarSword = new Shop([
     ItemList['Ohakadamon'],
 ], 'Shoutmon + Star Sword');
 const Spadamon = new Shop([
@@ -5796,7 +5796,7 @@ const DeckerGreymon = new Shop([
 const MetalGreymon2010 = new Shop([
     ItemList['Ohakadamon'],
 ], 'Metal Greymon 2010 ');
-const MetalGreymon+CyberLauncher = new Shop([
+const MetalGreymonCyberLauncher = new Shop([
     ItemList['Ohakadamon'],
 ], 'Metal Greymon + Cyber Launcher');
 const ShoutmonX4B = new Shop([
@@ -6678,7 +6678,7 @@ const TeslaJellymon = new Shop([
 const WezenGammamon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Wezen Gammamon');
-const BlackTailmonUver. = new Shop([
+const BlackTailmonUver = new Shop([
     ItemList['Ohakadamon'],
 ], 'Black Tailmon Uver.');
 const Canoweissmon = new Shop([
