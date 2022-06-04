@@ -15591,7 +15591,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 864,
-        'name': 'Shoutmon + Dorulu Cannon',
+        'name': 'Shoutmon-Dorulu Cannon',
         'catchRate': 35,
         'type': [PokemonType.Data, PokemonType.Fire],
         'levelType': LevelType.mediumfast,
@@ -15609,7 +15609,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 865,
-        'name': 'Shoutmon + Jet Sparrow',
+        'name': 'Shoutmon-Jet Sparrow',
         'catchRate': 35,
         'type': [PokemonType.Data, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
@@ -15627,7 +15627,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 866,
-        'name': 'Shoutmon + Star Sword',
+        'name': 'Shoutmon-Star Sword',
         'catchRate': 35,
         'type': [PokemonType.Data, PokemonType.Light],
         'levelType': LevelType.mediumfast,
@@ -16185,7 +16185,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 897,
-        'name': 'Metal Greymon + Cyber Launcher',
+        'name': 'Metal Greymon-Cyber Launcher',
         'catchRate': 15,
         'type': [PokemonType.Virus, PokemonType.Electric],
         'levelType': LevelType.erratic,
@@ -16761,7 +16761,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 929,
-        'name': 'Shoutmon King Ver.',
+        'name': 'Shoutmon King Ver',
         'catchRate': 25,
         'type': [PokemonType.Data, PokemonType.Light],
         'levelType': LevelType.slow,
@@ -21477,7 +21477,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 1191,
-        'name': 'Black Tailmon Uver.',
+        'name': 'Black Tailmon Uver',
         'catchRate': 15,
         'type': [PokemonType.Virus, PokemonType.Dark],
         'levelType': LevelType.erratic,
