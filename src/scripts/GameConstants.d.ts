@@ -294,6 +294,7 @@ namespace GameConstants {
     }
     declare enum PokemonItemType {
 
+        'Ohakadamon',
         'Botamon',
         'Punimon',
         'Koromon',
