@@ -34,6 +34,7 @@ class PokemonItem extends CaughtIndicatingItem {
     }
 }
 
+ItemList['Ohakadamon'] = new PokemonItem('Ohakadamon', 1, Currency.scancoin, 100);
 ItemList['Botamon'] = new PokemonItem('Botamon', 8, Currency.defencecoin, 12);
 ItemList['Punimon'] = new PokemonItem('Punimon', 9, Currency.attackcoin, 12);
 ItemList['Koromon'] = new PokemonItem('Koromon', 23, Currency.attackcoin, 15);
