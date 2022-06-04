@@ -54,10 +54,11 @@
                     </td>
                 </tr>
             </thead>
+            console.log(a);
             <tbody data-bind="foreach: PartyController.getSortedList()">
                 <tr data-bind="hidden: $data.breeding">
                     <td>
-                        <button class="btn btn-primary m-0" data-bind="click: ShopHandler.showShop(eval(ko.toJSON($data.name).substr(1,ko.toJSON($data,name).length -5).slice(0, -1)))" href="#shopModal" data-toggle="modal">
+                        <button class="btn btn-primary m-0" data-bind="click: ShopHandler.showShop(eval(ko.toJSON($data.name).substr(1,ko.toJSON($data,name).length -5).slice(0, -1).replace(/!|-|\s/g,'')))" href="#shopModal" data-toggle="modal">
                             <img
                             class="smallImage"
                             data-bind="attr: { src: PokemonHelper.getImage($data, App.game.party.alreadyCaughtPokemon($data.id, true)) }"
