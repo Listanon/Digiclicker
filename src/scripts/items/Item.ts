@@ -88,10 +88,10 @@ class Item {
         }
     }
 
-
     buy(n: number) {
+        console.log(App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level);
 
-        if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level != undefined) {
+        if (PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id != 0) {
             if (App.game.party.getPokemon(PokemonHelper.getPokemonByName(ShopHandler.shopObservable().displayName).id).level < this.levelreq) {
                 Notifier.notify({
                     message: `Your Digimon's level isn't high enough!`,
@@ -99,8 +99,6 @@ class Item {
                 });
                 return;
             }
-        else {
-
         }
 
         if (n <= 0) {
