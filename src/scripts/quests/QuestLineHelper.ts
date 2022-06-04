@@ -204,23 +204,23 @@ class QuestLineHelper {
             vivillonQuestLine.addQuest(catchVivillon);
         };
 
-        createVivillonQuest(PokemonType.Water, 'Vivillon (Marine)', ['Lake Verity', 'Lake Valor', 'Lake Acuity'], 'It has been spotted at some Lakes.');
-        createVivillonQuest(PokemonType.Virus, 'Vivillon (Modern)', ['Cerulean Cave'], 'It\'s surrounded by strong Pokémon.');
-        createVivillonQuest(PokemonType.Poison, 'Vivillon (Jungle)', ['Moor of Icirrus'], 'It has been spotted in a swamp.');
-        createVivillonQuest(PokemonType.Free, 'Vivillon (Monsoon)', ['Dark Cave'], 'It\'s hiding at a dark place.');
-        createVivillonQuest(PokemonType.Neutral, 'Vivillon (Tundra)', ['Pokéball Factory'], 'It flew into a factory.');
-        createVivillonQuest(PokemonType.Fire, 'Vivillon (Sun)', ['Mt. Chimney Crater'], 'It seems to like hot places.');
-        createVivillonQuest(PokemonType.Vaccine, 'Vivillon (Archipelago)', ['Sprout Tower'], 'It\'s sitting on a swaying pillar.');
-        createVivillonQuest(PokemonType.Ghost, 'Vivillon (Elegant)', ['Lost Hotel'], 'It\'s visiting an abandoned and spooky place.');
-        createVivillonQuest(PokemonType.Light, 'Vivillon (Ocean)', ['Dreamyard'], 'It\'s flying around an overgrown place full of dreams.');
-        createVivillonQuest(PokemonType.Electric, 'Vivillon (Continental)', ['New Mauville'], 'It\'s currently in a City full of Electric type Pokémon.');
-        createVivillonQuest(PokemonType.Data, 'Vivillon (River)', ['Eterna Forest'], 'It hides in a dark Forest.');
-        createVivillonQuest(PokemonType.Wind, 'Vivillon (Polar)', ['Sky Pillar'], 'It\'s high up in the sky.');
-        createVivillonQuest(PokemonType.Earth, 'Vivillon (Sandstorm)', ['Relic Castle'], 'It got lost in the desert sand.');
-        createVivillonQuest(PokemonType.Plant, 'Vivillon (Garden)', ['Flower Paradise'], 'It only shows up amongst the most beautiful flowers.');
-        createVivillonQuest(PokemonType.Rock, 'Vivillon (High Plains)', ['Mt. Moon'], 'It has been spotted dancing in the moonlight.');
-        createVivillonQuest(PokemonType.Dark, 'Vivillon (Savanna)', ['Dragonspiral Tower'], 'It\'s surrounded by dragons.');
-        createVivillonQuest(PokemonType.Ice, 'Vivillon (Icy Snow)', ['Frost Cavern'], 'It can be found at a very cold place.');
+        createVivillonQuest(PokemonType.Water, 'Burpmon', ['Lake Verity', 'Lake Valor', 'Lake Acuity'], 'It has been spotted at some Lakes.');
+        createVivillonQuest(PokemonType.Virus, 'Burpmon', ['Cerulean Cave'], 'It\'s surrounded by strong Pokémon.');
+        createVivillonQuest(PokemonType.Poison, 'Burpmon', ['Moor of Icirrus'], 'It has been spotted in a swamp.');
+        createVivillonQuest(PokemonType.Free, 'Burpmon', ['Dark Cave'], 'It\'s hiding at a dark place.');
+        createVivillonQuest(PokemonType.Neutral, 'Burpmon', ['Pokéball Factory'], 'It flew into a factory.');
+        createVivillonQuest(PokemonType.Fire, 'Burpmon', ['Mt. Chimney Crater'], 'It seems to like hot places.');
+        createVivillonQuest(PokemonType.Vaccine, 'Burpmon', ['Sprout Tower'], 'It\'s sitting on a swaying pillar.');
+        createVivillonQuest(PokemonType.Ghost, 'Burpmon', ['Lost Hotel'], 'It\'s visiting an abandoned and spooky place.');
+        createVivillonQuest(PokemonType.Light, 'Burpmon', ['Dreamyard'], 'It\'s flying around an overgrown place full of dreams.');
+        createVivillonQuest(PokemonType.Electric, 'Burpmon', ['New Mauville'], 'It\'s currently in a City full of Electric type Pokémon.');
+        createVivillonQuest(PokemonType.Data, 'Burpmon', ['Eterna Forest'], 'It hides in a dark Forest.');
+        createVivillonQuest(PokemonType.Wind, 'Burpmon', ['Sky Pillar'], 'It\'s high up in the sky.');
+        createVivillonQuest(PokemonType.Earth, 'Burpmon', ['Relic Castle'], 'It got lost in the desert sand.');
+        createVivillonQuest(PokemonType.Plant, 'Burpmon', ['Flower Paradise'], 'It only shows up amongst the most beautiful flowers.');
+        createVivillonQuest(PokemonType.Rock, 'Burpmon', ['Mt. Moon'], 'It has been spotted dancing in the moonlight.');
+        createVivillonQuest(PokemonType.Dark, 'Burpmon', ['Dragonspiral Tower'], 'It\'s surrounded by dragons.');
+        createVivillonQuest(PokemonType.Ice, 'Burpmon', ['Frost Cavern'], 'It can be found at a very cold place.');
 
         // Capture 200 Normal type Pokemon
         const catchNormal = new CustomQuest(200, undefined, 'Capture 200 Normal type Pokémon', () => {
@@ -342,10 +342,10 @@ class QuestLineHelper {
     public static createFindSurpriseTogepiForEasterQuestLine() {
         const findSurpriseTogepiForEasterQuestLine = new QuestLine('Togepi Egg Hunt', 'A strange Togepi has been spotted but cannot be found!');
 
-        const surpriseTogepi = pokemonMap['Surprise Togepi'];
+        const surpriseTogepi = pokemonMap['Burpmon'];
 
         const togepiInKantoSetup = () => {
-            dungeonList['Viridian Forest'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Surprise Togepi', 300000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion) }));
+            dungeonList['Viridian Forest'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Burpmon', 300000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion) }));
             App.game.statistics.pokemonDefeated[surpriseTogepi.id](0);
         };
         const afterDefeatingTogepiInKanto = () => {
@@ -363,7 +363,7 @@ class QuestLineHelper {
         findSurpriseTogepiForEasterQuestLine.addQuest(defeatTogepiInKanto);
 
         const togepiInJohtoSetup = () => {
-            dungeonList['Ilex Forest'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Surprise Togepi', 900000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion) }));
+            dungeonList['Ilex Forest'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Burpmon', 900000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion) }));
         };
         const afterDefeatingTogepiInJohto = () => {
             Notifier.notify({
@@ -379,7 +379,7 @@ class QuestLineHelper {
         findSurpriseTogepiForEasterQuestLine.addQuest(encounterSurpriseTogepiInJohto);
 
         const togepiInHoennSetup = () => {
-            dungeonList['Petalburg Woods'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Surprise Togepi', 2700000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_HoennChampion) }));
+            dungeonList['Petalburg Woods'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Burpmon', 2700000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_HoennChampion) }));
         };
         const afterDefeatingTogepiInHoenn = () => {
             App.game.party.gainPokemonById(surpriseTogepi.id);
