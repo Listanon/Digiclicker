@@ -4061,7 +4061,7 @@ const MetalGarurumonBlack = new Shop([
 ], 'Metal Garurumon Black');
 const MoonMillenniumon = new Shop([
     ItemList['Ohakadamon'],
-], 'Moon=Millenniumon');
+], 'Moon Millenniumon');
 const Pharaohmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Pharaohmon');
