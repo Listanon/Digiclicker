@@ -18,10 +18,10 @@ type PokemonListData = {
   type: PokemonType[];
   base: {
     hitpoints: number;
+    magic: number;
     attack: number;
-    specialAttack: number;
     defense: number;
-    specialDefense: number;
+    intellect: number;
     speed: number;
   };
   levelType: LevelType;
@@ -48,10 +48,10 @@ const pokemonList = createPokemonArray(
         'eggCycles': 100,
         'base': {
             'hitpoints': 10,
+            'magic': 10,
             'attack': 10,
-            'specialAttack': 10,
             'defense': 10,
-            'specialDefense': 10,
+            'intellect': 10,
             'speed': 10,
         },
     },
