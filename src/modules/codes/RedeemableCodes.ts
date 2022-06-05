@@ -15,7 +15,7 @@ export default class RedeemableCodes implements Saveable {
             new RedeemableCode('farming-quick-start', -83143881, false, () => {
                 // Give the player 10k farming points, 100 Cheri berries
                 App.game.wallet.gainFarmPoints(10000);
-                App.game.farming.gainBerry(BerryType.Cheri, 100, false);
+                App.game.farming.gainBerry(BerryType.Games, 100, false);
                 // Notify that the code was activated successfully
                 Notifier.notify({
                     title: 'Code activated!',
