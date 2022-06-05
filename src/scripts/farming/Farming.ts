@@ -125,7 +125,7 @@ class Farming implements Feature {
         this.berryData[BerryType.Camera]     = new Berry(BerryType.Camera,    [25, 30, 35, 250, 500],
             11, 0.4, 25, 2,
             [0, 0, 10, 10, 0], BerryColor.Pink,
-            ['Bitter, but with a trace of sweetness, the OracleDisk Berry was the seventh to be discovered in the world.'], undefined, ['Burpmon']);
+            ['Bitter, but with a trace of sweetness, the eBook Berry was the seventh to be discovered in the world.'], undefined, ['Burpmon']);
         this.berryData[BerryType.GPS]    = new Berry(BerryType.GPS,   [150, 350, 375, 400, 800],
             12, 0.4, 30, 2,
             [0, 0, 0, 10, 10], BerryColor.Green,
@@ -438,37 +438,37 @@ class Farming implements Feature {
         //#region Second Generation
 
         // Mail
-        this.mutations.push(new GrowNearBerryMutation(.02, BerryType.FightDisk,
+        this.mutations.push(new GrowNearBerryMutation(.02, BerryType.Games,
             [
                 BerryType.Health,
                 BerryType.Chat,
             ]));
         // Cards
-        this.mutations.push(new GrowNearBerryMutation(.019, BerryType.ToughDisk,
+        this.mutations.push(new GrowNearBerryMutation(.019, BerryType.Security,
             [
                 BerryType.Games,
                 BerryType.eBook,
             ]));
         // Compress
-        this.mutations.push(new GrowNearBerryMutation(.018, BerryType.ChargeDisk,
+        this.mutations.push(new GrowNearBerryMutation(.018, BerryType.Step,
             [
                 BerryType.Security,
                 BerryType.eBook,
             ]));
         // Camera
-        this.mutations.push(new GrowNearBerryMutation(.017, BerryType.OracleDisk,
+        this.mutations.push(new GrowNearBerryMutation(.017, BerryType.eBook,
             [
                 BerryType.Health,
                 BerryType.Light,
             ]));
         // GPS
-        this.mutations.push(new GrowNearBerryMutation(.016, BerryType.EnergyDisk,
+        this.mutations.push(new GrowNearBerryMutation(.016, BerryType.Health,
             [
                 BerryType.Step,
                 BerryType.Chat,
             ]));
         // Shopping
-        this.mutations.push(new GrowNearBerryMutation(.015, BerryType.MageDisk,
+        this.mutations.push(new GrowNearBerryMutation(.015, BerryType.Light,
             [
                 BerryType.Finance,
                 BerryType.Light,
@@ -549,7 +549,7 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0005, BerryType.Diary,
             [
                 BerryType.Security,
-                BerryType.FightDisk,
+                BerryType.Games,
             ]));
         // Accounting
         this.mutations.push(new GrowNearFlavorMutation(.0005, BerryType.Accounting,
@@ -578,26 +578,26 @@ class Farming implements Feature {
                 BerryType.Music,
             ]));
         // News
-        this.mutations.push(new EvolveNearBerryMutation(.0005, BerryType.News, BerryType.ToughDisk, [BerryType.Travel]));
+        this.mutations.push(new EvolveNearBerryMutation(.0005, BerryType.News, BerryType.Security, [BerryType.Travel]));
         // Dictionary
         this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Dictionary,
             [
                 BerryType.eBook,
-                BerryType.ChargeDisk,
+                BerryType.Step,
                 BerryType.Backup,
             ]));
-        // Sleepst
-        this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Sleepst,
+        // Cooking
+        this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Cooking,
             [
                 BerryType.Health,
-                BerryType.OracleDisk,
+                BerryType.eBook,
                 BerryType.Sleep,
             ]));
         // Wallpaper
         this.mutations.push(new EvolveNearBerryMutation(.0003, BerryType.Wallpaper, BerryType.Light, [BerryType.Calendar]));
         // Fashion
         this.mutations.push(new GrowNearBerryMutation(.0003, BerryType.Fashion,
-            [BerryType.MageDisk]));
+            [BerryType.Light]));
         // Advice
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Advice, BerryType.News,
             [[130, 160], [0, 80], [0, 80], [0, 80], [0, 80]], {
@@ -612,9 +612,9 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0004, BerryType.Search,
             [BerryType.Search], { showHint: false }));
         // Gourmet
-        this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Gourmet, BerryType.Sleepst,
+        this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Gourmet, BerryType.Cooking,
             [[0, 80], [0, 80], [130, 160], [0, 80], [0, 80]], {
-                hint: 'I\'ve heard that a Sleepst berry will change if its surroundings get extremely sweet!',
+                hint: 'I\'ve heard that a Cooking berry will change if its surroundings get extremely sweet!',
             }));
         // Paint
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Paint, BerryType.Wallpaper,
@@ -634,7 +634,7 @@ class Farming implements Feature {
         // Broadcasting
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Broadcasting,
             [
-                BerryType.ToughDisk,
+                BerryType.Security,
                 BerryType.Music,
                 BerryType.News,
                 BerryType.Advice,
@@ -652,7 +652,7 @@ class Farming implements Feature {
         // Auction
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Auction,
             [
-                BerryType.MageDisk,
+                BerryType.Light,
                 BerryType.Weather,
                 BerryType.Accounting,
                 BerryType.Alarm,
@@ -695,7 +695,7 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Translate,
             [
                 BerryType.Backup,
-                BerryType.ChargeDisk,
+                BerryType.Step,
                 BerryType.Dictionary,
                 BerryType.Search,
             ]));
@@ -743,8 +743,8 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Hotel,
             [
                 BerryType.Sleep,
-                BerryType.OracleDisk,
-                BerryType.Sleepst,
+                BerryType.eBook,
+                BerryType.Cooking,
                 BerryType.Gourmet,
             ]));
         //#endregion
@@ -797,7 +797,7 @@ class Farming implements Feature {
             unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Trashbin
-        this.mutations.push(new TrashbinMutation(.00001));
+        this.mutations.push(new PetayaMutation(.00001));
         // Gashapon
         this.mutations.push(new FieldMutation(.00001, BerryType.Gashapon, BerryType.Slots, undefined, {
             unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
@@ -811,7 +811,7 @@ class Farming implements Feature {
         // Battery
         // No mutation, obtained by wandering shiny pokemon
         // Calculator
-        this.mutations.push(new CalculatorMutation(.0001));
+        this.mutations.push(new EnigmaMutation(.0001));
         // Calculator Mutations
         this.mutations.push(new EvolveNearBerryMutation(.0004, BerryType.Monitoring, BerryType.Gossip, [BerryType.Calculator], {
             showHint: false,
@@ -1035,11 +1035,11 @@ class Farming implements Feature {
     //#region Plot Unlocking
 
     static unlockMatrix = [
-        BerryType.Diary, BerryType.Sleep, BerryType.FightDisk, BerryType.EnergyDisk, BerryType.Accounting,
+        BerryType.Diary, BerryType.Sleep, BerryType.Games, BerryType.Health, BerryType.Accounting,
         BerryType.Backup, BerryType.Light, BerryType.Games, BerryType.eBook, BerryType.Calendar,
-        BerryType.OracleDisk, BerryType.Step, BerryType.None, BerryType.Security, BerryType.ToughDisk,
-        BerryType.Travel, BerryType.Finance, BerryType.Health, BerryType.Chat, BerryType.MageDisk,
-        BerryType.Alarm, BerryType.Music, BerryType.ChargeDisk, BerryType.Weather, BerryType.Video,
+        BerryType.eBook, BerryType.Step, BerryType.None, BerryType.Security, BerryType.Security,
+        BerryType.Travel, BerryType.Finance, BerryType.Health, BerryType.Chat, BerryType.Light,
+        BerryType.Alarm, BerryType.Music, BerryType.Step, BerryType.Weather, BerryType.Video,
     ]
 
     unlockPlot(index: number) {
