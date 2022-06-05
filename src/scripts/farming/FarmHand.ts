@@ -228,7 +228,7 @@ class FarmHand {
                             berry = this.focus();
                     }
                     // If we somehow didn't find a berry to use, just plant a Cheri..
-                    berry = berry < 0 ? BerryType.Cheri : berry;
+                    berry = berry < 0 ? BerryType.Games : berry;
                     App.game.farming.plant(emptyPlotIndex, berry as BerryType);
                     workTimes--;
                     worked = true;
