@@ -427,10 +427,10 @@ const JohtoBerryMaster = new BerryMasterShop([
     ItemList['Mulch_Shovel'],
     ItemList['Squirtbottle'],
     ItemList['FarmHandBailey'],
-    ItemList['ChopleBerry'],
-    ItemList['KebiaBerry'],
-    ItemList['ShucaBerry'],
-    ItemList['ChartiBerry'],
+    ItemList['PuzzleDisk'],
+    ItemList['FortuneDisk'],
+    ItemList['ExerciseDisk'],
+    ItemList['LibraryDisk'],
 ]);
 
 const NewBarkTechnologyEnthusiast = new NPC('Tech Enthusiast', [
