@@ -151,8 +151,8 @@ class Plot implements Saveable {
 
                 tooltip.push(`<u>${BerryType[this.berry]}</u>`);
 
-                // Petaya Effect
-                if (App.game.farming.berryInFarm(BerryType.Petaya) && this.berry !== BerryType.Petaya && this.stage() == PlotStage.Berry) {
+                // Trashbin Effect
+                if (App.game.farming.berryInFarm(BerryType.Trashbin) && this.berry !== BerryType.Trashbin && this.stage() == PlotStage.Berry) {
                     tooltip.push('∞ until death');
                 // Normal Time
                 } else {
@@ -236,8 +236,8 @@ class Plot implements Saveable {
             const oldAge = this.age;
             this.age += growthTime;
 
-            // Checking for Petaya Berries
-            if (App.game.farming.berryInFarm(BerryType.Petaya) && this.berry !== BerryType.Petaya) {
+            // Checking for Trashbin Berries
+            if (App.game.farming.berryInFarm(BerryType.Trashbin) && this.berry !== BerryType.Trashbin) {
                 this.age = Math.min(this.age, this.berryData.growthTime[3] + 1);
             }
 
@@ -328,14 +328,14 @@ class Plot implements Saveable {
 
             this.notifications.push(FarmNotificationType.Withered);
 
-            // Check for Kasib berry mutation/replant chance
-            if (App.game.farming.highestUnlockedBerry() >= BerryType.Occa) {
-                if (!App.game.farming.berryInFarm(BerryType.Colbur)) {
+            // Check for Action berry mutation/replant chance
+            if (App.game.farming.highestUnlockedBerry() >= BerryType.Broadcasting) {
+                if (!App.game.farming.berryInFarm(BerryType.Entertainment)) {
                     if (Rand.chance(0.05)) {
                         this.notifications.push(FarmNotificationType.Mutated);
-                        this.berry = BerryType.Kasib;
+                        this.berry = BerryType.Action;
                         this.age = 0;
-                        App.game.farming.unlockBerry(BerryType.Kasib);
+                        App.game.farming.unlockBerry(BerryType.Action);
                         return;
                     }
                 }
@@ -367,14 +367,14 @@ class Plot implements Saveable {
             // Gain Pokemon
             App.game.party.gainPokemonById(PokemonHelper.getPokemonByName(wanderPokemon).id, shiny, true);
 
-            // Check for Starf berry generation
+            // Check for Battery berry generation
             if (shiny) {
                 const emptyPlots = App.game.farming.plotList.filter(plot => plot.isUnlocked && plot.isEmpty());
-                // No Starf generation if no empty plots :(
+                // No Battery generation if no empty plots :(
                 if (emptyPlots.length) {
                     const chosenPlot = emptyPlots[Rand.floor(emptyPlots.length)];
-                    chosenPlot.plant(BerryType.Starf);
-                    App.game.farming.unlockBerry(BerryType.Starf);
+                    chosenPlot.plant(BerryType.Battery);
+                    App.game.farming.unlockBerry(BerryType.Battery);
                 }
             }
 
@@ -397,7 +397,7 @@ class Plot implements Saveable {
         multiplier *= this._auras[AuraType.Growth]();
 
         // Handle Death Aura
-        if (this.stage() == PlotStage.Berry && this.berry != BerryType.Kasib) {
+        if (this.stage() == PlotStage.Berry && this.berry != BerryType.Action) {
             multiplier *= this._auras[AuraType.Death]();
         }
 
@@ -468,12 +468,12 @@ class Plot implements Saveable {
      * @param value The value to be set
      */
     setAura(auraType: AuraType, value: number): void {
-        // Death Aura doesn't apply to Kasib
-        if (auraType == AuraType.Death && this.berry === BerryType.Kasib) {
+        // Death Aura doesn't apply to Action
+        if (auraType == AuraType.Death && this.berry === BerryType.Action) {
             return;
         }
-        // Boost Aura doesn't apply to Lum
-        if (auraType == AuraType.Boost && this.berry === BerryType.Lum) {
+        // Boost Aura doesn't apply to Hacking
+        if (auraType == AuraType.Boost && this.berry === BerryType.Hacking) {
             return;
         }
         this._auras[auraType](value);
