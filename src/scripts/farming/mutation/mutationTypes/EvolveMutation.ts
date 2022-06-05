@@ -32,8 +32,8 @@ abstract class EvolveMutation extends Mutation {
             if (this.originalBerry && plot.berry !== this.originalBerry) {
                 return;
             }
-            // Babiri Berries can't mutate
-            if (plot.berry === BerryType.Babiri) {
+            // Medical Berries can't mutate
+            if (plot.berry === BerryType.Medical) {
                 return;
             }
             plots.push(idx);
