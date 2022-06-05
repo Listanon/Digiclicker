@@ -6,7 +6,7 @@
 class PetayaMutation extends GrowMutation {
 
     constructor(mutationChance: number, options?: MutationOptions) {
-        super(mutationChance, BerryType.Petaya, options);
+        super(mutationChance, BerryType.Trashbin, options);
     }
 
     /**
