@@ -28,7 +28,7 @@ class BerryItem extends Item {
     }
 }
 
-ItemList['ChopleBerry']   = new BerryItem(BerryType.Chople, 10000, GameConstants.Currency.farmPoint, BerryType.Spelon);
-ItemList['KebiaBerry']   = new BerryItem(BerryType.Kebia, 10000, GameConstants.Currency.farmPoint, BerryType.Pamtre);
-ItemList['ShucaBerry']   = new BerryItem(BerryType.Shuca, 10000, GameConstants.Currency.farmPoint, BerryType.Watmel);
-ItemList['ChartiBerry']   = new BerryItem(BerryType.Charti, 10000, GameConstants.Currency.farmPoint, BerryType.Cornn);
+ItemList['PuzzleDisk']   = new BerryItem(BerryType.Puzzle, 10000, GameConstants.Currency.farmPoint, BerryType.Advice);
+ItemList['FortuneDisk']   = new BerryItem(BerryType.Fortune, 10000, GameConstants.Currency.farmPoint, BerryType.Search);
+ItemList['ExerciseDisk']   = new BerryItem(BerryType.Exercise, 10000, GameConstants.Currency.farmPoint, BerryType.Gourmet);
+ItemList['LibraryDisk']   = new BerryItem(BerryType.Library, 10000, GameConstants.Currency.farmPoint, BerryType.Dictionary);
