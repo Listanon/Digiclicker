@@ -71,7 +71,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 2,
@@ -89,7 +89,7 @@ const pokemonList = createPokemonArray(
             'intellect': 11,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 3,
@@ -107,7 +107,7 @@ const pokemonList = createPokemonArray(
             'intellect': 13,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 4,
@@ -125,7 +125,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 5,
@@ -143,7 +143,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 6,
@@ -161,7 +161,7 @@ const pokemonList = createPokemonArray(
             'intellect': 48,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 7,
@@ -179,7 +179,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 8,
@@ -197,7 +197,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 9,
@@ -215,7 +215,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 10,
@@ -233,7 +233,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 11,
@@ -251,7 +251,7 @@ const pokemonList = createPokemonArray(
             'intellect': 71,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 12,
@@ -269,7 +269,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 13,
@@ -287,7 +287,7 @@ const pokemonList = createPokemonArray(
             'intellect': 67,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 14,
@@ -305,7 +305,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 15,
@@ -323,7 +323,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 16,
@@ -341,7 +341,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 17,
@@ -359,7 +359,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 18,
@@ -377,7 +377,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 19,
@@ -395,7 +395,7 @@ const pokemonList = createPokemonArray(
             'intellect': 71,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 20,
@@ -413,7 +413,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 21,
@@ -431,7 +431,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 22,
@@ -449,7 +449,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 23,
@@ -467,7 +467,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 24,
@@ -485,7 +485,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 25,
@@ -503,7 +503,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 26,
@@ -521,7 +521,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 27,
@@ -539,7 +539,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 28,
@@ -557,7 +557,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 29,
@@ -575,7 +575,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 30,
@@ -593,7 +593,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 31,
@@ -611,7 +611,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 32,
@@ -629,7 +629,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 33,
@@ -647,7 +647,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 34,
@@ -665,7 +665,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 11,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 35,
@@ -683,7 +683,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 11,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 36,
@@ -701,7 +701,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 37,
@@ -719,7 +719,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 38,
@@ -737,7 +737,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 39,
@@ -755,7 +755,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 40,
@@ -773,7 +773,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 41,
@@ -791,7 +791,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 42,
@@ -809,7 +809,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 43,
@@ -827,7 +827,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 44,
@@ -845,7 +845,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 45,
@@ -863,7 +863,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 46,
@@ -881,7 +881,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 52,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 47,
@@ -899,7 +899,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 48,
@@ -917,7 +917,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 49,
@@ -935,7 +935,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 50,
@@ -953,7 +953,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 51,
@@ -971,7 +971,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 52,
@@ -989,7 +989,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 53,
@@ -1007,7 +1007,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 54,
@@ -1025,7 +1025,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 55,
@@ -1043,7 +1043,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 56,
@@ -1061,7 +1061,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 57,
@@ -1079,7 +1079,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 58,
@@ -1097,7 +1097,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 59,
@@ -1115,7 +1115,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 60,
@@ -1133,7 +1133,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 61,
@@ -1151,7 +1151,7 @@ const pokemonList = createPokemonArray(
             'intellect': 71,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 62,
@@ -1169,7 +1169,7 @@ const pokemonList = createPokemonArray(
             'intellect': 79,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 63,
@@ -1187,7 +1187,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 64,
@@ -1205,7 +1205,7 @@ const pokemonList = createPokemonArray(
             'intellect': 58,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 65,
@@ -1223,7 +1223,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 93,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 66,
@@ -1241,7 +1241,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 67,
@@ -1259,7 +1259,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 68,
@@ -1277,7 +1277,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 71,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 69,
@@ -1295,7 +1295,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 70,
@@ -1313,7 +1313,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 71,
@@ -1331,7 +1331,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 72,
@@ -1349,7 +1349,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 73,
@@ -1367,7 +1367,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 74,
@@ -1385,7 +1385,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 75,
@@ -1403,7 +1403,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 76,
@@ -1421,7 +1421,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 77,
@@ -1439,7 +1439,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 78,
@@ -1457,7 +1457,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 79,
@@ -1475,7 +1475,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 80,
@@ -1493,7 +1493,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 81,
@@ -1511,7 +1511,7 @@ const pokemonList = createPokemonArray(
             'intellect': 99,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 82,
@@ -1529,7 +1529,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 83,
@@ -1547,7 +1547,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 84,
@@ -1565,7 +1565,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 85,
@@ -1583,7 +1583,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 86,
@@ -1601,7 +1601,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 87,
@@ -1619,7 +1619,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 88,
@@ -1637,7 +1637,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 89,
@@ -1655,7 +1655,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 90,
@@ -1673,7 +1673,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 91,
@@ -1691,7 +1691,7 @@ const pokemonList = createPokemonArray(
             'intellect': 125,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 92,
@@ -1709,7 +1709,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 93,
@@ -1727,7 +1727,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 94,
@@ -1745,7 +1745,7 @@ const pokemonList = createPokemonArray(
             'intellect': 98,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 95,
@@ -1763,7 +1763,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 96,
@@ -1781,7 +1781,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 97,
@@ -1799,7 +1799,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 98,
@@ -1817,7 +1817,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 99,
@@ -1835,7 +1835,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 100,
@@ -1853,7 +1853,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 101,
@@ -1871,7 +1871,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 102,
@@ -1889,7 +1889,7 @@ const pokemonList = createPokemonArray(
             'intellect': 115,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 103,
@@ -1907,7 +1907,7 @@ const pokemonList = createPokemonArray(
             'intellect': 94,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 104,
@@ -1925,7 +1925,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 105,
@@ -1943,7 +1943,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 106,
@@ -1961,7 +1961,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 107,
@@ -1979,7 +1979,7 @@ const pokemonList = createPokemonArray(
             'intellect': 112,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 108,
@@ -1997,7 +1997,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 109,
@@ -2015,7 +2015,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 110,
@@ -2033,7 +2033,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 111,
@@ -2051,7 +2051,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 112,
@@ -2069,7 +2069,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 113,
@@ -2087,7 +2087,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 114,
@@ -2105,7 +2105,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 115,
@@ -2123,7 +2123,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 116,
@@ -2141,7 +2141,7 @@ const pokemonList = createPokemonArray(
             'intellect': 140,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 117,
@@ -2159,7 +2159,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 118,
@@ -2177,7 +2177,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 119,
@@ -2195,7 +2195,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 112,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 120,
@@ -2213,7 +2213,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 121,
@@ -2231,7 +2231,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 122,
@@ -2249,7 +2249,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 123,
@@ -2267,7 +2267,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 21,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 124,
@@ -2285,7 +2285,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 125,
@@ -2303,7 +2303,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 126,
@@ -2321,7 +2321,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 127,
@@ -2339,7 +2339,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 128,
@@ -2357,7 +2357,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 129,
@@ -2375,7 +2375,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 130,
@@ -2393,7 +2393,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 131,
@@ -2411,7 +2411,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 132,
@@ -2429,7 +2429,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 133,
@@ -2447,7 +2447,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 134,
@@ -2465,7 +2465,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 135,
@@ -2483,7 +2483,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 136,
@@ -2501,7 +2501,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 137,
@@ -2519,7 +2519,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 138,
@@ -2537,7 +2537,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 139,
@@ -2555,7 +2555,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 140,
@@ -2573,7 +2573,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 141,
@@ -2591,7 +2591,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 142,
@@ -2609,7 +2609,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 143,
@@ -2627,7 +2627,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 144,
@@ -2645,7 +2645,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 145,
@@ -2663,7 +2663,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 146,
@@ -2681,7 +2681,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 147,
@@ -2699,7 +2699,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 16,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 148,
@@ -2717,7 +2717,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 149,
@@ -2735,7 +2735,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 150,
@@ -2753,7 +2753,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 151,
@@ -2771,7 +2771,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 152,
@@ -2789,7 +2789,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 153,
@@ -2807,7 +2807,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 154,
@@ -2825,7 +2825,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 155,
@@ -2843,7 +2843,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 156,
@@ -2861,7 +2861,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 157,
@@ -2879,7 +2879,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 158,
@@ -2897,7 +2897,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 159,
@@ -2915,7 +2915,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 160,
@@ -2933,7 +2933,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 161,
@@ -2951,7 +2951,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 162,
@@ -2969,7 +2969,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 104,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 163,
@@ -2987,7 +2987,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 164,
@@ -3005,7 +3005,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 165,
@@ -3023,7 +3023,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 166,
@@ -3041,7 +3041,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 167,
@@ -3059,7 +3059,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 168,
@@ -3077,7 +3077,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 169,
@@ -3095,7 +3095,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 170,
@@ -3113,7 +3113,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 171,
@@ -3131,7 +3131,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 172,
@@ -3149,7 +3149,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 82,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 173,
@@ -3167,7 +3167,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 174,
@@ -3185,7 +3185,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 175,
@@ -3203,7 +3203,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 176,
@@ -3221,7 +3221,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 52,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 177,
@@ -3239,7 +3239,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 178,
@@ -3257,7 +3257,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 179,
@@ -3275,7 +3275,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 180,
@@ -3293,7 +3293,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 181,
@@ -3311,7 +3311,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 182,
@@ -3329,7 +3329,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 183,
@@ -3347,7 +3347,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 184,
@@ -3365,7 +3365,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 185,
@@ -3383,7 +3383,7 @@ const pokemonList = createPokemonArray(
             'intellect': 48,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 186,
@@ -3401,7 +3401,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 187,
@@ -3419,7 +3419,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 188,
@@ -3437,7 +3437,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 189,
@@ -3455,7 +3455,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 190,
@@ -3473,7 +3473,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 191,
@@ -3491,7 +3491,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 192,
@@ -3509,7 +3509,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 193,
@@ -3527,7 +3527,7 @@ const pokemonList = createPokemonArray(
             'intellect': 122,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 194,
@@ -3545,7 +3545,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 79,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 195,
@@ -3563,7 +3563,7 @@ const pokemonList = createPokemonArray(
             'intellect': 97,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 196,
@@ -3581,7 +3581,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 197,
@@ -3599,7 +3599,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 86,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 198,
@@ -3617,7 +3617,7 @@ const pokemonList = createPokemonArray(
             'intellect': 71,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 199,
@@ -3635,7 +3635,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 200,
@@ -3653,7 +3653,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 201,
@@ -3671,7 +3671,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 202,
@@ -3689,7 +3689,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 203,
@@ -3707,7 +3707,7 @@ const pokemonList = createPokemonArray(
             'intellect': 57,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 204,
@@ -3725,7 +3725,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 205,
@@ -3743,7 +3743,7 @@ const pokemonList = createPokemonArray(
             'intellect': 113,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 206,
@@ -3761,7 +3761,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 207,
@@ -3779,7 +3779,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 208,
@@ -3797,7 +3797,7 @@ const pokemonList = createPokemonArray(
             'intellect': 116,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 209,
@@ -3815,7 +3815,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 210,
@@ -3833,7 +3833,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 211,
@@ -3851,7 +3851,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 212,
@@ -3869,7 +3869,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 59,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 213,
@@ -3887,7 +3887,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 214,
@@ -3905,7 +3905,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 215,
@@ -3923,7 +3923,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 133,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 216,
@@ -3941,7 +3941,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 67,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 217,
@@ -3959,7 +3959,7 @@ const pokemonList = createPokemonArray(
             'intellect': 83,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 218,
@@ -3977,7 +3977,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 219,
@@ -3995,7 +3995,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 220,
@@ -4013,7 +4013,7 @@ const pokemonList = createPokemonArray(
             'intellect': 54,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 221,
@@ -4031,7 +4031,7 @@ const pokemonList = createPokemonArray(
             'intellect': 57,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 222,
@@ -4049,7 +4049,7 @@ const pokemonList = createPokemonArray(
             'intellect': 87,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 223,
@@ -4067,7 +4067,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 224,
@@ -4085,7 +4085,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 130,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 225,
@@ -4103,7 +4103,7 @@ const pokemonList = createPokemonArray(
             'intellect': 77,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 226,
@@ -4121,7 +4121,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 227,
@@ -4139,7 +4139,7 @@ const pokemonList = createPokemonArray(
             'intellect': 126,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 228,
@@ -4157,7 +4157,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 229,
@@ -4175,7 +4175,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 230,
@@ -4193,7 +4193,7 @@ const pokemonList = createPokemonArray(
             'intellect': 91,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 231,
@@ -4211,7 +4211,7 @@ const pokemonList = createPokemonArray(
             'intellect': 130,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 232,
@@ -4229,7 +4229,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 86,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 233,
@@ -4247,7 +4247,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 234,
@@ -4265,7 +4265,7 @@ const pokemonList = createPokemonArray(
             'intellect': 92,
             'speed': 111,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 235,
@@ -4283,7 +4283,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 84,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 236,
@@ -4301,7 +4301,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 237,
@@ -4319,7 +4319,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 238,
@@ -4337,7 +4337,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 239,
@@ -4355,7 +4355,7 @@ const pokemonList = createPokemonArray(
             'intellect': 125,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 240,
@@ -4373,7 +4373,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 241,
@@ -4391,7 +4391,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 242,
@@ -4409,7 +4409,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 243,
@@ -4427,7 +4427,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 244,
@@ -4445,7 +4445,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 245,
@@ -4463,7 +4463,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 246,
@@ -4481,7 +4481,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 247,
@@ -4499,7 +4499,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 248,
@@ -4517,7 +4517,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 249,
@@ -4535,7 +4535,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 21,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 250,
@@ -4553,7 +4553,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 251,
@@ -4571,7 +4571,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 252,
@@ -4589,7 +4589,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 253,
@@ -4607,7 +4607,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 254,
@@ -4625,7 +4625,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 255,
@@ -4643,7 +4643,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 18,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 256,
@@ -4661,7 +4661,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 257,
@@ -4679,7 +4679,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 258,
@@ -4697,7 +4697,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 259,
@@ -4715,7 +4715,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 260,
@@ -4733,7 +4733,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 261,
@@ -4751,7 +4751,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 262,
@@ -4769,7 +4769,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 263,
@@ -4787,7 +4787,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 264,
@@ -4805,7 +4805,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 265,
@@ -4823,7 +4823,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 266,
@@ -4841,7 +4841,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 267,
@@ -4859,7 +4859,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 268,
@@ -4877,7 +4877,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 269,
@@ -4895,7 +4895,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 270,
@@ -4913,7 +4913,7 @@ const pokemonList = createPokemonArray(
             'intellect': 14,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 271,
@@ -4931,7 +4931,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 272,
@@ -4949,7 +4949,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 273,
@@ -4967,7 +4967,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 274,
@@ -4985,7 +4985,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 275,
@@ -5003,7 +5003,7 @@ const pokemonList = createPokemonArray(
             'intellect': 59,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 276,
@@ -5021,7 +5021,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 277,
@@ -5039,7 +5039,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 278,
@@ -5057,7 +5057,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 279,
@@ -5075,7 +5075,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 280,
@@ -5093,7 +5093,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 281,
@@ -5111,7 +5111,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 282,
@@ -5129,7 +5129,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 283,
@@ -5147,7 +5147,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 284,
@@ -5165,7 +5165,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 285,
@@ -5183,7 +5183,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 286,
@@ -5201,7 +5201,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 287,
@@ -5219,7 +5219,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 288,
@@ -5237,7 +5237,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 289,
@@ -5255,7 +5255,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 290,
@@ -5273,7 +5273,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 291,
@@ -5291,7 +5291,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 292,
@@ -5309,7 +5309,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 293,
@@ -5327,7 +5327,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 294,
@@ -5345,7 +5345,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 67,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 295,
@@ -5363,7 +5363,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 67,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 296,
@@ -5381,7 +5381,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 297,
@@ -5399,7 +5399,7 @@ const pokemonList = createPokemonArray(
             'intellect': 142,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 298,
@@ -5417,7 +5417,7 @@ const pokemonList = createPokemonArray(
             'intellect': 96,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 299,
@@ -5435,7 +5435,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 300,
@@ -5453,7 +5453,7 @@ const pokemonList = createPokemonArray(
             'intellect': 115,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 301,
@@ -5471,7 +5471,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 109,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 302,
@@ -5489,7 +5489,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 303,
@@ -5507,7 +5507,7 @@ const pokemonList = createPokemonArray(
             'intellect': 98,
             'speed': 99,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 304,
@@ -5525,7 +5525,7 @@ const pokemonList = createPokemonArray(
             'intellect': 160,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 305,
@@ -5543,7 +5543,7 @@ const pokemonList = createPokemonArray(
             'intellect': 145,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 306,
@@ -5561,7 +5561,7 @@ const pokemonList = createPokemonArray(
             'intellect': 86,
             'speed': 158,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 307,
@@ -5579,7 +5579,7 @@ const pokemonList = createPokemonArray(
             'intellect': 113,
             'speed': 94,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 308,
@@ -5597,7 +5597,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 309,
@@ -5615,7 +5615,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 310,
@@ -5633,7 +5633,7 @@ const pokemonList = createPokemonArray(
             'intellect': 135,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 311,
@@ -5651,7 +5651,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 312,
@@ -5669,7 +5669,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 313,
@@ -5687,7 +5687,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 314,
@@ -5705,7 +5705,7 @@ const pokemonList = createPokemonArray(
             'intellect': 133,
             'speed': 84,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 315,
@@ -5723,7 +5723,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 316,
@@ -5741,7 +5741,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 317,
@@ -5759,7 +5759,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 318,
@@ -5777,7 +5777,7 @@ const pokemonList = createPokemonArray(
             'intellect': 67,
             'speed': 101,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 319,
@@ -5795,7 +5795,7 @@ const pokemonList = createPokemonArray(
             'intellect': 108,
             'speed': 93,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 320,
@@ -5813,7 +5813,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 321,
@@ -5831,7 +5831,7 @@ const pokemonList = createPokemonArray(
             'intellect': 128,
             'speed': 138,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 322,
@@ -5849,7 +5849,7 @@ const pokemonList = createPokemonArray(
             'intellect': 135,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 323,
@@ -5867,7 +5867,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 324,
@@ -5885,7 +5885,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 325,
@@ -5903,7 +5903,7 @@ const pokemonList = createPokemonArray(
             'intellect': 103,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 326,
@@ -5921,7 +5921,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 119,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 327,
@@ -5939,7 +5939,7 @@ const pokemonList = createPokemonArray(
             'intellect': 104,
             'speed': 133,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 328,
@@ -5957,7 +5957,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 329,
@@ -5975,7 +5975,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 330,
@@ -5993,7 +5993,7 @@ const pokemonList = createPokemonArray(
             'intellect': 82,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 331,
@@ -6011,7 +6011,7 @@ const pokemonList = createPokemonArray(
             'intellect': 54,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 332,
@@ -6029,7 +6029,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 333,
@@ -6047,7 +6047,7 @@ const pokemonList = createPokemonArray(
             'intellect': 48,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 334,
@@ -6065,7 +6065,7 @@ const pokemonList = createPokemonArray(
             'intellect': 61,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 335,
@@ -6083,7 +6083,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 336,
@@ -6101,7 +6101,7 @@ const pokemonList = createPokemonArray(
             'intellect': 57,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 337,
@@ -6119,7 +6119,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 338,
@@ -6137,7 +6137,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 339,
@@ -6155,7 +6155,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 340,
@@ -6173,7 +6173,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 341,
@@ -6191,7 +6191,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 342,
@@ -6209,7 +6209,7 @@ const pokemonList = createPokemonArray(
             'intellect': 61,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 343,
@@ -6227,7 +6227,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 344,
@@ -6245,7 +6245,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 59,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 345,
@@ -6263,7 +6263,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 346,
@@ -6281,7 +6281,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 71,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 347,
@@ -6299,7 +6299,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 76,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 348,
@@ -6317,7 +6317,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 349,
@@ -6335,7 +6335,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 350,
@@ -6353,7 +6353,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 351,
@@ -6371,7 +6371,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 352,
@@ -6389,7 +6389,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 353,
@@ -6407,7 +6407,7 @@ const pokemonList = createPokemonArray(
             'intellect': 81,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 354,
@@ -6425,7 +6425,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 355,
@@ -6443,7 +6443,7 @@ const pokemonList = createPokemonArray(
             'intellect': 67,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 356,
@@ -6461,7 +6461,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 357,
@@ -6479,7 +6479,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 358,
@@ -6497,7 +6497,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 359,
@@ -6515,7 +6515,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 360,
@@ -6533,7 +6533,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 361,
@@ -6551,7 +6551,7 @@ const pokemonList = createPokemonArray(
             'intellect': 72,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 362,
@@ -6569,7 +6569,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 363,
@@ -6587,7 +6587,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 364,
@@ -6605,7 +6605,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 365,
@@ -6623,7 +6623,7 @@ const pokemonList = createPokemonArray(
             'intellect': 71,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 366,
@@ -6641,7 +6641,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 367,
@@ -6659,7 +6659,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 368,
@@ -6677,7 +6677,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 369,
@@ -6695,7 +6695,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 370,
@@ -6713,7 +6713,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 371,
@@ -6731,7 +6731,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 372,
@@ -6749,7 +6749,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 373,
@@ -6767,7 +6767,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 374,
@@ -6785,7 +6785,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 375,
@@ -6803,7 +6803,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 376,
@@ -6821,7 +6821,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 377,
@@ -6839,7 +6839,7 @@ const pokemonList = createPokemonArray(
             'intellect': 59,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 378,
@@ -6857,7 +6857,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 379,
@@ -6875,7 +6875,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 380,
@@ -6893,7 +6893,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 381,
@@ -6911,7 +6911,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 382,
@@ -6929,7 +6929,7 @@ const pokemonList = createPokemonArray(
             'intellect': 54,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 383,
@@ -6947,7 +6947,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 384,
@@ -6965,7 +6965,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 76,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 385,
@@ -6983,7 +6983,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 386,
@@ -7001,7 +7001,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 387,
@@ -7019,7 +7019,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 388,
@@ -7037,7 +7037,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 389,
@@ -7055,7 +7055,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 390,
@@ -7073,7 +7073,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 391,
@@ -7091,7 +7091,7 @@ const pokemonList = createPokemonArray(
             'intellect': 13,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 392,
@@ -7109,7 +7109,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 393,
@@ -7127,7 +7127,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 394,
@@ -7145,7 +7145,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 395,
@@ -7163,7 +7163,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 396,
@@ -7181,7 +7181,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 397,
@@ -7199,7 +7199,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 398,
@@ -7217,7 +7217,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 399,
@@ -7235,7 +7235,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 400,
@@ -7253,7 +7253,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 401,
@@ -7271,7 +7271,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 402,
@@ -7289,7 +7289,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 403,
@@ -7307,7 +7307,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 404,
@@ -7325,7 +7325,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 405,
@@ -7343,7 +7343,7 @@ const pokemonList = createPokemonArray(
             'intellect': 12,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 406,
@@ -7361,7 +7361,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 407,
@@ -7379,7 +7379,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 408,
@@ -7397,7 +7397,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 409,
@@ -7415,7 +7415,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 410,
@@ -7433,7 +7433,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 411,
@@ -7451,7 +7451,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 412,
@@ -7469,7 +7469,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 413,
@@ -7487,7 +7487,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 414,
@@ -7505,7 +7505,7 @@ const pokemonList = createPokemonArray(
             'intellect': 84,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 415,
@@ -7523,7 +7523,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 416,
@@ -7541,7 +7541,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 417,
@@ -7559,7 +7559,7 @@ const pokemonList = createPokemonArray(
             'intellect': 92,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 418,
@@ -7577,7 +7577,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 419,
@@ -7595,7 +7595,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 420,
@@ -7613,7 +7613,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 421,
@@ -7631,7 +7631,7 @@ const pokemonList = createPokemonArray(
             'intellect': 94,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 422,
@@ -7649,7 +7649,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 423,
@@ -7667,7 +7667,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 424,
@@ -7685,7 +7685,7 @@ const pokemonList = createPokemonArray(
             'intellect': 87,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 425,
@@ -7703,7 +7703,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 109,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 426,
@@ -7721,7 +7721,7 @@ const pokemonList = createPokemonArray(
             'intellect': 72,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 427,
@@ -7739,7 +7739,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 122,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 428,
@@ -7757,7 +7757,7 @@ const pokemonList = createPokemonArray(
             'intellect': 111,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 429,
@@ -7775,7 +7775,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 430,
@@ -7793,7 +7793,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 431,
@@ -7811,7 +7811,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 128,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 432,
@@ -7829,7 +7829,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 59,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 433,
@@ -7847,7 +7847,7 @@ const pokemonList = createPokemonArray(
             'intellect': 79,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 434,
@@ -7865,7 +7865,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 435,
@@ -7883,7 +7883,7 @@ const pokemonList = createPokemonArray(
             'intellect': 48,
             'speed': 67,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 436,
@@ -7901,7 +7901,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 437,
@@ -7919,7 +7919,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 52,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 438,
@@ -7937,7 +7937,7 @@ const pokemonList = createPokemonArray(
             'intellect': 106,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 439,
@@ -7955,7 +7955,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 81,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 440,
@@ -7973,7 +7973,7 @@ const pokemonList = createPokemonArray(
             'intellect': 58,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 441,
@@ -7991,7 +7991,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 442,
@@ -8009,7 +8009,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 443,
@@ -8027,7 +8027,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 104,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 444,
@@ -8045,7 +8045,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 445,
@@ -8063,7 +8063,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 446,
@@ -8081,7 +8081,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 447,
@@ -8099,7 +8099,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 448,
@@ -8117,7 +8117,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 449,
@@ -8135,7 +8135,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 450,
@@ -8153,7 +8153,7 @@ const pokemonList = createPokemonArray(
             'intellect': 67,
             'speed': 122,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 451,
@@ -8171,7 +8171,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 452,
@@ -8189,7 +8189,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 453,
@@ -8207,7 +8207,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 454,
@@ -8225,7 +8225,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 455,
@@ -8243,7 +8243,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 456,
@@ -8261,7 +8261,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 457,
@@ -8279,7 +8279,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 458,
@@ -8297,7 +8297,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 459,
@@ -8315,7 +8315,7 @@ const pokemonList = createPokemonArray(
             'intellect': 118,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 460,
@@ -8333,7 +8333,7 @@ const pokemonList = createPokemonArray(
             'intellect': 157,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 461,
@@ -8351,7 +8351,7 @@ const pokemonList = createPokemonArray(
             'intellect': 93,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 462,
@@ -8369,7 +8369,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 463,
@@ -8387,7 +8387,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 464,
@@ -8405,7 +8405,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 140,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 465,
@@ -8423,7 +8423,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 466,
@@ -8441,7 +8441,7 @@ const pokemonList = createPokemonArray(
             'intellect': 130,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 467,
@@ -8459,7 +8459,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 468,
@@ -8477,7 +8477,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 469,
@@ -8495,7 +8495,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 117,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 470,
@@ -8513,7 +8513,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 471,
@@ -8531,7 +8531,7 @@ const pokemonList = createPokemonArray(
             'intellect': 125,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 472,
@@ -8549,7 +8549,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 82,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 473,
@@ -8567,7 +8567,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 79,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 474,
@@ -8585,7 +8585,7 @@ const pokemonList = createPokemonArray(
             'intellect': 1,
             'speed': 1,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 475,
@@ -8603,7 +8603,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 476,
@@ -8621,7 +8621,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 12,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 477,
@@ -8639,7 +8639,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 478,
@@ -8657,7 +8657,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 479,
@@ -8675,7 +8675,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 480,
@@ -8693,7 +8693,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 481,
@@ -8711,7 +8711,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 482,
@@ -8729,7 +8729,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 483,
@@ -8747,7 +8747,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 484,
@@ -8765,7 +8765,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 485,
@@ -8783,7 +8783,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 486,
@@ -8801,7 +8801,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 487,
@@ -8819,7 +8819,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 488,
@@ -8837,7 +8837,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 489,
@@ -8855,7 +8855,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 490,
@@ -8873,7 +8873,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 491,
@@ -8891,7 +8891,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 492,
@@ -8909,7 +8909,7 @@ const pokemonList = createPokemonArray(
             'intellect': 81,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 493,
@@ -8927,7 +8927,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 102,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 494,
@@ -8945,7 +8945,7 @@ const pokemonList = createPokemonArray(
             'intellect': 57,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 495,
@@ -8963,7 +8963,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 496,
@@ -8981,7 +8981,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 497,
@@ -8999,7 +8999,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 498,
@@ -9017,7 +9017,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 499,
@@ -9035,7 +9035,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 500,
@@ -9053,7 +9053,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 501,
@@ -9071,7 +9071,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 502,
@@ -9089,7 +9089,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 503,
@@ -9107,7 +9107,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 504,
@@ -9125,7 +9125,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 505,
@@ -9143,7 +9143,7 @@ const pokemonList = createPokemonArray(
             'intellect': 48,
             'speed': 108,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 506,
@@ -9161,7 +9161,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 507,
@@ -9179,7 +9179,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 508,
@@ -9197,7 +9197,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 509,
@@ -9215,7 +9215,7 @@ const pokemonList = createPokemonArray(
             'intellect': 94,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 510,
@@ -9233,7 +9233,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 111,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 511,
@@ -9251,7 +9251,7 @@ const pokemonList = createPokemonArray(
             'intellect': 79,
             'speed': 79,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 512,
@@ -9269,7 +9269,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 513,
@@ -9287,7 +9287,7 @@ const pokemonList = createPokemonArray(
             'intellect': 145,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 514,
@@ -9305,7 +9305,7 @@ const pokemonList = createPokemonArray(
             'intellect': 87,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 515,
@@ -9323,7 +9323,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 516,
@@ -9341,7 +9341,7 @@ const pokemonList = createPokemonArray(
             'intellect': 99,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 517,
@@ -9359,7 +9359,7 @@ const pokemonList = createPokemonArray(
             'intellect': 138,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 518,
@@ -9377,7 +9377,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 519,
@@ -9395,7 +9395,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 520,
@@ -9413,7 +9413,7 @@ const pokemonList = createPokemonArray(
             'intellect': 77,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 521,
@@ -9431,7 +9431,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 169,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 522,
@@ -9449,7 +9449,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 523,
@@ -9467,7 +9467,7 @@ const pokemonList = createPokemonArray(
             'intellect': 123,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 524,
@@ -9485,7 +9485,7 @@ const pokemonList = createPokemonArray(
             'intellect': 72,
             'speed': 145,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 525,
@@ -9503,7 +9503,7 @@ const pokemonList = createPokemonArray(
             'intellect': 159,
             'speed': 124,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 526,
@@ -9521,7 +9521,7 @@ const pokemonList = createPokemonArray(
             'intellect': 140,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 527,
@@ -9539,7 +9539,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 528,
@@ -9557,7 +9557,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 143,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 529,
@@ -9575,7 +9575,7 @@ const pokemonList = createPokemonArray(
             'intellect': 121,
             'speed': 94,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 530,
@@ -9593,7 +9593,7 @@ const pokemonList = createPokemonArray(
             'intellect': 104,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 531,
@@ -9611,7 +9611,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 532,
@@ -9629,7 +9629,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 533,
@@ -9647,7 +9647,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 534,
@@ -9665,7 +9665,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 535,
@@ -9683,7 +9683,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 536,
@@ -9701,7 +9701,7 @@ const pokemonList = createPokemonArray(
             'intellect': 143,
             'speed': 167,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 537,
@@ -9719,7 +9719,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 538,
@@ -9737,7 +9737,7 @@ const pokemonList = createPokemonArray(
             'intellect': 104,
             'speed': 104,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 539,
@@ -9755,7 +9755,7 @@ const pokemonList = createPokemonArray(
             'intellect': 160,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 540,
@@ -9773,7 +9773,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 130,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 541,
@@ -9791,7 +9791,7 @@ const pokemonList = createPokemonArray(
             'intellect': 170,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 542,
@@ -9809,7 +9809,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 543,
@@ -9827,7 +9827,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 92,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 544,
@@ -9845,7 +9845,7 @@ const pokemonList = createPokemonArray(
             'intellect': 117,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 545,
@@ -9863,7 +9863,7 @@ const pokemonList = createPokemonArray(
             'intellect': 67,
             'speed': 113,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 546,
@@ -9881,7 +9881,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 132,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 547,
@@ -9899,7 +9899,7 @@ const pokemonList = createPokemonArray(
             'intellect': 72,
             'speed': 88,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 548,
@@ -9917,7 +9917,7 @@ const pokemonList = createPokemonArray(
             'intellect': 72,
             'speed': 54,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 549,
@@ -9935,7 +9935,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 137,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 550,
@@ -9953,7 +9953,7 @@ const pokemonList = createPokemonArray(
             'intellect': 114,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 551,
@@ -9971,7 +9971,7 @@ const pokemonList = createPokemonArray(
             'intellect': 92,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 552,
@@ -9989,7 +9989,7 @@ const pokemonList = createPokemonArray(
             'intellect': 57,
             'speed': 138,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 553,
@@ -10007,7 +10007,7 @@ const pokemonList = createPokemonArray(
             'intellect': 73,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 554,
@@ -10025,7 +10025,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 555,
@@ -10043,7 +10043,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 140,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 556,
@@ -10061,7 +10061,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 557,
@@ -10079,7 +10079,7 @@ const pokemonList = createPokemonArray(
             'intellect': 81,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 558,
@@ -10097,7 +10097,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 559,
@@ -10115,7 +10115,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 560,
@@ -10133,7 +10133,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 561,
@@ -10151,7 +10151,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 562,
@@ -10169,7 +10169,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 563,
@@ -10187,7 +10187,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 564,
@@ -10205,7 +10205,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 565,
@@ -10223,7 +10223,7 @@ const pokemonList = createPokemonArray(
             'intellect': 72,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 566,
@@ -10241,7 +10241,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 567,
@@ -10259,7 +10259,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 568,
@@ -10277,7 +10277,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 569,
@@ -10295,7 +10295,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 570,
@@ -10313,7 +10313,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 571,
@@ -10331,7 +10331,7 @@ const pokemonList = createPokemonArray(
             'intellect': 57,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 572,
@@ -10349,7 +10349,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 573,
@@ -10367,7 +10367,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 574,
@@ -10385,7 +10385,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 575,
@@ -10403,7 +10403,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 576,
@@ -10421,7 +10421,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 577,
@@ -10439,7 +10439,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 578,
@@ -10457,7 +10457,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 579,
@@ -10475,7 +10475,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 580,
@@ -10493,7 +10493,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 125,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 581,
@@ -10511,7 +10511,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 582,
@@ -10529,7 +10529,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 583,
@@ -10547,7 +10547,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 96,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 584,
@@ -10565,7 +10565,7 @@ const pokemonList = createPokemonArray(
             'intellect': 88,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 585,
@@ -10583,7 +10583,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 586,
@@ -10601,7 +10601,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 59,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 587,
@@ -10619,7 +10619,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 96,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 588,
@@ -10637,7 +10637,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 589,
@@ -10655,7 +10655,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 590,
@@ -10673,7 +10673,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 591,
@@ -10691,7 +10691,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 592,
@@ -10709,7 +10709,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 593,
@@ -10727,7 +10727,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 594,
@@ -10745,7 +10745,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 595,
@@ -10763,7 +10763,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 596,
@@ -10781,7 +10781,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 597,
@@ -10799,7 +10799,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 598,
@@ -10817,7 +10817,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 599,
@@ -10835,7 +10835,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 600,
@@ -10853,7 +10853,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 601,
@@ -10871,7 +10871,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 602,
@@ -10889,7 +10889,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 603,
@@ -10907,7 +10907,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 604,
@@ -10925,7 +10925,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 605,
@@ -10943,7 +10943,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 606,
@@ -10961,7 +10961,7 @@ const pokemonList = createPokemonArray(
             'intellect': 54,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 607,
@@ -10979,7 +10979,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 608,
@@ -10997,7 +10997,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 609,
@@ -11015,7 +11015,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 610,
@@ -11033,7 +11033,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 611,
@@ -11051,7 +11051,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 612,
@@ -11069,7 +11069,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 613,
@@ -11087,7 +11087,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 614,
@@ -11105,7 +11105,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 615,
@@ -11123,7 +11123,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 616,
@@ -11141,7 +11141,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 617,
@@ -11159,7 +11159,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 618,
@@ -11177,7 +11177,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 619,
@@ -11195,7 +11195,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 98,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 620,
@@ -11213,7 +11213,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 621,
@@ -11231,7 +11231,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 622,
@@ -11249,7 +11249,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 623,
@@ -11267,7 +11267,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 624,
@@ -11285,7 +11285,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 625,
@@ -11303,7 +11303,7 @@ const pokemonList = createPokemonArray(
             'intellect': 82,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 626,
@@ -11321,7 +11321,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 627,
@@ -11339,7 +11339,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 628,
@@ -11357,7 +11357,7 @@ const pokemonList = createPokemonArray(
             'intellect': 79,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 629,
@@ -11375,7 +11375,7 @@ const pokemonList = createPokemonArray(
             'intellect': 92,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 630,
@@ -11393,7 +11393,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 99,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 631,
@@ -11411,7 +11411,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 632,
@@ -11429,7 +11429,7 @@ const pokemonList = createPokemonArray(
             'intellect': 54,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 633,
@@ -11447,7 +11447,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 634,
@@ -11465,7 +11465,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 635,
@@ -11483,7 +11483,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 636,
@@ -11501,7 +11501,7 @@ const pokemonList = createPokemonArray(
             'intellect': 86,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 637,
@@ -11519,7 +11519,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 638,
@@ -11537,7 +11537,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 99,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 639,
@@ -11555,7 +11555,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 640,
@@ -11573,7 +11573,7 @@ const pokemonList = createPokemonArray(
             'intellect': 94,
             'speed': 93,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 641,
@@ -11591,7 +11591,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 642,
@@ -11609,7 +11609,7 @@ const pokemonList = createPokemonArray(
             'intellect': 73,
             'speed': 133,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 643,
@@ -11627,7 +11627,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 644,
@@ -11645,7 +11645,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 67,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 645,
@@ -11663,7 +11663,7 @@ const pokemonList = createPokemonArray(
             'intellect': 103,
             'speed': 97,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 646,
@@ -11681,7 +11681,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 647,
@@ -11699,7 +11699,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 648,
@@ -11717,7 +11717,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 649,
@@ -11735,7 +11735,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 650,
@@ -11753,7 +11753,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 54,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 651,
@@ -11771,7 +11771,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 114,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 652,
@@ -11789,7 +11789,7 @@ const pokemonList = createPokemonArray(
             'intellect': 66,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 653,
@@ -11807,7 +11807,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 654,
@@ -11825,7 +11825,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 655,
@@ -11843,7 +11843,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 656,
@@ -11861,7 +11861,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 107,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 657,
@@ -11879,7 +11879,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 658,
@@ -11897,7 +11897,7 @@ const pokemonList = createPokemonArray(
             'intellect': 88,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 659,
@@ -11915,7 +11915,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 92,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 660,
@@ -11933,7 +11933,7 @@ const pokemonList = createPokemonArray(
             'intellect': 124,
             'speed': 71,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 661,
@@ -11951,7 +11951,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 86,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 662,
@@ -11969,7 +11969,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 663,
@@ -11987,7 +11987,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 664,
@@ -12005,7 +12005,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 117,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 665,
@@ -12023,7 +12023,7 @@ const pokemonList = createPokemonArray(
             'intellect': 170,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 666,
@@ -12041,7 +12041,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 81,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 667,
@@ -12059,7 +12059,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 668,
@@ -12077,7 +12077,7 @@ const pokemonList = createPokemonArray(
             'intellect': 159,
             'speed': 107,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 669,
@@ -12095,7 +12095,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 164,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 670,
@@ -12113,7 +12113,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 123,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 671,
@@ -12131,7 +12131,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 96,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 672,
@@ -12149,7 +12149,7 @@ const pokemonList = createPokemonArray(
             'intellect': 155,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 673,
@@ -12167,7 +12167,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 135,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 674,
@@ -12185,7 +12185,7 @@ const pokemonList = createPokemonArray(
             'intellect': 166,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 675,
@@ -12203,7 +12203,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 676,
@@ -12221,7 +12221,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 139,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 677,
@@ -12239,7 +12239,7 @@ const pokemonList = createPokemonArray(
             'intellect': 146,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 678,
@@ -12257,7 +12257,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 131,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 679,
@@ -12275,7 +12275,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 680,
@@ -12293,7 +12293,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 681,
@@ -12311,7 +12311,7 @@ const pokemonList = createPokemonArray(
             'intellect': 200,
             'speed': 1,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 682,
@@ -12329,7 +12329,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 76,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 683,
@@ -12347,7 +12347,7 @@ const pokemonList = createPokemonArray(
             'intellect': 130,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 684,
@@ -12365,7 +12365,7 @@ const pokemonList = createPokemonArray(
             'intellect': 133,
             'speed': 102,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 685,
@@ -12383,7 +12383,7 @@ const pokemonList = createPokemonArray(
             'intellect': 91,
             'speed': 88,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 686,
@@ -12401,7 +12401,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 687,
@@ -12419,7 +12419,7 @@ const pokemonList = createPokemonArray(
             'intellect': 155,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 688,
@@ -12437,7 +12437,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 689,
@@ -12455,7 +12455,7 @@ const pokemonList = createPokemonArray(
             'intellect': 98,
             'speed': 113,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 690,
@@ -12473,7 +12473,7 @@ const pokemonList = createPokemonArray(
             'intellect': 112,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 691,
@@ -12491,7 +12491,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 71,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 692,
@@ -12509,7 +12509,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 693,
@@ -12527,7 +12527,7 @@ const pokemonList = createPokemonArray(
             'intellect': 103,
             'speed': 166,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 694,
@@ -12545,7 +12545,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 146,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 695,
@@ -12563,7 +12563,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 696,
@@ -12581,7 +12581,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 71,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 697,
@@ -12599,7 +12599,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 698,
@@ -12617,7 +12617,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 17,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 699,
@@ -12635,7 +12635,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 14,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 700,
@@ -12653,7 +12653,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 701,
@@ -12671,7 +12671,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 702,
@@ -12689,7 +12689,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 703,
@@ -12707,7 +12707,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 704,
@@ -12725,7 +12725,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 705,
@@ -12743,7 +12743,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 706,
@@ -12761,7 +12761,7 @@ const pokemonList = createPokemonArray(
             'intellect': 140,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 707,
@@ -12779,7 +12779,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 708,
@@ -12797,7 +12797,7 @@ const pokemonList = createPokemonArray(
             'intellect': 166,
             'speed': 82,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 709,
@@ -12815,7 +12815,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 710,
@@ -12833,7 +12833,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 711,
@@ -12851,7 +12851,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 712,
@@ -12869,7 +12869,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 713,
@@ -12887,7 +12887,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 714,
@@ -12905,7 +12905,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 715,
@@ -12923,7 +12923,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 716,
@@ -12941,7 +12941,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 717,
@@ -12959,7 +12959,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 718,
@@ -12977,7 +12977,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 719,
@@ -12995,7 +12995,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 720,
@@ -13013,7 +13013,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 721,
@@ -13031,7 +13031,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 722,
@@ -13049,7 +13049,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 723,
@@ -13067,7 +13067,7 @@ const pokemonList = createPokemonArray(
             'intellect': 54,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 724,
@@ -13085,7 +13085,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 725,
@@ -13103,7 +13103,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 726,
@@ -13121,7 +13121,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 727,
@@ -13139,7 +13139,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 728,
@@ -13157,7 +13157,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 93,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 729,
@@ -13175,7 +13175,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 730,
@@ -13193,7 +13193,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 731,
@@ -13211,7 +13211,7 @@ const pokemonList = createPokemonArray(
             'intellect': 84,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 732,
@@ -13229,7 +13229,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 733,
@@ -13247,7 +13247,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 734,
@@ -13265,7 +13265,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 735,
@@ -13283,7 +13283,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 116,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 736,
@@ -13301,7 +13301,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 737,
@@ -13319,7 +13319,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 84,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 738,
@@ -13337,7 +13337,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 117,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 739,
@@ -13355,7 +13355,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 740,
@@ -13373,7 +13373,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 144,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 741,
@@ -13391,7 +13391,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 131,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 742,
@@ -13409,7 +13409,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 130,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 743,
@@ -13427,7 +13427,7 @@ const pokemonList = createPokemonArray(
             'intellect': 116,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 744,
@@ -13445,7 +13445,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 745,
@@ -13463,7 +13463,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 746,
@@ -13481,7 +13481,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 88,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 747,
@@ -13499,7 +13499,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 748,
@@ -13517,7 +13517,7 @@ const pokemonList = createPokemonArray(
             'intellect': 88,
             'speed': 138,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 749,
@@ -13535,7 +13535,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 750,
@@ -13553,7 +13553,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 751,
@@ -13571,7 +13571,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 752,
@@ -13589,7 +13589,7 @@ const pokemonList = createPokemonArray(
             'intellect': 117,
             'speed': 128,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 753,
@@ -13607,7 +13607,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 754,
@@ -13625,7 +13625,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 54,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 755,
@@ -13643,7 +13643,7 @@ const pokemonList = createPokemonArray(
             'intellect': 150,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 756,
@@ -13661,7 +13661,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 757,
@@ -13679,7 +13679,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 21,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 758,
@@ -13697,7 +13697,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 759,
@@ -13715,7 +13715,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 760,
@@ -13733,7 +13733,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 761,
@@ -13751,7 +13751,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 762,
@@ -13769,7 +13769,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 763,
@@ -13787,7 +13787,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 764,
@@ -13805,7 +13805,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 18,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 765,
@@ -13823,7 +13823,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 766,
@@ -13841,7 +13841,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 767,
@@ -13859,7 +13859,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 768,
@@ -13877,7 +13877,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 769,
@@ -13895,7 +13895,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 770,
@@ -13913,7 +13913,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 771,
@@ -13931,7 +13931,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 772,
@@ -13949,7 +13949,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 773,
@@ -13967,7 +13967,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 774,
@@ -13985,7 +13985,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 81,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 775,
@@ -14003,7 +14003,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 776,
@@ -14021,7 +14021,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 777,
@@ -14039,7 +14039,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 51,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 778,
@@ -14057,7 +14057,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 779,
@@ -14075,7 +14075,7 @@ const pokemonList = createPokemonArray(
             'intellect': 85,
             'speed': 52,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 780,
@@ -14093,7 +14093,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 781,
@@ -14111,7 +14111,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 782,
@@ -14129,7 +14129,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 783,
@@ -14147,7 +14147,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 784,
@@ -14165,7 +14165,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 785,
@@ -14183,7 +14183,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 786,
@@ -14201,7 +14201,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 787,
@@ -14219,7 +14219,7 @@ const pokemonList = createPokemonArray(
             'intellect': 122,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 788,
@@ -14237,7 +14237,7 @@ const pokemonList = createPokemonArray(
             'intellect': 140,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 789,
@@ -14255,7 +14255,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 790,
@@ -14273,7 +14273,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 791,
@@ -14291,7 +14291,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 792,
@@ -14309,7 +14309,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 793,
@@ -14327,7 +14327,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 794,
@@ -14345,7 +14345,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 795,
@@ -14363,7 +14363,7 @@ const pokemonList = createPokemonArray(
             'intellect': 160,
             'speed': 84,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 796,
@@ -14381,7 +14381,7 @@ const pokemonList = createPokemonArray(
             'intellect': 111,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 797,
@@ -14399,7 +14399,7 @@ const pokemonList = createPokemonArray(
             'intellect': 98,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 798,
@@ -14417,7 +14417,7 @@ const pokemonList = createPokemonArray(
             'intellect': 137,
             'speed': 143,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 799,
@@ -14435,7 +14435,7 @@ const pokemonList = createPokemonArray(
             'intellect': 87,
             'speed': 122,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 800,
@@ -14453,7 +14453,7 @@ const pokemonList = createPokemonArray(
             'intellect': 131,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 801,
@@ -14471,7 +14471,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 802,
@@ -14489,7 +14489,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 803,
@@ -14507,7 +14507,7 @@ const pokemonList = createPokemonArray(
             'intellect': 164,
             'speed': 119,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 804,
@@ -14525,7 +14525,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 805,
@@ -14543,7 +14543,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 125,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 806,
@@ -14561,7 +14561,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 81,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 807,
@@ -14579,7 +14579,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 130,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 808,
@@ -14597,7 +14597,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 140,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 809,
@@ -14615,7 +14615,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 150,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 810,
@@ -14633,7 +14633,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 811,
@@ -14651,7 +14651,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 812,
@@ -14669,7 +14669,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 117,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 813,
@@ -14687,7 +14687,7 @@ const pokemonList = createPokemonArray(
             'intellect': 145,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 814,
@@ -14705,7 +14705,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 815,
@@ -14723,7 +14723,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 57,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 816,
@@ -14741,7 +14741,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 817,
@@ -14759,7 +14759,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 818,
@@ -14777,7 +14777,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 819,
@@ -14795,7 +14795,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 820,
@@ -14813,7 +14813,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 14,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 821,
@@ -14831,7 +14831,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 14,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 822,
@@ -14849,7 +14849,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 823,
@@ -14867,7 +14867,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 824,
@@ -14885,7 +14885,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 825,
@@ -14903,7 +14903,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 826,
@@ -14921,7 +14921,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 65,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 827,
@@ -14939,7 +14939,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 828,
@@ -14957,7 +14957,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 829,
@@ -14975,7 +14975,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 830,
@@ -14993,7 +14993,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 831,
@@ -15011,7 +15011,7 @@ const pokemonList = createPokemonArray(
             'intellect': 96,
             'speed': 99,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 832,
@@ -15029,7 +15029,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 833,
@@ -15047,7 +15047,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 84,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 834,
@@ -15065,7 +15065,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 835,
@@ -15083,7 +15083,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 836,
@@ -15101,7 +15101,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 837,
@@ -15119,7 +15119,7 @@ const pokemonList = createPokemonArray(
             'intellect': 91,
             'speed': 108,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 838,
@@ -15137,7 +15137,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 839,
@@ -15155,7 +15155,7 @@ const pokemonList = createPokemonArray(
             'intellect': 135,
             'speed': 125,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 840,
@@ -15173,7 +15173,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 130,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 841,
@@ -15191,7 +15191,7 @@ const pokemonList = createPokemonArray(
             'intellect': 122,
             'speed': 170,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 842,
@@ -15209,7 +15209,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 155,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 843,
@@ -15227,7 +15227,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 844,
@@ -15245,7 +15245,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 845,
@@ -15263,7 +15263,7 @@ const pokemonList = createPokemonArray(
             'intellect': 150,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 846,
@@ -15281,7 +15281,7 @@ const pokemonList = createPokemonArray(
             'intellect': 119,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 847,
@@ -15299,7 +15299,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 848,
@@ -15317,7 +15317,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 849,
@@ -15335,7 +15335,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 155,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 850,
@@ -15353,7 +15353,7 @@ const pokemonList = createPokemonArray(
             'intellect': 87,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 851,
@@ -15371,7 +15371,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 852,
@@ -15389,7 +15389,7 @@ const pokemonList = createPokemonArray(
             'intellect': 1,
             'speed': 1,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 853,
@@ -15407,7 +15407,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 11,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 854,
@@ -15425,7 +15425,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 855,
@@ -15443,7 +15443,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 19,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 856,
@@ -15461,7 +15461,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 857,
@@ -15479,7 +15479,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 858,
@@ -15497,7 +15497,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 859,
@@ -15515,7 +15515,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 860,
@@ -15533,7 +15533,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 861,
@@ -15551,7 +15551,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 54,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 862,
@@ -15569,7 +15569,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 37,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 863,
@@ -15587,7 +15587,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 864,
@@ -15605,7 +15605,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 865,
@@ -15623,7 +15623,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 866,
@@ -15641,7 +15641,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 867,
@@ -15659,7 +15659,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 868,
@@ -15677,7 +15677,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 869,
@@ -15695,7 +15695,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 870,
@@ -15713,7 +15713,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 871,
@@ -15731,7 +15731,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 54,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 872,
@@ -15749,7 +15749,7 @@ const pokemonList = createPokemonArray(
             'intellect': 41,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 873,
@@ -15767,7 +15767,7 @@ const pokemonList = createPokemonArray(
             'intellect': 22,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 874,
@@ -15785,7 +15785,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 875,
@@ -15803,7 +15803,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 75,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 876,
@@ -15821,7 +15821,7 @@ const pokemonList = createPokemonArray(
             'intellect': 103,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 877,
@@ -15839,7 +15839,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 82,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 878,
@@ -15857,7 +15857,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 32,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 879,
@@ -15875,7 +15875,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 880,
@@ -15893,7 +15893,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 881,
@@ -15911,7 +15911,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 882,
@@ -15929,7 +15929,7 @@ const pokemonList = createPokemonArray(
             'intellect': 84,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 883,
@@ -15947,7 +15947,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 884,
@@ -15965,7 +15965,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 885,
@@ -15983,7 +15983,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 886,
@@ -16001,7 +16001,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 887,
@@ -16019,7 +16019,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 888,
@@ -16037,7 +16037,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 889,
@@ -16055,7 +16055,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 890,
@@ -16073,7 +16073,7 @@ const pokemonList = createPokemonArray(
             'intellect': 84,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 891,
@@ -16091,7 +16091,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 892,
@@ -16109,7 +16109,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 893,
@@ -16127,7 +16127,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 894,
@@ -16145,7 +16145,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 895,
@@ -16163,7 +16163,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 99,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 896,
@@ -16181,7 +16181,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 897,
@@ -16199,7 +16199,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 78,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 898,
@@ -16217,7 +16217,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 899,
@@ -16235,7 +16235,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 900,
@@ -16253,7 +16253,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 901,
@@ -16271,7 +16271,7 @@ const pokemonList = createPokemonArray(
             'intellect': 121,
             'speed': 45,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 902,
@@ -16289,7 +16289,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 137,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 903,
@@ -16307,7 +16307,7 @@ const pokemonList = createPokemonArray(
             'intellect': 113,
             'speed': 113,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 904,
@@ -16325,7 +16325,7 @@ const pokemonList = createPokemonArray(
             'intellect': 73,
             'speed': 96,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 905,
@@ -16343,7 +16343,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 74,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 906,
@@ -16361,7 +16361,7 @@ const pokemonList = createPokemonArray(
             'intellect': 155,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 907,
@@ -16379,7 +16379,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 908,
@@ -16397,7 +16397,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 909,
@@ -16415,7 +16415,7 @@ const pokemonList = createPokemonArray(
             'intellect': 124,
             'speed': 147,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 910,
@@ -16433,7 +16433,7 @@ const pokemonList = createPokemonArray(
             'intellect': 10,
             'speed': 10,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 911,
@@ -16451,7 +16451,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 912,
@@ -16469,7 +16469,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 913,
@@ -16487,7 +16487,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 914,
@@ -16505,7 +16505,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 915,
@@ -16523,7 +16523,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 916,
@@ -16541,7 +16541,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 63,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 917,
@@ -16559,7 +16559,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 918,
@@ -16577,7 +16577,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 919,
@@ -16595,7 +16595,7 @@ const pokemonList = createPokemonArray(
             'intellect': 19,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 920,
@@ -16613,7 +16613,7 @@ const pokemonList = createPokemonArray(
             'intellect': 48,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 921,
@@ -16631,7 +16631,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 922,
@@ -16649,7 +16649,7 @@ const pokemonList = createPokemonArray(
             'intellect': 101,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 923,
@@ -16667,7 +16667,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 924,
@@ -16685,7 +16685,7 @@ const pokemonList = createPokemonArray(
             'intellect': 101,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 925,
@@ -16703,7 +16703,7 @@ const pokemonList = createPokemonArray(
             'intellect': 87,
             'speed': 87,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 926,
@@ -16721,7 +16721,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 927,
@@ -16739,7 +16739,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 84,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 928,
@@ -16757,7 +16757,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 929,
@@ -16775,7 +16775,7 @@ const pokemonList = createPokemonArray(
             'intellect': 92,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 930,
@@ -16793,7 +16793,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 931,
@@ -16811,7 +16811,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 932,
@@ -16829,7 +16829,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 933,
@@ -16847,7 +16847,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 140,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 934,
@@ -16865,7 +16865,7 @@ const pokemonList = createPokemonArray(
             'intellect': 111,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 935,
@@ -16883,7 +16883,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 936,
@@ -16901,7 +16901,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 937,
@@ -16919,7 +16919,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 138,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 938,
@@ -16937,7 +16937,7 @@ const pokemonList = createPokemonArray(
             'intellect': 96,
             'speed': 42,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 939,
@@ -16955,7 +16955,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 940,
@@ -16973,7 +16973,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 112,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 941,
@@ -16991,7 +16991,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 942,
@@ -17009,7 +17009,7 @@ const pokemonList = createPokemonArray(
             'intellect': 86,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 943,
@@ -17027,7 +17027,7 @@ const pokemonList = createPokemonArray(
             'intellect': 130,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 944,
@@ -17045,7 +17045,7 @@ const pokemonList = createPokemonArray(
             'intellect': 88,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 945,
@@ -17063,7 +17063,7 @@ const pokemonList = createPokemonArray(
             'intellect': 58,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 946,
@@ -17081,7 +17081,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 119,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 947,
@@ -17099,7 +17099,7 @@ const pokemonList = createPokemonArray(
             'intellect': 58,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 948,
@@ -17117,7 +17117,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 166,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 949,
@@ -17135,7 +17135,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 163,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 950,
@@ -17153,7 +17153,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 163,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 951,
@@ -17171,7 +17171,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 952,
@@ -17189,7 +17189,7 @@ const pokemonList = createPokemonArray(
             'intellect': 131,
             'speed': 52,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 953,
@@ -17207,7 +17207,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 954,
@@ -17225,7 +17225,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 955,
@@ -17243,7 +17243,7 @@ const pokemonList = createPokemonArray(
             'intellect': 135,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 956,
@@ -17261,7 +17261,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 957,
@@ -17279,7 +17279,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 68,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 958,
@@ -17297,7 +17297,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 959,
@@ -17315,7 +17315,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 73,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 960,
@@ -17333,7 +17333,7 @@ const pokemonList = createPokemonArray(
             'intellect': 132,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 961,
@@ -17351,7 +17351,7 @@ const pokemonList = createPokemonArray(
             'intellect': 94,
             'speed': 81,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 962,
@@ -17369,7 +17369,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 123,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 963,
@@ -17387,7 +17387,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 964,
@@ -17405,7 +17405,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 54,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 965,
@@ -17423,7 +17423,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 72,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 966,
@@ -17441,7 +17441,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 166,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 967,
@@ -17459,7 +17459,7 @@ const pokemonList = createPokemonArray(
             'intellect': 170,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 968,
@@ -17477,7 +17477,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 969,
@@ -17495,7 +17495,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 970,
@@ -17513,7 +17513,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 971,
@@ -17531,7 +17531,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 972,
@@ -17549,7 +17549,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 117,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 973,
@@ -17567,7 +17567,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 974,
@@ -17585,7 +17585,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 19,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 975,
@@ -17603,7 +17603,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 976,
@@ -17621,7 +17621,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 977,
@@ -17639,7 +17639,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 978,
@@ -17657,7 +17657,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 979,
@@ -17675,7 +17675,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 980,
@@ -17693,7 +17693,7 @@ const pokemonList = createPokemonArray(
             'intellect': 109,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 981,
@@ -17711,7 +17711,7 @@ const pokemonList = createPokemonArray(
             'intellect': 109,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 982,
@@ -17729,7 +17729,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 983,
@@ -17747,7 +17747,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 984,
@@ -17765,7 +17765,7 @@ const pokemonList = createPokemonArray(
             'intellect': 112,
             'speed': 107,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 985,
@@ -17783,7 +17783,7 @@ const pokemonList = createPokemonArray(
             'intellect': 103,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 986,
@@ -17801,7 +17801,7 @@ const pokemonList = createPokemonArray(
             'intellect': 101,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 987,
@@ -17819,7 +17819,7 @@ const pokemonList = createPokemonArray(
             'intellect': 103,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 988,
@@ -17837,7 +17837,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 989,
@@ -17855,7 +17855,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 990,
@@ -17873,7 +17873,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 116,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 991,
@@ -17891,7 +17891,7 @@ const pokemonList = createPokemonArray(
             'intellect': 92,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 992,
@@ -17909,7 +17909,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 161,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 993,
@@ -17927,7 +17927,7 @@ const pokemonList = createPokemonArray(
             'intellect': 10,
             'speed': 10,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 994,
@@ -17945,7 +17945,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 156,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 995,
@@ -17963,7 +17963,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 996,
@@ -17981,7 +17981,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 997,
@@ -17999,7 +17999,7 @@ const pokemonList = createPokemonArray(
             'intellect': 160,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 998,
@@ -18017,7 +18017,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 999,
@@ -18035,7 +18035,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 157,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1000,
@@ -18053,7 +18053,7 @@ const pokemonList = createPokemonArray(
             'intellect': 109,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1001,
@@ -18071,7 +18071,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1002,
@@ -18089,7 +18089,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1003,
@@ -18107,7 +18107,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1004,
@@ -18125,7 +18125,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1005,
@@ -18143,7 +18143,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1006,
@@ -18161,7 +18161,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1007,
@@ -18179,7 +18179,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1008,
@@ -18197,7 +18197,7 @@ const pokemonList = createPokemonArray(
             'intellect': 84,
             'speed': 180,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1009,
@@ -18215,7 +18215,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 150,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1010,
@@ -18233,7 +18233,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 150,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1011,
@@ -18251,7 +18251,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 121,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1012,
@@ -18269,7 +18269,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1013,
@@ -18287,7 +18287,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 94,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1014,
@@ -18305,7 +18305,7 @@ const pokemonList = createPokemonArray(
             'intellect': 62,
             'speed': 94,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1015,
@@ -18323,7 +18323,7 @@ const pokemonList = createPokemonArray(
             'intellect': 125,
             'speed': 114,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1016,
@@ -18341,7 +18341,7 @@ const pokemonList = createPokemonArray(
             'intellect': 11,
             'speed': 67,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1017,
@@ -18359,7 +18359,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1018,
@@ -18377,7 +18377,7 @@ const pokemonList = createPokemonArray(
             'intellect': 93,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1019,
@@ -18395,7 +18395,7 @@ const pokemonList = createPokemonArray(
             'intellect': 110,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1020,
@@ -18413,7 +18413,7 @@ const pokemonList = createPokemonArray(
             'intellect': 115,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1021,
@@ -18431,7 +18431,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 132,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1022,
@@ -18449,7 +18449,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 147,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1023,
@@ -18467,7 +18467,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 145,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1024,
@@ -18485,7 +18485,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 13,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1025,
@@ -18503,7 +18503,7 @@ const pokemonList = createPokemonArray(
             'intellect': 34,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1026,
@@ -18521,7 +18521,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1027,
@@ -18539,7 +18539,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1028,
@@ -18557,7 +18557,7 @@ const pokemonList = createPokemonArray(
             'intellect': 64,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1029,
@@ -18575,7 +18575,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 92,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1030,
@@ -18593,7 +18593,7 @@ const pokemonList = createPokemonArray(
             'intellect': 46,
             'speed': 76,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1031,
@@ -18611,7 +18611,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1032,
@@ -18629,7 +18629,7 @@ const pokemonList = createPokemonArray(
             'intellect': 24,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1033,
@@ -18647,7 +18647,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1034,
@@ -18665,7 +18665,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1035,
@@ -18683,7 +18683,7 @@ const pokemonList = createPokemonArray(
             'intellect': 112,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1036,
@@ -18701,7 +18701,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1037,
@@ -18719,7 +18719,7 @@ const pokemonList = createPokemonArray(
             'intellect': 150,
             'speed': 86,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1038,
@@ -18737,7 +18737,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 86,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1039,
@@ -18755,7 +18755,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 76,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1040,
@@ -18773,7 +18773,7 @@ const pokemonList = createPokemonArray(
             'intellect': 78,
             'speed': 137,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1041,
@@ -18791,7 +18791,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1042,
@@ -18809,7 +18809,7 @@ const pokemonList = createPokemonArray(
             'intellect': 140,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1043,
@@ -18827,7 +18827,7 @@ const pokemonList = createPokemonArray(
             'intellect': 140,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1044,
@@ -18845,7 +18845,7 @@ const pokemonList = createPokemonArray(
             'intellect': 121,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1045,
@@ -18863,7 +18863,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 17,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1046,
@@ -18881,7 +18881,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1047,
@@ -18899,7 +18899,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1048,
@@ -18917,7 +18917,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 19,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1049,
@@ -18935,7 +18935,7 @@ const pokemonList = createPokemonArray(
             'intellect': 18,
             'speed': 24,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1050,
@@ -18953,7 +18953,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1051,
@@ -18971,7 +18971,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 46,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1052,
@@ -18989,7 +18989,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1053,
@@ -19007,7 +19007,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1054,
@@ -19025,7 +19025,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 77,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1055,
@@ -19043,7 +19043,7 @@ const pokemonList = createPokemonArray(
             'intellect': 52,
             'speed': 55,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1056,
@@ -19061,7 +19061,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 38,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1057,
@@ -19079,7 +19079,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1058,
@@ -19097,7 +19097,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 64,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1059,
@@ -19115,7 +19115,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1060,
@@ -19133,7 +19133,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1061,
@@ -19151,7 +19151,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 156,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1062,
@@ -19169,7 +19169,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1063,
@@ -19187,7 +19187,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1064,
@@ -19205,7 +19205,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 180,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1065,
@@ -19223,7 +19223,7 @@ const pokemonList = createPokemonArray(
             'intellect': 75,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1066,
@@ -19241,7 +19241,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 130,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1067,
@@ -19259,7 +19259,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1068,
@@ -19277,7 +19277,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1069,
@@ -19295,7 +19295,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1070,
@@ -19313,7 +19313,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1071,
@@ -19331,7 +19331,7 @@ const pokemonList = createPokemonArray(
             'intellect': 125,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1072,
@@ -19349,7 +19349,7 @@ const pokemonList = createPokemonArray(
             'intellect': 105,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1073,
@@ -19367,7 +19367,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 36,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1074,
@@ -19385,7 +19385,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1075,
@@ -19403,7 +19403,7 @@ const pokemonList = createPokemonArray(
             'intellect': 16,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1076,
@@ -19421,7 +19421,7 @@ const pokemonList = createPokemonArray(
             'intellect': 32,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1077,
@@ -19439,7 +19439,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1078,
@@ -19457,7 +19457,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1079,
@@ -19475,7 +19475,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 41,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1080,
@@ -19493,7 +19493,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 166,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1081,
@@ -19511,7 +19511,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1082,
@@ -19529,7 +19529,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1083,
@@ -19547,7 +19547,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1084,
@@ -19565,7 +19565,7 @@ const pokemonList = createPokemonArray(
             'intellect': 68,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1085,
@@ -19583,7 +19583,7 @@ const pokemonList = createPokemonArray(
             'intellect': 102,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1086,
@@ -19601,7 +19601,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1087,
@@ -19619,7 +19619,7 @@ const pokemonList = createPokemonArray(
             'intellect': 135,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1088,
@@ -19637,7 +19637,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1089,
@@ -19655,7 +19655,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 200,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1090,
@@ -19673,7 +19673,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1091,
@@ -19691,7 +19691,7 @@ const pokemonList = createPokemonArray(
             'intellect': 96,
             'speed': 52,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1092,
@@ -19709,7 +19709,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1093,
@@ -19727,7 +19727,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 56,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1094,
@@ -19745,7 +19745,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 117,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1095,
@@ -19763,7 +19763,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 85,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1096,
@@ -19781,7 +19781,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 61,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1097,
@@ -19799,7 +19799,7 @@ const pokemonList = createPokemonArray(
             'intellect': 136,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1098,
@@ -19817,7 +19817,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1099,
@@ -19835,7 +19835,7 @@ const pokemonList = createPokemonArray(
             'intellect': 170,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1100,
@@ -19853,7 +19853,7 @@ const pokemonList = createPokemonArray(
             'intellect': 145,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1101,
@@ -19871,7 +19871,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1102,
@@ -19889,7 +19889,7 @@ const pokemonList = createPokemonArray(
             'intellect': 126,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1103,
@@ -19907,7 +19907,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1104,
@@ -19925,7 +19925,7 @@ const pokemonList = createPokemonArray(
             'intellect': 80,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1105,
@@ -19943,7 +19943,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 113,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1106,
@@ -19961,7 +19961,7 @@ const pokemonList = createPokemonArray(
             'intellect': 114,
             'speed': 116,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1107,
@@ -19979,7 +19979,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 110,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1108,
@@ -19997,7 +19997,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 107,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1109,
@@ -20015,7 +20015,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 89,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1110,
@@ -20033,7 +20033,7 @@ const pokemonList = createPokemonArray(
             'intellect': 150,
             'speed': 115,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1111,
@@ -20051,7 +20051,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1112,
@@ -20069,7 +20069,7 @@ const pokemonList = createPokemonArray(
             'intellect': 10,
             'speed': 240,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1113,
@@ -20087,7 +20087,7 @@ const pokemonList = createPokemonArray(
             'intellect': 138,
             'speed': 49,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1114,
@@ -20105,7 +20105,7 @@ const pokemonList = createPokemonArray(
             'intellect': 120,
             'speed': 95,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1115,
@@ -20123,7 +20123,7 @@ const pokemonList = createPokemonArray(
             'intellect': 131,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1116,
@@ -20141,7 +20141,7 @@ const pokemonList = createPokemonArray(
             'intellect': 99,
             'speed': 99,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1117,
@@ -20159,7 +20159,7 @@ const pokemonList = createPokemonArray(
             'intellect': 104,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1118,
@@ -20177,7 +20177,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 125,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1119,
@@ -20195,7 +20195,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 125,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1120,
@@ -20213,7 +20213,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1121,
@@ -20231,7 +20231,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1122,
@@ -20249,7 +20249,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1123,
@@ -20267,7 +20267,7 @@ const pokemonList = createPokemonArray(
             'intellect': 33,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1124,
@@ -20285,7 +20285,7 @@ const pokemonList = createPokemonArray(
             'intellect': 27,
             'speed': 18,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1125,
@@ -20303,7 +20303,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1126,
@@ -20321,7 +20321,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 31,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1127,
@@ -20339,7 +20339,7 @@ const pokemonList = createPokemonArray(
             'intellect': 67,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1128,
@@ -20357,7 +20357,7 @@ const pokemonList = createPokemonArray(
             'intellect': 38,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1129,
@@ -20375,7 +20375,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1130,
@@ -20393,7 +20393,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1131,
@@ -20411,7 +20411,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 33,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1132,
@@ -20429,7 +20429,7 @@ const pokemonList = createPokemonArray(
             'intellect': 49,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1133,
@@ -20447,7 +20447,7 @@ const pokemonList = createPokemonArray(
             'intellect': 55,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1134,
@@ -20465,7 +20465,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1135,
@@ -20483,7 +20483,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 16,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1136,
@@ -20501,7 +20501,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 40,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1137,
@@ -20519,7 +20519,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 20,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1138,
@@ -20537,7 +20537,7 @@ const pokemonList = createPokemonArray(
             'intellect': 74,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1139,
@@ -20555,7 +20555,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 29,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1140,
@@ -20573,7 +20573,7 @@ const pokemonList = createPokemonArray(
             'intellect': 53,
             'speed': 62,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1141,
@@ -20591,7 +20591,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 166,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1142,
@@ -20609,7 +20609,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 58,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1143,
@@ -20627,7 +20627,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1144,
@@ -20645,7 +20645,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 81,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1145,
@@ -20663,7 +20663,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1146,
@@ -20681,7 +20681,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 76,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1147,
@@ -20699,7 +20699,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1148,
@@ -20717,7 +20717,7 @@ const pokemonList = createPokemonArray(
             'intellect': 39,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1149,
@@ -20735,7 +20735,7 @@ const pokemonList = createPokemonArray(
             'intellect': 95,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1150,
@@ -20753,7 +20753,7 @@ const pokemonList = createPokemonArray(
             'intellect': 43,
             'speed': 26,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1151,
@@ -20771,7 +20771,7 @@ const pokemonList = createPokemonArray(
             'intellect': 89,
             'speed': 35,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1152,
@@ -20789,7 +20789,7 @@ const pokemonList = createPokemonArray(
             'intellect': 25,
             'speed': 120,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1153,
@@ -20807,7 +20807,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1154,
@@ -20825,7 +20825,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 90,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1155,
@@ -20843,7 +20843,7 @@ const pokemonList = createPokemonArray(
             'intellect': 56,
             'speed': 80,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1156,
@@ -20861,7 +20861,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1157,
@@ -20879,7 +20879,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 134,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1158,
@@ -20897,7 +20897,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 133,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1159,
@@ -20915,7 +20915,7 @@ const pokemonList = createPokemonArray(
             'intellect': 131,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1160,
@@ -20933,7 +20933,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 69,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1161,
@@ -20951,7 +20951,7 @@ const pokemonList = createPokemonArray(
             'intellect': 152,
             'speed': 60,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
     {
         'id': 1162,
@@ -20969,7 +20969,7 @@ const pokemonList = createPokemonArray(
             'intellect': 127,
             'speed': 53,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1163,
@@ -20987,7 +20987,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 114,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1164,
@@ -21005,7 +21005,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1165,
@@ -21023,7 +21023,7 @@ const pokemonList = createPokemonArray(
             'intellect': 76,
             'speed': 169,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1166,
@@ -21041,7 +21041,7 @@ const pokemonList = createPokemonArray(
             'intellect': 40,
             'speed': 88,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1167,
@@ -21059,7 +21059,7 @@ const pokemonList = createPokemonArray(
             'intellect': 96,
             'speed': 135,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1168,
@@ -21077,7 +21077,7 @@ const pokemonList = createPokemonArray(
             'intellect': 42,
             'speed': 91,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1169,
@@ -21095,7 +21095,7 @@ const pokemonList = createPokemonArray(
             'intellect': 17,
             'speed': 27,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1170,
@@ -21113,7 +21113,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 25,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1171,
@@ -21131,7 +21131,7 @@ const pokemonList = createPokemonArray(
             'intellect': 11,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1172,
@@ -21149,7 +21149,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 22,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1173,
@@ -21167,7 +21167,7 @@ const pokemonList = createPokemonArray(
             'intellect': 12,
             'speed': 23,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1174,
@@ -21185,7 +21185,7 @@ const pokemonList = createPokemonArray(
             'intellect': 29,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1175,
@@ -21203,7 +21203,7 @@ const pokemonList = createPokemonArray(
             'intellect': 15,
             'speed': 15,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1176,
@@ -21221,7 +21221,7 @@ const pokemonList = createPokemonArray(
             'intellect': 14,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1177,
@@ -21239,7 +21239,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 16,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1178,
@@ -21257,7 +21257,7 @@ const pokemonList = createPokemonArray(
             'intellect': 26,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1179,
@@ -21275,7 +21275,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1180,
@@ -21293,7 +21293,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 43,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1181,
@@ -21311,7 +21311,7 @@ const pokemonList = createPokemonArray(
             'intellect': 50,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1182,
@@ -21329,7 +21329,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1183,
@@ -21347,7 +21347,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1184,
@@ -21365,7 +21365,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 104,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1185,
@@ -21383,7 +21383,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1186,
@@ -21401,7 +21401,7 @@ const pokemonList = createPokemonArray(
             'intellect': 63,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1187,
@@ -21419,7 +21419,7 @@ const pokemonList = createPokemonArray(
             'intellect': 20,
             'speed': 44,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1188,
@@ -21437,7 +21437,7 @@ const pokemonList = createPokemonArray(
             'intellect': 23,
             'speed': 66,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1189,
@@ -21455,7 +21455,7 @@ const pokemonList = createPokemonArray(
             'intellect': 69,
             'speed': 34,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1190,
@@ -21473,7 +21473,7 @@ const pokemonList = createPokemonArray(
             'intellect': 45,
             'speed': 48,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1191,
@@ -21491,7 +21491,7 @@ const pokemonList = createPokemonArray(
             'intellect': 28,
             'speed': 105,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1192,
@@ -21509,7 +21509,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 83,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1193,
@@ -21527,7 +21527,7 @@ const pokemonList = createPokemonArray(
             'intellect': 100,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1194,
@@ -21545,7 +21545,7 @@ const pokemonList = createPokemonArray(
             'intellect': 65,
             'speed': 131,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1195,
@@ -21563,7 +21563,7 @@ const pokemonList = createPokemonArray(
             'intellect': 30,
             'speed': 30,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ToughDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Security},
     },
     {
         'id': 1196,
@@ -21581,7 +21581,7 @@ const pokemonList = createPokemonArray(
             'intellect': 36,
             'speed': 100,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1197,
@@ -21599,7 +21599,7 @@ const pokemonList = createPokemonArray(
             'intellect': 47,
             'speed': 138,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1198,
@@ -21617,7 +21617,7 @@ const pokemonList = createPokemonArray(
             'intellect': 21,
             'speed': 39,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1199,
@@ -21635,7 +21635,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 47,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1200,
@@ -21653,7 +21653,7 @@ const pokemonList = createPokemonArray(
             'intellect': 51,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1201,
@@ -21671,7 +21671,7 @@ const pokemonList = createPokemonArray(
             'intellect': 101,
             'speed': 50,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1202,
@@ -21689,7 +21689,7 @@ const pokemonList = createPokemonArray(
             'intellect': 90,
             'speed': 106,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1203,
@@ -21707,7 +21707,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 28,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.MageDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Light},
     },
     {
         'id': 1204,
@@ -21725,7 +21725,7 @@ const pokemonList = createPokemonArray(
             'intellect': 31,
             'speed': 186,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1205,
@@ -21743,7 +21743,7 @@ const pokemonList = createPokemonArray(
             'intellect': 96,
             'speed': 144,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1206,
@@ -21761,7 +21761,7 @@ const pokemonList = createPokemonArray(
             'intellect': 44,
             'speed': 155,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1207,
@@ -21779,7 +21779,7 @@ const pokemonList = createPokemonArray(
             'intellect': 60,
             'speed': 161,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1208,
@@ -21797,7 +21797,7 @@ const pokemonList = createPokemonArray(
             'intellect': 82,
             'speed': 140,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.ChargeDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Step},
     },
     {
         'id': 1209,
@@ -21815,7 +21815,7 @@ const pokemonList = createPokemonArray(
             'intellect': 37,
             'speed': 103,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.FightDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Games},
     },
     {
         'id': 1210,
@@ -21833,7 +21833,7 @@ const pokemonList = createPokemonArray(
             'intellect': 35,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1211,
@@ -21851,7 +21851,7 @@ const pokemonList = createPokemonArray(
             'intellect': 70,
             'speed': 138,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.EnergyDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
     },
     {
         'id': 1212,
@@ -21869,7 +21869,7 @@ const pokemonList = createPokemonArray(
             'intellect': 111,
             'speed': 70,
         },
-        'heldItem': {type: ItemType.berry, id: BerryType.OracleDisk},
+        'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
 );
 
