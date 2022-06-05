@@ -8,7 +8,7 @@ class EnigmaMutation extends GrowMutation {
     hintsSeen: KnockoutObservable<boolean>[];
 
     constructor(mutationChance: number) {
-        super(mutationChance, BerryType.Enigma, {
+        super(mutationChance, BerryType.Calculator, {
             unlockReq: function(): boolean {
                 if (!App.game.discord.ID()) {
                     return false;
@@ -65,7 +65,7 @@ class EnigmaMutation extends GrowMutation {
         // mutations can make it difficult to have all four plants fully grown.
         // Also remove Babiri since they'll stop mutations
         berryTypes = berryTypes.filter(berry => {
-            return ![BerryType.Occa, BerryType.Kebia, BerryType.Colbur, BerryType.Babiri].includes(berry);
+            return ![BerryType.Broadcasting, BerryType.Fortune, BerryType.Entertainment, BerryType.Medical].includes(berry);
         });
         return [...new Array(4)].map((_) => SeededRand.fromArray(berryTypes));
     }
