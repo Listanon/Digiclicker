@@ -17,9 +17,9 @@ class BagHandler {
             case ItemType.underground:
                 return this.getUndergroundItem(item.id).displayName;
             case ItemType.berry:
-                return `${BerryType[this.getBerry(item.id)]} Berry`;
+                return `${BerryType[this.getBerry(item.id)]} Disk`;
             case ItemType.gem:
-                return `${PokemonType[this.getGem(item.id)]} Gem`;
+                return `${PokemonType[this.getGem(item.id)]} Chip`;
         }
     }
 
