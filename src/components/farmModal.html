@@ -5,9 +5,9 @@
         <div class="modal-content">
             <div class="modal-header p-0">
                 <ul class="nav nav-tabs nav-fill">
-                    <li class="nav-item"><a data-toggle='tab' class='nav-link active' href="#berryFarmView">Farm</a></li>
-                    <li class='nav-item' data-bind="visible: App.game.farming.farmHands.isUnlocked()"><a data-toggle='tab' class='nav-link' href="#farmHandsView">Farm Hands (BETA)</a></li>
-                    <li class='nav-item'><a data-toggle='tab' class='nav-link' href="#berryDexView">Berrydex</a></li>
+                    <li class="nav-item"><a data-toggle='tab' class='nav-link active' href="#berryFarmView">Tyutyumon's</a></li>
+                    <li class='nav-item' data-bind="visible: App.game.farming.farmHands.isUnlocked()"><a data-toggle='tab' class='nav-link' href="#farmHandsView">Disk Hands (BETA)</a></li>
+                    <li class='nav-item'><a data-toggle='tab' class='nav-link' href="#berryDexView">Appdex</a></li>
                     <li class='nav-item'><a data-toggle='tab' class='nav-link' href="#helpView">Help</a></li>
                     <!-- TODO: HLXII Add Apricorn Tab ? -->
                     <btn class="btn btn-primary">
@@ -24,8 +24,8 @@
 
 
                             <ul class="nav nav-tabs nav-fill">
-                                <li class="nav-item"><a data-toggle='tab' class='nav-link active' href="#seeds" data-bind="click: function(){FarmController.berryListVisible(true);}">Berries</a></li>
-                                <li class='nav-item'><a data-toggle='tab' class='nav-link' href="#mulches" data-bind="click: function(){FarmController.berryListVisible(false);}">Mulch</a></li>
+                                <li class="nav-item"><a data-toggle='tab' class='nav-link active' href="#seeds" data-bind="click: function(){FarmController.berryListVisible(true);}">Disks</a></li>
+                                <li class='nav-item'><a data-toggle='tab' class='nav-link' href="#mulches" data-bind="click: function(){FarmController.berryListVisible(false);}">Boosts</a></li>
                             </ul>
 
                             <div class="tab-content">
@@ -66,12 +66,12 @@
                                     <div class="row justify-content-center py-1">
                                         <div class="col-6 pr-0">
                                             <button class="btn btn-primary btn-block" data-bind="click: function(){App.game.farming.plantAll(FarmController.selectedBerry())}">
-                                                Plant All
+                                                Fill All
                                             </button>
                                         </div>
                                         <div class="col-6 pl-0">
                                             <button class="btn btn-success btn-block" data-bind="click: function(){App.game.farming.harvestAll()}">
-                                                Harvest All
+                                                Take All
                                             </button>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@
                                             title="Multiplier"
                                             data-toggle="popover"
                                             data-html="true"
-                                            data-content="Left/right click to cycle amount<br/>Applies to single and Mulch All"
+                                            data-content="Left/right click to cycle amount<br/>Applies to single and Boost All"
                                             data-placement="right"
                                             data-trigger="hover">
                                             </button>
@@ -118,7 +118,7 @@
                                 <li class="list-group-item list-group-item-action seed-list-item p-2"
                                     data-bind="click: function() {FarmController.selectedShovel(true);FarmController.selectedMulchShovel(false);},
                                     css: { 'active': FarmController.selectedShovel() },
-                                    tooltip: {title: 'Clear a Plant from a plot.', trigger: 'hover', animation: false}">
+                                    tooltip: {title: 'Clear a Disk from a tray.', trigger: 'hover', animation: false}">
                                     <img src="" height="24px"
                                         data-bind="attr:{ src: ItemList['Berry_Shovel'].image }">
                                     <span>Shovel</span>
@@ -131,7 +131,7 @@
                                 <li class="list-group-item list-group-item-action seed-list-item p-3"
                                     data-bind="click: function() {FarmController.selectedMulchShovel(true);FarmController.selectedShovel(false);FarmController.selectedMulch(-1);},
                             css: { 'active': FarmController.selectedMulchShovel() },
-                            tooltip: {title: 'Clear a Mulch from a plot.', trigger: 'hover', animation: false}">
+                            tooltip: {title: 'Clear a Boost from a tray.', trigger: 'hover', animation: false}">
                                     <img src="" height="21px"
                                          data-bind="attr:{ src: ItemList['Mulch_Shovel'].image }">
                                     <span>MulchShovel</span>
@@ -205,62 +205,62 @@
 
                 <div id="helpView" class="tab-pane fade col-10 offset-1">
                     <h4><u>Farm</u></h4>
-                    <p>In the farm you can plant and harvest Berries.</p>
+                    <p>In my shop you can burn and collect Disks.</p>
 
-                    <p>Each Berry type takes a different amount of time to grow,
-                    <br/>Once fully grown, the Berry plant can be clicked to manually harvest the Berries and gain some Farm Points.</p>
+                    <p>Each Disks type takes a different amount of time to burn,
+                    <br/>Once fully burned, the Disk can be clicked to manually collect the Disks and gain some Farm Points.</p>
 
-                    <p>Otherwise after some time being fully grown, the Berry plant will wither away,
-                    dropping half of the expected Berries but may also be re-planted automatically.
-                    <br/><i>(Farm Points are only gained by manually harvesting Berries)</i><p>
+                    <p>Otherwise after some time being fully burned, the Disk will fail,
+                    dropping half of the expected Disks but may also be re-entered automatically.
+                    <br/><i>(Farm Points are only gained by manually collecting Disks)</i><p>
 
-                    <p>Additional plots can be unlocked by spending Berries.</p>
+                    <p>Additional trays can be unlocked by spending Disks.</p>
 
                     <h4><u>Mutations</u></h4>
-                    <p>Berries have the chance to cause mutations and create new Berry species in empty plots based on certain conditions.
-                    <br/><i>(the Berry Master in Kanto will give you daily hints to what these conditions may be)</i></p>
+                    <p>Disks have the chance to cause modifications and create new Disks in empty trays based on certain conditions.
+                    <br/><i>(the Disk Master in File Island will give you daily hints to what these conditions may be)</i></p>
 
-                    <h4><u>Mulches</u></h4>
-                    <p>Mulches can be bought in later regions from Berry Masters,
-                    <br/>They can be used on plots for different effects:</p>
+                    <h4><u>Boosts</u></h4>
+                    <p>Boosts can be bought in later regions from Disk Masters,
+                    <br/>They can be used on trays for different effects:</p>
                     <table class="table table-bordered table-striped">
                         <tr>
-                            <td>Boost Mulch</td>
-                            <td>Increases the growth rate of Berry plants.</td>
+                            <td>Speed Boost</td>
+                            <td>Increases the burn rate of Disks.</td>
                         </tr>
                         <tr>
-                            <td>Rich Mulch</td>
-                            <td>Increases the number of Berries harvested.</td>
+                            <td>Space Boost</td>
+                            <td>Increases the number of Disks collected.</td>
                         </tr>
                         <tr>
-                            <td>Surprise Mulch</td>
-                            <td>Increases the chances of mutations.</td>
+                            <td>Surprise Boost</td>
+                            <td>Increases the chances of modifications.</td>
                         </tr>
                         <tr>
-                            <td>Amaze Mulch</td>
+                            <td>Quality Boost</td>
                             <td>A weaker version of all three effects.</td>
                         </tr>
                     </table>
 
-                    <h4><u>Shovel</u></h4>
-                    <p>If you want to remove a Berry plant before it is fully grown,
-                    <br/>you can use a Shovel to uproot it.
-                    <br/><i>(shovels can be purchased in later regions from Berry Masters)</i></p>
+                    <h4><u>Uninstaller</u></h4>
+                    <p>If you want to remove a Disk before it is fully burned,
+                    <br/>you can use an Uninstaller to kill the process.
+                    <br/><i>(uninstaller can be purchased in later regions from Disk Masters)</i></p>
 
                     <h4><u>Trades</u></h4>
-                    <p>Berries can be traded with Berry Masters in later regions for other useful items</p>
+                    <p>Disks can be traded with Disks Masters in later regions for other useful items</p>
 
-                    <h4><u>Wandering Pokémon</u></h4>
-                    <p>Ripe Berry plants may attract wild Pokémon that will join your party. Some Pokémon can only be found using certain Berry species.</p>
+                    <h4><u>Wandering Digimon</u></h4>
+                    <p>Ripe Disks may attract wild Digimon that will join your party. Some Digimon can only be found using certain Disks.</p>
                     
-                    <h4><u>Farm Hands (BETA)</u></h4>
-                    <p><i>(unlocked after obtaining 8 unique berries)</i></p>
-                    <p>Farm Hands can help around the Farm, they will harvest and plant berries as needed.</p>
+                    <h4><u>Shop Hands (BETA)</u></h4>
+                    <p><i>(unlocked after obtaining 8 unique disks)</i></p>
+                    <p>Shop Hands can help around the Shop, they will collect and burn disks as needed.</p>
                     <p class="text-danger"><i>NOTE: This is a <strong>beta</strong> feature, things will likely change in the future, feel free to post any feedback/bugs in the <a href="https://discord.gg/a6DFe4p" target="_blank">Discord</a>.</i></p>
-                    <p>Up to 3 Farm Hands can be hired at a time.</p>
+                    <p>Up to 3 Shop Hands can be hired at a time.</p>
                     <p>If they run out of energy, they won't do any work for that cycle but will regenerate some energy instead, if there's no work to do currently, they will also regenerate some energy.</p>
                     <p>Efficiency refers to how many actions they can do per work cycle.</p>
-                    <p><i>More Farm Hands can be unlocked through shops and unlocking unique berries</i></p>
+                    <p><i>More Shop Hands can be unlocked through shops and unlocking unique disks</i></p>
                 </div>
 
                 <div id="farmHandsView" class="tab-pane fade">
