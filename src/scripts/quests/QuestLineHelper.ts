@@ -8,7 +8,7 @@ class QuestLineHelper {
 
         //Defeat Starter
         const defeatStarter = new CustomQuest(1, 10,
-            'Defeat the Pokémon. Click to deal damage',
+            'Defeat the Digimon. Click to deal damage',
             () => App.game.statistics.totalPokemonDefeated(),
             0 // Initial of 0 so it auto completes if bugged
         );
@@ -16,7 +16,7 @@ class QuestLineHelper {
 
         //Capture 1 pokemon
         const captureOne = new CustomQuest(1, 20,
-            'Capture 1 Pokémon. When you defeat a Pokémon, a Pokéball is thrown and you have a chance to capture it.',
+            'Scan 1 Digimon. When you defeat a Digimon, a Scan module is used. When the Scanner reaches 100% the digimon will join your party.',
             () => App.game.statistics.totalPokemonCaptured(),
             1 // Initial of 1 so it auto completes if bugged
         );
@@ -24,7 +24,7 @@ class QuestLineHelper {
 
         //Kill 5 on route 2
         const routeTwo = new CustomQuest(10, 20,
-            'Defeat 10 Pokémon on route 2. Click route 2 on the map to move there and begin fighting.',
+            'Defeat 10 Digimon on route 2. Click route 2 on the map to move there and begin fighting.',
             () => App.game.statistics.routeKills[GameConstants.Region.kanto]['2'](),
             0 // Initial of 0 so it auto completes if bugged
         );
@@ -32,7 +32,7 @@ class QuestLineHelper {
 
         //Buy pokeballs
         const buyPokeballs = new CustomQuest(10, 50,
-            'Buy 10 Pokéballs. You can find these in the Viridian City Shop.',
+            'Buy 10 Basic Scanners. You can find these in the Viridian City Shop.',
             () => App.game.statistics.pokeballsBought[GameConstants.Pokeball.Pokeball](),
             0 // Initial of 0 so it auto completes if bugged
         );
@@ -48,7 +48,7 @@ class QuestLineHelper {
 
         //Clear Viridian Forest
         const clearViridianForest = new CustomQuest(1, 50,
-            'Gather 50 Dungeon tokens by (re)capturing Pokémon, then clear the Viridian Forest dungeon.',
+            'Gather 50 Scan Coins by (re)capturing Digimon, then clear the Viridian Forest dungeon.',
             () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Viridian Forest')](),
             0
         );
@@ -65,7 +65,7 @@ class QuestLineHelper {
                     },
                     {
                         element: document.getElementById('startMenu'),
-                        intro: 'See the badges you\'ve earned in the Badge Case. Badges influence the max level of your Pokémon.',
+                        intro: 'See the keepsakes you\'ve earned in the Keepsake Case. Keepsakes influence the max level of your Digimon.',
                     },
                 ],
             });
