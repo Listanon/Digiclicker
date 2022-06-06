@@ -169,7 +169,7 @@ class PokedexHelper {
         if (App.game.party.alreadyCaughtPokemon(id, true) && this.toggleAllShiny()) {
             src += 'shiny';
         }
-        src += `pokemon/${id}.png`;
+        src += `digidex/${id}.png`;
         return src;
     }
 
