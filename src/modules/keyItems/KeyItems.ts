@@ -42,7 +42,7 @@ export default class KeyItems implements Feature {
                     steps: [
                         {
                             element: document.getElementById('pokeballSelector'),
-                            intro: 'Select which Scan module to catch Pokémon with based on their scanned/dot status.<br/><i><sup>Hover over the column titles for more info.</sup></i><br/><br/>Scaning Digimon gains you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.png" height="25px"> Dungeon Tokens.<br/><br/>Try now by clicking the "Scanned" selector to change it.',
+                            intro: 'Select which Scan module to catch Pokémon with based on their scanned/dot status.<br/><i><sup>Hover over the column titles for more info.</sup></i><br/><br/>Scaning Digimon gains you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px"> Dungeon Tokens.<br/><br/>Try now by clicking the "Scanned" selector to change it.',
                         },
                     ],
                     exitOnEsc: false,
@@ -58,7 +58,7 @@ export default class KeyItems implements Feature {
                                 steps: [
                                     {
                                         element: document.querySelector('#pokeballSelectorModal .modal-body'),
-                                        intro: 'Select the <img title="Digiscan" src="assets/images/pokeball/Pokeball.png" height="25px"> Scan module to use this type of ball to capture already scanned Digimon, which will give you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.png" height="25px"> Dungeon Tokens when scanned.',
+                                        intro: 'Select the <img title="Digiscan" src="assets/images/pokeball/Pokeball.png" height="25px"> Scan module to use this type of ball to capture already scanned Digimon, which will give you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px"> Dungeon Tokens when scanned.',
                                     },
                                 ],
                                 // Needed for IntroJs on modals
