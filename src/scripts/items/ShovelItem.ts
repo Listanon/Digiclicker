@@ -12,7 +12,7 @@ class ShovelItem extends Item {
 
 }
 
-ItemList['Berry_Shovel']   = new ShovelItem(300, 'Berry Shovel', 'Stops the burning process for disks.');
+ItemList['Berry_Shovel']   = new ShovelItem(300, 'Uninstaller', 'Stops the burning process for disks.');
 
 class MulchShovelItem extends Item {
 
@@ -26,4 +26,4 @@ class MulchShovelItem extends Item {
 
 }
 
-ItemList['Mulch_Shovel'] = new MulchShovelItem(300, 'Mulch Shovel', 'Removes Boosts from a spot in the disk tray.');
+ItemList['Mulch_Shovel'] = new MulchShovelItem(300, 'Unbooster', 'Removes Boosts from a spot in the disk tray.');
