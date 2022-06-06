@@ -78,90 +78,90 @@ class Farming implements Feature {
         this.berryData[BerryType.Games]     = new Berry(BerryType.Games,    [5,10,20,30,60],
             2, 0.5, 5, 1,
             [10, 0, 0, 0, 0], BerryColor.Red,
-            ['This bright red Berry is very spicy and has a provocative flavor. It blooms with delicate, pretty flowers.'], undefined, ['Burpmon']);
+            ['You shouldn\'t be suprised to know that this is our most popular item. It\'s all about making as many of them, as quickly as possible.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Security]    = new Berry(BerryType.Security,   [5, 15, 25, 40, 80],
             3, 0.5, 6, 2,
             [0, 10, 0, 0, 0], BerryColor.Blue,
-            ['This Berry\'s thick skin and fruit are very tough and dry tasting. However, every bit of it can be eaten.'], undefined, ['Burpmon']);
+            ['A basic program to keep your device safe. Everyone needs one.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Health]     = new Berry(BerryType.Health,    [10, 35, 50, 60, 120],
             4, 0.5, 7, 3,
             [0, 0, 10, 0, 0], BerryColor.Pink,
-            ['Because of its hollow inside pocket, there isn\'t a lot to eat. What can be eaten is very sweet and delicious'], undefined, ['Burpmon']);
+            ['A simple diagnostics program. It won\'t fix the bugs but it will give you a form to report them.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Step]     = new Berry(BerryType.Step,    [15, 30, 45, 80, 160],
             5, 0.5, 8, 4,
             [0, 0, 0, 10, 0], BerryColor.Green,
-            ['If the leaves grow longer and curlier than average, this Berry will have a somewhat-bitter taste.']);
+            ['This one keeps count of your steps as you walk.']);
         this.berryData[BerryType.Light]    = new Berry(BerryType.Light,   [10, 40, 60, 120, 240],
             6, 0.5, 9, 5,
             [0, 0, 0, 0, 10], BerryColor.Yellow,
-            ['This Berry\'s peel is hard, but the flesh inside is very juicy. It is distinguished by its bracing sourness.'], undefined, ['Burpmon', 'Burpmon']);
+            ['Turns any light emitting component on and makes your device into a makeshift flashlight.'], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.eBook]     = new Berry(BerryType.eBook,    [100, 120, 140, 240, 480],
             7, 0.5, 10, 6,
             [10, 0, 10, 10, 10], BerryColor.Purple,
-            ['It takes longer to grow than Berries such as Games. The smaller Berries taste better.'], undefined, ['Burpmon']);
+            ['More convenient that carrying a heavy book around. It can store thousands of books for reading on the go.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Chat]      = new Berry(BerryType.Chat,     [120, 180, 240, 300, 600],
             8, 0.5, 20, 7,
             [10, 10, 0, 10, 10], BerryColor.Blue,
-            ['Nature\'s gifts came together as one in this Berry. It has a wondrous mix of flavors that spread in the mouth.'], undefined, ['Burpmon']);
+            ['A messaging program. Make groups and talk with others.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Finance]    = new Berry(BerryType.Finance,   [150, 300, 450, 600, 1200],
             9, 0.5, 30, 8,
             [0, 10, 10, 10, 10], BerryColor.Yellow,
-            ['Finance came from the same family as Chat. It is larger and smoother tasting than Chat.'], undefined, ['Burpmon', 'Burpmon']);
+            ['How can our shop make a profit if our customers don\'t have a digital wallet to store their hard-earned money.'], undefined, ['Burpmon', 'Burpmon']);
         //#endregion
 
         //#region Second Generation
         this.berryData[BerryType.Mail]    = new Berry(BerryType.Mail,   [20, 40, 50, 90, 180],
             5, 0.4, 10, 2,
             [10, 10, 10, 0, 10], BerryColor.Pink,
-            ['The more this Berry absorbs energy from sunlight, the more vividly colorful it grows.'], undefined, ['Burpmon']);
+            ['An email program. The latest update comes pre-subscribed to our newsletter.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Cards]      = new Berry(BerryType.Cards,     [100, 150, 200, 250, 500],
             7, 0.4, 15, 2,
             [10, 10, 0, 0, 0], BerryColor.Red,
-            ['A small hint of spiciness lingers in the red granules surrounding this Berry. Their centers have a dry taste.'], undefined, ['Burpmon']);
+            ['Solitaire, FreeCell, ads every other game. What\'s not to like.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Compress]      = new Berry(BerryType.Compress,     [200, 250, 300, 330, 660],
             9, 0.4, 20, 2,
             [0, 10, 10, 0, 0], BerryColor.Purple,
-            ['Though this small, delicately skinned Berry is blue in color, it dyes the mouth black when eaten.'], undefined, ['Burpmon']);
+            ['The closest thing humans have made to real magic. You won\'t believe the memory you can save.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Camera]     = new Berry(BerryType.Camera,    [25, 30, 35, 250, 500],
             11, 0.4, 25, 2,
             [0, 0, 10, 10, 0], BerryColor.Pink,
-            ['Bitter, but with a trace of sweetness, the eBook Berry was the seventh to be discovered in the world.'], undefined, ['Burpmon']);
+            ['Photos, humans take a lot of them. That\'s why we charge premium for this one.'], undefined, ['Burpmon']);
         this.berryData[BerryType.GPS]    = new Berry(BerryType.GPS,   [150, 350, 375, 400, 800],
             12, 0.4, 30, 2,
             [0, 0, 0, 10, 10], BerryColor.Green,
-            ['The potent mix of bitter and sour in this Berry seems to promote digestion. The flower is white and beautiful.']);
+            ['20% of the time, they\'ll use it for directions, 80% to find their house on it.']);
         this.berryData[BerryType.Shopping]     = new Berry(BerryType.Shopping,    [30, 60, 180, 240, 480],
             13, 0.4, 35, 2,
             [10, 0, 0, 0, 10], BerryColor.Yellow,
-            ['It is said that when the sour skin is peeled, this spicy Berry can be crushed to make medicine.'], undefined, ['Burpmon', 'Burpmon']);
+            ['If there\'s demand, there\'s someone who has scalped it.'], undefined, ['Burpmon', 'Burpmon']);
 
         this.berryData[BerryType.Music]      = new Berry(BerryType.Music,     [40, 160, 230, 350, 700],
             14, 0.3, 40, 3,
             [15, 0, 0, 0, 0], BerryColor.Red,
-            ['This Berry is oddly shaped, appearing as if someone took a bite out of it. It is packed full of spicy substances.'], undefined, ['Burpmon']);
+            ['Plays sounds that humans like. Nice of us to include all these tracks for free.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Backup]      = new Berry(BerryType.Backup,     [40, 190, 210, 360, 720],
             15, 0.3, 45, 3,
             [0, 15, 0, 0, 0], BerryColor.Purple,
-            ['It is said that this Berry grew Hackingps to help Pokémon grip it, allowing propagation farther afield.'], undefined, ['Burpmon']);
+            ['Unless you have 5 of them you don\'t have enough.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Sleep]      = new Berry(BerryType.Sleep,     [40, 180, 240, 370, 740],
             16, 0.3, 50, 3,
             [0, 0, 15, 0, 0], BerryColor.Pink,
-            ['This Berry progressively curves as it grows. The curvier the Berry, the sweeter and tastier.'], undefined, ['Burpmon']);
+            ['Humans use this when they have problems going to bed. It makes sounds of the sea and rain.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Calendar]     = new Berry(BerryType.Calendar,    [40, 170, 220, 350, 700],
             17, 0.3, 55, 3,
             [0, 0, 0, 15, 0], BerryColor.Green,
-            ['This Berry turns bitter toward the stem. The dainty flower it grows from doesn\'t absorb much sunlight.']);
+            ['What day is it in the human world? Use this to find out.']);
         this.berryData[BerryType.Weather]    = new Berry(BerryType.Weather,   [40, 200, 230, 380, 760],
             18, 0.3, 60, 3,
             [0, 0, 0, 0, 15], BerryColor.Yellow,
-            ['This Berry is very big and sour. The juiciness of the pulp accentuates the sourness.'], undefined, ['Burpmon', 'Burpmon']);
+            ['Makes mostly accurate predictions of what the weather would be like in the future.'], undefined, ['Burpmon', 'Burpmon']);
 
         this.berryData[BerryType.Hacking]       = new Berry(BerryType.Hacking,      [3000, 3200, 3400, 3600, 43200],
             1, 0, 1000, 3,
             [10, 10, 10, 10, 0], BerryColor.Green,
             [
-                'This Berry\'s gradual process of storing nutrients beneficial to Pokémon health causes it to mature slowly.',
-                'This Berry multiplies the effect of Berry plants around it.',
+                'How did you get this? We are a legitimate business, we can\'t sell this. But you are free to use this yourself.',
+                'This Disk multiplies the effects of Disks around it.',
             ], new Aura(AuraType.Boost, [1.01, 1.02, 1.03]));
         //#endregion
 
@@ -169,67 +169,67 @@ class Farming implements Feature {
         this.berryData[BerryType.Travel]     = new Berry(BerryType.Travel,    [200, 1200, 4000, 5400, 10800],
             20, 0.2, 500, 10,
             [10, 0, 10, 10, 0], BerryColor.Red,
-            ['When this sweetly spicy Berry\'s thick skin is peeled, many pieces of the fruit spill out.'], undefined, ['Burpmon']);
+            ['Apparently, teleporting isn\'t a thing in the human world, they have to use this to plan things.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Diary]    = new Berry(BerryType.Diary,   [240, 2000, 3400, 6000, 12000],
             21, 0.2, 525, 10,
             [0, 10, 0, 10, 10], BerryColor.Blue,
-            ['This Berry can be eaten as is or boiled to obtain an extract that adds a dash of flavor to food.'], undefined, ['Burpmon']);
+            ['Keep notes, write poems, make shopping lists. Just make sure it\'s nothing too personal.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Accounting]    = new Berry(BerryType.Accounting,   [230, 1000, 2500, 4800, 9600],
             22, 0.2, 550, 10,
             [10, 0, 10, 0, 10], BerryColor.Yellow,
-            ['Even in places of constant rain and high humidity, this Berry\'s plant grows healthy and strong.'], undefined, ['Burpmon', 'Burpmon']);
+            ['Lines going up and down. Trade money for hopefully more money.'], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Video]    = new Berry(BerryType.Video,   [1000, 2000, 5000, 10800, 21600],
             23, 0.2, 2000, 10,
             [10, 10, 0, 10, 0], BerryColor.Green,
-            ['This somewhat-rare Berry projects an image of luxury, so it is favored as a gift item.']);
+            ['I don\'t get why they complain about unskippable 2 minutes ads for 30 seconds of video... it makes me money.']);
         this.berryData[BerryType.Alarm]     = new Berry(BerryType.Alarm,    [300, 3400, 5600, 7200, 14400],
             24, 0.2, 600, 10,
             [0, 10, 10, 0, 10], BerryColor.Yellow,
-            ['One bite of this very tender Berry fills the mouth with its sweet and tangy flavor.'], undefined, ['Burpmon', 'Burpmon']);
+            ['Set 5 alarms only to snooze all of them.'], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.News]    = new Berry(BerryType.News,   [430, 1400, 4000, 8640, 17280],
             25, 0.2, 625, 10,
             [20, 10, 0, 0, 0], BerryColor.Red,
-            ['This Berry is large and spicy. When eaten Paintg the cold season, it warms the body from inside.'], undefined, ['Burpmon']);
+            ['You think I\'m shrewd…wait till you see what the people behind this one do to get you to click on things.'], undefined, ['Burpmon']);
 
         this.berryData[BerryType.Dictionary]     = new Berry(BerryType.Dictionary,    [1100, 4000, 8000, 9000, 18000],
             26, 0.1, 700, 10,
             [0, 20, 10, 0, 0], BerryColor.Purple,
-            ['Its dryness is quite strong. As a result, its true deliciousness can\'t be appreciated by just eating one or two.'], undefined, ['Burpmon']);
+            ['Who am I kidding, nobody uses this. Half the words humans use aren\'t even in it.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Cooking]    = new Berry(BerryType.Cooking,   [2400, 6500, 10000, 14400, 28800],
             27, 0.1, 750, 10,
             [0, 0, 20, 10, 0], BerryColor.Pink,
-            ['The grown-up flavor and dreamy sweetness of this Berry make it a favorite of Pokémon everywhere.'], undefined, ['Burpmon']);
+            ['It will tell you how to make some of the most delicious of meals. If you bother cooking them, that is.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Wallpaper]    = new Berry(BerryType.Wallpaper,   [2310, 5400, 9500, 12240, 24480],
             28, 0.1, 800, 10,
             [0, 0, 0, 20, 10], BerryColor.Green,
-            ['Even though it is bitter, it should be eaten peel and all. The hair on the peel cleans the stomach from the inside.']);
+            ['We can charge people for image files. Humans will buy anything if you put a timer on it.']);
         this.berryData[BerryType.Fashion]     = new Berry(BerryType.Fashion,    [1240, 5200, 10500, 15120, 30240],
             29, 0.1, 850, 10,
             [10, 0, 0, 0, 20], BerryColor.Yellow,
-            ['This Berry is quite sour overall, with the sourness especially concentrated at the pointed end.'], undefined, ['Burpmon', 'Burpmon']);
+            ['Humans care a lot about what they wear. They also care what others think about what they wear.'], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Advice]    = new Berry(BerryType.Advice,   [2000, 7000, 12000, 15480, 30960],
             30, 0.1, 900, 10,
             [30, 10, 0, 0, 0], BerryColor.Red,
-            ['So spicy is the Advice Berry that, Fire type or not, Pokémon will try to breathe fire after eating a single one.'], undefined, ['Burpmon']);
+            ['Have a question? You\'ll find an answer. Will it be correct? You can always ask.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Search]    = new Berry(BerryType.Search,   [3000, 10000, 16400, 18000, 36000],
             31, 0.1, 950, 10,
             [0, 30, 10, 0, 0], BerryColor.Purple,
             [
-                'This Berry drifted from a faraway sea. It is now cultivated in the Sinnoh region.' ,
-                'It has a tendency to expand into nearby plots.',
+                'Good luck doing anything on the internet without this. Keeping track of what you search is how the internet works.' ,
+                'It has a tendency to copy itself into nearby trays.',
             ] , undefined, ['Burpmon']);
         this.berryData[BerryType.Gourmet]    = new Berry(BerryType.Gourmet,   [2300, 3400, 9800, 16560, 33120],
             32, 0.1, 1000, 10,
             [0, 0, 30, 10, 0], BerryColor.Pink,
-            ['A bounty of nature that is exceedingly sweet. The Berry is huge, with some discovered that exceed 20 inches.'], undefined, ['Burpmon']);
+            ['Order food you don\'t want to make yourself and get someone else to bring it to your house.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Paint]     = new Berry(BerryType.Paint,    [10000, 14000, 18000, 21600, 43200],
             33, 0.1, 1050, 10,
             [0, 0, 0, 30, 10], BerryColor.Green,
-            ['This Berry is tremendously bitter. Just one bite is enough to instantly stop hiccups.']);
+            ['From a simple doodle to a high quality portrait, this program provides a canvas for your imagination.']);
         this.berryData[BerryType.Beauty]     = new Berry(BerryType.Beauty,    [5000, 9800, 14500, 19800, 39600],
             20, 0.1, 1100, 10,
             [10, 0, 0, 0, 30], BerryColor.Purple,
-            ['This glossy and colorful Berry has a mouthwateringly delicious appearance. However, it is awfully sour.'], undefined, ['Burpmon']);
+            ['Make up and cosmetics. A business worth trillions. I had to get in on it.'], undefined, ['Burpmon']);
         //#endregion
 
         //#region Fourth Generation (Typed)
@@ -237,123 +237,123 @@ class Farming implements Feature {
             21, 0.05, 1200, 15,
             [15, 0, 10, 0, 0], BerryColor.Red,
             [
-                'This Berry is said to have grown plentiful in the tropics of the past. It boasts an intensely hot spiciness.',
-                'It has a tendency to overtake nearby plants.',
+                'Listen to this popular streamer, sponsored by Tyutyumon\'s of course.',
+                'It has a tendency to overwrite nearby disks.',
             ], undefined, ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon']);
         this.berryData[BerryType.Gossip]    = new Berry(BerryType.Gossip,   [490, 3600, 10800, 21600, 43200],
             22, 0.05, 1300, 15,
             [0, 15, 0, 10, 0], BerryColor.Blue,
             [
-                'This Berry\'s flesh is dotted with countless tiny bubbles of air that Dreamp it afloat in water.',
-                'This Berry promotes the fruiting of nearby Berry plants.',
+                '27 Celebrities Who Went So Broke It\'s Embarrassing. Click now to see them!',
+                'This Disk makes nearby Disks provide more copies than usual.',
             ], new Aura(AuraType.Harvest, [1.1, 1.2, 1.3]), ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon']);
         this.berryData[BerryType.Auction]     = new Berry(BerryType.Auction,    [10, 180, 900, 1800, 3600],
             2, 0.05, 250, 1,
             [0, 0, 15, 0, 10], BerryColor.Yellow,
             [
-                'Energy from lightning strikes is drawn into the plant, making the Berries grow big and rich.',
-                'The same energy promotes the growth of nearby Berries.',
+                'Going once, going twice, sold, to the human with the fat wallet.',
+                'Makes nearby disks complete burning faster.',
             ], new Aura(AuraType.Growth, [1.1, 1.2, 1.3]), ['Burpmon', 'Burpmon', 'Burpmon']);
         this.berryData[BerryType.Recording]     = new Berry(BerryType.Recording,    [3600, 7200, 16200, 28800, 57600],
             24, 0.05, 1400, 15,
             [10, 0, 0, 15, 0], BerryColor.Green,
             [
-                'This Berry has a disagreeable "green" flavor and scent typical of vegetables. It is rich in health-promoting fiber.',
-                'It has a tendency to expand into nearby plots.',
+                'So like, this one time, I was talking a stroll and I saw this huge like billboard with an advert for like Tyutyumon\'s…',
+                'It has a tendency to expand into nearby trays.',
             ], undefined, ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon']);
         this.berryData[BerryType.Review]     = new Berry(BerryType.Review,    [3600, 14400, 28800, 43200, 86400],
             25, 0.05, 1500, 15,
             [0, 10, 0, 0, 15], BerryColor.Blue,
             [
-                'This Berry has a refreshing flavor that strikes a good balance of dryness and sourness. It tastes better chilled.',
-                'This Berry slows the growth of nearby Berries.',
+                '5/5 stars. Tyutyumon\'s is the best online store I\'ve ever bought from.',
+                'This Disk slows the burning of nearby Disks.',
             ], new Aura(AuraType.Growth, [0.9, 0.8, 0.7]), ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Puzzle]    = new Berry(BerryType.Puzzle,   [5400, 10800, 25200, 36000, 72000],
             26, 0.05, 1600, 15,
             [15, 0, 0, 10, 0], BerryColor.Red,
             [
-                'This Berry contains a substance that generates heat. It can even heat up a chilly heart.',
-                'Growing these Berries will promote Egg growth.',
+                'Humans seem to enjoy filling squares with numbers for hours on end.',
+                'Burning these Disks will promote Digitama growth.',
             ], new Aura(AuraType.Egg, [1.01, 1.02, 1.03]), ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Fortune]     = new Berry(BerryType.Fortune,    [100, 200, 400, 600, 86400],
             1, 1, 50, 1,
             [0, 15, 0, 0, 10], BerryColor.Green,
             [
-                'This Berry is a brilliant green on the outside. Inside, it is packed with a dry-flavored, black-colored flesh.',
-                'It has a tendency to overtake nearby plants.',
-                'Due to its poisonous nature, it increases the chances of mutations near it.',
+                'I see spending a lot of money on Tyutyumon\'s in your future.',
+                'It has a tendency to overwrite nearby disks.',
+                'Due to its nature, it increases the chances of modifications near it.',
             ], new Aura(AuraType.Mutation, [1.2, 1.4, 1.6]), ['Burpmon']);
         this.berryData[BerryType.Exercise]     = new Berry(BerryType.Exercise,    [7200, 16200, 32400, 39600, 79200],
             28, 1, 1700, 15,
             [10, 0, 15, 0, 0], BerryColor.Yellow,
             [
-                'The sweetness-laden pulp has just the hint of a hard-edged and fragrant bite to it.',
-                'Growing these Berries will soften the ground around it, increasing the chances of replanting.',
+                'Keep track of all the days you skipped on working out with this program.',
+                'Burning these Disks will increase the chances of saving failed disks.',
             ], new Aura(AuraType.Replant, [1.01, 1.02, 1.03]), ['Burpmon', 'Burpmon', 'Burpmon']);
         this.berryData[BerryType.Astrology]      = new Berry(BerryType.Astrology,     [9000, 12600, 16200, 19800, 39600],
             29, 0.05, 1800, 15,
             [0, 10, 0, 15, 0], BerryColor.Blue,
-            ['This Berry is said to be a new kind that is a cross of two Berries brought together by winds from far away.'],
+            ['I was programmed during a full moon, that stars say that this is good for my finances.'],
             undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Translate]    = new Berry(BerryType.Translate,   [4680, 11880, 23400, 34200, 68400],
             30, 0.05, 1900, 15,
             [0, 0, 10, 0, 15], BerryColor.Purple,
             [
-                'This Berry is said to sense human emotions for the way it swells roundly when a person approaches.',
-                'The same behavior affects nearby plants, causing additional mutations.',
+                'Se vi povas legi ĉi tion, vi uzas unu.',
+                'Due to its nature, it increases the chances of modifications near it.',
             ], new Aura(AuraType.Mutation, [1.1, 1.2, 1.3]), ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Social]     = new Berry(BerryType.Social,    [450, 900, 1800, 3600, 7200],
             3, 0.5, 500, 15,
             [20, 0, 0, 0, 10], BerryColor.Green,
             [
-                'The flower grows at the tip of this Berry. It attracts Bug Pokémon by letting its stringy petals stream out.',
-                'The attracted Bug Pokémon decreases the amount of harvestable Berries in nearby plants',
+                'Share your opinions with your friends. And block those who don\'t agree.',
+                'It\'s toxit nature decreases the amount of disks burned on nearby trays.',
             ], new Aura(AuraType.Harvest, [0.9, 0.8, 0.7]), ['Burpmon']);
         this.berryData[BerryType.Library]    = new Berry(BerryType.Library,   [8600, 12960, 23040, 37800, 75600],
             32, 0.05, 2000, 15,
             [10, 20, 0, 0, 0], BerryColor.Yellow,
             [
-                'It is often used for pickles because of its very dry flavor. It can also be eaten raw for its provocative taste.',
-                'This Berry plant hardens the surrounding soil, decreasing the chances of replanting.',
+                'Find books, comics, papers. All for a small price of 70 dollars a month.',
+                'This Disk decreases the chances of saving overburned disks.',
             ], new Aura(AuraType.Replant, [0.99, 0.98, 0.97]), ['Burpmon', 'Burpmon', 'Burpmon']);
         this.berryData[BerryType.Action]     = new Berry(BerryType.Action,    [30, 60, 120, 300, 86400],
             1, 1, 25, 1,
             [0, 10, 20, 0, 0], BerryColor.Purple,
             [
-                'Considered to have a special power from the olden days, this Berry is sometimes dried and used as a good-luck charm.',
-                'This Berry causes other nearby Berries to wither away faster.',
+                'Lootboxes are the single greatest invention since the texture file.',
+                'This fast paced Disk causes other nearby Disks to last less.',
             ], new Aura(AuraType.Death, [1.25, 1.5, 2.0]), ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Phone]     = new Berry(BerryType.Phone,    [10800, 21600, 43200, 86400, 172800],
             34, 0, 4000, 15,
             [0, 0, 10, 20, 0], BerryColor.Red,
             [
-                'If a large enough voHackinge of this Berry is boiled down, its bitterness fades away. It makes a good jam.',
-                'This Berry requires a lot of energy to grow, stealing away nutrients from nearby plots.',
+                'A call feature program.',
+                'This Disk requires a lot of energy to burn, stealing away power from nearby trays.',
             ], new Aura(AuraType.Growth, [0.8, 0.6, 0.5]), ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Entertainment]    = new Berry(BerryType.Entertainment,   [2880, 10080, 19440, 27000, 54000],
             35, 0.05, 2300, 15,
             [0, 0, 0, 10, 20], BerryColor.Purple,
             [
-                'Tiny hooks grow on the surface of this Berry. It latches on to Pokémon so it can be carried to far-off places.',
-                'It has a tendency to overtake nearby plants.',
+                'Are you familiar with the concept of memes?',
+                'It has a tendency to overwrite nearby Disks.',
             ], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Medical]    = new Berry(BerryType.Medical,   [7200, 16200, 32400, 64800, 129600],
             36, 0.05, 2400, 15,
             [25, 10, 0, 0, 0], BerryColor.Green,
             [
-                'This Berry is very tough with a strong flavor. It was used to make medicine by people in the past.',
-                'This Berry plant is very hardy and resistant, making it resistant to mutations, and also decreasing the chance of mutations around it.',
+                'Enter your symptoms and it will give you a rare congenital disease that matches.',
+                'This Disk is very hardy, making it resistant to overwriting, and also decreasing the chance of overwriting around it.',
             ], new Aura(AuraType.Mutation, [0.5, 0.25, 0.0]), ['Burpmon']);
         this.berryData[BerryType.Slots]    = new Berry(BerryType.Slots,   [240, 1430, 2970, 7200, 14400],
             10, 0.05, 500, 15,
             [0, 25, 10, 0, 0], BerryColor.Yellow,
-            ['This Berry can be cored out and dried to make a whistle. Blowing through its hole makes an indescribable sound.'], undefined, ['Burpmon', 'Burpmon']);
+            ['You win a free 100 spins!'], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Hotel]    = new Berry(BerryType.Hotel,   [2410, 5040, 12600, 25200, 50400],
             38, 0.05, 2500, 15,
             [0, 0, 25, 10, 0], BerryColor.Pink,
             [
-                'This Berry is sweet with a hint of bitterness and has a lingering sweet scent. It is often dried and used to make tea.',
-                'The scent of this Berry plant attracts wild Pokémon.',
+                'Hotel? Tyutyumon\'s.',
+                'The data of this Disk attracts wild Digimon.',
             ], new Aura(AuraType.Attract, [1.01, 1.02, 1.03]), ['Burpmon', 'Burpmon']);
         //#endregion
 
@@ -361,70 +361,70 @@ class Farming implements Feature {
         this.berryData[BerryType.Virus]     = new Berry(BerryType.Virus,    [3960, 7920, 15840, 31680, 63360],
             1, 0.05, 2600, 20,
             [0, 40, 10, 0, 0], BerryColor.Green,
-            ['This Berry has a very dry flavor. It has the effect of making other food eaten at the same time taste sweet.']);
+            ['Why is this anti-virus program called Virus, you may ask? It\'s best not to worry about it.']);
         this.berryData[BerryType.Commentary]    = new Berry(BerryType.Commentary,   [3240, 8280, 13320, 27360, 54720],
             1, 0.05, 2700, 20,
             [0, 0, 40, 10, 0], BerryColor.Red,
-            ['The flesh underneath the Commentary Berry\'s tough skin is sweet and creamy soft.'], undefined, ['Burpmon']);
+            ['Your post gathered 31 votes and 456 replies.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Design]    = new Berry(BerryType.Design,   [4320, 8640, 16560, 33480, 66960],
             1, 0.05, 2800, 20,
             [0, 0, 0, 40, 10], BerryColor.Yellow,
             [
-                'The cluster of drupelets that make up this Berry pop rhythmically if the Berry is handled roughly.',
-                'The sound of these Berries attracts wild Pokémon.',
+                'Build a house or 3d print a sword.',
+                'The data of these Disk attracts wild Digimon.',
             ], new Aura(AuraType.Roaming, [1.005, 1.01, 1.015]), ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Mirror]     = new Berry(BerryType.Mirror,    [5760, 9000, 14040, 21240, 42480],
             1, 0.05, 2900, 20,
             [10, 0, 0, 0, 40], BerryColor.Blue,
-            ['In days of old, people worked the top-shaped pieces of this Berry free and used them as toys.'], undefined, ['Burpmon']);
+            ['Now don\'t tell this to anyone but, you can\'t really make a mirror from a digital screen, but people will still try.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Dream]       = new Berry(BerryType.Dream,      [4680, 9360, 18360, 36360, 72720],
             1, 0.05, 3000, 20,
             [30, 30, 10, 10, 10], BerryColor.Yellow,
-            ['This Berry remains poisonous until fully ripened. Once ripe it has a spicy and sweet complex flavor.'], undefined, ['Burpmon', 'Burpmon']);
+            ['A program that records dreams, through a complex series of algorithms that monitor your brainwaves.'], undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Logoff]   = new Berry(BerryType.Logoff,  [5040, 10080, 20160, 40320, 80640],
             1, 0.05, 3100, 20,
             [10, 10, 30, 30, 10], BerryColor.Blue,
-            ['This Berry resembles the Paint Berry, however its spikes are less pronounced. It is quite delicious when roasted.'], undefined, ['Burpmon']);
+            ['You\'ve come this far, you can turn your device off now.'], undefined, ['Burpmon']);
 
         this.berryData[BerryType.Monitoring]    = new Berry(BerryType.Monitoring,   [21600, 43200, 86400, 172800, 345600],
             0.5, 0, 10000, 20,
             [30, 10, 30, 0, 0], BerryColor.Red,
-            ['This Berry is surrounded by mystery. It is rumored to be imbued with the power of the sea.'],
+            ['This is for monitoring your dog when away. If you get caught spying on your neighbor it won\'t be our fault.'],
             undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.MindControl]    = new Berry(BerryType.MindControl,   [21600, 43200, 86400, 172800, 345600],
             0.5, 0, 10000, 20,
             [0, 30, 10, 30, 0], BerryColor.Purple,
-            ['This Berry is surrounded by mystery. It is rumored to be imbued with the power of the land.'], undefined, ['Burpmon']);
+            ['A legendary program that allows the user to control the minds of others.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Simulation]     = new Berry(BerryType.Simulation,    [21600, 43200, 86400, 172800, 345600],
             0.5, 0, 10000, 20,
             [0, 0, 30, 10, 30], BerryColor.Green,
-            ['This Berry is surrounded by mystery. It is rumored to be imbued with the power of the sky.']);
+            ['A legendary program that allows the user to create artificial life in the digital world.']);
         this.berryData[BerryType.Trashbin]    = new Berry(BerryType.Trashbin,   [10800, 21600, 43200, 86400, 432000],
             0.5, 0, 15000, 20,
             [30, 0, 0, 30, 10], BerryColor.Pink,
             [
-                'This Berry is surrounded by mystery. It is rumored to be imbued with the power of all living things.',
-                'This power Dreamps other Berries alive for longer.',
+                'After popular demand we now offer an uninstall program. You just have to install all other programs first.',
+                'It\'s data keeps other disks active for longer.',
             ],
             undefined, ['Burpmon', 'Burpmon']);
         this.berryData[BerryType.Gashapon]    = new Berry(BerryType.Gashapon,   [10800, 21600, 43200, 86400, 432000],
             0.5, 0, 15000, 20,
             [10, 30, 0, 0, 30], BerryColor.Blue,
-            ['This is a very, very mystifying Berry. There is no telling how it can be used, or what may happen if it is used.'], undefined, ['Burpmon']);
+            ['Stay away from that one. This technology is too dangerous.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Censored]    = new Berry(BerryType.Censored,   [10800, 21600, 43200, 86400, 432000],
             0.5, 0, 15000, 20,
             [30, 10, 30, 10, 30], BerryColor.Red,
-            ['This is said to be a legendary Berry. Holding it supposedly brings great joy.'], undefined, ['Burpmon']);
+            ['What? This is a business. We give the people what they want.'], undefined, ['Burpmon']);
         this.berryData[BerryType.Battery]     = new Berry(BerryType.Battery,    [10800, 21600, 43200, 86400, 432000],
             0.5, 0, 15000, 20,
             [30, 10, 30, 10, 30], BerryColor.Green,
-            ['This Berry is considered a mirage. It was said to be so strong that it had to be abandoned at the world\'s edge.'],
+            ['Get the most out of your battery\'s life, so you can stay on your device for longer.'],
             new Aura(AuraType.Shiny, [1.005, 1.01, 1.015]), ['Burpmon']);
 
         this.berryData[BerryType.Calculator]    = new Berry(BerryType.Calculator,   [10800, 21600, 43200, 86400, 604800],
             0.5, 0, 15000, 20,
             [40, 10, 0, 0, 0], BerryColor.Purple,
-            ['A completely Calculatortic Berry. It apparently has the power of the stars that fill the night sky.'], undefined, ['Burpmon']);
+            ['This was supposed to be a simple calculator program, but was discontinued because it contains a backdoor for the server itself.'], undefined, ['Burpmon']);
         //#endregion
 
         //#endregion
