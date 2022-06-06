@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Add Pikachu to the selections
                 $('#starterSelection').append(`<div class="col">
                         <input class="image-starter" type="image"
-                           src="assets/images/pokemon/25.png"
+                           src="assets/images/digidex/25.png"
                            onclick="StartSequenceRunner.pickStarter(GameConstants.Starter.Pikachu)">
                     </div>`);
             }
