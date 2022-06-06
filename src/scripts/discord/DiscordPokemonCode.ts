@@ -1,6 +1,6 @@
 class DiscordPokemonCode extends DiscordCode {
     constructor(pokemon: PokemonListData, price, description) {
-        const image = `assets/images/pokemon/${pokemon.id}.png`;
+        const image = `assets/images/digidex/${pokemon.id}.png`;
         const claimFunction = () => {
             const shiny = PokemonFactory.generateShiny(GameConstants.SHINY_CHANCE_SHOP);
             App.game.party.gainPokemonById(pokemon.id, shiny, true);
