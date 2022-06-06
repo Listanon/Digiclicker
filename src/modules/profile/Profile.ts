@@ -22,7 +22,7 @@ export default class Profile implements Saveable {
     public textColor: KnockoutObservable<string>;
 
     constructor(
-        name = 'Trainer',
+        name = 'Tamer',
         trainer = Rand.floor(Profile.MAX_TRAINER),
         pokemon = 0,
         background = Rand.floor(Profile.MAX_BACKGROUND),
@@ -37,7 +37,7 @@ export default class Profile implements Saveable {
     }
 
     static getTrainerCard(
-        name = 'Trainer',
+        name = 'Tamer',
         trainer = Rand.floor(Profile.MAX_TRAINER),
         pokemon = Rand.intBetween(1, 151),
         pokemonShiny = false,
