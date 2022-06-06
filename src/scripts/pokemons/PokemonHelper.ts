@@ -78,6 +78,15 @@ class PokemonHelper {
         src += `pokemon/${pokemon.id}.png`;
         return src;
     }
+    
+    public static getListImage(pokemon: PokemonInterface, shiny: boolean): string {
+        let src = 'assets/images/';
+        if (shiny) {
+            src += 'shiny';
+        }
+        src += `digidex/${pokemon.id}.png`;
+        return src;
+    }
 
     public static getPokeballImage(pokemonName: PokemonNameType): string {
         let src = '';
