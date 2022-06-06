@@ -42,7 +42,7 @@ export default class KeyItems implements Feature {
                     steps: [
                         {
                             element: document.getElementById('pokeballSelector'),
-                            intro: 'Select which Scan module to catch Pokémon with based on their scanned/dot status.<br/><i><sup>Hover over the column titles for more info.</sup></i><br/><br/>Scaning Digimon gains you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px"> Dungeon Tokens.<br/><br/>Try now by clicking the "Scanned" selector to change it.',
+                            intro: 'Select which Scan module to scan Digimon with based on their scanned/dot status.<br/><i><sup>Hover over the column titles for more info.</sup></i><br/><br/>Scaning Digimon gains you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px"> Dungeon Tokens.<br/><br/>Try now by clicking the "Scanned" selector to change it.',
                         },
                     ],
                     exitOnEsc: false,
@@ -58,7 +58,7 @@ export default class KeyItems implements Feature {
                                 steps: [
                                     {
                                         element: document.querySelector('#pokeballSelectorModal .modal-body'),
-                                        intro: 'Select the <img title="Digiscan" src="assets/images/pokeball/Pokeball.png" height="25px"> Scan module to use this type of ball to capture already scanned Digimon, which will give you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px"> Dungeon Tokens when scanned.',
+                                        intro: 'Select the <img title="Digiscan" src="assets/images/pokeball/Pokeball.png" height="25px"> Scan module to use this type of ball to capture already scanned Digimon, which will give you <img title="Scan Coins\nGained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px"> Scan Coins when scanned.',
                                     },
                                 ],
                                 // Needed for IntroJs on modals
@@ -78,11 +78,11 @@ export default class KeyItems implements Feature {
                     once: true,
                 });
             }, 'Dungeon Ticket'),
-            new KeyItem(KeyItemType.Super_rod, 'The best fishing rod for catching wild water Pokémon',
+            new KeyItem(KeyItemType.Super_rod, 'The best fishing rod for catching wild water Digimon',
                 () => App.game.statistics.routeKills[Region.kanto][12]() >= ROUTE_KILLS_NEEDED, undefined, undefined, 'Super Rod'),
             new KeyItem(KeyItemType.Holo_caster, 'A device that allows users to see and track Achievements. Completing Achievements gives useful bonuses.',
                 () => App.game.party.caughtPokemon.length >= 110, undefined, undefined, 'Holo Caster'),
-            new KeyItem(KeyItemType.Mystery_egg, 'A mysterious Egg obtained from Mr. Pokémon. This allows you to use the Pokémon Day Care to help improve your Pokémon attack. some baby Pokémon can only be found through breeding too!',
+            new KeyItem(KeyItemType.Mystery_egg, 'A mysterious Egg obtained from Mr. Navi. This allows you to use the Digimon Day Care to help improve your Digimon attack. some baby Digimon can only be found through breeding too!',
                 () => App.game.statistics.routeKills[Region.kanto][5]() >= ROUTE_KILLS_NEEDED, undefined, undefined, 'Mystery Egg'),
             new KeyItem(KeyItemType.Safari_ticket, 'This ticket grants access to the Safari Zone right outside Fuchsia City.'),
             new KeyItem(KeyItemType.Wailmer_pail, 'This is a tool for watering Berries to allow you to operate the farm.',
@@ -91,8 +91,8 @@ export default class KeyItems implements Feature {
             new KeyItem(KeyItemType.Explorer_kit, 'A bag filled with convenient tools for exploring. It provides access to the Underground', undefined, undefined, undefined, 'Explorer Kit'),
             // TODO buy for 500 quest points
             new KeyItem(KeyItemType.Event_calendar, 'This calendar will keep you up to date on the latest events', undefined, undefined, undefined, 'Event Calender'),
-            new KeyItem(KeyItemType.Gem_case, 'A case specifically designed for holding gems', undefined, undefined, undefined, 'Gem Case'),
-            new KeyItem(KeyItemType.DNA_splicers, 'A splicer that fuses certain Pokémon',
+            new KeyItem(KeyItemType.Gem_case, 'A case specifically designed for holding chips', undefined, undefined, undefined, 'Chip Case'),
+            new KeyItem(KeyItemType.DNA_splicers, 'A splicer that fuses certain Digimon',
                 () => App.game.statistics.dungeonsCleared[getDungeonIndex('Giant Chasm')]() > 0,
                 undefined, undefined, 'DNA Splicers'),
         ];
