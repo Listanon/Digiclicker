@@ -85,7 +85,7 @@ export default class Profile implements Saveable {
         const trainerTime: HTMLElement = node.querySelector('.trainer-time');
         trainerTime.innerText = GameConstants.formatTimeFullLetters(seconds);
         const trainerPokemonImage: HTMLImageElement = node.querySelector('.trainer-pokemon-image');
-        trainerPokemonImage.src = `assets/images/${pokemonShiny ? 'shiny' : ''}pokemon/${pokemon}.png`;
+        trainerPokemonImage.src = `assets/images/${pokemonShiny ? 'shiny' : ''}digidex/${pokemon}.png`;
         const trainerVersion: HTMLElement = node.querySelector('.trainer-version');
         trainerVersion.innerText = `v${version}`;
         const badgeContainer = node.querySelector('.challenge-badges');
