@@ -477,7 +477,7 @@ class Farming implements Feature {
         // Music
         this.mutations.push(new GrowNearFlavorMutation(.009, BerryType.Music,
             [[25, 80], [0, 5], [0, 5], [0, 5], [0, 5]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings get too spicy!',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings get too exciting!',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Games]();
                 },
@@ -486,7 +486,7 @@ class Farming implements Feature {
         // Backup
         this.mutations.push(new GrowNearFlavorMutation(.008, BerryType.Backup,
             [[0, 5], [25, 80], [0, 5], [0, 5], [0, 5]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings get too dry!',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings get too technical!',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Security]();
                 },
@@ -495,7 +495,7 @@ class Farming implements Feature {
         // Sleep
         this.mutations.push(new GrowNearFlavorMutation(.007, BerryType.Sleep,
             [[0, 5], [0, 5], [25, 80], [0, 5], [0, 5]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings get too sweet!',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings get too comforting!',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Health]();
                 },
@@ -504,7 +504,7 @@ class Farming implements Feature {
         // Calendar
         this.mutations.push(new GrowNearFlavorMutation(.006, BerryType.Calendar,
             [[0, 5], [0, 5], [0, 5], [25, 80], [0, 5]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings get too bitter!',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings get too informative!',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Step]();
                 },
@@ -513,7 +513,7 @@ class Farming implements Feature {
         // Weather
         this.mutations.push(new GrowNearFlavorMutation(.005, BerryType.Weather,
             [[0, 5], [0, 5], [0, 5], [0, 5], [25, 80]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings get too sour!',
+                hint: 'I\'ve heard that a special Berry can appear if its surroundings get too practical!',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Light]();
                 },
@@ -532,7 +532,7 @@ class Farming implements Feature {
                 BerryType.Chat,
                 BerryType.Finance,
             ], {
-                hint: 'I\'ve heard that there\'s a legendary Berry that only appears when fully surrounded by unique ripe Berry plants!',
+                hint: 'I\'ve heard that there\'s a Disk that only appears when fully surrounded by unique Disks!',
             }));
 
         //#endregion
@@ -554,7 +554,7 @@ class Farming implements Feature {
         // Accounting
         this.mutations.push(new GrowNearFlavorMutation(.0005, BerryType.Accounting,
             [[10, 15], [0, 0], [10, 15], [0, 0], [10, 15]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted a little spicy, a little sweet, and a little sour at the same time.',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings match its data profile! If I recall, it was a little entertaining, a little comforting, and a little practical at the same time.',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Games]() &&
                     App.game.farming.unlockedBerries[BerryType.Health]() &&
@@ -564,7 +564,7 @@ class Farming implements Feature {
         // Video
         this.mutations.push(new GrowNearFlavorMutation(.0004, BerryType.Video,
             [[15, 15], [15, 15], [0, 0], [15, 15], [0, 0]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted fairly spicy, dry, and bitter at the same time.',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings match its data profile! If I recall, it was fairly exciting, technical, and informative at the same time.',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Music]() &&
                     App.game.farming.unlockedBerries[BerryType.Backup]() &&
@@ -601,12 +601,12 @@ class Farming implements Feature {
         // Advice
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Advice, BerryType.News,
             [[130, 160], [0, 80], [0, 80], [0, 80], [0, 80]], {
-                hint: 'I\'ve heard that a News berry will change if its surroundings get extremely spicy!',
+                hint: 'I\'ve heard that a News Disk will change if its surroundings get extremely exciting!',
             }));
         // Search
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Search, BerryType.Dictionary,
             [[0, 80], [130, 160], [0, 80], [0, 80], [0, 80]], {
-                hint: 'I\'ve heard that a Dictionary berry will change if its surroundings get extremely dry!',
+                hint: 'I\'ve heard that a Dictionary Disk will change if its surroundings get extremely technical!',
             }));
         // Search Overgrow
         this.mutations.push(new GrowNearBerryMutation(.0004, BerryType.Search,
@@ -614,17 +614,17 @@ class Farming implements Feature {
         // Gourmet
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Gourmet, BerryType.Cooking,
             [[0, 80], [0, 80], [130, 160], [0, 80], [0, 80]], {
-                hint: 'I\'ve heard that a Cooking berry will change if its surroundings get extremely sweet!',
+                hint: 'I\'ve heard that a Cooking Disk will change if its surroundings get extremely comforting!',
             }));
         // Paint
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Paint, BerryType.Wallpaper,
             [[0, 80], [0, 80], [0, 80], [130, 160], [0, 80]], {
-                hint: 'I\'ve heard that a Wallpaper berry will change if its surroundings get extremely bitter!',
+                hint: 'I\'ve heard that a Wallpaper Disk will change if its surroundings get extremely informative!',
             }));
         // Beauty
         this.mutations.push(new EvolveNearFlavorMutation(.0002, BerryType.Beauty, BerryType.Fashion,
             [[0, 80], [0, 80], [0, 80], [0, 80], [130, 160]], {
-                hint: 'I\'ve heard that a Fashion berry will change if its surroundings get extremely sour!',
+                hint: 'I\'ve heard that a Fashion Disk will change if its surroundings get extremely practical!',
             }));
 
         //#endregion
@@ -661,7 +661,7 @@ class Farming implements Feature {
         // TODO: HLXII - Change mutation to grow spontaneously when Grass pokemon in party
         this.mutations.push(new GrowNearFlavorMutation(.0001, BerryType.Recording,
             [[10, 15], [0, 0], [0, 0], [15, 20], [0, 0]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted a little spicy and fairly bitter at the same time.',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings match its data profile! If I recall, it was a little exciting and fairly informative at the same time.',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Calendar]() &&
                     App.game.farming.unlockedBerries[BerryType.Games]();
@@ -671,7 +671,7 @@ class Farming implements Feature {
         this.mutations.push(new GrowNearBerryMutation(.0004, BerryType.Recording, [BerryType.Recording], {showHint: false }));
         // Review
         this.mutations.push(new EvolveNearBerryStrictMutation(.0001, BerryType.Review, BerryType.Gossip, {}, PlotStage.Seed, {
-            hint: 'I\'ve heard that growing a Gossip Berry alone will cause it to change!',
+            hint: 'I\'ve heard that burning a Gossip Disk alone will cause it to change!',
         }));
         // Puzzle
         this.mutations.push(new OakMutation(.0001, BerryType.Puzzle, BerryType.Advice, OakItemType.Blaze_Cassette));
@@ -685,7 +685,7 @@ class Farming implements Feature {
         // TODO: HLXII - Change mutation to grow spontaneously when Flying pokemon in party
         this.mutations.push(new GrowNearFlavorMutation(.0001, BerryType.Astrology,
             [[0, 0], [10, 15], [0, 0], [15, 20], [0, 0]], {
-                hint: 'I\'ve heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted a little dry and fairly bitter at the same time.',
+                hint: 'I\'ve heard that a special Disk can appear if its surroundings match its data profile! If I recall, it was a little technical and fairly informative at the same time.',
                 unlockReq: function(): boolean {
                     return App.game.farming.unlockedBerries[BerryType.Security]() &&
                     App.game.farming.unlockedBerries[BerryType.Calendar]();
@@ -703,7 +703,7 @@ class Farming implements Feature {
         let berryReqs = {};
         berryReqs[BerryType.Recording] = 8;
         this.mutations.push(new GrowNearBerryStrictMutation(.0001, BerryType.Social, berryReqs, {
-            hint: 'I\'ve heard that a special Berry can appear after being surrounded by Recording Berries!',
+            hint: 'I\'ve heard that a special Disk can appear after being surrounded by Recording Disks!',
         }));
         // Library
         this.mutations.push(new OakMutation(.0001, BerryType.Library, BerryType.Dictionary, OakItemType.Cell_Battery));
@@ -731,13 +731,13 @@ class Farming implements Feature {
         berryReqs[BerryType.Exercise] = 4;
         berryReqs[BerryType.Library] = 4;
         this.mutations.push(new GrowNearBerryStrictMutation(.0001, BerryType.Medical, berryReqs, {
-            hint: 'I\'ve heard that a special Berry can appear after being surrounded by Exercise and Library Berries!',
+            hint: 'I\'ve heard that a special Disk can appear after being surrounded by Exercise and Library Disks!',
         }));
         // Slots
         berryReqs = {};
         berryReqs[BerryType.Puzzle] = 3;
         this.mutations.push(new EvolveNearBerryMinMutation(.0001, BerryType.Slots, BerryType.Puzzle, berryReqs, {
-            hint: 'I\'ve heard that Puzzle Berries will turn into a different Berry if surrounded by more than two of its own kind',
+            hint: 'I\'ve heard that Puzzle Disks will turn into a different Disk if surrounded by more than two of its own kind',
         }));
         // Hotel
         this.mutations.push(new GrowNearBerryMutation(.0001, BerryType.Hotel,
@@ -753,22 +753,22 @@ class Farming implements Feature {
 
         // Virus
         this.mutations.push(new FieldFlavorMutation(.0003, BerryType.Virus, [0, 600, 0, 0, 0], {
-            hint: 'I\'ve heard of a Berry that only appears in the driest of fields.',
+            hint: 'I\'ve heard of a Disk that only appears in the most technical of setups.',
             unlockReq: () => App.game.farming.unlockedBerries[BerryType.Search](),
         }));
         // Commentary
         this.mutations.push(new FieldFlavorMutation(.0003, BerryType.Commentary, [0, 0, 600, 0, 0], {
-            hint: 'I\'ve heard of a Berry that only appears in the sweetest of fields.',
+            hint: 'I\'ve heard of a Disk that only appears in the most comforting of setups.',
             unlockReq: () => App.game.farming.unlockedBerries[BerryType.Gourmet](),
         }));
         // Design
         this.mutations.push(new FieldFlavorMutation(.0003, BerryType.Design, [0, 0, 0, 600, 0], {
-            hint: 'I\'ve heard of a Berry that only appears in the most bitter of fields.',
+            hint: 'I\'ve heard of a Disk that only appears in the most informative of setups.',
             unlockReq: () => App.game.farming.unlockedBerries[BerryType.Paint](),
         }));
         // Mirror
         this.mutations.push(new FieldFlavorMutation(.0003, BerryType.Mirror, [0, 0, 0, 0, 600], {
-            hint: 'I\'ve heard of a Berry that only appears in the most sour of fields.',
+            hint: 'I\'ve heard of a Disk that only appears in the most practical of setups.',
             unlockReq: () => App.game.farming.unlockedBerries[BerryType.Beauty](),
         }));
         // Dream
@@ -847,14 +847,14 @@ class Farming implements Feature {
         // Action
         this.mutations.push(new BlankMutation(0, BerryType.Action,
             {
-                hint: 'I\'ve heard of a Berry that only appears after a Berry plant has withered, but is repelled by Entertainment Plants.',
+                hint: 'I\'ve heard of a Disk that only appears after a Disk has failed, but is blocked by Entertainment Disks.',
                 unlockReq: () => App.game.farming.highestUnlockedBerry() >= BerryType.Broadcasting,
             }));
 
         // Battery
         this.mutations.push(new BlankMutation(0, BerryType.Battery,
             {
-                hint: 'I\'ve heard of a Berry that only appears after a Shiny Pokémon wanders near open soil.',
+                hint: 'I\'ve heard of a Disk that only appears after a Dot Digimon wanders near open trays.',
                 unlockReq: () => App.game.farming.highestUnlockedBerry() >= BerryType.Broadcasting,
             }));
 
