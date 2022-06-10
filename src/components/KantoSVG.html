@@ -12,7 +12,7 @@
     <%- include('templates/mapRoute',
         { route: 1, region: 0
         , width: 8, height: 3
-        , x: 70, y: 46
+        , x: 65, y: 46
         , rotate: true
         })
      %>
@@ -21,23 +21,23 @@
     <%- include('templates/mapRoute',
         { route: 2, region: 0
         , width: 8, height: 3
-        , x: 73, y: 46
+        , x: 68, y: 51
         })
      %>
- 
+
     <!--Route 3-->
     <%- include('templates/mapRoute',
         { route: 3, region: 0
         , width: 15, height: 3
-        , x: 50, y: 48
+        , x: 50, y: 47
         })
      %>
-        
+
     <!--Extra bit of Route 3-->
     <%- include('templates/mapRoute',
          { route: 3, region: 0
          , width: 3, height: 4
-         , x: 50, y: 44
+         , x: 50, y: 43
          , noText: true
          })
       %>
@@ -49,7 +49,7 @@
         , x: 40, y: 39
         })
      %>
-       
+
      <!--Extra bit of Route 4-->
     <%- include('templates/mapRoute',
          { route: 4, region: 0
@@ -66,7 +66,7 @@
         , x: 44, y: 30
         })
      %>
-        
+
     <!--Extra bit of Route 5-->
     <%- include('templates/mapRoute',
         { route: 5, region: 0
@@ -91,6 +91,7 @@
         { route: 7, region: 0
         , width: 10, height: 3
         , x: 57, y: 23
+        , rotate: true
         })
      %>
 
@@ -98,7 +99,7 @@
     <%- include('templates/mapRoute',
         { route: 8, region: 0
         , width: 12, height: 3
-        , x: 80, y: 33
+        , x: 75, y: 38
         })
      %>
 
@@ -207,7 +208,7 @@
     <%- include('templates/mapRoute',
         { route: 19, region: 0
         , width: 9, height: 3
-        , x: 10, y: 32
+        , x: 10, y: 44
         })
     %>
 
@@ -233,7 +234,7 @@
     <%- include('templates/mapRoute',
         { route: 22, region: 0
         , width: 15, height: 3
-        , x: 77, y: 26
+        , x: 77, y: 30
         })
      %>
 
@@ -284,14 +285,14 @@
          , width: 5, height: 5
          })
       %>
-	
+
     <!--Pewter City-->
     <%- include('templates/mapTown',
         { name: "Pewter City"
         , x: 48, y: 21
 		, width: 5, height: 5
         })
-     %>	 
+     %>
 
     <!--Cerulean City-->
     <%- include('templates/mapTown',
@@ -313,7 +314,7 @@
     <%- include('templates/mapTown',
          { name: "Lavender Town"
          , x: 40, y: 14
-		 , width: 5, height: 5		 
+		 , width: 5, height: 5
          })
       %>
 
@@ -324,7 +325,7 @@
 		, width: 5, height: 5
         })
      %>
-	
+
     <!--Saffron City-->
     <%- include('templates/mapTown',
         { name: "Saffron City"
@@ -332,7 +333,7 @@
 		, width: 5, height: 5
         })
      %>
-	
+
     <!--Fuchsia City-->
     <%- include('templates/mapTown',
         { name: "Fuchsia City"
@@ -348,7 +349,7 @@
 		, width: 5, height: 5
         })
      %>
-	 
+
     <!--Indigo Plateau Kanto-->
     <%- include('templates/mapTown',
         { name: "Indigo Plateau Kanto"
@@ -367,7 +368,7 @@
     <!--Viridian Forest-->
     <%- include('templates/mapDungeon',
         { name: "Viridian Forest"
-        , x: 81, y: 45		
+        , x: 76, y: 50
 		, width: 5, height: 5
         })
      %>
@@ -382,22 +383,22 @@
     <!--Digletts Cave Vermilion-->
     <%- include('templates/mapDungeon',
         { name: "Digletts Cave"
-        , x: 72, y: 25
+        , x: 72, y: 29
 		, width: 5, height: 5
         })
      %>
     <!--Mt. Moon-->
     <%- include('templates/mapDungeon',
         { name: "Mt. Moon"
-        , x: 32, y: 29
+        , x: 39, y: 29
         , width: 5, height: 5
         })
      %>
-	 
+
     <!--Rock Tunnel-->
     <%- include('templates/mapDungeon',
         { name: "Rock Tunnel"
-        , x: 92, y: 32
+        , x: 87, y: 37
         , width: 5, height: 5
         })
      %>
@@ -409,11 +410,19 @@
 		, width: 5, height: 5
         })
      %>
-	    
+
     <!--Pokémon Tower-->
     <%- include('templates/mapDungeon',
         { name: "Pokemon Tower"
-        , x: 79, y: 36
+        , x: 74, y: 41
+        , width: 5, height: 5
+        })
+    %>
+
+    <!--Pokémon Tower 2-->
+    <%- include('templates/mapDungeon',
+        { name: "Pokemon Tower"
+        , x: 1, y: 14
         , width: 5, height: 5
         })
     %>
@@ -421,11 +430,19 @@
     <!--Seafoam Islands-->
     <%- include('templates/mapDungeon',
         { name: "Seafoam Islands"
-        , x: 19, y: 55
+        , x: 19, y: 43
         , width: 5, height: 5
         })
      %>
-	 
+
+     <!--Seafoam Islands 2-->
+    <%- include('templates/mapDungeon',
+    { name: "Seafoam Islands"
+    , x: 92, y: 29
+    , width: 5, height: 5
+    })
+     %>
+
     <!--Pokémon Mansion-->
     <%- include('templates/mapDungeon',
         { name: "Pokemon Mansion"
@@ -437,7 +454,7 @@
     <!--Victory Road -->
     <%- include('templates/mapDungeon',
         { name: "Victory Road"
-        , x: 62, y: 31
+        , x: 62, y: 32
         , width: 5, height: 5
         })
      %>
@@ -460,23 +477,23 @@
 
     <%- include('templates/mapPOI',
         { name: "Pokemon Day Care"
-        , x: 68, y: 13
-        , width: 4, height: 4
+        , x: 59, y: 40
+        , width: 3, height: 3
         , databind: "click:function(){BreedingController.openBreedingModal()}, attr: { class: App.game.breeding.canAccess() ? 'completed' : 'locked' }"
         })
      %>
 
     <%- include('templates/mapPOI',
         { name: "Underground Entrance"
-        , x: 83, y: 30
-        , width: 3, height: 4
+        , x: 53, y: 27
+        , width: 3, height: 3
         , databind: "click:function(){App.game.underground.openUndergroundModal()}, attr: { class: App.game.underground.canAccess() ? 'completed' : 'locked' }"
         })
      %>
 
     <%- include('templates/mapPOI',
         { name: "Farm"
-        , x: 72, y: 40
+        , x: 82, y: 42
         , width: 3, height: 3
         , databind: "click:function(){FarmController.openFarmModal()}, attr: { class: App.game.farming.canAccess() ? 'completed' : 'locked' }"
         })
@@ -484,7 +501,7 @@
 
     <%- include('templates/mapPOI',
         { name: "Dock"
-        , x: 61, y: 35
+        , x: 85, y: 21
         , width: 3, height: 2
         , databind: "click:function(){MapHelper.openShipModal()}, attr:{ class: player.highestRegion() >= 1 ? 'completed' : 'locked'}"
         })
@@ -502,7 +519,7 @@
 
     <%- include('templates/mapOverlay',
          { name: "Professor Oak's Blimp"
-         , x: 27, y: 37
+         , x: 2, y: 1
          , width: 6, height: 3
          , databind: "click:function(){MapHelper.moveToTown('Pallet Town')}, attr:{ class: MapHelper.calculateTownCssClass('Pallet Town') }"
          , visible:  "MapHelper.ableToTravel() && player.starter() != GameConstants.Starter.Pikachu"
@@ -512,14 +529,14 @@
 
      <%- include('templates/mapOverlay',
          { name: "Professor Oak's Blimp"
-         , x: 27, y: 37
+         , x: 2, y: 1
          , width: 6, height: 3
          , databind: "click:function(){MapHelper.moveToTown('Pallet Town')}, attr:{ class: MapHelper.calculateTownCssClass('Pallet Town') }"
          , visible:  "MapHelper.ableToTravel() && player.starter() == GameConstants.Starter.Pikachu"
          , image: "assets/images/map/blimp_pikachu.png"
          })
       %>
-      
+
     <%- include('templates/mapOverlay',
         { name: "Route 3 Pokémon Center"
         , x: 40, y: 10
