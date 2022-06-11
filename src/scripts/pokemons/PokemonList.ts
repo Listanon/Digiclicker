@@ -12963,7 +12963,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 718,
-        'name': 'Agumon 2006 ',
+        'name': 'Agumon 2006',
         'catchRate': 35,
         'type': [PokemonType.Vaccine, PokemonType.Fire],
         'levelType': LevelType.mediumfast,
@@ -13755,7 +13755,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 762,
-        'name': 'Falcomon 2006 ',
+        'name': 'Falcomon 2006',
         'catchRate': 35,
         'type': [PokemonType.Vaccine, PokemonType.Wind],
         'levelType': LevelType.mediumfast,
@@ -13809,7 +13809,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 765,
-        'name': 'Kudamon 2006 ',
+        'name': 'Kudamon 2006',
         'catchRate': 35,
         'type': [PokemonType.Vaccine, PokemonType.Light],
         'levelType': LevelType.mediumfast,
@@ -13953,7 +13953,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 773,
-        'name': 'Yuki Agumon 2006 ',
+        'name': 'Yuki Agumon 2006',
         'catchRate': 35,
         'type': [PokemonType.Vaccine, PokemonType.Water],
         'levelType': LevelType.mediumfast,
@@ -14331,7 +14331,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 794,
-        'name': 'Yatagaramon 2006 ',
+        'name': 'Yatagaramon 2006',
         'catchRate': 15,
         'type': [PokemonType.Vaccine, PokemonType.Wind],
         'levelType': LevelType.erratic,
@@ -15843,7 +15843,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 878,
-        'name': 'Greymon 2010 ',
+        'name': 'Greymon 2010',
         'catchRate': 25,
         'type': [PokemonType.Virus, PokemonType.Earth],
         'levelType': LevelType.slow,
@@ -16113,7 +16113,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 893,
-        'name': 'Cyberdramon 2010 ',
+        'name': 'Cyberdramon 2010',
         'catchRate': 15,
         'type': [PokemonType.Vaccine, PokemonType.Dark],
         'levelType': LevelType.erratic,
@@ -16167,7 +16167,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 896,
-        'name': 'Metal Greymon 2010 ',
+        'name': 'Metal Greymon 2010',
         'catchRate': 15,
         'type': [PokemonType.Virus, PokemonType.Earth],
         'levelType': LevelType.erratic,
@@ -16311,7 +16311,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 904,
-        'name': 'Beelzebumon 2010 ',
+        'name': 'Beelzebumon 2010',
         'catchRate': 5,
         'type': [PokemonType.Virus, PokemonType.Dark],
         'levelType': LevelType.fluctuating,
