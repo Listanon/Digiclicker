@@ -4399,238 +4399,283 @@ const HiAndromon = new Shop([
     ItemList['Choromon'],
 ], 'Hi Andromon');
 const ImperialdramonDragonMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Imperialdramon Fighter Mode'],
 ], 'Imperialdramon Dragon Mode');
 const ImperialdramonDragonModeBlack = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Imperialdramon: Fighter Mode Black'],
 ], 'Imperialdramon Dragon Mode Black');
 const ImperialdramonFighterMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Imperialdramon Paladin Mode'],
 ], 'Imperialdramon Fighter Mode');
 const Lampmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Zurumon'],
 ], 'Lampmon');
 const MetalGarurumonBlack = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Omegamon Zwart'],
 ], 'Metal Garurumon Black');
 const MoonMillenniumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Zeed Millenniumon'],
 ], 'Moon Millenniumon');
 const Pharaohmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mokumon'],
 ], 'Pharaohmon');
 const PrinceMamemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Prince Mamemon X-Antibody'],
 ], 'Prince Mamemon');
 const Qinglongmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Huanglongmon'],
 ], 'Qinglongmon');
 const Seraphimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Zurumon'],
 ], 'Seraphimon');
 const Valkyrimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pururumon'],
 ], 'Valkyrimon');
 const Vikemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pitchmon'],
 ], 'Vikemon');
 const Xuanwumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Huanglongmon'],
 ], 'Xuanwumon');
 const Zanbamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Punimon'],
 ], 'Zanbamon');
 const Zhuqiaomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Huanglongmon'],
 ], 'Zhuqiaomon');
 const Allomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Allomon X-Antibody'],
+    ItemList['Megalo Growmon'],
 ], 'Allomon');
 const Archelomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Hangyomon'],
+    ItemList['Zudomon'],
 ], 'Archelomon');
 const Baromon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mephismon'],
 ], 'Baromon');
 const Bitmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Andiramon Deva'],
 ], 'Bitmon');
 const Boarmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mammon'],
+    ItemList['Vikaralamon'],
 ], 'Boarmon');
 const Bullmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Vajramon'],
 ], 'Bullmon');
 const Butterflamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Atlur Kabuterimon Blue'],
 ], 'Butterflamon');
 const Chamelemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Brachiomon'],
 ], 'Chamelemon');
 const Coatlmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Majiramon'],
+    ItemList['Sandiramon'],
 ], 'Coatlmon');
 const Depthmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dagomon'],
+    ItemList['Divemon'],
+    ItemList['Marin Devimon'],
 ], 'Depthmon');
 const Digmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Scorpiomon'],
+    ItemList['Triceramon'],
 ], 'Digmon');
 const Elephamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Master Tyranomon'],
+    ItemList['Mammon'],
 ], 'Elephamon');
 const Fladramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Aero V-dramon'],
+    ItemList['Volcamon'],
 ], 'Fladramon');
 const Flybeemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dinobeemon'],
 ], 'Flybeemon');
 const Frogmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Tonosama Gekomon'],
 ], 'Frogmon');
 const Gargomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Cyberdramon'],
+    ItemList['Skull Greymon'],
 ], 'Gargomon');
 const Goatmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mephismon'],
+    ItemList['Mephismon'],
 ], 'Goatmon');
 const GoldVdramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Aero V-dramon'],
+    ItemList['Mega Seadramon'],
+    ItemList['Metal Greymon'],
 ], 'Gold V-dramon');
 const Harpymon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Parrotmon'],
+    ItemList['Silphymon'],
 ], 'Harpymon');
 const Holsmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Garudamon'],
+    ItemList['Mihiramon'],
 ], 'Holsmon');
 const Honeybeemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Archnemon'],
 ], 'Honeybeemon');
 const Kabukimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Jyureimon'],
+    ItemList['Zanbamon'],
 ], 'Kabukimon');
 const Kangarumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Taomon'],
+    ItemList['Vajramon'],
 ], 'Kangarumon');
 const Kongoumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Atlur Kabuterimon Blue'],
+    ItemList['Atlur Kabuterimon Red'],
 ], 'Kongoumon');
 const Lighdramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Caturamon'],
+    ItemList['Were Garurumon'],
 ], 'Lighdramon');
 const Lynxmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Apollomon'],
+    ItemList['Mihiramon'],
 ], 'Lynxmon');
 const Magnamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Magnamon X-Antibody'],
 ], 'Magnamon');
 const Maildramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Hippogriffomon'],
+    ItemList['Silphymon'],
 ], 'Maildramon');
 const Manbomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Hangyomon'],
+    ItemList['Mega Seadramon'],
 ], 'Manbomon');
 const Mantaraymon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mantaraymon X-Antibody'],
+    ItemList['Marin Devimon'],
 ], 'Mantaraymon');
 const Moosemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Panjyamon'],
 ], 'Moosemon');
 const Mothmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Atlur Kabuterimon Red'],
+    ItemList['Blossomon'],
 ], 'Mothmon');
 const Nefertimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Angewomon'],
+    ItemList['Nefertimon X-Antibody'],
 ], 'Nefertimon');
 const Nohemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Jyagamon'],
+    ItemList['Yatagaramon'],
 ], 'Nohemon');
 const Opossummon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Cho·Hakkaimon'],
+    ItemList['Caturamon'],
 ], 'Opossummon');
 const Orcamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Marin Devimon'],
+    ItemList['Mermaimon'],
 ], 'Orcamon');
 const Owlmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Parrotmon'],
+    ItemList['Yatagaramon 2006'],
 ], 'Owlmon');
 const Peacockmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Aero V-dramon'],
+    ItemList['Cyberdramon'],
 ], 'Peacockmon');
 const Pegasmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Holy Angemon'],
+    ItemList['Pegasmon X-Antibody'],
 ], 'Pegasmon');
 const Pipismon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Venom Vamdemon'],
 ], 'Pipismon');
 const Ponchomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Fantomon'],
+    ItemList['Pumpmon'],
 ], 'Ponchomon');
 const Prairiemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Kumbhiramon'],
+    ItemList['Monzaemon'],
 ], 'Prairiemon');
 const Pteranomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pteranomon X-Antibody'],
 ], 'Pteranomon');
 const Pucchiemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bancho Stingmon'],
+    ItemList['Phelesmon'],
 ], 'Pucchiemon');
 const PucchiemonGreen = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Okuwamon'],
+    ItemList['Lilimon'],
 ], 'Pucchiemon Green');
 const RapidmonArmor = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Rapidmon X-Antibody'],
+    ItemList['Saint Galgomon'],
 ], 'Rapidmon Armor');
 const Rhinomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Rhinomon X-Antibody'],
 ], 'Rhinomon');
 const Rinkmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Andromon'],
+    ItemList['Cyberdramon'],
 ], 'Rinkmon');
 const Sagittarimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Tyilinmon'],
 ], 'Sagittarimon');
 const Seahomon = new Shop([
     ItemList['Ohakadamon'],
+    ItemList['Vajramon'],
 ], 'Seahomon');
 const Searchmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Assaultmon'],
+    ItemList['Atlur Kabuterimon Blue'],
 ], 'Searchmon');
 const Sepikmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Vademon'],
 ], 'Sepikmon');
 const Sethmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Megalo Growmon'],
 ], 'Sethmon');
 const Shadramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Karatenmon'],
+    ItemList['Volcamon'],
 ], 'Shadramon');
 const Sheepmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pajramon'],
 ], 'Sheepmon');
 const Shurimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Karatenmon'],
 ], 'Shurimon');
 const Stegomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Orochimon'],
 ], 'Stegomon');
 const Submarimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gusokumon'],
+    ItemList['Piranimon'],
 ], 'Submarimon');
 const Swanmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Holy Angemon'],
+    ItemList['Sinduramon'],
 ], 'Swanmon');
 const Tocanmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Digitamamon'],
+    ItemList['Griffomon'],
 ], 'Tocanmon');
 const Togemogumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Panjyamon'],
 ], 'Togemogumon');
 const Tylomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mega Seadramon'],
+    ItemList['Tylomon X-Antibody'],
 ], 'Tylomon');
 const Yaksamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Asuramon'],
+    ItemList['Kyukimon'],
 ], 'Yaksamon');
 const Jyarimon = new Shop([
     ItemList['Ohakadamon'],
