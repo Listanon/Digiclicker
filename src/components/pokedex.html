@@ -3,7 +3,7 @@ aria-labelledby="pokedexModalLabel">
 <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
    <div class="modal-content">
        <div class="modal-header">
-           <h4 style="margin-bottom: 0">Pokédex</h4>
+           <h4 style="margin-bottom: 0">Digidex</h4>
            <button style="float:right;" class="btn btn-secondary" type="button" data-toggle="collapse"
                    data-target="#pokedex-filter-container" aria-expanded="false" aria-controls="pokedex-filter-container">
                Filters
@@ -50,10 +50,10 @@ aria-labelledby="pokedexModalLabel">
                             <label for="pokedex-filter-shiny-caught">Caught Status</label>
                             <select id="pokedex-filter-shiny-caught" autocomplete="off" class="custom-select" onchange="PokedexHelper.updateList()">
                                 <option value="all" selected>All</option>
-                                <option value="uncaught">Uncaught</option>
-                                <option value="caught">Caught</option>
-                                <option value="caught-not-shiny">Caught not Shiny</option>
-                                <option value="caught-shiny">Caught Shiny</option>
+                                <option value="uncaught">Not Scanned</option>
+                                <option value="caught">Scanned</option>
+                                <option value="caught-not-shiny">Caught not Dot</option>
+                                <option value="caught-shiny">Caught Dot</option>
                             </select>
                         </div>
                         <div class="form-group col-md-6 col-6">
