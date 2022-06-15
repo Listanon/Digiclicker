@@ -117,10 +117,10 @@ export default class DynamicBackground {
 
         // Assign our timeout function so we can stop it later
         DynamicBackground.addPokemonTimeout = setTimeout(() => {
-            // limited to players highest region
+            /*// limited to players highest region
             DynamicBackground.addPokemon(Rand.intBetween(1, MaxIDPerRegion[player?.highestRegion() || Region.kanto]));
             // Add another pokemon
-            DynamicBackground.startAddingPokemon();
+            DynamicBackground.startAddingPokemon();*/
         }, delay);
     };
 
