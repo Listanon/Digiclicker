@@ -5270,7 +5270,7 @@ const Lilithmon = new Shop([
     ItemList['Lilithmon X-Antibody'],
 ], 'Lilithmon');
 const LordKnightmon = new Shop([
-    ItemList['Lord Knightmon X-Antibod'],
+    ItemList['Lord Knightmon X-Antibody'],
 ], 'Lord Knightmon');
 const LucemonSatanMode = new Shop([
     ItemList['Lucemon Larva'],
