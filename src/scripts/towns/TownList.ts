@@ -4074,7 +4074,7 @@ const Hououmon = new Shop([
     ItemList['Hououmon X-Antibody'],
 ], 'Hououmon');
 const KingEtemon = new Shop([
-    ItemList['Pabumon'],
+    ItemList['Bubbmon'],
 ], 'King Etemon');
 const MetalGarurumon = new Shop([
     ItemList['Metal Garurumon X-Antibody'],
