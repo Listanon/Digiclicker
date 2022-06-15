@@ -18,7 +18,7 @@ class PokeballItem extends Item {
 ItemList['Pokeball']   = new PokeballItem(GameConstants.Pokeball.Pokeball, 100, undefined, undefined, 'Pokéball');
 ItemList['Greatball']  = new PokeballItem(GameConstants.Pokeball.Greatball, 500);
 ItemList['Ultraball']  = new PokeballItem(GameConstants.Pokeball.Ultraball, 2000);
-ItemList['Masterball'] = new PokeballItem(GameConstants.Pokeball.Masterball, 2500, GameConstants.Currency.questPoint);
+ItemList['Masterball'] = new PokeballItem(GameConstants.Pokeball.Masterball, 2500, GameConstants.Currency.farmPoint);
 // Not sold in shops
 ItemList['Fastball'] = new PokeballItem(GameConstants.Pokeball.Fastball, Infinity, GameConstants.Currency.farmPoint);
 ItemList['Quickball'] = new PokeballItem(GameConstants.Pokeball.Quickball, Infinity, GameConstants.Currency.farmPoint);
