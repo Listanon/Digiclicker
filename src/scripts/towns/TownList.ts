@@ -3385,7 +3385,7 @@ const Evilmon = new Shop([
     ItemList['Mephismon'],
 ], 'Evilmon');
 const Flymon = new Shop([
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
 ], 'Flymon');
 const Gekomon = new Shop([
     ItemList['Mega Seadramon'],
@@ -3410,7 +3410,7 @@ const Ikkakumon = new Shop([
 const Kuwagamon = new Shop([
     ItemList['Kuwagamon X-Antibody'],
     ItemList['Megadramon'],
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
 ], 'Kuwagamon');
 const Leomon = new Shop([
     ItemList['Grappu Leomon'],
@@ -3572,7 +3572,7 @@ const Nanomon = new Shop([
 const Ookuwamon = new Shop([
     ItemList['Gran Kuwagamon'],
     ItemList['Herakle Kabuterimon'],
-    ItemList['Okuwamon X-Antibody'],
+    ItemList['Ookuwamon X-Antibody'],
 ], 'Ookuwamon');
 const Piccolomon = new Shop([
     ItemList['Bacchusmon'],
@@ -3862,14 +3862,14 @@ const Saberdramon = new Shop([
     ItemList['Parrotmon'],
 ], 'Saberdramon');
 const SandYanmamon = new Shop([
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
 ], 'Sand Yanmamon');
 const ShimaUnimon = new Shop([
     ItemList['Mammon'],
 ], 'Shima Unimon');
 const Snimon = new Shop([
     ItemList['Archnemon'],
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
 ], 'Snimon');
 const Soulmon = new Shop([
     ItemList['Metal Fantomon'],
@@ -3904,7 +3904,7 @@ const Woodmon = new Shop([
 ], 'Woodmon');
 const Yanmamon = new Shop([
     ItemList['Atlur Kabuterimon Red'],
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
 ], 'Yanmamon');
 const Zassoumon = new Shop([
     ItemList['Blossomon'],
@@ -4286,7 +4286,7 @@ const Sorcerimon = new Shop([
 const Stingmon = new Shop([
     ItemList['Dinobeemon'],
     ItemList['Jewelbeemon'],
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
 ], 'Stingmon');
 const Wendimon = new Shop([
     ItemList['Andiramon'],
@@ -4610,7 +4610,7 @@ const Pucchiemon = new Shop([
     ItemList['Phelesmon'],
 ], 'Pucchiemon');
 const PucchiemonGreen = new Shop([
-    ItemList['Okuwamon'],
+    ItemList['Ookuwamon'],
     ItemList['Lilimon'],
 ], 'Pucchiemon Green');
 const RapidmonArmor = new Shop([
