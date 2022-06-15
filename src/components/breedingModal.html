@@ -14,7 +14,7 @@ aria-labelledby="breedingModalLabel" aria-hidden="true">
             </button>
             <button type="button" class="btn btn-info"
             style="position: absolute; right: 0px; top: 0px; width: auto; height: 69px; padding: 10px;"
-            data-bind="tooltip: { title: `You can trade your level 100 Pokémon for an egg of the same Pokémon. Hatched Pokémon will gain a ${GameConstants.BREEDING_ATTACK_BONUS}% bonus of their base attack and have a higher chance of becoming shiny!`, trigger: 'hover', placement:'left' }">
+            data-bind="tooltip: { title: `You can trade your level 100 Digimon for an egg of the same Digimon. Hatched Digimon will gain a ${GameConstants.BREEDING_ATTACK_BONUS}% bonus of their base attack and have a higher chance of becoming dot!`, trigger: 'hover', placement:'left' }">
             ?
             </button>
        </div>
@@ -117,13 +117,13 @@ aria-labelledby="breedingModalLabel" aria-hidden="true">
                     <div>
                         <!-- Check if the player has any level 100 Pokémon or if they have any eggs -->
                         <p class="bg-danger my-0" data-bind="visible: !App.game.party.hasMaxLevelPokemon()">
-                            Unfortunately, you don't have any Pokémon of level 100 to breed.
+                            Unfortunately, you don't have any Digimon of level 100 to breed.
                         </p>
                         <!-- ko if: App.game.party.hasMaxLevelPokemon() -->
                         <ul class="row justify-content-center p-0" data-bind="foreach: PartyController.getHatcherySortedList()">
                             <li class="eggSlot col-sm-4 col-md-3 col-lg-2 pokedexEntry text-nowrap" data-bind="visible: BreedingController.visible($data), style:{background: PokedexHelper.getBackgroundColors($data.name)}, class: App.game.breeding.hasFreeEggSlot() || App.game.breeding.hasFreeQueueSlot() ? '' : 'disabled'">
                                 <span style="top: 0; border-top-left-radius: 6px; border-top-right-radius: 6px;" data-bind="text: $data.name">name</span>
-                                <div data-bind="visible: App.game.party.alreadyCaughtPokemon($data.id, true)" style="position: absolute;right: 0px;top: 0px;">✨</div>
+                                <div data-bind="visible: App.game.party.alreadyCaughtPokemon($data.id, true)" style="position: absolute;right: 0px;top: 0px;">👾</div>
                                 <img src="" width="80px" data-bind="attr:{ src: PokedexHelper.getImage($data.id)}">
                                 <span style="bottom: 0; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px" data-bind="text: BreedingController.getDisplayValue($data)">value</span>
                                 <a class="overlay" href="#breed" data-bind="click: function() { App.game.breeding.addPokemonToHatchery($data); App.game.breeding.checkCloseModal();}"></a>
@@ -290,13 +290,13 @@ aria-labelledby="breedingModalLabel" aria-hidden="true">
 
                 <div id="breeding-help" class="tab-pane fade col-10 offset-1">
                     <h4><u>Hatchery</u></h4>
-                    <p>In the hatchery you can leave Pokémon here to gain an egg.</p>
+                    <p>In the hatchery you can leave Digimon here to gain an egg.</p>
 
-                    <p>Once an egg hatches your Pokémon will gain a bonus of 25% of their base attack.</p>
+                    <p>Once an egg hatches your Digimon will gain a bonus of 25% of their base attack.</p>
 
-                    <p class="text-warning"><i>NOTE: Base attack is the value your Pokémon originally has at level 100 before any breeding buffs.</i></p>
+                    <p class="text-warning"><i>NOTE: Base attack is the value your Digimon originally has at level 100 before any breeding buffs.</i></p>
 
-                    <p>Any Proteins applied to Pokémon will also give them an additional 1 attack per hatch.</p>
+                    <p>Any Proteins applied to Digimon will also give them an additional 1 attack per hatch.</p>
 
                     <p>There is no limit to breeding, this will be your main source of attack gain.</p>
 
@@ -304,15 +304,15 @@ aria-labelledby="breedingModalLabel" aria-hidden="true">
                     <p>You will gain access to a queue in the hatchery once you reach the Johto region and more slots for each new region after that.</p>
 
                     <h4><u>Hatchery Helpers (BETA)</u></h4>
-                    <p><i>(unlocked after hatching 100 total Pokémon)</i></p>
-                    <p>Hatchery Helpers will help out by automatically breeding your Pokémon for you.</p>
+                    <p><i>(unlocked after hatching 100 total Digimon)</i></p>
+                    <p>Hatchery Helpers will help out by automatically breeding your Digimon for you.</p>
                     <p class="text-danger"><i>NOTE: This is a <strong>beta</strong> feature, things will likely change in the future, feel free to post any feedback/bugs in the <a href="https://discord.gg/a6DFe4p" target="_blank">Discord</a>.</i></p>
                     <p>The cost displayed is how much you will be charged per hatch.</p>
-                    <p>They will only breed Pokémon based on your current Hatchery filters.</p>
+                    <p>They will only breed Digimon based on your current Hatchery filters.</p>
                     <p>All of the Helpers have different step efficiencies and will hatch eggs faster or slower depending on their value.</p>
-                    <p>They each also have different attack efficiencies which will determine how much attack you gain compared to manually hatching the pokemon yourself.</p>
+                    <p>They each also have different attack efficiencies which will determine how much attack you gain compared to manually hatching the Digimon yourself.</p>
                     <p>These efficiencies will gain a bonus based on how many times you've used the helper to hatch eggs.</p>
-                    <p><i>More Hatchery Helpers can be unlocked through shops and hatching more Pokémon</i></p>
+                    <p><i>More Hatchery Helpers can be unlocked through shops and hatching more Digimon</i></p>
                 </div>
 
             </div>
