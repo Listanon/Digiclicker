@@ -4,7 +4,7 @@ class PokemonItem extends CaughtIndicatingItem {
 
     type: PokemonNameType;
 
-    constructor(pokemon: PokemonNameType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.questPoint, levelreq: number) {
+    constructor(pokemon: PokemonNameType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.farmPoint, levelreq: number) {
         super(pokemon, basePrice, currency, undefined, levelreq, undefined, undefined, 'pokemonItem');
         this.type = pokemon;
     }
@@ -17,7 +17,7 @@ class PokemonItem extends CaughtIndicatingItem {
         const pokemonName = this.name as PokemonNameType;
         if (shiny) {
             Notifier.notify({
-                message: `✨ You obtained a shiny ${pokemonName}! ✨`,
+                message: `👾 You obtained a dot ${pokemonName}! 👾`,
                 type: NotificationConstants.NotificationOption.warning,
             });
         }
