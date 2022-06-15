@@ -3502,7 +3502,7 @@ const Angewomon = new Shop([
 ], 'Angewomon');
 const Anomalocarimon = new Shop([
     ItemList['Anomalocarimon X-Antibody'],
-    ItemList['Metal Seadramony'],
+    ItemList['Metal Seadramon'],
     ItemList['Pukumon'],
 ], 'Anomalocarimon');
 const AtlurKabuterimonBlue = new Shop([
