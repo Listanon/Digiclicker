@@ -3713,7 +3713,7 @@ const Muchomon = new Shop([
     ItemList['Akatorimon'],
 ], 'Muchomon');
 const Mushmon = new Shop([
-    ItemList['Red Vagimon'],
+    ItemList['Red Vegimon'],
     ItemList['Vegimon'],
     ItemList['Woodmon'],
 ], 'Mushmon');
