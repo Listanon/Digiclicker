@@ -3,7 +3,7 @@
         data-bind="click: function() { DungeonRunner.handleClick() }">
         <h2 class="pageItemTitle" style="display: block;">
             <knockout data-bind="if: DungeonBattle.enemyPokemon() && DungeonBattle.enemyPokemon().health()">
-                <knockout data-bind="text: DungeonBattle.enemyPokemon().name">Pokémon name</knockout>
+                <knockout data-bind="text: DungeonBattle.enemyPokemon().name">Digimon name</knockout>
                 <!-- ko if: !DungeonBattle.trainer() -->
                 <knockout data-bind="template: { name: 'caughtStatusTemplate', data: {'status': PartyController.getCaughtStatus(DungeonBattle.enemyPokemon().id)}}"></knockout>
                 <!-- /ko -->
@@ -24,13 +24,13 @@
 
                 <!--If all Pokémon in the dungeon are caught-->
                 <knockout data-bind="if: (!DungeonRunner.dungeonCompleted(DungeonRunner.dungeon, true) && DungeonRunner.dungeonCompleted(DungeonRunner.dungeon, false))">
-                    <img title="You have captured all Pokémon on this route!" class="pokeball-smallest"
+                    <img title="You have scanned all Digimon on this route!" class="pokeball-smallest"
                          src="assets/images/pokeball/Pokeball.png"/>
                 </knockout>
 
                 <!--If all Pokémon in the dungeon are caught shiny-->
                 <knockout data-bind="if: DungeonRunner.dungeonCompleted(DungeonRunner.dungeon, true)">
-                    <img title="You have captured all Pokémon shiny on this route!"
+                    <img title="You have scanned all Digimon dot on this route!"
                          class="pokeball-smallest"
                          src="assets/images/pokeball/Masterball.png"/>
                 </knockout>
