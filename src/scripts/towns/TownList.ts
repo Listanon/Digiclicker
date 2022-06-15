@@ -4402,7 +4402,7 @@ const ImperialdramonDragonMode = new Shop([
     ItemList['Imperialdramon Fighter Mode'],
 ], 'Imperialdramon Dragon Mode');
 const ImperialdramonDragonModeBlack = new Shop([
-    ItemList['Imperialdramon: Fighter Mode Black'],
+    ItemList['Imperialdramon Fighter Mode Black'],
 ], 'Imperialdramon Dragon Mode Black');
 const ImperialdramonFighterMode = new Shop([
     ItemList['Imperialdramon Paladin Mode'],
