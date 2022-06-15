@@ -4307,7 +4307,7 @@ const Archnemon = new Shop([
 ], 'Archnemon');
 const Cyberdramon = new Shop([
     ItemList['Cyberdramon X-Antibody'],
-    ItemList['Justimon: Blitz Arm'],
+    ItemList['Justimon Blitz Arm'],
     ItemList['Zeed Millenniumon'],
 ], 'Cyberdramon');
 const Dinobeemon = new Shop([
