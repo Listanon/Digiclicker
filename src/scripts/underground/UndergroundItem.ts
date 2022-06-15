@@ -105,16 +105,12 @@ UndergroundItem.addItem('Dread Plate',  101, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 
 UndergroundItem.addItem('Earth Plate',  102, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'earth');
 UndergroundItem.addItem('Fist Plate',   103, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'vaccine');
 UndergroundItem.addItem('Flame Plate',  104, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'fire');
-UndergroundItem.addItem('Icicle Plate', 105, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'ice');
 UndergroundItem.addItem('Insect Plate', 106, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'data');
 UndergroundItem.addItem('Iron Plate',   107, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'neutral');
 UndergroundItem.addItem('Meadow Plate', 108, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'plant');
 UndergroundItem.addItem('Mind Plate',   109, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'virus');
 UndergroundItem.addItem('Sky Plate',    110, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'wind');
 UndergroundItem.addItem('Splash Plate', 111, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'water');
-UndergroundItem.addItem('Spooky Plate', 112, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'ghost');
-UndergroundItem.addItem('Stone Plate',  113, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'rock');
-UndergroundItem.addItem('Toxic Plate',  114, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'poison');
 UndergroundItem.addItem('Zap Plate',    115, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'electric');
 UndergroundItem.addItem('Pixie Plate',  116, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'light');
 
