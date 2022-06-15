@@ -4976,7 +4976,7 @@ const pokemonList = createPokemonArray(
             new StoneEvolution('V-mon', 'Depthmon', GameConstants.StoneType.Water_stone),
             new StoneEvolution('V-mon', 'Sagittarimon', GameConstants.StoneType.Moon_stone),
             new StoneEvolution('V-mon', 'Gargomon', GameConstants.StoneType.Dawn_stone),
-            new StoneEvolution('V-mon', 'Kangalmon', GameConstants.StoneType.Trade_stone),
+            new StoneEvolution('V-mon', 'Kangarumon', GameConstants.StoneType.Trade_stone),
 	        new StoneEvolution('V-mon', 'Magnamon', GameConstants.StoneType.Shiny_stone),
 	        new StoneEvolution('V-mon', 'Gold V-dramon', GameConstants.StoneType.Dusk_stone),
         ],
