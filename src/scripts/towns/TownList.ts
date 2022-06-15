@@ -4390,7 +4390,7 @@ const Devitamamon = new Shop([
     ItemList['Mokumon'],
 ], 'Devitamamon');
 const Ebemon = new Shop([
-    ItemList['EBEmon X-Antibody'],
+    ItemList['Ebemon X-Antibody'],
 ], 'Ebemon');
 const GranKuwagamon = new Shop([
     ItemList['Grandis Kuwagamon'],
