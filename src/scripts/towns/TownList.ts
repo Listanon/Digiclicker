@@ -4235,7 +4235,7 @@ const Wormmon = new Shop([
     ItemList['Stingmon'],
 ], 'Wormmon');
 const Ankylomon = new Shop([
-    ItemList['Brachiomon'],
+    ItemList['Brachimon'],
     ItemList['Shakkoumon'],
     ItemList['Triceramon'],
     ItemList['Vermillimon'],
@@ -4468,7 +4468,7 @@ const Butterflamon = new Shop([
     ItemList['Atlur Kabuterimon Blue'],
 ], 'Butterflamon');
 const Chamelemon = new Shop([
-    ItemList['Brachiomon'],
+    ItemList['Brachimon'],
 ], 'Chamelemon');
 const Coatlmon = new Shop([
     ItemList['Majiramon'],
