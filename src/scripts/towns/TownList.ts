@@ -4773,7 +4773,7 @@ const Growmon = new Shop([
 ], 'Growmon');
 const GrowmonOrange = new Shop([
     ItemList['Gigadramon'],
-    ItemList['Megalo Growmon Orange'],
+    ItemList['Megalo Growmon Data'],
 ], 'Growmon Orange');
 const Kyubimon = new Shop([
     ItemList['Monzaemon'],
