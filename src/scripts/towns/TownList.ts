@@ -4822,7 +4822,7 @@ const BlackMegaloGrowmon = new Shop([
 ], 'Black Megalo Growmon');
 const BlackRapidmon = new Shop([
     ItemList['Black Saint Galgomon'],
-    ItemList['Justimon'],
+    ItemList['Justimon Accel Arm'],
 ], 'Black Rapidmon');
 const Caturamon = new Shop([
     ItemList['Baihumon'],
