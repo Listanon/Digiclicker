@@ -48,7 +48,7 @@ class QuestLineHelper {
 
         //Clear Viridian Forest
         const clearViridianForest = new CustomQuest(1, 50,
-            'Gather 50 Scan Coins by (re)capturing Digimon, then clear the Viridian Forest dungeon.',
+            'Gather 50 Scan Coins by (re)scaning Digimon, then clear the Coelamon Beach dungeon.',
             () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Viridian Forest')](),
             0
         );
@@ -61,7 +61,7 @@ class QuestLineHelper {
                 steps: [
                     {
                         element: document.getElementById('questDisplayContainer'),
-                        intro: 'Click "List" to see the current quests that can be completed for <img title="Quest points" src="assets/images/currency/questPoint.svg" height="25px"> Quest Points.',
+                        intro: 'Click "List" to see the current quests that can be completed for <img title="Farm points" src="assets/images/currency/farmPoint.svg" height="25px"> Quest Points.',
                     },
                     {
                         element: document.getElementById('startMenu'),
@@ -71,8 +71,8 @@ class QuestLineHelper {
             });
         };
         const pewter = new CustomQuest(1, pewterReward,
-            'Defeat Pewter City Gym. Click the town on the map to move there, then click the Gym button to start the battle.',
-            () => App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Pewter City')](),
+            'Gather 50 Scan Coins by (re)scaning Digimon, then clear the Coelamon Beach dungeon.',
+            () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Viridian Forest')](),
             0
         );
         tutorial.addQuest(pewter);
