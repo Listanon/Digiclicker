@@ -464,11 +464,6 @@ export const TypeColor = [
     '#D685AD', // Light
     '#6F35FC', // Dark
     '#B7B7CE', // Neutral
-    '#735797', // Ghost
-    '#A8A77A', // Normal
-    '#96D9D6', // Ice
-    '#A33EA1', // Poison
-    '#B6A136', // Rock
 ];
 
 export const ROUTE_KILLS_NEEDED = 10;
