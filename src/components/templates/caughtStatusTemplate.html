@@ -1,19 +1,19 @@
 <script type="text/html" id="caughtStatusTemplate">
     <knockout style="display: inline;">
         <!-- ko if: $data.status == CaughtStatus.NotCaught -->
-        <img title="You have not scanned this Pokémon yet!"
+        <img title="You have not scanned this Digimon yet!"
             class="pokeball-smallest"
              src="assets/images/pokeball/None.png"
         />
         <!-- /ko -->
         <!-- ko if: $data.status == CaughtStatus.Caught -->
-        <img title="You have scanned this Pokémon!"
+        <img title="You have scanned this Digimon!"
              class="pokeball-smallest"
              src="assets/images/pokeball/Pokeball.png"
         />
         <!-- /ko -->
         <!-- ko if: $data.status == CaughtStatus.CaughtShiny -->
-        <img title="You have scanned this Pokémon shiny!"
+        <img title="You have scanned this Digimon dot!"
              class="pokeball-smallest"
              src="assets/images/pokeball/Masterball.png"
         />
