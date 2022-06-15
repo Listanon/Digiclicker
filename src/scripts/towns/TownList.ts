@@ -4142,7 +4142,7 @@ const Zerimon = new Shop([
     ItemList['Gummymon'],
 ], 'Zerimon');
 const ArkadimonBaby = new Shop([
-    ItemList['ArkadimonChild'],
+    ItemList['Arkadimon Child'],
 ], 'Arkadimon Baby');
 const Chibimon = new Shop([
     ItemList['V-mon'],
