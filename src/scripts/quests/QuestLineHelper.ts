@@ -206,25 +206,21 @@ class QuestLineHelper {
 
         createVivillonQuest(PokemonType.Water, 'Burpmon', ['Lake Verity', 'Lake Valor', 'Lake Acuity'], 'It has been spotted at some Lakes.');
         createVivillonQuest(PokemonType.Virus, 'Burpmon', ['Cerulean Cave'], 'It\'s surrounded by strong Pokémon.');
-        createVivillonQuest(PokemonType.Poison, 'Burpmon', ['Moor of Icirrus'], 'It has been spotted in a swamp.');
         createVivillonQuest(PokemonType.Free, 'Burpmon', ['Dark Cave'], 'It\'s hiding at a dark place.');
         createVivillonQuest(PokemonType.Neutral, 'Burpmon', ['Pokéball Factory'], 'It flew into a factory.');
         createVivillonQuest(PokemonType.Fire, 'Burpmon', ['Mt. Chimney Crater'], 'It seems to like hot places.');
         createVivillonQuest(PokemonType.Vaccine, 'Burpmon', ['Sprout Tower'], 'It\'s sitting on a swaying pillar.');
-        createVivillonQuest(PokemonType.Ghost, 'Burpmon', ['Lost Hotel'], 'It\'s visiting an abandoned and spooky place.');
         createVivillonQuest(PokemonType.Light, 'Burpmon', ['Dreamyard'], 'It\'s flying around an overgrown place full of dreams.');
         createVivillonQuest(PokemonType.Electric, 'Burpmon', ['New Mauville'], 'It\'s currently in a City full of Electric type Pokémon.');
         createVivillonQuest(PokemonType.Data, 'Burpmon', ['Eterna Forest'], 'It hides in a dark Forest.');
         createVivillonQuest(PokemonType.Wind, 'Burpmon', ['Sky Pillar'], 'It\'s high up in the sky.');
         createVivillonQuest(PokemonType.Earth, 'Burpmon', ['Relic Castle'], 'It got lost in the desert sand.');
         createVivillonQuest(PokemonType.Plant, 'Burpmon', ['Flower Paradise'], 'It only shows up amongst the most beautiful flowers.');
-        createVivillonQuest(PokemonType.Rock, 'Burpmon', ['Mt. Moon'], 'It has been spotted dancing in the moonlight.');
         createVivillonQuest(PokemonType.Dark, 'Burpmon', ['Dragonspiral Tower'], 'It\'s surrounded by dragons.');
-        createVivillonQuest(PokemonType.Ice, 'Burpmon', ['Frost Cavern'], 'It can be found at a very cold place.');
 
         // Capture 200 Normal type Pokemon
-        const catchNormal = new CustomQuest(200, undefined, 'Capture 200 Normal type Pokémon', () => {
-            return pokemonMap.filter(p => p.type.includes(PokemonType.Normal)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
+        const catchNormal = new CustomQuest(200, undefined, 'Capture 200 Neutral type Digimon', () => {
+            return pokemonMap.filter(p => p.type.includes(PokemonType.Neutral)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
         });
         vivillonQuestLine.addQuest(catchNormal);
 
@@ -312,7 +308,7 @@ class QuestLineHelper {
     }
 
     public static createPlasmaUnovaQuestLine() {
-        const plasmaUnovaQuestLine = new QuestLine('Quest for the DNA Splicers', 'Prevent Team Plasma from using these dangerous Splicers');
+        const plasmaUnovaQuestLine = new QuestLine('Quest for the DNA Splicers', 'Prevent Team Plasma from using these dangerous SplNeutralrs');
 
         const clearOpelucidGym = new CustomQuest(1, 0, 'Defeat the Opelucid City gym leader to obtain the DNA Splicers', () => App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Opelucid City')]());
         plasmaUnovaQuestLine.addQuest(clearOpelucidGym);
