@@ -5380,7 +5380,7 @@ const Fairimon = new Shop([
 ], 'Fairimon');
 const Flamon = new Shop([
     ItemList['Agnimon'],
-    ItemList['Flare Lizamon'],
+    ItemList['Flare Lizarmon'],
 ], 'Flamon');
 const Garummon = new Shop([
     ItemList['Magna Garurumon'],
