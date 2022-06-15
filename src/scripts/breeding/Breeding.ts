@@ -372,7 +372,7 @@ class Breeding implements Feature {
     }
 
     public nextEggSlotCost(): Amount {
-        return new Amount(this.getEggSlotCost(this.eggSlots + 1), Currency.questPoint);
+        return new Amount(this.getEggSlotCost(this.eggSlots + 1), Currency.farmPoint);
     }
 
     // Knockout getters/setters
