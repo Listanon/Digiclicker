@@ -47,8 +47,8 @@ export const MaxIDPerRegion = [
     493, // 107 - Sinnoh
     649, // 156 - Unova
     721, // 72 - Kalos
-    809, // 88 - Alola
-    898, // 89 - Galar
+    1213, // 88 - Alola
+    1214, // 89 - Galar
 ];
 
 // Battle Items
