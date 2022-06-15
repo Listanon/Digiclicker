@@ -4367,7 +4367,7 @@ const ChaosPiemon = new Shop([
     ItemList['Bubbmon'],
 ], 'Chaos Piemon');
 const ChaosSeadramon = new Shop([
-    ItemList['Pichimon'],
+    ItemList['Pitchmon'],
 ], 'Chaos Seadramon');
 const CherubimonVice = new Shop([
     ItemList['Cherubimon Vice X-Antibody'],
