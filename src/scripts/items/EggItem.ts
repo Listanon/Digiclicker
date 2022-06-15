@@ -4,7 +4,7 @@ class EggItem extends CaughtIndicatingItem {
 
     type: GameConstants.EggItemType;
 
-    constructor(type: GameConstants.EggItemType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.questPoint, displayName?: string) {
+    constructor(type: GameConstants.EggItemType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.farmPoint, displayName?: string) {
         super(GameConstants.EggItemType[type], basePrice, currency, undefined, undefined, displayName, 'An egg. Can be hatched in the Day Care.', 'egg');
         this.type = type;
     }
@@ -55,5 +55,5 @@ ItemList['Plant_egg']    = new EggItem(GameConstants.EggItemType.Plant_egg, 1000
 ItemList['Earth_egg'] = new EggItem(GameConstants.EggItemType.Earth_egg, 1000, undefined, 'Earth egg');
 ItemList['Electric_egg'] = new EggItem(GameConstants.EggItemType.Electric_egg, 1000, undefined, 'Electric Egg');
 ItemList['Wind_egg']   = new EggItem(GameConstants.EggItemType.Wind_egg, 1000, undefined, 'Wind_egg');
-ItemList['Pokemon_egg']  = new EggItem(GameConstants.EggItemType.Pokemon_egg, 1000, undefined, 'Pokémon Egg');
+ItemList['Pokemon_egg']  = new EggItem(GameConstants.EggItemType.Pokemon_egg, 1000, undefined, 'Digimon Egg');
 ItemList['Mystery_egg']  = new EggItem(GameConstants.EggItemType.Mystery_egg, 700, undefined, 'Mystery Egg');
