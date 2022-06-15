@@ -13,11 +13,6 @@ enum PokemonType {
     'Light' = 10,
     'Dark' = 11,
     'Neutral' = 12,
-    'Ghost' = 13,
-    'Normal' = 14,
-    'Ice' = 15,
-    'Poison' = 16,
-    'Rock' = 17,
 }
 
 export default PokemonType;
