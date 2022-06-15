@@ -4128,7 +4128,7 @@ const Kuramon = new Shop([
     ItemList['Tsumemon'],
 ], 'Kuramon');
 const Leafmon = new Shop([
-    ItemList['KodokugumonChild'],
+    ItemList['Kodokugumon Child'],
     ItemList['Minomon'],
 ], 'Leafmon');
 const Pururumon = new Shop([
