@@ -5449,91 +5449,141 @@ const Būmon = new Shop([
     ItemList['Burpmon'],
 ], 'Būmon');
 const Dodomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dorimon'],
+    ItemList['Wanyamon'],
 ], 'Dodomon');
 const Fufumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Kyokyomon'],
 ], 'Fufumon');
 const Pupumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Puroromon'],
 ], 'Pupumon');
 const Dorimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bearmon'],
+    ItemList['DORUmon'],
+    ItemList['Gazimon'],
 ], 'Dorimon');
 const Kyokyomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Ryudamon'],
 ], 'Kyokyomon');
 const Puroromon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Funbeemon'],
 ], 'Puroromon');
 const AgumonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Greymon X-Antibody'],
+    ItemList['Igamon'],
+    ItemList['Tyranomon X-Antibody'],
 ], 'Agumon X-Antibody');
 const BetamonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Airdramon'],
+    ItemList['Raremon'],
+    ItemList['Seadramon X-Antibody'],
 ], 'Betamon X-Antibody');
 const DORUmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Death-X-DORUgamon'],
+    ItemList['DORUgamon'],
+    ItemList['Raptordramon'],
 ], 'DORUmon');
 const Funbeemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Omekamon'],
+    ItemList['Stingmon'],
+    ItemList['Waspmon'],
 ], 'Funbeemon');
 const GabumonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Garurumon X-Antibody'],
+    ItemList['Kyubimon Silver'],
+    ItemList['Turuiemon'],
 ], 'Gabumon X-Antibody');
 const GanimonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Coelamon'],
+    ItemList['Gesomon X-Antibody'],
+    ItemList['Shellmon'],
 ], 'Ganimon X-Antibody');
 const GazimonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Garurumon X-Antibody'],
+    ItemList['Lynxmon'],
 ], 'Gazimon X-Antibody');
 const GomamonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gesomon X-Antibody'],
+    ItemList['Ikkakumon'],
+    ItemList['Octmon'],
 ], 'Gomamon X-Antibody');
 const GottsumonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Ankylomon'],
+    ItemList['Icemon'],
+    ItemList['Knight Chessmon Black'],
 ], 'Gottsumon X-Antibody');
 const GuilmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black Growmon'],
+    ItemList['Growmon X-Antibody'],
+    ItemList['Monochromon X-Antibody'],
 ], 'Guilmon X-Antibody');
 const KokuwamonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Clockmon'],
+    ItemList['Guardromon'],
+    ItemList['Kuwagamon X-Antibody'],
+    ItemList['Mechanorimon'],
 ], 'Kokuwamon X-Antibody');
 const OtamamonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Blimpmon'],
+    ItemList['Gekomon'],
+    ItemList['Seadramon X-Antibody'],
 ], 'Otamamon X-Antibody');
 const PalmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dokugumon'],
+    ItemList['Sunflowmon'],
+    ItemList['Togemon X-Antibody'],
 ], 'Palmon X-Antibody');
 const PlotmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pidmon'],
+    ItemList['Reppamon'],
+    ItemList['Tailmon X-Antibody'],
+    ItemList['Tobucatmon'],
 ], 'Plotmon X-Antibody');
 const Ryudamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Ginryumon'],
+    ItemList['Greymon'],
+    ItemList['Raptordramon'],
 ], 'Ryudamon');
 const ShakomonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Coelamon'],
+    ItemList['Ebidramon'],
+    ItemList['Seadramon X-Antibody'],
+    ItemList['Shellmon'],
 ], 'Shakomon X-Antibody');
 const AllomonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Hisyaryumon'],
+    ItemList['Mametyramon'],
+    ItemList['Skull Baluchimon'],
 ], 'Allomon X-Antibody');
 const DeathXDORUgamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Death-X-DORUguremon'],
+    ItemList['Hisyaryumon'],
+    ItemList['Metal Greymon Virus'],
 ], 'Death-X-DORUgamon');
 const DobermonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Cerberumon X-Antibody'],
+    ItemList['Were Garurumon X-Antibody'],
 ], 'Dobermon X-Antibody');
 const DORUgamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['DORUguremon'],
+    ItemList['Death-X-DORUguremon'],
+    ItemList['Tyilinmon'],
 ], 'DORUgamon');
 const GarurumonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Cerberumon X-Antibody'],
+    ItemList['Panjyamon X-Antibody'],
+    ItemList['Were Garurumon X-Antibody'],
 ], 'Garurumon X-Antibody');
 const GesomonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dagomon'],
+    ItemList['Marin Devimon'],
+    ItemList['Mega Seadramon X-Antibody'],
 ], 'Gesomon X-Antibody');
 const Ginryumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Grademon'],
+    ItemList['Hisyaryumon'],
+    ItemList['Mametyramon'],
 ], 'Ginryumon');
 const GreymonXAntibody = new Shop([
     ItemList['Ohakadamon'],
