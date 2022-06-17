@@ -13302,7 +13302,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 732,
-        'name': 'Loader Liomon',
+        'name': 'Loader Leomon',
         'catchRate': 15,
         'type': [PokemonType.Vaccine, PokemonType.Earth],
         'levelType': LevelType.erratic,
