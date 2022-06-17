@@ -6096,184 +6096,231 @@ const Budmon = new Shop([
     ItemList['Woodmon'],
 ], 'Budmon');
 const Chapmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Betamon'],
+    ItemList['Falcomon'],
+    ItemList['Kamemon'],
 ], 'Chapmon');
 const Wanyamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bearmon'],
+    ItemList['Gaomon'],
+    ItemList['Morphomon'],
 ], 'Wanyamon');
 const AgumonBlack2006 = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black Growmon'],
+    ItemList['Geo Greymon'],
 ], 'Agumon Black 2006');
 const AgumonHakase = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Geo Greymon'],
+    ItemList['Starmon'],
 ], 'Agumon Hakase');
 const BushiAgumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dinohumon'],
+    ItemList['Musyamon'],
 ], 'Bushi Agumon');
 const Falcomon2006 = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Birdramon'],
+    ItemList['Peckmon'],
+    ItemList['Saberdramon'],
 ], 'Falcomon 2006 ');
 const Gaomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black Gaogamon'],
+    ItemList['Gaogamon'],
+    ItemList['Garurumon'],
 ], 'Gaomon');
 const Kamemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gawappamon'],
+    ItemList['Tortamon'],
 ], 'Kamemon');
 const Kudamon2006 = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Angemon'],
+    ItemList['Pidmon'],
+    ItemList['Reppamon'],
 ], 'Kudamon 2006 ');
 const Lalamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Sunflowmon'],
+    ItemList['Togemon'],
+    ItemList['Woodmon'],
 ], 'Lalamon');
 const Minidekachimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Atamadekachimon'],
+    ItemList['Greymon'],
 ], 'Minidekachimon');
 const NiseAgumonHakase = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Greymon Blue'],
 ], 'Nise Agumon Hakase');
 const PawnChessmonBlack = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Guardromon'],
+    ItemList['Knight Chessmon Black'],
 ], 'Pawn Chessmon Black');
 const PawnChessmonWhite = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Ankylomon'],
+    ItemList['Knight Chessmon White'],
 ], 'Pawn Chessmon White');
 const ProtoGizmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gizmon AT'],
 ], 'Proto Gizmon');
 const SantaAgumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Greymon'],
 ], 'Santa Agumon');
 const YukiAgumon2006 = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Hyougamon'],
+    ItemList['Mojyamon'],
+    ItemList['Yukidarumon'],
 ], 'Yuki Agumon 2006 ');
 const Atamadekachimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Skull Greymon'],
+    ItemList['Vritramon'],
 ], 'Atamadekachimon');
 const BlackGaogamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black Mach Gaogamon'],
+    ItemList['Were Garurumon Black'],
 ], 'Black Gaogamon');
 const Gaogamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mach Gaogamon'],
+    ItemList['Panjyamon'],
+    ItemList['Were Garurumon'],
 ], 'Gaogamon');
 const Gawappamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Shawujinmon'],
+    ItemList['Tonosama_Gekomon'],
 ], 'Gawappamon');
 const GeoGreymon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gigadramon'],
+    ItemList['Rize Greymon'],
+    ItemList['Skull Greymon'],
 ], 'Geo Greymon');
 const GizmonAT = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gizmon XT'],
 ], 'Gizmon AT');
 const GoldNumemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black King Numemon'],
+    ItemList['Platinum Numemon'],
 ], 'Gold Numemon');
 const KnightChessmonBlack = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Rook Chessmon Black'],
 ], 'Knight Chessmon Black');
 const KnightChessmonWhite = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bishop Chessmon White'],
 ], 'Knight Chessmon White');
 const Peckmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Karatenmon'],
+    ItemList['Yatagaramon'],
+    ItemList['Yatagaramon 2006'],
 ], 'Peckmon');
 const Sunflowmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Blossomon'],
+    ItemList['Jyureimon'],
+    ItemList['Lilamon'],
 ], 'Sunflowmon');
 const YoxtuYoxtumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Monzaemon'],
 ], 'Yoxtu!Yoxtu!mon');
 const AlgomonPerfect = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Algomon Ultimate'],
+    ItemList['Babamon'],
+    ItemList['Piemon'],
 ], 'Algomon Perfect');
 const BishopChessmonWhite = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['King Chessmon'],
 ], 'Bishop Chessmon White');
 const GizmonXT = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Diablomon'],
+    ItemList['Parallelmon'],
 ], 'Gizmon XT');
 const Lilamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Babamon'],
+    ItemList['Lotusmon'],
+    ItemList['Mervamon'],
 ], 'Lilamon');
 const MachGaogamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bancho Leomon'],
+    ItemList['Mirage Gaogamon'],
+    ItemList['Saint Galgomon'],
 ], 'Mach Gaogamon');
 const RizeGreymon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gaioumon'],
+    ItemList['Rize Greymon X-Antibody'],
+    ItemList['Shine Greymon'],
+    ItemList['Victory Greymon'],
 ], 'Rize Greymon');
 const RookChessmonBlack = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Queen Chessmon'],
 ], 'Rook Chessmon Black');
 const Shawujinmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['El Doradimon'],
+    ItemList['Jumbo Gamemon'],
 ], 'Shawujinmon');
 const Yatagaramon2006 = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Kuzuhamon'],
+    ItemList['Ravmon'],
+    ItemList['Valdurmon'],
 ], 'Yatagaramon 2006 ');
 const AlgomonUltimate = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Algomon Baby I'],
 ], 'Algomon Ultimate');
 const BioDarkdramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bommon'],
 ], 'Bio Darkdramon');
 const BioLotusmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Popomon'],
 ], 'Bio Lotusmon');
 const BioSpinomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Botamon'],
 ], 'Bio Spinomon');
 const ChronomonDestroyMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Chicchimon'],
 ], 'Chronomon Destroy Mode');
 const ChronomonHolyMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Chicchimon'],
 ], 'Chronomon Holy Mode');
 const ElDoradimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Yuramon'],
 ], 'El Doradimon');
 const JumboGamemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pitchmon'],
 ], 'Jumbo Gamemon');
 const KingChessmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Puttimon'],
 ], 'King Chessmon');
 const MirageGaogamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mirage Gaogamon Burst Mode'],
 ], 'Mirage Gaogamon');
 const MirageGaogamonBurstMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Botamon'],
 ], 'Mirage Gaogamon Burst Mode');
 const PlatinumNumemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Zurumon'],
 ], 'Platinum Numemon');
 const QueenChessmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mokumon'],
 ], 'Queen Chessmon');
 const Ravmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Ravmon Burst Mode'],
 ], 'Ravmon');
 const RavmonBurstMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Puwamon'],
 ], 'Ravmon Burst Mode');
 const ShineGreymon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Shine Greymon Burst Mode'],
+    ItemList['Shine Greymon Ruin Mode'],
 ], 'Shine Greymon');
 const ShineGreymonBurstMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Botamon'],
 ], 'Shine Greymon Burst Mode');
 const ShineGreymonRuinMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Botamon'],
 ], 'Shine Greymon Ruin Mode');
 const TonosamaMamemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Choromon'],
 ], 'Tonosama Mamemon');
 const BioCoatlmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Leafmon'],
 ], 'Bio Coatlmon');
 const BioStegomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bubbmon'],
 ], 'Bio Stegomon');
 const BioThunderbirmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Puwamon'],
 ], 'Bio Thunderbirmon');
 const Petitmon = new Shop([
     ItemList['Ohakadamon'],
