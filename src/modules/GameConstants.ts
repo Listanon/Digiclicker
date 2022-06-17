@@ -1387,7 +1387,7 @@ export enum PokemonItemType {
     'Reppamon',
     'Sangloupmon',
     'Sealsdramon',
-    'Loader Liomon',
+    'Loader Leomon',
     'Matadrmon',
     'Metallife Kuwagamon',
     'Tankdramon',
