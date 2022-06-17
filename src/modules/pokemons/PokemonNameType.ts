@@ -745,7 +745,7 @@ export type PokemonNameType
     | 'Reppamon'
     | 'Sangloupmon'
     | 'Sealsdramon'
-    | 'Loader Liomon'
+    | 'Loader Leomon'
     | 'Matadrmon'
     | 'Metallife Kuwagamon'
     | 'Tankdramon'
