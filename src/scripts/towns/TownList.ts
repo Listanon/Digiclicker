@@ -6890,46 +6890,60 @@ const ShoutmonX5S = new Shop([
     ItemList['Shoutmon X7'],
 ], 'Shoutmon X5S');
 const Huckmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bao Hackmon'],
+    ItemList['Geo Greymon'],
+    ItemList['Monochromon'],
 ], 'Huckmon');
 const Pillomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Sheepmon'],
 ], 'Pillomon');
 const SistermonBlanc = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Sistermon Blanc Awake'],
+    ItemList['Sistermon Ciel'],
+    ItemList['Sistermon Noir'],
 ], 'Sistermon Blanc');
 const SistermonNoir = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Sistermon Noir Awake'],
+    ItemList['Lady Devimon'],
 ], 'Sistermon Noir');
 const Yakiimon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Jyagamon'],
 ], 'Yakiimon');
 const ArresterdramonSuperiorMode = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Megidramon'],
 ], 'Arresterdramon Superior Mode');
 const Jokermon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Noble Pumpmon'],
+    ItemList['Piemon'],
 ], 'Jokermon');
 const Luminamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Luminamon Nene Ver'],
+    ItemList['Marin Angemon'],
 ], 'Luminamon');
 const LuminamonNeneVersion = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Marin Angemon'],
+    ItemList['Ofanimon'],
 ], 'Luminamon Nene Version');
 const Gankoomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Gankoomon X-Antibody'],
 ], 'Gankoomon');
 const Quartzmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Zurumon'],
 ], 'Quartzmon');
 const SistermonBlancAwaken = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Sistermon Noir Awaken'],
+    ItemList['Sistermon Ciel Awaken'],
 ], 'Sistermon Blanc Awaken');
 const Aegiomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Aegiochusmon'],
+    ItemList['Aegiochusmon Blue'],
+    ItemList['Aegiochusmon Dark'],
+    ItemList['Aegiochusmon Green'],
+    ItemList['Aegiochusmon Holy'],
 ], 'Aegiomon');
 const SistermonNoirAwaken = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Angewomon'],
+    ItemList['Lady Devimon'],
 ], 'Sistermon Noir Awaken');
 const Aegiochusmon = new Shop([
     ItemList['Ohakadamon'],
