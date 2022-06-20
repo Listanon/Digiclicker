@@ -7297,67 +7297,107 @@ const Jazamon = new Shop([
     ItemList['Pteranomon'],
 ], 'Jazamon');
 const KeramonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bakemon'],
+    ItemList['Bomber Nanimon'],
+    ItemList['Chrysalimon'],
+    ItemList['Meicoomon'],
 ], 'Keramon X-Antibody');
 const LopmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black Tailmon'],
+    ItemList['Tailmon X-Antibody'],
+    ItemList['Turuiemon'],
 ], 'Lopmon X-Antibody');
 const TerriermonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dogmon'],
+    ItemList['Galgomon'],
+    ItemList['Minotaurmon'],
+    ItemList['Siesamon X-Antibody'],
 ], 'Terriermon X-Antibody');
 const DarkTyranomonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mametyramon'],
+    ItemList['Metal Greymon Virus'],
+    ItemList['Triceramon X-Antibody'],
 ], 'Dark Tyranomon X-Antibody');
 const Jazardmon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Jazardmon');
 const MeramonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Death Meramon'],
+    ItemList['Garudamon X-Antibody'],
 ], 'Meramon X-Antibody');
 const NumemonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black King Numemon'],
+    ItemList['Monzaemon'],
+    ItemList['Vamdemon X-Antibody'],
 ], 'Numemon X-Antibody');
 const OrgemonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Rebellimon'],
+    ItemList['Skull Satamon'],
+    ItemList['Vamdemon X-Antibody'],
 ], 'Orgemon X-Antibody');
 const PegasmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Garummon'],
+    ItemList['Grademon'],
+    ItemList['Hippogriffomon'],
 ], 'Pegasmon X-Antibody');
 const SiesamonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bastemon'],
+    ItemList['Caturamon'],
+    ItemList['Mihiramon'],
 ], 'Siesamon X-Antibody');
 const WizarmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Baalmon'],
+    ItemList['Mistymon'],
+    ItemList['Vamdemon X-Antibody'],
 ], 'Wizarmon X-Antibody');
 const AngewomonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Holydramon X-Antibody'],
+    ItemList['Ofanimon X-Antibody'],
 ], 'Angewomon X-Antibody');
 const CyberdramonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Ebemon X-Antibody'],
+    ItemList['Gaioumon'],
+    ItemList['Justimon X-Antibody'],
 ], 'Cyberdramon X-Antibody');
 const Jazarichmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Metallicdramon'],
+    ItemList['Hououmon'],
+    ItemList['Shoutmon X3GM'],
 ], 'Jazarichmon');
 const LadyDevimonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Beel Starmon X-Antibody'],
+    ItemList['Ofanimon Falldown Mode X-Antibody'],
 ], 'Lady Devimon X-Antibody');
 const MephismonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Barbamon'],
+    ItemList['Cherubimon Vice'],
+    ItemList['Gulfmon'],
 ], 'Mephismon X-Antibody');
 const MetalGreymonVirusXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Black War Greymon X-Antibody'],
+    ItemList['Skull Mammon X-Antibody'],
+    ItemList['Ultimate Brachiomon'],
 ], 'Metal Greymon Virus X-Antibody');
 const MonzaemonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Cherubimon Virtue X-Antibody'],
+    ItemList['Holydramon'],
+    ItemList['Waru Monzaemon'],
 ], 'Monzaemon X-Antibody');
 const OmegaShoutmonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Shoutmon DX'],
+    ItemList['Shoutmon EX6'],
+    ItemList['Rapidmon X-Antibody'],
 ], 'Omega Shoutmon X-Antibody');
 const RizeGreymonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Bryweludramon'],
+    ItemList['Gankoomon X-Antibody'],
+    ItemList['Jupitermon'],
+    ItemList['Shine Greymon'],
 ], 'Rize Greymon X-Antibody');
 const VamdemonXAntibody = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Belial Vamdemon'],
+    ItemList['Cherubimon Vice X-Antibody'],
+    ItemList['Venom Vamdemon'],
 ], 'Vamdemon X-Antibody');
 const BarbamonXAntibody = new Shop([
     ItemList['Ohakadamon'],
