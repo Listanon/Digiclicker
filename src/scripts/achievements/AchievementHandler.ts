@@ -172,12 +172,12 @@ class AchievementHandler {
         /*
          * GENERAL
          */
-        AchievementHandler.addAchievement('My First Hundo', 'Obtain 100 Pokédollars', new MoneyRequirement(100), 0.05);
-        AchievementHandler.addAchievement('I Should Buy a PokéMart', 'Obtain 1,000 Pokédollars', new MoneyRequirement(1000), 0.10);
-        AchievementHandler.addAchievement('A Small Fortune', 'Obtain 10,000 Pokédollars', new MoneyRequirement(10000), 0.15);
-        AchievementHandler.addAchievement('Annual Wage', 'Obtain 100,000 Pokédollars', new MoneyRequirement(100000), 0.20);
-        AchievementHandler.addAchievement('Pfft, I Don\'t Need a Bike Voucher', 'Obtain 1,000,000 Pokédollars', new MoneyRequirement(1000000), 0.25);
-        AchievementHandler.addAchievement('A billion Poképennies', 'Obtain 10,000,000 Pokédollars', new MoneyRequirement(10000000), 0.5);
+        AchievementHandler.addAchievement('My First Hundo', 'Obtain 100 Digidollars', new MoneyRequirement(100), 0.05);
+        AchievementHandler.addAchievement('I Should Buy a PokéMart', 'Obtain 1,000 Digidollars', new MoneyRequirement(1000), 0.10);
+        AchievementHandler.addAchievement('A Small Fortune', 'Obtain 10,000 Digidollars', new MoneyRequirement(10000), 0.15);
+        AchievementHandler.addAchievement('Annual Wage', 'Obtain 100,000 Digidollars', new MoneyRequirement(100000), 0.20);
+        AchievementHandler.addAchievement('Pfft, I Don\'t Need a Bike Voucher', 'Obtain 1,000,000 Digidollars', new MoneyRequirement(1000000), 0.25);
+        AchievementHandler.addAchievement('A billion Poképennies', 'Obtain 10,000,000 Digidollars', new MoneyRequirement(10000000), 0.5);
 
         AchievementHandler.addAchievement('Dungeon Time', 'Obtain 100 Scan Coins', new TokenRequirement(100), 0.05);
         AchievementHandler.addAchievement('Dungeon Collector', 'Obtain 1,000 Scan Coins', new TokenRequirement(1000), 0.10);
@@ -210,98 +210,98 @@ class AchievementHandler {
         AchievementHandler.addAchievement('DigDug ain\'t got nothin on me', 'Dig deeper 100 times', new UndergroundLayersMinedRequirement(100), 0.1);
         AchievementHandler.addAchievement('Both my thumbs are green! This can\'t be healthy', 'Dig deeper 1,000 times', new UndergroundLayersMinedRequirement(1000), 0.3);
 
-        AchievementHandler.addAchievement('Is that how I use this?', 'Level 1 Oak Item to the maximum level', new MaxLevelOakItemRequirement(1), 0.05, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
-        AchievementHandler.addAchievement('I\'ve got my hands full with all of these', 'Level 3 Oak Items to the maximum level', new MaxLevelOakItemRequirement(3), 0.1, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
-        AchievementHandler.addAchievement('Professor Oak is the best!', 'Level 8 Oak Items to the maximum level', new MaxLevelOakItemRequirement(8), 0.14, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
-        AchievementHandler.addAchievement('Prepared for anything!', 'Level 11 Oak Items to the maximum level', new MaxLevelOakItemRequirement(11), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && challenges.list.disableClickAttack.active());
-        AchievementHandler.addAchievement('Prepared for anything!', 'Level 12 Oak Items to the maximum level', new MaxLevelOakItemRequirement(12), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && !challenges.list.disableClickAttack.active());
+        AchievementHandler.addAchievement('Is that how I use this?', 'Level 1 Hina Item to the maximum level', new MaxLevelOakItemRequirement(1), 0.05, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
+        AchievementHandler.addAchievement('I\'ve got my hands full with all of these', 'Level 3 Hina Items to the maximum level', new MaxLevelOakItemRequirement(3), 0.1, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
+        AchievementHandler.addAchievement('Professor Oak is the best!', 'Level 8 Hina Items to the maximum level', new MaxLevelOakItemRequirement(8), 0.14, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
+        AchievementHandler.addAchievement('Prepared for anything!', 'Level 11 Hina Items to the maximum level', new MaxLevelOakItemRequirement(11), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && challenges.list.disableClickAttack.active());
+        AchievementHandler.addAchievement('Prepared for anything!', 'Level 12 Hina Items to the maximum level', new MaxLevelOakItemRequirement(12), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && !challenges.list.disableClickAttack.active());
 
-        AchievementHandler.addAchievement('First Team', 'Capture 100 Pokémon', new CapturedRequirement(100), 0.05);
-        AchievementHandler.addAchievement('Filling the PC', 'Capture 1,000 Pokémon', new CapturedRequirement(1000), 0.10);
-        AchievementHandler.addAchievement('Pokémon Army', 'Capture 10,000 Pokémon', new CapturedRequirement(10000), 0.15);
-        AchievementHandler.addAchievement('Pokémon Collector', 'Capture 100,000 Pokémon', new CapturedRequirement(100000), 0.25);
-        AchievementHandler.addAchievement('You get a Pokémon, you get a Pokémon, everyone gets a Pokémon!', 'Capture 1,000,000 Pokémon', new CapturedRequirement(1000000), 0.50);
+        AchievementHandler.addAchievement('First Team', 'Scan 100 Pokémon', new CapturedRequirement(100), 0.05);
+        AchievementHandler.addAchievement('Filling the Book', 'Scan 1,000 Digimon', new CapturedRequirement(1000), 0.10);
+        AchievementHandler.addAchievement('Digimon Army', 'Scan 10,000 Digimon', new CapturedRequirement(10000), 0.15);
+        AchievementHandler.addAchievement('Digimon Collector', 'Scan 100,000 Digimon', new CapturedRequirement(100000), 0.25);
+        AchievementHandler.addAchievement('You get a Digimon, you get a Digimon, everyone gets a Digimon!', 'Scan 1,000,000 Digimon', new CapturedRequirement(1000000), 0.50);
 
-        AchievementHandler.addAchievement('A Long Road Ahead', 'Defeat 100 Pokémon', new DefeatedRequirement(100), 0.05);
-        AchievementHandler.addAchievement('Highway to Pallet Town', 'Defeat 1,000 Pokémon', new DefeatedRequirement(1000), 0.10);
-        AchievementHandler.addAchievement('Overleveled', 'Defeat 10,000 Pokémon', new DefeatedRequirement(10000), 0.15);
-        AchievementHandler.addAchievement('The Cake is a Lie, but the Grind is real', 'Defeat 100,000 Pokémon', new DefeatedRequirement(100000), 0.25);
-        AchievementHandler.addAchievement('Are there any left?', 'Defeat 1,000,000 Pokémon', new DefeatedRequirement(1000000), 0.50);
+        AchievementHandler.addAchievement('A Long Road Ahead', 'Defeat 100 Digimon', new DefeatedRequirement(100), 0.05);
+        AchievementHandler.addAchievement('Highway to Pallet Town', 'Defeat 1,000 Digimon', new DefeatedRequirement(1000), 0.10);
+        AchievementHandler.addAchievement('Overleveled', 'Defeat 10,000 Digimon', new DefeatedRequirement(10000), 0.15);
+        AchievementHandler.addAchievement('The Cake is a Lie, but the Grind is real', 'Defeat 100,000 Digimon', new DefeatedRequirement(100000), 0.25);
+        AchievementHandler.addAchievement('Are there any left?', 'Defeat 1,000,000 Digimon', new DefeatedRequirement(1000000), 0.50);
 
-        AchievementHandler.addAchievement('Startin\' Out', 'Capture your first Pokémon', new CaughtPokemonRequirement(1), 0.01);
-        AchievementHandler.addAchievement('Better Than Season 1 Ash', 'Capture 15 unique Pokémon', new CaughtPokemonRequirement(15), 0.05);
-        AchievementHandler.addAchievement('Wonderful! Do you like to collect things?', 'Capture 50 unique Pokémon', new CaughtPokemonRequirement(50), 0.10);
-        AchievementHandler.addAchievement('Surpassing Ash', 'Capture 100 unique Pokémon', new CaughtPokemonRequirement(100), 0.20);
+        AchievementHandler.addAchievement('Startin\' Out', 'Scan your first Digimon', new CaughtPokemonRequirement(1), 0.01);
+        AchievementHandler.addAchievement('Better Than Season 1 Ash', 'Scan 15 unique Digimon', new CaughtPokemonRequirement(15), 0.05);
+        AchievementHandler.addAchievement('Wonderful! Do you like to collect things?', 'Scan 50 unique Digimon', new CaughtPokemonRequirement(50), 0.10);
+        AchievementHandler.addAchievement('Surpassing Ash', 'Scan 100 unique Digimon', new CaughtPokemonRequirement(100), 0.20);
 
-        AchievementHandler.addAchievement('I\'d rather be shiny', 'Capture your first Shiny', new ShinyPokemonRequirement(1), 0.03);
-        AchievementHandler.addAchievement('These Pokémon must be sick', 'Capture 10 unique Shinies', new ShinyPokemonRequirement(10), 0.06);
-        AchievementHandler.addAchievement('Why Am I Doing This?', 'Capture 20 unique Shinies', new ShinyPokemonRequirement(20), 0.09);
-        AchievementHandler.addAchievement('Why Am I Still Doing This?!', 'Capture 30 unique Shinies', new ShinyPokemonRequirement(30), 0.12);
-        AchievementHandler.addAchievement('Okay fine, I can do a few more', 'Capture 40 unique Shinies', new ShinyPokemonRequirement(40), 0.15);
-        AchievementHandler.addAchievement('Where Did All The Shiny Pokémon Go?', 'Capture 50 unique Shinies', new ShinyPokemonRequirement(50), 0.30);
-        AchievementHandler.addAchievement('Nvm, found some more', 'Capture 75 unique Shinies', new ShinyPokemonRequirement(75), 0.45);
-        AchievementHandler.addAchievement('Just keep swimming just keep swimming -- oooo shiny!', 'Capture 100 unique Shinies', new ShinyPokemonRequirement(100), 0.60);
-        AchievementHandler.addAchievement('I don\'t know if I can handle the next batch of shinies.', 'Capture 151 unique Shinies!', new ShinyPokemonRequirement(151), 1.50);
+        AchievementHandler.addAchievement('Pixelated', 'Scan your first Dot', new ShinyPokemonRequirement(1), 0.03);
+        AchievementHandler.addAchievement('These Digimon must be sick', 'Scan 10 unique Dots', new ShinyPokemonRequirement(10), 0.06);
+        AchievementHandler.addAchievement('Why Am I Doing This?', 'Scan 20 unique Dots', new ShinyPokemonRequirement(20), 0.09);
+        AchievementHandler.addAchievement('Why Am I Still Doing This?!', 'Scan 30 unique Dots', new ShinyPokemonRequirement(30), 0.12);
+        AchievementHandler.addAchievement('Okay fine, I can do a few more', 'Scan 40 unique Dots', new ShinyPokemonRequirement(40), 0.15);
+        AchievementHandler.addAchievement('Where Did All The Dot Digimon Go?', 'Scan 50 unique Dots', new ShinyPokemonRequirement(50), 0.30);
+        AchievementHandler.addAchievement('Nvm, found some more', 'Scan 75 unique Dots', new ShinyPokemonRequirement(75), 0.45);
+        AchievementHandler.addAchievement('Just keep swimming just keep swimming -- oooo dot!', 'Scan 100 unique Dots', new ShinyPokemonRequirement(100), 0.60);
+        AchievementHandler.addAchievement('I don\'t know if I can handle the next batch of dots.', 'Scan 151 unique Dots!', new ShinyPokemonRequirement(151), 1.50);
 
-        AchievementHandler.addAchievement('Pokémon Nursery', 'Hatch 1 egg', new HatchRequirement(1), 0.01);
+        AchievementHandler.addAchievement('Digimon Nursery', 'Hatch 1 egg', new HatchRequirement(1), 0.01);
         AchievementHandler.addAchievement('A Lot of Running', 'Hatch 10 eggs', new HatchRequirement(10), 0.04);
         AchievementHandler.addAchievement('Marathon Runner', 'Hatch 100 eggs', new HatchRequirement(100), 0.15);
         AchievementHandler.addAchievement('Egg Factory', 'Hatch 1,000 eggs', new HatchRequirement(1000), 0.3);
         AchievementHandler.addAchievement('Offical Easter Bunny', 'Hatch 10,000 eggs', new HatchRequirement(10000), 0.4);
 
-        AchievementHandler.addAchievement('Why is my Voltorb Upside Down?', 'Purchase your first Pokéball', new PokeballRequirement(1, GameConstants.Pokeball.Pokeball), 0.01);
-        AchievementHandler.addAchievement('Starting a Collection', 'Purchase 10 Pokéballs', new PokeballRequirement(10, GameConstants.Pokeball.Pokeball), 0.03);
-        AchievementHandler.addAchievement('Stocking Up', 'Purchase 100 Pokéballs', new PokeballRequirement(100, GameConstants.Pokeball.Pokeball), 0.05);
-        AchievementHandler.addAchievement('Fully Stocked', 'Purchase 1,000 Pokéballs', new PokeballRequirement(1000, GameConstants.Pokeball.Pokeball), 0.10);
-        AchievementHandler.addAchievement('Maybe just a few more for the bunker', 'Purchase 10,000 Pokéballs', new PokeballRequirement(10000, GameConstants.Pokeball.Pokeball), 0.15);
-        AchievementHandler.addAchievement('Doomsday Bunker stocked with Pokéballs!', 'Purchase 100,000 Pokéballs', new PokeballRequirement(100000, GameConstants.Pokeball.Pokeball), 0.20);
+        AchievementHandler.addAchievement('More Scans', 'Purchase your first Basic Scan', new PokeballRequirement(1, GameConstants.Pokeball.Pokeball), 0.01);
+        AchievementHandler.addAchievement('Starting a Collection', 'Purchase 10 Basic Scan', new PokeballRequirement(10, GameConstants.Pokeball.Pokeball), 0.03);
+        AchievementHandler.addAchievement('Stocking Up', 'Purchase 100 Basic Scan', new PokeballRequirement(100, GameConstants.Pokeball.Pokeball), 0.05);
+        AchievementHandler.addAchievement('Fully Stocked', 'Purchase 1,000 Basic Scan', new PokeballRequirement(1000, GameConstants.Pokeball.Pokeball), 0.10);
+        AchievementHandler.addAchievement('Maybe just a few more for the bunker', 'Purchase 10,000 Basic Scan', new PokeballRequirement(10000, GameConstants.Pokeball.Pokeball), 0.15);
+        AchievementHandler.addAchievement('Doomsday Bunker stocked with Digiscans!', 'Purchase 100,000 Basic Scan', new PokeballRequirement(100000, GameConstants.Pokeball.Pokeball), 0.20);
 
         AchievementHandler.addAchievement('ooooo A blue one!', 'Purchase your first Greatball', new PokeballRequirement(1, GameConstants.Pokeball.Greatball), 0.03);
-        AchievementHandler.addAchievement('Greatball 2', 'Purchase 10 Greatballs', new PokeballRequirement(10, GameConstants.Pokeball.Greatball), 0.05);
-        AchievementHandler.addAchievement('Greatball 3', 'Purchase 100 Greatballs', new PokeballRequirement(100, GameConstants.Pokeball.Greatball), 0.10);
-        AchievementHandler.addAchievement('Greatball 4', 'Purchase 1,000 Greatballs', new PokeballRequirement(1000, GameConstants.Pokeball.Greatball), 0.15);
-        AchievementHandler.addAchievement('Greatball 5', 'Purchase 10,000 Greatballs', new PokeballRequirement(10000, GameConstants.Pokeball.Greatball), 0.20);
-        AchievementHandler.addAchievement('Greatball 6', 'Purchase 100,000 Greatballs', new PokeballRequirement(100000, GameConstants.Pokeball.Greatball), 0.30);
+        AchievementHandler.addAchievement('Greatscan 2', 'Purchase 10 Greatscans', new PokeballRequirement(10, GameConstants.Pokeball.Greatball), 0.05);
+        AchievementHandler.addAchievement('Greatscan 3', 'Purchase 100 Greatscans', new PokeballRequirement(100, GameConstants.Pokeball.Greatball), 0.10);
+        AchievementHandler.addAchievement('Greatscan 4', 'Purchase 1,000 Greatscans', new PokeballRequirement(1000, GameConstants.Pokeball.Greatball), 0.15);
+        AchievementHandler.addAchievement('Greatscan 5', 'Purchase 10,000 Greatscans', new PokeballRequirement(10000, GameConstants.Pokeball.Greatball), 0.20);
+        AchievementHandler.addAchievement('Greatscan 6', 'Purchase 100,000 Greatscans', new PokeballRequirement(100000, GameConstants.Pokeball.Greatball), 0.30);
 
-        AchievementHandler.addAchievement('Ultraball 1', 'Purchase your first Ultraball', new PokeballRequirement(1, GameConstants.Pokeball.Ultraball), 0.05);
-        AchievementHandler.addAchievement('Ultraball 2', 'Purchase 10 Ultraballs', new PokeballRequirement(10, GameConstants.Pokeball.Ultraball), 0.10);
-        AchievementHandler.addAchievement('Ultraball 3', 'Purchase 100 Ultraballs', new PokeballRequirement(100, GameConstants.Pokeball.Ultraball), 0.15);
-        AchievementHandler.addAchievement('Ultraball 4', 'Purchase 1,000 Ultraballs', new PokeballRequirement(1000, GameConstants.Pokeball.Ultraball), 0.20);
-        AchievementHandler.addAchievement('Ultraball 5', 'Purchase 10,000 Ultraballs', new PokeballRequirement(10000, GameConstants.Pokeball.Ultraball), 0.30);
-        AchievementHandler.addAchievement('Ultraball 6', 'Purchase 100,000 Ultraballs', new PokeballRequirement(100000, GameConstants.Pokeball.Ultraball), 0.40);
+        AchievementHandler.addAchievement('Ultrascan 1', 'Purchase your first Ultrascan', new PokeballRequirement(1, GameConstants.Pokeball.Ultraball), 0.05);
+        AchievementHandler.addAchievement('Ultrascan 2', 'Purchase 10 Ultrascans', new PokeballRequirement(10, GameConstants.Pokeball.Ultraball), 0.10);
+        AchievementHandler.addAchievement('Ultrascan 3', 'Purchase 100 Ultrascans', new PokeballRequirement(100, GameConstants.Pokeball.Ultraball), 0.15);
+        AchievementHandler.addAchievement('Ultrascan 4', 'Purchase 1,000 Ultrascans', new PokeballRequirement(1000, GameConstants.Pokeball.Ultraball), 0.20);
+        AchievementHandler.addAchievement('Ultrascan 5', 'Purchase 10,000 Ultrascans', new PokeballRequirement(10000, GameConstants.Pokeball.Ultraball), 0.30);
+        AchievementHandler.addAchievement('Ultrascan 6', 'Purchase 100,000 Ultrascans', new PokeballRequirement(100000, GameConstants.Pokeball.Ultraball), 0.40);
 
-        AchievementHandler.addAchievement('Masterball 1', 'Purchase your first Masterball', new PokeballRequirement(1, GameConstants.Pokeball.Masterball), 0.20);
-        AchievementHandler.addAchievement('Masterball 2', 'Purchase 10 Masterballs', new PokeballRequirement(10, GameConstants.Pokeball.Masterball), 0.30);
-        AchievementHandler.addAchievement('Masterball 3', 'Purchase 100 Masterballs', new PokeballRequirement(100, GameConstants.Pokeball.Masterball), 0.40);
+        AchievementHandler.addAchievement('Masterscan 1', 'Purchase your first Masterscan', new PokeballRequirement(1, GameConstants.Pokeball.Masterball), 0.20);
+        AchievementHandler.addAchievement('Masterscan 2', 'Purchase 10 Masterscans', new PokeballRequirement(10, GameConstants.Pokeball.Masterball), 0.30);
+        AchievementHandler.addAchievement('Masterscan 3', 'Purchase 100 Masterscans', new PokeballRequirement(100, GameConstants.Pokeball.Masterball), 0.40);
 
         AchievementHandler.addAchievement('A Few Clicks In', 'Click 10 Times', new ClickRequirement(10, 1), 0.02, GameConstants.Region.none, () => !challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Clicking Pro', 'Click 100 Times', new ClickRequirement(100, 1), 0.05, GameConstants.Region.none, () => !challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Ultra Clicker', 'Click 1,000 Times', new ClickRequirement(1000, 1), 0.10, GameConstants.Region.none, () => !challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Need a new mouse yet?', 'Click 10,000 Times', new ClickRequirement(10000, 1), 0.25, GameConstants.Region.none, () => !challenges.list.disableClickAttack.active());
 
-        AchievementHandler.addAchievement('My new dirty hobby', 'Unlock 3 Plots in the Farm', new FarmPlotsUnlockedRequirement(3), 0.05);
-        AchievementHandler.addAchievement('Allotment gardener', 'Unlock 9 Plots in the Farm', new FarmPlotsUnlockedRequirement(9), 0.15);
-        AchievementHandler.addAchievement('Horticulture', 'Unlock 25 Plots in the Farm', new FarmPlotsUnlockedRequirement(25), 0.25);
+        AchievementHandler.addAchievement('My new dirty hobby', 'Unlock 3 Trays in the Disk Shop', new FarmPlotsUnlockedRequirement(3), 0.05);
+        AchievementHandler.addAchievement('Pirate', 'Unlock 9 Trays in the Disk Shop', new FarmPlotsUnlockedRequirement(9), 0.15);
+        AchievementHandler.addAchievement('Piratebay', 'Unlock 25 Trays in the Disk Shop', new FarmPlotsUnlockedRequirement(25), 0.25);
 
-        AchievementHandler.addAchievement('Who planted these here?', 'Unlock 8 Berries', new BerriesUnlockedRequirement(8), 0.1);
-        AchievementHandler.addAchievement('Farmer in training', 'Unlock 18 Berries', new BerriesUnlockedRequirement(18), 0.2);
-        AchievementHandler.addAchievement('Farming apprentice', 'Unlock 36 Berries', new BerriesUnlockedRequirement(36), 0.3);
-        AchievementHandler.addAchievement('Master Farmer', 'Unlock 67 Berries', new BerriesUnlockedRequirement(67), 0.4);
+        AchievementHandler.addAchievement('Free Trial', 'Unlock 8 Disks', new BerriesUnlockedRequirement(8), 0.1);
+        AchievementHandler.addAchievement('Burner in training', 'Unlock 18 Disks', new BerriesUnlockedRequirement(18), 0.2);
+        AchievementHandler.addAchievement('Burner Apprentice', 'Unlock 36 Disks', new BerriesUnlockedRequirement(36), 0.3);
+        AchievementHandler.addAchievement('Master Burner', 'Unlock 67 Disks', new BerriesUnlockedRequirement(67), 0.4);
 
         AchievementHandler.addAchievement('Can you do this for me?', 'Complete 1 quest', new QuestRequirement(1), 0.05);
         AchievementHandler.addAchievement('One more favor', 'Complete 10 quests', new QuestRequirement(10), 0.15);
         AchievementHandler.addAchievement('YES MAN!', 'Complete 100 quests', new QuestRequirement(100), 0.25);
-        AchievementHandler.addAchievement('I just love green coins', 'Complete 1,000 quests', new QuestRequirement(1000), 0.4);
+        AchievementHandler.addAchievement('I just love quests', 'Complete 1,000 quests', new QuestRequirement(1000), 0.4);
 
-        AchievementHandler.addAchievement('Fighting novice', 'Complete stage 100 in Battle Frontier', new BattleFrontierHighestStageRequirement(100), 0.05);
-        AchievementHandler.addAchievement('Competent fighter', 'Complete stage 250 in Battle Frontier', new BattleFrontierHighestStageRequirement(250), 0.15);
-        AchievementHandler.addAchievement('Unstoppable fighting machine', 'Complete stage 500 in Battle Frontier', new BattleFrontierHighestStageRequirement(500), 0.25);
-        AchievementHandler.addAchievement('Living Legend', 'Complete stage 1,000 in Battle Frontier', new BattleFrontierHighestStageRequirement(1000), 0.4);
+        AchievementHandler.addAchievement('Fighting novice', 'Complete stage 100 in Colosseum', new BattleFrontierHighestStageRequirement(100), 0.05);
+        AchievementHandler.addAchievement('Competent fighter', 'Complete stage 250 in Colosseum', new BattleFrontierHighestStageRequirement(250), 0.15);
+        AchievementHandler.addAchievement('Unstoppable fighting machine', 'Complete stage 500 in Colosseum', new BattleFrontierHighestStageRequirement(500), 0.25);
+        AchievementHandler.addAchievement('Living Legend', 'Complete stage 1,000 in Colosseum', new BattleFrontierHighestStageRequirement(1000), 0.4);
 
-        AchievementHandler.addAchievement('Keep on fighting', 'Complete 500 total stages in Battle Frontier', new BattleFrontierTotalStageRequirement(500), 0.05);
-        AchievementHandler.addAchievement('Uphill battle', 'Complete 1,000 total stages in Battle Frontier', new BattleFrontierTotalStageRequirement(1000), 0.15);
-        AchievementHandler.addAchievement('Don\'t stop trying', 'Complete 2,500 total stages in Battle Frontier', new BattleFrontierTotalStageRequirement(2500), 0.25);
-        AchievementHandler.addAchievement('King of the hill', 'Complete 5,000 total stages in Battle Frontier', new BattleFrontierTotalStageRequirement(5000), 0.4);
+        AchievementHandler.addAchievement('Keep on fighting', 'Complete 500 total stages in Colosseum', new BattleFrontierTotalStageRequirement(500), 0.05);
+        AchievementHandler.addAchievement('Uphill battle', 'Complete 1,000 total stages in Colosseum', new BattleFrontierTotalStageRequirement(1000), 0.15);
+        AchievementHandler.addAchievement('Don\'t stop trying', 'Complete 2,500 total stages in Colosseum', new BattleFrontierTotalStageRequirement(2500), 0.25);
+        AchievementHandler.addAchievement('King of the hill', 'Complete 5,000 total stages in Colosseum', new BattleFrontierTotalStageRequirement(5000), 0.4);
 
         AchievementHandler.addAchievement('Let\'s try this out', 'Obtain your first Protein', new ProteinObtainRequirement(1), 0.01);
         AchievementHandler.addAchievement('Pre-workout supplements', 'Obtain five Proteins', new ProteinObtainRequirement(5), 0.02);
@@ -319,17 +319,17 @@ class AchievementHandler {
         GameHelper.enumNumbers(GameConstants.Region).filter(r => r != GameConstants.Region.none && r <= GameConstants.MAX_AVAILABLE_REGION).forEach(region => {
             // Routes
             Routes.getRoutesByRegion(region).forEach(route => {
-                AchievementHandler.addAchievement(`${route.routeName} traveler`, `Defeat 100 Pokémon on ${route.routeName}`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[0], region, route.number), 1, region);
-                AchievementHandler.addAchievement(`${route.routeName} explorer`, `Defeat 1,000 Pokémon on ${route.routeName}`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[1], region, route.number), 2, region);
-                AchievementHandler.addAchievement(`${route.routeName} conqueror`, `Defeat 10,000 Pokémon on ${route.routeName}`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[2], region, route.number), 3, region);
+                AchievementHandler.addAchievement(`${route.routeName} traveler`, `Defeat 100 Digimon on ${route.routeName}`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[0], region, route.number), 1, region);
+                AchievementHandler.addAchievement(`${route.routeName} explorer`, `Defeat 1,000 Digimon on ${route.routeName}`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[1], region, route.number), 2, region);
+                AchievementHandler.addAchievement(`${route.routeName} conqueror`, `Defeat 10,000 Digimon on ${route.routeName}`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[2], region, route.number), 3, region);
             });
             // Gyms
             GameConstants.RegionGyms[region]?.forEach(gym => {
                 const gymTitle: string = gym.includes('Elite') || gym.includes('Champion') ? gym : `${gym} Gym`;
                 if (GymList[gym]?.flags?.achievement) {
-                    AchievementHandler.addAchievement(`${gym} Gym regular`, `Clear ${gymTitle} 10 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[0], GameConstants.getGymIndex(gym)), 1, region);
-                    AchievementHandler.addAchievement(`${gym} Gym ruler`, `Clear ${gymTitle} 100 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[1], GameConstants.getGymIndex(gym)), 2, region);
-                    AchievementHandler.addAchievement(`${gym} Gym owner`, `Clear ${gymTitle} 1,000 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[2], GameConstants.getGymIndex(gym)), 3, region);
+                    AchievementHandler.addAchievement(`${gym} Challenge regular`, `Clear ${gymTitle} 10 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[0], GameConstants.getGymIndex(gym)), 1, region);
+                    AchievementHandler.addAchievement(`${gym} Challenge ruler`, `Clear ${gymTitle} 100 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[1], GameConstants.getGymIndex(gym)), 2, region);
+                    AchievementHandler.addAchievement(`${gym} Challenge owner`, `Clear ${gymTitle} 1,000 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[2], GameConstants.getGymIndex(gym)), 3, region);
                 }
             });
             // Dungeons
@@ -344,13 +344,13 @@ class AchievementHandler {
             const amt50 = Math.floor(PokemonHelper.calcUniquePokemonsByRegion(region) * .5);
             const amtAll = Math.floor(PokemonHelper.calcUniquePokemonsByRegion(region));
             // Caught unique pokemon
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Trainer`, `Catch ${amt10} unique Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region`, new CaughtUniquePokemonsByRegionRequirement(region, amt10), 2, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace`, `Catch ${amt50} unique Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region`, new CaughtUniquePokemonsByRegionRequirement(region, amt50), 4, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Pokédex!`, new CaughtUniquePokemonsByRegionRequirement(region, amtAll), 6, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Tamer`, `Scan ${amt10} unique Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniquePokemonsByRegionRequirement(region, amt10), 2, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace`, `Scan ${amt50} unique Pokémon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniquePokemonsByRegionRequirement(region, amt50), 4, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Digidex!`, new CaughtUniquePokemonsByRegionRequirement(region, amtAll), 6, region);
             // Caught unique shiny pokemon
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Trainer`, `Catch ${amt10} unique Shiny Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt10), 3, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Ace`, `Catch ${amt50} unique Shiny Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt50), 6, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Pokédex!`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amtAll), 9, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Tamer`, `Scan ${amt10} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt10), 3, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Ace`, `Scan ${amt50} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt50), 6, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Digidex!`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amtAll), 9, region);
         });
 
         // load filters, filter the list & calculate number of tabs
