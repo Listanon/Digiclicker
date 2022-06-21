@@ -21744,7 +21744,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 1201,
-        'name': 'Tethismon',
+        'name': 'Thetismon',
         'catchRate': 15,
         'type': [PokemonType.Data, PokemonType.Electric],
         'levelType': LevelType.erratic,
