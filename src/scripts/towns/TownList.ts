@@ -3111,7 +3111,6 @@ const Ohakadamon = new Shop([
     ItemList['Ohakadamon'],
 ], 'Ohakadamon');
 const Botamon = new Shop([
-    ItemList['Ohakadamon'],
     ItemList['Koromon'],
     ItemList['Wanyamon'],
 ], 'Botamon');
@@ -4627,7 +4626,7 @@ const Sagittarimon = new Shop([
     ItemList['Tyilinmon'],
 ], 'Sagittarimon');
 const Seahomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Sirenmon'],
     ItemList['Vajramon'],
 ], 'Seahomon');
 const Searchmon = new Shop([
@@ -7173,7 +7172,7 @@ const Cotsucomon = new Shop([
     ItemList['Kakkinmon'],
 ], 'Cotsucomon');
 const Pusumon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Pusurimon'],
 ], 'Pusumon');
 const Kakkinmon = new Shop([
     ItemList['Junkmon'],
@@ -7319,7 +7318,9 @@ const DarkTyranomonXAntibody = new Shop([
     ItemList['Triceramon X-Antibody'],
 ], 'Dark Tyranomon X-Antibody');
 const Jazardmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Jazarichmon'],
+    ItemList['Megadramon'],
+    ItemList['Vulturemon'],
 ], 'Jazardmon');
 const MeramonXAntibody = new Shop([
     ItemList['Death Meramon'],
