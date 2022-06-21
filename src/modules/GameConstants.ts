@@ -1856,7 +1856,7 @@ export enum PokemonItemType {
     'Rare Raremon',
     'Shootmon',
     'Tempomon',
-    'Tethismon',
+    'Thetismon',
     'Vulturemon',
     'Abbadomon',
     'Abbadomon Core',
