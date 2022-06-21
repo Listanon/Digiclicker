@@ -11,6 +11,6 @@ export default class MoneyRequirement extends AchievementRequirement {
     }
 
     public hint(): string {
-        return `${this.requiredValue} Pokédollars need to be obtained.`;
+        return `${this.requiredValue} Digidollars need to be obtained.`;
     }
 }
