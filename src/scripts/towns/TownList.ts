@@ -7811,50 +7811,58 @@ const Pistmon = new Shop([
     ItemList['Lord Knightmon'],
 ], 'Pistmon');
 const RareRaremon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Boltmon'],
+    ItemList['Metamormon'],
+    ItemList['Nidhoggmon'],
 ], 'Rare Raremon');
 const Shootmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Magna Kidmon'],
+    ItemList['Shroudmon'],
 ], 'Shootmon');
 const Tempomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Daipenmon'],
+    ItemList['Ravmon'],
+    ItemList['Ornismon'],
 ], 'Tempomon');
-const Tethismon = new Shop([
-    ItemList['Ohakadamon'],
-], 'Tethismon');
+const Thetismon = new Shop([
+    ItemList['Ancient Mermaimon'],
+    ItemList['Marin Angemon'],
+    ItemList['Pukumon'],
+], 'Thetismon');
 const Vulturemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Hououmon'],
+    ItemList['Zhuqiaomon'],
 ], 'Vulturemon');
 const Abbadomon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Abbadomon Core'],
 ], 'Abbadomon');
 const AbbadomonCore = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Kuramon'],
 ], 'Abbadomon Core');
 const Achillesmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dokimon'],
 ], 'Achillesmon');
 const Ajatarmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Nyokimon'],
 ], 'Ajatarmon');
 const BloomLordmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Yuramon'],
 ], 'Bloom Lordmon');
 const FrosVelgrmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Yukimi Botamon'],
 ], 'Fros Velgrmon');
 const GaioumonInvincibleSword  = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Botamon'],
 ], 'Gaioumon Invincible Sword ');
 const Hydramon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Nyokimon'],
 ], 'Hydramon');
 const LovelyAngemon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Yukimi Botamon'],
 ], 'Lovely Angemon');
 const Shivamon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Dokimon'],
 ], 'Shivamon');
 const Shroudmon = new Shop([
-    ItemList['Ohakadamon'],
+    ItemList['Mokumon'],
 ], 'Shroudmon');
