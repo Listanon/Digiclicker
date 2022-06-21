@@ -128,12 +128,12 @@ class Egg implements Saveable {
 
         if (shiny) {
             Notifier.notify({
-                message: `✨ You hatched a shiny ${this.pokemon}! ✨`,
+                message: `👾 You hatched a Dot ${this.pokemon}! 👾`,
                 type: NotificationConstants.NotificationOption.warning,
                 sound: NotificationConstants.NotificationSound.General.shiny_long,
                 setting: NotificationConstants.NotificationSetting.Hatchery.hatched_shiny,
             });
-            App.game.logbook.newLog(LogBookTypes.SHINY, `You hatched a shiny ${this.pokemon}!`);
+            App.game.logbook.newLog(LogBookTypes.SHINY, `You hatched a Dot ${this.pokemon}!`);
             GameHelper.incrementObservable(App.game.statistics.shinyPokemonHatched[pokemonID]);
             GameHelper.incrementObservable(App.game.statistics.totalShinyPokemonHatched);
         } else {
