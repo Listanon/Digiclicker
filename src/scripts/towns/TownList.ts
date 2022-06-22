@@ -6388,7 +6388,7 @@ const ChaosGrimmon = new Shop([
 ], 'Chaos Grimmon');
 const Crescemon = new Shop([
     ItemList['Dianamon'],
-    ItemList['Surfimon'],
+    ItemList['Surfymon'],
     ItemList['Valkyrimon'],
 ], 'Crescemon');
 const DarkSuperstarmon = new Shop([
@@ -7794,7 +7794,7 @@ const Climbmon = new Shop([
 ], 'Climbmon');
 const Divemon = new Shop([
     ItemList['Pukumon'],
-    ItemList['Surfimon'],
+    ItemList['Surfymon'],
 ], 'Divemon');
 const Frozomon = new Shop([
     ItemList['Decker Greymon'],
