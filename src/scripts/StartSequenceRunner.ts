@@ -28,7 +28,7 @@ class StartSequenceRunner {
             steps: [
                 {
                     element: document.getElementsByClassName('battle-view')[0],
-                    intro: 'Click here to deal "Click Attack" damage to Pokémon.',
+                    intro: 'Click here to deal "Click Attack" damage to Digimon.',
                 },
             ],
         });
