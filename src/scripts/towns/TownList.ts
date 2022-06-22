@@ -7263,7 +7263,7 @@ const OmegamonMercifulMode = new Shop([
     ItemList['Botamon'],
     ItemList['Bubbmon'],
     ItemList['Nyokimon'],
-    ItemList['Pichmon'],
+    ItemList['Pitchmon'],
     ItemList['Poyomon'],
     ItemList['Punimon'],
     ItemList['Yukimi Botamon'],
