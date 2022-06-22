@@ -86,7 +86,7 @@
                          data-bind="template: { name: 'caughtStatusTemplate', data: {'status': $data.getCaughtStatus()}}">
                    </span>
                </knockout>
-               <img src="" height="36px" data-bind="css: { 'pokemon-not-seen': !PokedexHelper.pokemonScanned($data.id)() }, attr:{ src: $data.image }">
+               <img src="" height="36px" data-bind="css: { 'pokemon-not-seen': !PokedexHelper.pokemonScanned(PokemonHelper.getPokemonByName($data.displayName).id)() }, attr:{ src: $data.image })">
                <p data-bind="text: $data.displayName">Item Name</p>
                <span display: flex>Required Lv:</span>
                <span display: flex data-bind="text: $data.levelreq">Level Needed</span>
