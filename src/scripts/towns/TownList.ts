@@ -6890,7 +6890,7 @@ const ShoutmonX5S = new Shop([
     ItemList['Shoutmon X7'],
 ], 'Shoutmon X5S');
 const Huckmon = new Shop([
-    ItemList['Bao Hackmon'],
+    ItemList['Bao Huckmon'],
     ItemList['Geo Greymon'],
     ItemList['Monochromon'],
 ], 'Huckmon');
@@ -7095,7 +7095,7 @@ const Ludomon = new Shop([
     ItemList['Tia Ludomon'],
 ], 'Ludomon');
 const Zubamon = new Shop([
-    ItemList['Bao Hackmon'],
+    ItemList['Bao Huckmon'],
     ItemList['Ginryumon'],
     ItemList['Zubaeagermon'],
 ], 'Zubamon');
