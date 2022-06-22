@@ -30,7 +30,10 @@ class PokemonItem extends CaughtIndicatingItem {
 
     get image() {
         const subDirectory = this.imageDirectory ? `${this.imageDirectory}/` : '';
-        return `assets/images/items/${subDirectory}${this.name.replace(/[^\s\w.()-]/g, '')}.png`;
+        const digimonid = PokemonHelper.getPokemonByName(eval(this.name));
+        console.log(digimonid);
+        console.log(`assets/images/items/${subDirectory}${digimonid}.png`);
+        return `assets/images/items/${subDirectory}${digimonid}.png`;
     }
 }
 
