@@ -3,7 +3,7 @@ class BuyKeyItem extends Item {
 
         item: KeyItemType;
 
-        constructor(item: KeyItemType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.farmPoint, options?: ShopOptions, displayName?: string) {
+        constructor(item: KeyItemType, basePrice: number, currency: GameConstants.Currency = GameConstants.Currency.explorecoin, options?: ShopOptions, displayName?: string) {
             super(KeyItemType[item], basePrice, currency, { maxAmount: 1, ...options }, undefined, displayName);
             this.item = item;
         }
