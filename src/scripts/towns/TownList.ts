@@ -4005,7 +4005,7 @@ const MetalGreymon = new Shop([
     ItemList['Metal Greymon Alterous Mode'],
     ItemList['War Greymon'],
 ], 'Metal Greymon');
-const '= new Shop([
+const Panjyamon = new Shop([
     ItemList['Panjyamon X-Antibody'],
     ItemList['Regulumon'],
 ], 'Panjyamon');
