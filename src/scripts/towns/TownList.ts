@@ -7003,7 +7003,7 @@ const Titamon = new Shop([
 ], 'Titamon');
 const BaoHuckmon = new Shop([
     ItemList['Rize Greymon'],
-    ItemList['Savior Hackmon'],
+    ItemList['Savior Huckmon'],
     ItemList['Skull Greymon'],
 ], 'Bao Huckmon');
 const AegiochusmonDark = new Shop([
