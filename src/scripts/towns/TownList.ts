@@ -6917,7 +6917,7 @@ const Jokermon = new Shop([
     ItemList['Piemon'],
 ], 'Jokermon');
 const Luminamon = new Shop([
-    ItemList['Luminamon Nene Ver'],
+    ItemList['Luminamon Nene Version'],
     ItemList['Marin Angemon'],
 ], 'Luminamon');
 const LuminamonNeneVersion = new Shop([
