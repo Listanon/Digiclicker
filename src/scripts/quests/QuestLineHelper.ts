@@ -156,7 +156,7 @@ class QuestLineHelper {
                 timeout: GameConstants.MINUTE,
             });
         };
-        const mineLayers = new CustomQuest(5, oldAmberReward, 'Mine 5 layers in the Underground', App.game.statistics.undergroundLayersMined);
+        const mineLayers = new CustomQuest(5, oldAmberReward, 'Dig 5 layers in the Junkyard', App.game.statistics.undergroundLayersMined);
         undergroundQuestLine.addQuest(mineLayers);
 
         App.game.quests.questLines().push(undergroundQuestLine);
