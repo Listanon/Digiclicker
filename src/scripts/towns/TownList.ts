@@ -6182,7 +6182,7 @@ const Gaogamon = new Shop([
 ], 'Gaogamon');
 const Gawappamon = new Shop([
     ItemList['Shawujinmon'],
-    ItemList['Tonosama_Gekomon'],
+    ItemList['Tonosama Gekomon'],
 ], 'Gawappamon');
 const GeoGreymon = new Shop([
     ItemList['Gigadramon'],
