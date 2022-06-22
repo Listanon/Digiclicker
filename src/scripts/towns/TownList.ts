@@ -6898,12 +6898,12 @@ const Pillomon = new Shop([
     ItemList['Sheepmon'],
 ], 'Pillomon');
 const SistermonBlanc = new Shop([
-    ItemList['Sistermon Blanc Awake'],
+    ItemList['Sistermon Blanc Awaken'],
     ItemList['Sistermon Ciel'],
     ItemList['Sistermon Noir'],
 ], 'Sistermon Blanc');
 const SistermonNoir = new Shop([
-    ItemList['Sistermon Noir Awake'],
+    ItemList['Sistermon Noir Awaken'],
     ItemList['Lady Devimon'],
 ], 'Sistermon Noir');
 const Yakiimon = new Shop([
@@ -7112,7 +7112,7 @@ const Lavorvomon = new Shop([
 const SistermonCiel = new Shop([
     ItemList['Cho·Hakkaimon'],
     ItemList['Eosmon Perfect'],
-    ItemList['Sistermon Ciel Awake'],
+    ItemList['Sistermon Ciel Awaken'],
 ], 'Sistermon Ciel');
 const SistermonCielAwaken = new Shop([
     ItemList['Angewomon'],
@@ -7554,8 +7554,8 @@ const DarkMaildramon = new Shop([
 ], 'Dark Maildramon');
 const EosmonAdult = new Shop([
     ItemList['Eosmon Perfect'],
-    ItemList['Sistermon Ciel Awake'],
-    ItemList['Sistermon Noir Awake'],
+    ItemList['Sistermon Ciel Awaken'],
+    ItemList['Sistermon Noir Awaken'],
 ], 'Eosmon Adult');
 const Exermon = new Shop([
     ItemList['Archnemon'],
