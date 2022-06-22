@@ -33,7 +33,7 @@ class PokedexHelper {
     public static pokemonScanned(id: number): KnockoutComputed<boolean> {
         return ko.pureComputed(() => {
             try {
-                return App.game.statistics.pokemonCaptured[id]() > 0 || App.game.party.alreadyCaughtPokemon(id);
+                return App.game.statistics.pokemonCaptured[id]() > 0 || App.game.party.alreadyCaughtPokemon(id) || id ===0;
             } catch (error) {
                 return false;
             }
