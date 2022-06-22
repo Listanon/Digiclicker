@@ -21888,7 +21888,7 @@ const pokemonList = createPokemonArray(
     },
     {
         'id': 1209,
-        'name': 'Gaioumon Invincible Sword ',
+        'name': 'Gaioumon Invincible Sword',
         'catchRate': 5,
         'type': [PokemonType.Virus, PokemonType.Fire],
         'levelType': LevelType.fluctuating,
