@@ -6581,9 +6581,9 @@ const ShoutmonX3 = new Shop([
 ], 'Shoutmon X3');
 const ShoutmonX4 = new Shop([
     ItemList['Shoutmon X4B'],
-    ItemList['Shoutmon X4K],
-    ItemList['Shoutmon X4S],
-    ItemList['Shoutmon X5,
+    ItemList['Shoutmon X4K'],
+    ItemList['Shoutmon X4S'],
+    ItemList['Shoutmon X5'],
 ], 'Shoutmon X4');
 const SkullKnightmon = new Shop([
     ItemList['Dark Knightmon'],
