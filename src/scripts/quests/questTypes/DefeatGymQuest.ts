@@ -44,7 +44,7 @@ class DefeatGymQuest extends Quest implements QuestInterface {
         if (!this.gymTown.includes('Elite') && !this.gymTown.includes('Champion')) {
             desc.push('gym');
         }
-        desc.push(`in ${GameConstants.camelCaseToString(GameConstants.Region[this.region])}`);
+        desc.push(`from ${GameConstants.camelCaseToString(GameConstants.Region[this.region])}`);
         desc.push(`${this.amount.toLocaleString('en-US')} times.`);
         return desc.join(' ');
     }
