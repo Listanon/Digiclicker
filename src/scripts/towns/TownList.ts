@@ -7687,7 +7687,7 @@ const Curimon = new Shop([
     ItemList['Gurimon'],
 ], 'Curimon');
 const Hiyarimon = new Shop([
-    ItemList['Blucomon'],
+    ItemList['Bulucomon'],
     ItemList['Snow Goburimon'],
 ], 'Hiyarimon');
 const Puyomon = new Shop([
