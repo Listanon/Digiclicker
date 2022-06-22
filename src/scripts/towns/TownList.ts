@@ -5799,7 +5799,7 @@ const EbemonXAntibody = new Shop([
     ItemList['Yuramon'],
 ], 'Ebemon X-Antibody');
 const Gaioumon = new Shop([
-    ItemList['Gaioumon Itto Mode'],
+    ItemList['Gaioumon Invincible Sword'],
 ], 'Gaioumon');
 const GigaSeadramon = new Shop([
     ItemList['Pitchmon'],
@@ -7852,9 +7852,9 @@ const BloomLordmon = new Shop([
 const FrosVelgrmon = new Shop([
     ItemList['Yukimi Botamon'],
 ], 'Fros Velgrmon');
-const GaioumonInvincibleSword  = new Shop([
+const GaioumonInvincibleSword = new Shop([
     ItemList['Botamon'],
-], 'Gaioumon Invincible Sword ');
+], 'Gaioumon Invincible Sword');
 const Hydramon = new Shop([
     ItemList['Nyokimon'],
 ], 'Hydramon');
