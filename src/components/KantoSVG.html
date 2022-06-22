@@ -190,7 +190,7 @@
     <!--Route 17-->
     <%- include('templates/mapRoute',
         { route: 17, region: 0
-        , width: 9, height: 3
+        , width: 10, height: 3
         , x: 7, y: 5
         })
      %>
@@ -438,7 +438,7 @@
      <!--Seafoam Islands 2-->
     <%- include('templates/mapDungeon',
     { name: "Seafoam Islands"
-    , x: 92, y: 29
+    , x: 93, y: 29
     , width: 5, height: 5
     })
      %>
@@ -478,7 +478,7 @@
     <%- include('templates/mapPOI',
         { name: "Pokemon Day Care"
         , x: 59, y: 39
-        , width: 3, height: 3
+        , width: 4, height: 4
         , databind: "click:function(){BreedingController.openBreedingModal()}, attr: { class: App.game.breeding.canAccess() ? 'completed' : 'locked' }"
         })
      %>
