@@ -6860,7 +6860,7 @@ const ZekeGreymon = new Shop([
     ItemList['Botamon'],
 ], 'Zeke Greymon');
 const Armamon = new Shop([
-    ItemList['Omega Armamon Burst Mode'],
+    ItemList['Omega Armamon BM'],
 ], 'Armamon');
 const DarkVolumon = new Shop([
     ItemList['Atlur Ballistamon'],
