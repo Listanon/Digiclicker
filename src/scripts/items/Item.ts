@@ -201,7 +201,7 @@ class Item {
     }
 
     get displayName() {
-        return GameConstants.humanifyString(this._displayName);
+        return this._displayName;
     }
 
     get image() {
