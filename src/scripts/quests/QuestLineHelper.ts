@@ -40,7 +40,7 @@ class QuestLineHelper {
 
         //Buy Dungeon ticket
         const buyDungeonTicket = new CustomQuest(1, 50,
-            'Buy the Dungeon ticket from Viridian City Shop.',
+            'Buy the Dungeon ticket from the Primary Village Shop.',
             () => +App.game.keyItems.hasKeyItem(KeyItemType.Dungeon_ticket),
             0
         );
