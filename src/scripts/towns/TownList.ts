@@ -7572,7 +7572,7 @@ const EyesmonScatterMode = new Shop([
 ], 'Eyesmon Scatter Mode');
 const Machmon = new Shop([
     ItemList['Locomon'],
-    ItemList['Trailmon'],
+    ItemList['Trailmon Worm'],
 ], 'Machmon');
 const Mimicmon = new Shop([
     ItemList['Manticoremon'],
