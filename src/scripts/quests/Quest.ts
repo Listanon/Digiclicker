@@ -58,12 +58,12 @@ abstract class Quest {
             if (this.pointsReward) {
                 App.game.wallet.gainQuestPoints(this.pointsReward);
                 Notifier.notify({
-                    message: `You have completed your quest and claimed ${this.pointsReward} quest points!`,
+                    message: `You have completed your quest and claimed ${this.pointsReward} farm points!`,
                     type: NotificationConstants.NotificationOption.success,
                 });
                 App.game.logbook.newLog(
                     LogBookTypes.QUEST,
-                    `Completed "${this.description}" for ${this.pointsReward} quest points.`);
+                    `Completed "${this.description}" for ${this.pointsReward} farm points.`);
             } else {
                 Notifier.notify({
                     message: 'You have completed a quest!',
