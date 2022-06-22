@@ -4005,7 +4005,7 @@ const MetalGreymon = new Shop([
     ItemList['Metal Greymon Alterous Mode'],
     ItemList['War Greymon'],
 ], 'Metal Greymon');
-const Panjyamon = new Shop([
+const '= new Shop([
     ItemList['Panjyamon X-Antibody'],
     ItemList['Regulumon'],
 ], 'Panjyamon');
@@ -5746,11 +5746,11 @@ const PanjyamonXAntibody = new Shop([
 ], 'Panjyamon X-Antibody');
 const SkullBaluchimon = new Shop([
     ItemList['Dinotigermon'],
-    ItemList['Ultimate Brachiomon'],
+    ItemList['Ultimate Brachimon'],
 ], 'Skull Baluchimon');
 const TriceramonXAntibody = new Shop([
     ItemList['Dinorexmon'],
-    ItemList['Ultimate Brachiomon'],
+    ItemList['Ultimate Brachimon'],
 ], 'Triceramon X-Antibody');
 const VademonXAntibody = new Shop([
     ItemList['Ebemon X-Antibody'],
@@ -7377,7 +7377,7 @@ const MephismonXAntibody = new Shop([
 const MetalGreymonVirusXAntibody = new Shop([
     ItemList['Black War Greymon X-Antibody'],
     ItemList['Skull Mammon X-Antibody'],
-    ItemList['Ultimate Brachiomon'],
+    ItemList['Ultimate Brachimon'],
 ], 'Metal Greymon Virus X-Antibody');
 const MonzaemonXAntibody = new Shop([
     ItemList['Cherubimon Virtue X-Antibody'],
@@ -7742,7 +7742,7 @@ const KodokugumonChild = new Shop([
     ItemList['Sand Yanmamon'],
 ], 'Kodokugumon Child');
 const BetelGammamon = new Shop([
-    ItemList['Brachiomon'],
+    ItemList['Brachimon'],
     ItemList['Canoweissmon'],
     ItemList['Tankdramon'],
 ], 'Betel Gammamon');
