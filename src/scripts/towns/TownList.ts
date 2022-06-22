@@ -7086,7 +7086,7 @@ const Sakumon = new Shop([
     ItemList['Sakuttomon'],
 ], 'Sakumon');
 const Sakuttomon = new Shop([
-    ItemList['Hackmon'],
+    ItemList['Huckmon'],
     ItemList['Ryudamon'],
     ItemList['Zubamon'],
 ], 'Sakuttomon');
@@ -7709,7 +7709,7 @@ const Goromon = new Shop([
 ], 'Goromon');
 const Gurimon = new Shop([
     ItemList['Gammamon'],
-    ItemList['Hackmon'],
+    ItemList['Huckmon'],
 ], 'Gurimon');
 const Puyoyomon = new Shop([
     ItemList['Jellymon'],
