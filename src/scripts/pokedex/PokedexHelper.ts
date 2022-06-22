@@ -167,7 +167,7 @@ class PokedexHelper {
     public static getImage(id: number) {
         let src = 'assets/images/';
         if (App.game.party.alreadyCaughtPokemon(id, true) && this.toggleAllShiny()) {
-            src += 'shiny';
+            src += 'dot';
         }
         src += `digidex/${id}.png`;
         return src;
