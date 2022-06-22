@@ -1503,7 +1503,7 @@ namespace GameConstants {
         'Ajatarmon',
         'Bloom Lordmon',
         'Fros Velgrmon',
-        'Gaioumon Invincible Sword ',
+        'Gaioumon Invincible Sword',
         'Hydramon',
         'Lovely Angemon',
         'Shivamon',
