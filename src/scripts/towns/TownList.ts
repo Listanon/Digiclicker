@@ -5995,7 +5995,7 @@ const Liamon = new Shop([
 ], 'Liamon');
 const Reppamon = new Shop([
     ItemList['Piccolomon'],
-    ItemList['Rapidmon'],
+    ItemList['Rapidmon Perfect'],
     ItemList['Tyilinmon'],
 ], 'Reppamon');
 const Sangloupmon = new Shop([
