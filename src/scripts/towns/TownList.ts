@@ -7126,7 +7126,7 @@ const Zubaeagermon = new Shop([
 const Duramon = new Shop([
     ItemList['Cres Garurumon'],
     ItemList['Durandamon'],
-    ItemList['JESmon'],
+    ItemList['Jesmon'],
 ], 'Duramon');
 const Lavogaritamon = new Shop([
     ItemList['Bryweludramon'],
