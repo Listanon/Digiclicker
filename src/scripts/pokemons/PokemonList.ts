@@ -21958,6 +21958,24 @@ const pokemonList = createPokemonArray(
         },
         'heldItem': {type: ItemType.berry, id: BerryType.eBook},
     },
+    {
+        'id': 1213,
+        'name': 'Shroudmon',
+        'catchRate': 5,
+        'type': [PokemonType.Virus, PokemonType.Fire],
+        'levelType': LevelType.fluctuating,
+        'exp': 300,
+        'eggCycles': 95,
+        'base': {
+            'hitpoints': 145,
+            'magic': 81,
+            'attack': 130,
+            'defense': 106,
+            'intellect': 73,
+            'speed': 55,
+        },
+        'heldItem': {type: ItemType.berry, id: BerryType.Health},
+    },
 );
 
 const pokemonNameIndex = {};
