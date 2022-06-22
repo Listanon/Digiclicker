@@ -6616,7 +6616,7 @@ const Cyberdramon2010 = new Shop([
 const DarkKnightmon = new Shop([
     ItemList['Dark Knightmon X-Antibody'],
     ItemList['Grey Knightsmon'],
-    ItemList['Muso Knightmon'],
+    ItemList['Musou Knightmon'],
 ], 'Dark Knightmon');
 const DeckerGreymon = new Shop([
     ItemList['Imperialdramon Dragon Mode'],
