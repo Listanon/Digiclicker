@@ -405,7 +405,7 @@
 
     <!--Power Plant-->
     <%- include('templates/mapDungeon',
-        { name: "Metal Seadramon"
+        { name: "Metal Seadramon's Lair"
         , x: 88, y: 5
 		, width: 5, height: 5
         })
@@ -511,7 +511,7 @@
          { name: "Blimpmon"
          , x: 2, y: 1
          , width: 6, height: 3
-         , databind: "click:function(){MapHelper.moveToTown('Pallet Town')}, attr:{ class: MapHelper.calculateTownCssClass('Pallet Town') }"
+         , databind: "click:function(){MapHelper.moveToTown('Primary Village')}, attr:{ class: MapHelper.calculateTownCssClass('Pallet Town') }"
          , visible:  "MapHelper.ableToTravel() && player.starter() != GameConstants.Starter.Pikachu"
          , image: "assets/images/map/blimp_empty.png"
          })
@@ -521,7 +521,7 @@
          { name: "Blimpmon"
          , x: 2, y: 1
          , width: 6, height: 3
-         , databind: "click:function(){MapHelper.moveToTown('Pallet Town')}, attr:{ class: MapHelper.calculateTownCssClass('Pallet Town') }"
+         , databind: "click:function(){MapHelper.moveToTown('Primary Village')}, attr:{ class: MapHelper.calculateTownCssClass('Pallet Town') }"
          , visible:  "MapHelper.ableToTravel() && player.starter() == GameConstants.Starter.Pikachu"
          , image: "assets/images/map/blimp_pikachu.png"
          })
