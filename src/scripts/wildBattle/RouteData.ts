@@ -7,13 +7,13 @@
 KANTO
 */
 Routes.add(new RegionRoute(
-    'Kanto Route 1', GameConstants.Region.kanto, 1,
+    'Primary Path', GameConstants.Region.kanto, 1,
     new RoutePokemon({
         land: ['Pitchmon', 'Yuramon'],
     })
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 22', GameConstants.Region.kanto, 22,
+    'Digital Forest', GameConstants.Region.kanto, 22,
     new RoutePokemon({
         land: ['Triceramon', 'Vermillimon', 'Metal Etemon', 'Blossomon', 'Zassoumon'],
         water: ['Mega Seadramon', 'Seadramon'],
@@ -22,14 +22,14 @@ Routes.add(new RegionRoute(
     1.1
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 2', GameConstants.Region.kanto, 2,
+    'Rookie Woods', GameConstants.Region.kanto, 2,
     new RoutePokemon({
         land: ['Tanemon', 'Mochimon', 'Pukamon', 'Pyocomon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 1)]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 3', GameConstants.Region.kanto, 3,
+    'Trolley Lake', GameConstants.Region.kanto, 3,
     new RoutePokemon({
         land: ['Numemon', 'Mushmon', 'Betamon', 'Kunemon'],
         water: ['Ganimon', 'Betamon'],
@@ -40,7 +40,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 4', GameConstants.Region.kanto, 4,
+    'PowerLine Sands', GameConstants.Region.kanto, 4,
     new RoutePokemon({
         land: ['Gottsumon', 'Modoki Betamon', 'Betamon', 'Numemon'],
     }),
@@ -49,7 +49,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 5', GameConstants.Region.kanto, 5,
+    'Numemon Sewers', GameConstants.Region.kanto, 5,
     new RoutePokemon({
         land: ['Numemon', 'Betamon', 'Otamamon', 'Tyumon'],
     }),
@@ -59,7 +59,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 6', GameConstants.Region.kanto, 6,
+    'Infinity Climb', GameConstants.Region.kanto, 6,
     new RoutePokemon({
         land: ['Gottsumon', 'Modoki Betamon', 'Mushmon', 'Cyclomon', 'Drimogemon', 'Goburimon'],
         water: ['Modoki Betamon'],
@@ -67,7 +67,7 @@ Routes.add(new RegionRoute(
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 5)]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 11', GameConstants.Region.kanto, 11,
+    'Desert Oasis', GameConstants.Region.kanto, 11,
     new RoutePokemon({
         land: ['Drimogemon', 'Golemon', 'Meramon', 'Minotaurmon', 'Sand Yanmamon'],
         water: ['Karatuki Numemon'],
@@ -76,7 +76,7 @@ Routes.add(new RegionRoute(
     6.1
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 9', GameConstants.Region.kanto, 9,
+    'Infinity Cliffs', GameConstants.Region.kanto, 9,
     new RoutePokemon({
         land: ['Elecmon', 'Toy Agumon', 'Mushmon', 'Kuwagamon', 'Monochromon', 'Tyranomon'],
         water: ['Seadramon', 'Gizamon', 'Otamamon', 'Shakomon'],
@@ -87,7 +87,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 10', GameConstants.Region.kanto, 10,
+    'Net Ocean', GameConstants.Region.kanto, 10,
     new RoutePokemon({
         land: ['Otamamon', 'Karatuki Numemon'],
         water: ['Shakomon', 'Coelamon', 'Ebidramon', 'Octmon'],
@@ -98,7 +98,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 8', GameConstants.Region.kanto, 8,
+    'Bakemon Church', GameConstants.Region.kanto, 8,
     new RoutePokemon({
         land: ['Bakemon', 'Dokunemon', 'Candmon', 'Tukaimon', 'Numemon', 'Gokimon', 'Woodmon'],
     }),
@@ -106,7 +106,7 @@ Routes.add(new RegionRoute(
     10.1
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 7', GameConstants.Region.kanto, 7,
+    'Frozen Tundra', GameConstants.Region.kanto, 7,
     new RoutePokemon({
         land: ['Yukidarumon', 'Mojyamon', 'Betamon', 'Icemon', 'Yuki Agumon', 'Penmon'],
     }),
@@ -114,14 +114,14 @@ Routes.add(new RegionRoute(
     10.2
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 12', GameConstants.Region.kanto, 12,
+    'Cockatrimon\'s Ship', GameConstants.Region.kanto, 12,
     new RoutePokemon({
         land: ['Drimogemon', 'Meramon', 'Monochromon', 'Orgemon', 'Birdramon', 'Sand Yanmamon', 'Togemon', 'Cockatrimon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Lost Colosseum'))]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 13', GameConstants.Region.kanto, 13,
+    'Vast Desert', GameConstants.Region.kanto, 13,
     new RoutePokemon({
         land: ['Drimogemon', 'Meramon', 'Birdramon', 'Flare Lizarmon', 'Monochromon', 'Sand Yanmamon', 'Insekimon'],
     }),
@@ -133,7 +133,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 14', GameConstants.Region.kanto, 14,
+    'Digitamamon\'s Diner', GameConstants.Region.kanto, 14,
     new RoutePokemon({
         land: ['Yanmamon', 'Vegimon', 'Jyagamon', 'Scumon', 'Red Vegimon', 'Digitamamon', 'Triceramon'],
         water: ['Rukamon', 'Seadramon', 'Octmon'],
@@ -143,21 +143,21 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 15', GameConstants.Region.kanto, 15,
+    'Castle Way', GameConstants.Region.kanto, 15,
     new RoutePokemon({
         land: ['Otamamon', 'Gekomon', 'Jungle Mojyamon', 'Karatuki Numemon', 'Mega Seadramon', 'Vermillimon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Thunder)]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 16', GameConstants.Region.kanto, 16,
+    'Army Grounds', GameConstants.Region.kanto, 16,
     new RoutePokemon({
         land: ['Waru Monzaemon', 'Mamemon', 'Giromon', 'Fantomon', 'Death Meramon', 'Evilmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Marsh)]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 17', GameConstants.Region.kanto, 17,
+    'Road\'s End', GameConstants.Region.kanto, 17,
     new RoutePokemon({
         land: ['Snimon', 'Yanmamon', 'Unimon', 'Ookuwamon'],
         water: ['Seadramon', 'Mega Seadramon', 'Octmon', 'Coelamon', 'Shakomon'],
@@ -170,7 +170,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 18', GameConstants.Region.kanto, 18,
+    'Tokyo Pier', GameConstants.Region.kanto, 18,
     new RoutePokemon({
         land: ['Gokimon', 'Vermillimon', 'Scumon', 'Minotaurmon', 'Death Meramon'],
         water: ['Ebidramon', 'Gesomon', 'Karatuki Numemon', 'Raremon'],
@@ -180,14 +180,14 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 19', GameConstants.Region.kanto, 19,
+    'Tokyo Streets', GameConstants.Region.kanto, 19,
     new RoutePokemon({
         water: ['Pumpmon', 'Gottsumon', 'Geremon', 'Gerbemon', 'Mammon', 'Parrotmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Soul)]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 20', GameConstants.Region.kanto, 20,
+    'Digital Ocean', GameConstants.Region.kanto, 20,
     new RoutePokemon({
         water: ['Marin Devimon', 'Hangyomon', 'Whamon', 'Dagomon', 'Waru Seadramon'],
     }),
@@ -199,7 +199,7 @@ Routes.add(new RegionRoute(
     ]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 21', GameConstants.Region.kanto, 21,
+    'Whamon\'s Rest', GameConstants.Region.kanto, 21,
     new RoutePokemon({
         land: ['Vermillimon', 'Triceramon', 'Ookuwamon', 'Jyureimon', 'Jyagamon'],
         water: ['Waru Seadramon', 'Mega Seadramon', 'Anomalocarimon', 'Dagomon'],
@@ -207,7 +207,7 @@ Routes.add(new RegionRoute(
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Metal Seadramon\'s Lair'))]
 ));
 Routes.add(new RegionRoute(
-    'Kanto Route 23', GameConstants.Region.kanto, 23,
+    'Digital Wasteland', GameConstants.Region.kanto, 23,
     new RoutePokemon({
         land: ['Death Meramon', 'Skull Satamon', 'Boltmon', 'Skull Mammon', 'Metal Tyranomon'],
         water: ['Dagomon', 'Marin Devimon'],
