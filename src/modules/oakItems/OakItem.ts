@@ -50,11 +50,11 @@ export default class OakItem extends ExpUpgrade {
 
     // TODO: do we need both of these hint methods?
     getHint(): string {
-        return `Capture ${this.unlockReq - App.game.party.caughtPokemon.length} more unique Pokémon`;
+        return `Scan ${this.unlockReq - App.game.party.caughtPokemon.length} more unique Digimon`;
     }
 
     get hint() {
-        return ko.pureComputed(() => `Capture ${this.unlockReq - App.game.party.caughtPokemon.length} more unique Pokémon`);
+        return ko.pureComputed(() => `Scan ${this.unlockReq - App.game.party.caughtPokemon.length} more unique Digimon`);
     }
 
     calculateBonus(level: number = this.level): number {
