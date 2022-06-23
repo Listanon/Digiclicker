@@ -223,7 +223,7 @@ class AchievementHandler {
         AchievementHandler.addAchievement('You get a Digimon, you get a Digimon, everyone gets a Digimon!', 'Scan 1,000,000 Digimon', new CapturedRequirement(1000000), 0.50);
 
         AchievementHandler.addAchievement('A Long Road Ahead', 'Defeat 100 Digimon', new DefeatedRequirement(100), 0.05);
-        AchievementHandler.addAchievement('Highway to Pallet Town', 'Defeat 1,000 Digimon', new DefeatedRequirement(1000), 0.10);
+        AchievementHandler.addAchievement('More Grind', 'Defeat 1,000 Digimon', new DefeatedRequirement(1000), 0.10);
         AchievementHandler.addAchievement('Overleveled', 'Defeat 10,000 Digimon', new DefeatedRequirement(10000), 0.15);
         AchievementHandler.addAchievement('The Cake is a Lie, but the Grind is real', 'Defeat 100,000 Digimon', new DefeatedRequirement(100000), 0.25);
         AchievementHandler.addAchievement('Are there any left?', 'Defeat 1,000,000 Digimon', new DefeatedRequirement(1000000), 0.50);
