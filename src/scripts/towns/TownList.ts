@@ -315,12 +315,10 @@ TownList['Rock Tunnel'] = new DungeonTown(
 TownList['Power Plant'] = new DungeonTown(
     'Power Plant',
     GameConstants.Region.kanto,
-    {
-        requirements: [new OneFromManyRequirement([
+    [new OneFromManyRequirement([
             new RouteKillRequirement(10, GameConstants.Region.kanto, 20),
             new GymBadgeRequirement(BadgeEnums.Soul)
-        ])],
-    }
+     ])]
 );
 TownList['Pokemon Tower'] = new DungeonTown(
     'Pokemon Tower',
@@ -335,12 +333,10 @@ TownList['Seafoam Islands'] = new DungeonTown(
 TownList['Seafoam Islands 2'] = new DungeonTown(
     'Seafoam Islands',
     GameConstants.Region.kanto,
-    {
-        requirements: [new OneFromManyRequirement([
+    [new OneFromManyRequirement([
             new RouteKillRequirement(10, GameConstants.Region.kanto, 21),
             new GymBadgeRequirement(BadgeEnums.Volcano),
-        ])],
-    }
+        ])]
 );
 TownList['Pokemon Mansion'] = new DungeonTown(
     'Pokemon Mansion',
@@ -354,12 +350,10 @@ TownList['Pokemon Mansion'] = new DungeonTown(
 TownList['Victory Road'] = new DungeonTown(
     'Victory Road',
     GameConstants.Region.kanto,
-    {
-        requirements: [new OneFromManyRequirement([
+    [new OneFromManyRequirement([
             new RouteKillRequirement(10, GameConstants.Region.kanto, 23),
             new GymBadgeRequirement(BadgeEnums.Earth)
-        ])],
-    }
+        ])]
 );
 TownList['Cerulean Cave'] = new DungeonTown(
     'Cerulean Cave',
