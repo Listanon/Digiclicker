@@ -123,7 +123,7 @@ class Battle {
 
     protected static calculateActualCatchRate(enemyPokemon: BattlePokemon, pokeBall: GameConstants.Pokeball) {
         const pokeballBonus = App.game.pokeballs.getCatchBonus(pokeBall);
-        const oakBonus = App.game.oakItems.calculateBonus(OakItemType.Magic_Ball);
+        const oakBonus = App.game.oakItems.calculateBonus(OakItemType.Memory_Stick);
         const scanBonus = App.game.statistics.pokemonCaptured[enemyPokemon.id]() + 1;
         const totalChance = GameConstants.clipNumber(enemyPokemon.catchRate * scanBonus + pokeballBonus + oakBonus, 0, 100);
         return totalChance;
@@ -155,7 +155,7 @@ class Battle {
     public static catchPokemon(enemyPokemon: BattlePokemon) {
         const catchRoute = Battle.route || player.town()?.dungeon?.difficultyRoute || 1;
         App.game.wallet.gainScancoin(PokemonFactory.routeDungeonTokens(catchRoute, player.region));
-        App.game.oakItems.use(OakItemType.Magic_Ball);
+        App.game.oakItems.use(OakItemType.Memory_Stick);
         if (this.catchRateActual() >= 100){
         App.game.party.gainPokemonById(enemyPokemon.id, enemyPokemon.shiny);
         } else {
