@@ -325,6 +325,11 @@ TownList['Devimon Battle'] = new DungeonTown(
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 8)]
 );
+TownList['Etemon\'s Pyramid'] = new DungeonTown(
+    'Etemon\'s Pyramid',
+    GameConstants.Region.kanto,
+    [new RouteKillRequirement(10, GameConstants.Region.kanto, 13)]
+);
 TownList['VenomVamdemon Rampage'] = new DungeonTown(
     'VenomVamdemon Rampage',
     GameConstants.Region.kanto,
