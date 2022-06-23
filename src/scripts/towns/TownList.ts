@@ -232,8 +232,10 @@ TownList['Saffron City'] = new Town(
     GameConstants.Region.kanto,
     [SaffronCityShop],
     {
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion')),
-        requirements: [new GymBadgeRequirement(BadgeEnums.Rainbow)],
+        requirements: [
+            new GymBadgeRequirement(BadgeEnums.Rainbow),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion')),
+        ],
         npcs: [SaffronBattleItemRival],
     }
 );
@@ -263,10 +265,10 @@ TownList['Viridian City'] = new Town(
     GameConstants.Region.kanto,
     [ViridianCityShop],
     {
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Viridian Forest')),
         requirements: [new OneFromManyRequirement([
             new RouteKillRequirement(10, GameConstants.Region.kanto, 2),
             new RouteKillRequirement(10, GameConstants.Region.kanto, 3),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Viridian Forest')),
         ])],
         npcs: [ViridianCityOldMan],
     }
