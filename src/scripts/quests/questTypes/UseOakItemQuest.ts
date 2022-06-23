@@ -16,18 +16,18 @@ class UseOakItemQuest extends Quest implements QuestInterface {
 
     public static generateData(): any[] {
         const possibleItems = [
-            OakItemType.Magic_Ball,
-            OakItemType.Amulet_Coin,
-            // OakItemType.Poison_Barb,
-            OakItemType.Exp_Share,
-            // OakItemType.Sprayduck,
-            // OakItemType.Shiny_Charm,
-            // OakItemType.Blaze_Cassette,
-            // OakItemType.Cell_Battery,
-            // OakItemType.Squirtbottle,
-            // OakItemType.Sprinklotad,
-            // OakItemType.Explosive_Charge,
-            // OakItemType.Treasure_Scanner,
+            OakItemType.Memory_Stick,
+            OakItemType.Topaz,
+            // OakItemType.Fancy_Cursor,
+            OakItemType.Millionaire_USB,
+            // OakItemType.1_Megabyte,
+            // OakItemType.Pixel_Stone,
+            // OakItemType.Egg_Holder,
+            // OakItemType.Full_Battery,
+            // OakItemType.Demo_Disk,
+            // OakItemType.Failure_Prevent,
+            // OakItemType.Golden_DVD,
+            // OakItemType.Shiny_Mirror,
         ];
         const oakItem = SeededRand.fromArray(possibleItems);
         const amount = SeededRand.intBetween(100, 500);
