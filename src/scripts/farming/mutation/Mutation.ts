@@ -101,7 +101,7 @@ abstract class Mutation {
                 return;
             }
             this.handleMutation(idx);
-            App.game.oakItems.use(OakItemType.Squirtbottle);
+            App.game.oakItems.use(OakItemType.Demo_Disk);
             mutated = true;
         });
 
