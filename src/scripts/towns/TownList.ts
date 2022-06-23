@@ -117,18 +117,18 @@ const LavenderTownShop = new Shop([
 
 // Kanto NPCs
 
-const PalletProfOak = new ProfNPC('Prof. Oak',
+const PalletProfOak = new ProfNPC('Hina',
     GameConstants.Region.kanto,
-    'Congratulations on completing your Kanto Pokédex!',
-    'Your journey isn\'t over yet, a whole world awaits you! Onwards to Johto!',
+    'Congratulations on completing your Adventure01 journey!',
+    'Your task isn\'t over yet, a whole world awaits you! Onwards to Adventure02!',
     'assets/images/oak.png');
 
-const ViridianCityOldMan = new NPC('Old Man', [
+const ViridianCityOldMan = new NPC('Tamer Echo', [
     'In order to reduce server costs a caching system is in place.',
     'Sometimes when you venture in dungeons you might encounter hostile cached echos of tamers who were there before you.',
 ]);
 
-const PewterBattleItemRival = new NPC('Battle Item Master', [
+const PewterBattleItemRival = new NPC('Battle Item Echo', [
     'Hey kid, you look new! Let me offer some advice, Battle Items like xAttack can be acquired along Routes, inside Dungeons and in Shops!',
     'Use them to help you out whenever you feel like time is against you!',
 ]);
@@ -138,21 +138,20 @@ const Route3ShadySalesman = new NPC('Shady Salesman', [
     'I\'ll let you have a super secret Pokémon. For the right price!',
 ]);
 
-const CeruleanKantoBerryMaster = new KantoBerryMasterNPC('Berry Master', [
-    'Bah! You younglings have no appreciation of the art of Berry farming!',
+const CeruleanKantoBerryMaster = new KantoBerryMasterNPC('Disk Master', [
+    'Bah! You younglings have no appreciation of the art of physical media!',
     'Come back when you are ready to learn!',
 ]);
 
-const VermilionFanClubChairman = new NPC('Fan Club Chairman', [
-    'You won’t find a Pokémon as wonderful as my favorite Rapidash in those Typed Eggs in the shops, but they might hatch rare Pokémon you can’t find anywhere else!',
+const VermilionFanClubChairman = new NPC('Breeder Echo', [
+    'You won’t find a Digimon as wonderful as my favorite Psychemon in those Typed Eggs in the shops, but they might hatch rare Pokémon you can’t find anywhere else!',
 ]);
 
-const LavenderMrFuji = new NPC('Mr. Fuji', [
-    'Welcome. In our Volunteer House here we take in all kinds of Pokémon to care for them.',
-    'Did you know that sparkling Pokémon are more often found in Dungeons, on Farms, from Eggs, and even from Shops, the Safari Zone, and Evolutions from Items?',
+const LavenderMrFuji = new NPC('Collector Echo', [
+    'Did you know that dot Digimon are more often found in Dungeons, at the Disk Shop, from Eggs, and even when Evolving from Items?',
 ]);
 
-const BigSpender = new NPC('Big Spender', [
+const BigSpender = new NPC('Big Spender Echo', [
     'I love shopping! When I come in, the cashiers know I want tons of items.',
     'You can use the Shop Amount Button settings to make it easy for big purchases, too!',
 ]);
@@ -162,11 +161,11 @@ const SaffronBattleItemRival = new NPC('Battle Item Master', [
     'I bet he forget to tell you that although all Battle Items only last for 30 seconds they can stack and last for days! Now scram!',
 ]);
 
-const FuchsiaKantoRoamerNPC = new RoamerNPC('Youngster Wendy', [
-    'There\'s been some recent sightings of roaming Pokémon on {ROUTE_NAME}!',
+const FuchsiaKantoRoamerNPC = new RoamerNPC('Scouting Echo', [
+    'There\'s been some recent sightings of roaming Digimon on {ROUTE_NAME}!',
 ], GameConstants.Region.kanto);
 
-const CinnabarIslandResearcher = new NPC('Researcher', [
+const CinnabarIslandResearcher = new NPC('Researcher Echo', [
     'They were trying to clone an ancient Pokémon in the mansion, I wonder if they succeeded.',
     'Apparently the ancient Pokémon escaped, And can be found roaming around Kanto!',
 ]);
@@ -175,7 +174,7 @@ const CinnabarIslandResearcher = new NPC('Researcher', [
 TownList['Pallet Town'] = new Town(
     'Pallet Town',
     GameConstants.Region.kanto,
-    [],
+    [PewterCityShop],
     {
         npcs: [PalletProfOak],
     }
@@ -195,7 +194,7 @@ TownList['Pewter City'] = new Town(
 TownList['Cerulean City'] = new Town(
     'Cerulean City',
     GameConstants.Region.kanto,
-    [CeruleanCityShop, new MoveToDungeon(dungeonList['Cerulean Cave'])],
+    [CeruleanCityShop],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.kanto, 10)],
         npcs: [CeruleanKantoBerryMaster],
@@ -213,7 +212,7 @@ TownList['Vermilion City'] = new Town(
 TownList['Lavender Town'] = new Town(
     'Lavender Town',
     GameConstants.Region.kanto,
-    [LavenderTownShop, new MoveToDungeon(dungeonList['Pokemon Tower'])],
+    [LavenderTownShop],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.kanto, 14)],
         npcs: [LavenderMrFuji],
@@ -222,7 +221,7 @@ TownList['Lavender Town'] = new Town(
 TownList['Celadon City'] = new Town(
     'Celadon City',
     GameConstants.Region.kanto,
-    [CeladonDepartmentStoreShop, CeladonCityShop],
+    [CeladonDepartmentStoreShop],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.kanto, 17)],
         npcs: [BigSpender],
@@ -253,7 +252,7 @@ TownList['Fuchsia City'] = new Town(
 TownList['Cinnabar Island'] = new Town(
     'Cinnabar Island',
     GameConstants.Region.kanto,
-    [CinnabarIslandShop, new MoveToDungeon(dungeonList['Pokemon Mansion'])],
+    [CinnabarIslandShop],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.kanto, 20)],
         npcs: [CinnabarIslandResearcher],
