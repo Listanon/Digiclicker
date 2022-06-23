@@ -2,9 +2,9 @@
 const GymList: { [townName: string]: Gym } = {};
 
 // Kanto Gyms
-GymList['Pewter City'] = new Gym(
-    'Brock',
-    'Pewter City',
+GymList['Koromon Village'] = new Gym(
+    'Taichi',
+    'Koromon Village',
     [
         new GymPokemon('Greymon', 770, 10),
         new GymPokemon('Metal Greymon', 1554, 12),
@@ -14,9 +14,9 @@ GymList['Pewter City'] = new Gym(
     'Thanks for helping Agumon. I should not have pushed him so hard.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Pewter'))]
 );
-GymList['Cerulean City'] = new Gym(
-    'Misty',
-    'Cerulean City',
+GymList['Piccolomon\'s'] = new Gym(
+    'Yamato',
+    'Piccolomon\'s',
     [
         new GymPokemon('Gabumon', 4000, 18),
         new GymPokemon('Garurumon', 6800, 21),
@@ -27,9 +27,9 @@ GymList['Cerulean City'] = new Gym(
     'Oh! I concede defeat. You are remarkably strong.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower 2'))]
 );
-GymList['Vermilion City'] = new Gym(
-    'Lt. Surge',
-    'Vermilion City',
+GymList['Vademon Dimension'] = new Gym(
+    'Koushiro',
+    'Vademon Dimension',
     [
         new GymPokemon('Kabuterimon', 37000, 28),
         new GymPokemon('Atlur Kabuterimon Red', 37000, 28),
@@ -43,9 +43,9 @@ GymList['Vermilion City'] = new Gym(
         new GymBadgeRequirement(BadgeEnums.Cascade),
     ]
 );
-GymList['Celadon City'] = new Gym(
-    'Erika',
-    'Celadon City',
+GymList['ShogunGekomon\'s Castle'] = new Gym(
+    'Mimi',
+    'ShogunGekomon\'s Castle',
     [
         new GymPokemon('Gekomon', 38810, 30),
         new GymPokemon('Otamamon', 30340, 32),
@@ -57,9 +57,9 @@ GymList['Celadon City'] = new Gym(
     'I can\'t believe I lost! Gekomon do something!',
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 15)]
 );
-GymList['Saffron City'] = new Gym(
-    'Sabrina',
-    'Saffron City',
+GymList['Tokyo City'] = new Gym(
+    'Joe',
+    'Tokyo City',
     [
         new GymPokemon('Rukamon', 23040, 50),
         new GymPokemon('Ikkakumon', 25600, 50),
@@ -70,9 +70,9 @@ GymList['Saffron City'] = new Gym(
     'I\'m shocked! But a loss is a loss. I admit I didn\'t work hard enough to win!',
     [new GymBadgeRequirement(BadgeEnums.Rainbow)]
 );
-GymList['Fuchsia City'] = new Gym(
-    'Koga',
-    'Fuchsia City',
+GymList['Pyokomon Village'] = new Gym(
+    'Sora',
+    'Pyokomon Village',
     [
         new GymPokemon('Flare Lizarmon', 30780, 44),
         new GymPokemon('Mechanorimon', 32460, 46),
@@ -90,9 +90,9 @@ GymList['Fuchsia City'] = new Gym(
         App.game.quests.getQuestLine('Mining Expedition').beginQuest();
     }
 );
-GymList['Cinnabar Island'] = new Gym(
-    'Blaine',
-    'Cinnabar Island',
+GymList['Whamon\'s Gulf'] = new Gym(
+    'Hikari',
+    'Whamon\'s Gulf',
     [
         new GymPokemon('Tyumon', 37430, 48),
         new GymPokemon('Tailmon', 45230, 50),
@@ -103,9 +103,9 @@ GymList['Cinnabar Island'] = new Gym(
     'Wow! You are really strong!',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Power Plant'))]
 );
-GymList['Viridian City'] = new Gym(
-    'Giovanni',
-    'Viridian City',
+GymList['Primary Village'] = new Gym(
+    'Takeru',
+    'Primary Village',
     [
         new GymPokemon('Leomon', 45230, 50),
         new GymPokemon('Andromon', 47530, 53),
