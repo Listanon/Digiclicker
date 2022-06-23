@@ -20,7 +20,7 @@ GymList['Cerulean City'] = new Gym(
     [
         new GymPokemon('Gabumon', 4000, 18),
         new GymPokemon('Garurumon', 6800, 21),
-        new GymPokemon('Ware Garurumon', 6800, 21),
+        new GymPokemon('Were Garurumon', 6800, 21),
     ],
     BadgeEnums.Cascade,
     500,
@@ -111,7 +111,7 @@ GymList['Viridian City'] = new Gym(
         new GymPokemon('Andromon', 47530, 53),
         new GymPokemon('Patamon', 48740, 53),
         new GymPokemon('Angemon', 48350, 55),
-        new GymPokemon('Magna Angemon', 55000, 55),
+        new GymPokemon('Holy Angemon', 55000, 55),
     ],
     BadgeEnums.Earth,
     6000,
