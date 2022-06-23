@@ -1939,14 +1939,14 @@ export const PokemonToFossil = {
 
 // For random quest, name matches entry in gymList (created in Gym.ts)
 export const KantoGyms = [
-    'Toy Town',
     'Koromon Village',
     'Piccolomon\'s',
-    'Gennai\'s',
-    'Tokyo City',
+    'Vademon Dimension',
     'ShogunGekomon\'s Castle',
-    'Whamon\'s Gulf',
     'Pyokomon Village',
+    'Tokyo City',
+    'Whamon\'s Gulf',
+    'Primary Village',
     'Elite Lorelei',
     'Elite Bruno',
     'Elite Agatha',
