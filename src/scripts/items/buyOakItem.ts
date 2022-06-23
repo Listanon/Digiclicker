@@ -34,7 +34,7 @@ class BuyOakItem extends Item {
 
 }
 
-ItemList['Squirtbottle'] = new BuyOakItem(OakItemType.Squirtbottle, 5000, Currency.farmPoint);
-ItemList['Sprinklotad'] = new BuyOakItem(OakItemType.Sprinklotad, 10000, Currency.farmPoint);
-ItemList['Explosive_Charge'] = new BuyOakItem(OakItemType.Explosive_Charge, 5000, Currency.farmPoint);
-ItemList['Treasure_Scanner'] = new BuyOakItem(OakItemType.Treasure_Scanner, 10000, Currency.farmPoint);
+ItemList['Demo_Disk'] = new BuyOakItem(OakItemType.Demo_Disk, 5000, Currency.farmPoint);
+ItemList['Failure_Prevent'] = new BuyOakItem(OakItemType.Failure_Prevent, 10000, Currency.farmPoint);
+ItemList['Golden_DVD'] = new BuyOakItem(OakItemType.Golden_DVD, 5000, Currency.farmPoint);
+ItemList['Shiny_Mirror'] = new BuyOakItem(OakItemType.Shiny_Mirror, 10000, Currency.farmPoint);
