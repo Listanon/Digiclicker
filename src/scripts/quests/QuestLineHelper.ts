@@ -32,7 +32,7 @@ class QuestLineHelper {
 
         //Buy pokeballs
         const buyPokeballs = new CustomQuest(10, 50,
-            'Buy 10 Basic Scanners. You can find these in the Viridian City Shop.',
+            'Buy 10 Basic Scanners. You can find these in the Primary Village Shop.',
             () => App.game.statistics.pokeballsBought[GameConstants.Pokeball.Pokeball](),
             0 // Initial of 0 so it auto completes if bugged
         );
