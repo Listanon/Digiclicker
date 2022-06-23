@@ -243,11 +243,11 @@ class Update implements Saveable {
             // Only update if save is from v0.6.0+
             if (this.minUpdateVersion('0.6.0', saveData)) {
                 if (saveData.oakItems.purchaseList) {
-                    if (saveData.oakItems.purchaseList[OakItemType.Squirtbottle]) {
-                        saveData.oakItems[OakItemType[OakItemType.Squirtbottle]]['purchased'] = true;
+                    if (saveData.oakItems.purchaseList[OakItemType.Demo_Disk]) {
+                        saveData.oakItems[OakItemType[OakItemType.Demo_Disk]]['purchased'] = true;
                     }
-                    if (saveData.oakItems.purchaseList[OakItemType.Sprinklotad]) {
-                        saveData.oakItems[OakItemType[OakItemType.Sprinklotad]]['purchased'] = true;
+                    if (saveData.oakItems.purchaseList[OakItemType.Failure_Prevent]) {
+                        saveData.oakItems[OakItemType[OakItemType.Failure_Prevent]]['purchased'] = true;
                     }
                 }
             }
