@@ -102,7 +102,7 @@ class Gym extends TownContent {
                 return gym.leaderName;
             }
         }
-        return 'Brock';
+        return 'Taichi';
     }
 
     public firstWinReward() {
