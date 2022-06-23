@@ -1303,7 +1303,7 @@ type ItemNameType
     | 'Protein'
     | 'Dungeon_ticket'
     | 'Explorer_kit'
-    | 'Squirtbottle'
-    | 'Sprinklotad'
-    | 'Explosive_Charge'
-    | 'Treasure_Scanner';
+    | 'Demo_Disk'
+    | 'Failure_Prevent'
+    | 'Golden_DVD'
+    | 'Shiny_Mirror';
