@@ -420,17 +420,21 @@ dungeonList['Digletts Cave Pewter'] = new Dungeon('Digletts Cave Pewter',
     650, 11);
 
 dungeonList['Digletts Cave Vermilion'] = new Dungeon('Digletts Cave Vermilion',
-    ['Burpmon'],
+    ['Megadramon', 'Mamemon', 'Giromon', 'Gigadramon', 'Big Mamemon', 'Andromon', 'Thunderballmon', 'Tankmon', 'Monochromon', 'Mechanorimon'],
     [
-        {loot: 'xClick', weight: 4},
-        {loot: 'Lucky_floppy', weight: 4},
-        {loot: 'Mystery_egg', weight: 1, requirement: new ClearDungeonRequirement(100, GameConstants.getDungeonIndex('Digletts Cave Vermilion'))},
-        {loot: 'Max Revive', weight: 0},
-        {loot: 'Backup', weight: 0},
+        {loot: 'xAttack', weight: 4},
+        {loot: 'Security', weight: 3.5},
+        {loot: 'Revive', weight: 1.75},
+        {loot: 'Earth_egg', weight: 1, requirement: new ClearDungeonRequirement(100, GameConstants.getDungeonIndex('Digletts Cave Vermilion'))},
+        {loot: 'Ultraball', weight: 1},
+        {loot: 'Leaf_stone', weight: 0},
     ],
-    1208,
-    [new DungeonBossPokemon('Burpmon', 6040, 31)],
-    95, 22);
+    17226,
+    [
+        new DungeonBossPokemon('Metal Greymon Virus', 88130, 39),
+        new DungeonBossPokemon('Mugendramon', 13100, 52),
+    ],
+    1250, 21);
 
 dungeonList['Mt. Moon'] = new Dungeon('Mt. Moon',
     [
