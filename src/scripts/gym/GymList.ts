@@ -6,35 +6,40 @@ GymList['Pewter City'] = new Gym(
     'Brock',
     'Pewter City',
     [
-        new GymPokemon('Burpmon', 770, 10),
-        new GymPokemon('Burpmon', 1554, 12),
+        new GymPokemon('Greymon', 770, 10),
+        new GymPokemon('Metal Greymon', 1554, 12),
     ],
     BadgeEnums.Boulder,
     250,
-    'I took you for granted. As proof of your victory, here\'s the Boulder Badge!',
-    [new RouteKillRequirement(10, GameConstants.Region.kanto, 2)]
+    'Thanks for helping Agumon. I should not have pushed him so hard.',
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Pewter'))]
 );
 GymList['Cerulean City'] = new Gym(
     'Misty',
     'Cerulean City',
     [
-        new GymPokemon('Burpmon', 4000, 18),
-        new GymPokemon('Burpmon', 6800, 21),
+        new GymPokemon('Gabumon', 4000, 18),
+        new GymPokemon('Garurumon', 6800, 21),
+        new GymPokemon('Ware Garurumon', 6800, 21),
     ],
     BadgeEnums.Cascade,
     500,
-    'I can\'t believe I lost! All right! You can have the Cascade Badge to show you beat me!',
-    [new RouteKillRequirement(10, GameConstants.Region.kanto, 4)]
+    'Oh! I concede defeat. You are remarkably strong.',
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower 2'))]
 );
 GymList['Vermilion City'] = new Gym(
     'Lt. Surge',
     'Vermilion City',
-    [new GymPokemon('Burpmon', 37000, 28)],
+    [
+        new GymPokemon('Kabuterimon', 37000, 28),
+        new GymPokemon('Atlur Kabuterimon Red', 37000, 28),
+        new GymPokemon('Vademon', 37000, 28),
+    ],
     BadgeEnums.Thunder,
     1000,
-    'Whoa! You\'re the real deal, kid! Fine then, take the Thunder Badge!',
+    'Whoa! You\'re the real deal! Thank\'s for setting me free of Vademon\'s trap.',
     [
-        new RouteKillRequirement(10, GameConstants.Region.kanto, 6),
+        new RouteKillRequirement(10, GameConstants.Region.kanto, 14),
         new GymBadgeRequirement(BadgeEnums.Cascade),
     ]
 );
@@ -42,45 +47,43 @@ GymList['Celadon City'] = new Gym(
     'Erika',
     'Celadon City',
     [
-        new GymPokemon('Burpmon', 38810, 30),
-        new GymPokemon('Burpmon', 30340, 32),
-        new GymPokemon('Burpmon', 36400, 32),
+        new GymPokemon('Gekomon', 38810, 30),
+        new GymPokemon('Otamamon', 30340, 32),
+        new GymPokemon('Togemon', 36400, 32),
+        new GymPokemon('Lilimon', 36400, 32),
     ],
     BadgeEnums.Rainbow,
     1500,
-    'Oh! I concede defeat. You are remarkably strong. I must confer you the Rainbow Badge.',
-    [new RouteKillRequirement(10, GameConstants.Region.kanto, 7)]
+    'I can\'t believe I lost! Gekomon do something!',
+    [new RouteKillRequirement(10, GameConstants.Region.kanto, 15)]
 );
 GymList['Saffron City'] = new Gym(
     'Sabrina',
     'Saffron City',
     [
-        new GymPokemon('Burpmon', 23040, 50),
-        new GymPokemon('Burpmon', 25600, 50),
-        new GymPokemon('Burpmon', 28400, 50),
+        new GymPokemon('Rukamon', 23040, 50),
+        new GymPokemon('Ikkakumon', 25600, 50),
+        new GymPokemon('Zudomon', 28400, 50),
     ],
     BadgeEnums.Marsh,
     2500,
-    'I\'m shocked! But a loss is a loss. I admit I didn\'t work hard enough to win! You earned the Marsh Badge!',
+    'I\'m shocked! But a loss is a loss. I admit I didn\'t work hard enough to win!',
     [new GymBadgeRequirement(BadgeEnums.Rainbow)]
 );
 GymList['Fuchsia City'] = new Gym(
     'Koga',
     'Fuchsia City',
     [
-        new GymPokemon('Burpmon', 30780, 44),
-        new GymPokemon('Burpmon', 32460, 46),
-        new GymPokemon('Burpmon', 36540, 48),
-        new GymPokemon('Burpmon', 37430, 50),
+        new GymPokemon('Flare Lizarmon', 30780, 44),
+        new GymPokemon('Mechanorimon', 32460, 46),
+        new GymPokemon('Birdramon', 36540, 48),
+        new GymPokemon('Garudamon', 37430, 50),
     ],
     BadgeEnums.Soul,
     3500,
-    'Humph! You have proven your worth! Here! Take the Soul Badge!',
+    'Humph! You have proven your worth! Here!',
     [
-        new OneFromManyRequirement([
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 18),
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 15),
-        ]),
+        new GymBadgeRequirement(BadgeEnums.Rainbow)
     ],
     () => {
         App.game.keyItems.gainKeyItem(KeyItemType.Safari_ticket, true);
@@ -91,28 +94,28 @@ GymList['Cinnabar Island'] = new Gym(
     'Blaine',
     'Cinnabar Island',
     [
-        new GymPokemon('Burpmon', 37430, 48),
-        new GymPokemon('Burpmon', 45230, 50),
-        new GymPokemon('Burpmon', 50290, 54),
+        new GymPokemon('Tyumon', 37430, 48),
+        new GymPokemon('Tailmon', 45230, 50),
+        new GymPokemon('Angewomon', 50290, 54),
     ],
     BadgeEnums.Volcano,
     5000,
-    'I\'ve burnt out! You have earned the Volcano Badge!',
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion'))]
+    'Wow! You are really strong!',
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Power Plant'))]
 );
 GymList['Viridian City'] = new Gym(
     'Giovanni',
     'Viridian City',
     [
-        new GymPokemon('Burpmon', 45230, 50),
-        new GymPokemon('Burpmon', 47530, 53),
-        new GymPokemon('Burpmon', 48740, 53),
-        new GymPokemon('Burpmon', 48350, 55),
-        new GymPokemon('Burpmon', 55000, 55),
+        new GymPokemon('Leomon', 45230, 50),
+        new GymPokemon('Andromon', 47530, 53),
+        new GymPokemon('Patamon', 48740, 53),
+        new GymPokemon('Angemon', 48350, 55),
+        new GymPokemon('Magna Angemon', 55000, 55),
     ],
     BadgeEnums.Earth,
     6000,
-    'Ha! That was a truly intense fight! You have won! As proof, here is the Earth Badge!',
+    'Aww... Patamon wasn\'t strong enought to beat you...',
     [
         new GymBadgeRequirement(BadgeEnums.Volcano),
         new GymBadgeRequirement(BadgeEnums.Marsh),
@@ -128,15 +131,15 @@ GymList['Elite Lorelei'] = new Gym(
     'Lorelei',
     'Elite Lorelei',
     [
-        new GymPokemon('Burpmon', 45330, 54),
-        new GymPokemon('Burpmon', 48300, 53),
-        new GymPokemon('Burpmon', 52000, 54),
-        new GymPokemon('Burpmon', 57000, 56),
-        new GymPokemon('Burpmon', 60250, 56),
+        new GymPokemon('Anomalocarimon', 45330, 54),
+        new GymPokemon('Dagomon', 48300, 53),
+        new GymPokemon('Waru Seadramon', 52000, 54),
+        new GymPokemon('Hangyomon', 57000, 56),
+        new GymPokemon('Metal Seadramon', 60250, 56),
     ],
     BadgeEnums.Elite_Lorelei,
     7500,
-    'You\'re better than I thought! Go on ahead! You only got a taste of Pokémon League power!',
+    'This is not the last you see of me!',
     [new GymBadgeRequirement(BadgeEnums.Earth)]
 );
 GymList['Elite Bruno'] = new Gym(
