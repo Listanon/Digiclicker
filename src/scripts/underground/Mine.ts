@@ -378,7 +378,7 @@ class Mine {
                 }
             }
         }
-        App.game.oakItems.use(OakItemType.Cell_Battery);
+        App.game.oakItems.use(OakItemType.Full_Battery);
         return true;
     }
 
