@@ -524,8 +524,8 @@ dungeonList['Mt. Moon'] = new Dungeon('Mt. Moon',
             Notifier.notify({
                 message: `You were awarded a ${GameConstants.humanifyString(item)} for defeating the Super Nerd`,
                 type: NotificationConstants.NotificationOption.success,
-                setting: NotificationConstants.NotificationSetting.Items.dungeon_item_found,*/
-            });
+                setting: NotificationConstants.NotificationSetting.Items.dungeon_item_found,
+            });*/
         }
     });
 
@@ -713,10 +713,10 @@ dungeonList['Pokemon Tower 2'] = new Dungeon('Pokemon Tower 2',
     ],
     4117,
     [
-        new DungeonBossPokemon('Datamon', 50000, 32),
+        new DungeonBossPokemon('Nanomon', 50000, 32),
         new DungeonBossPokemon('Etemon', 52000, 34), 
     ],
-    1300, 13;
+    1300, 13);
 
 dungeonList['Power Plant'] = new Dungeon('Power Plant',
     ['Gesomon', 'Hangyomon', 'Rukamon', 'Whamon', 'Anomalocarimon', 'Waru Seadramon', 'Mega Seadramon', 'Seadramon'],
