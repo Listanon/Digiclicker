@@ -15,10 +15,10 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 22', GameConstants.Region.kanto, 22,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Triceramon', 'Vermillimon', 'Metal Etemon', 'Blossomon', 'Zassoumon'],
+        water: ['Mega Seadramon', 'Seadramon'],
     }),
-    [new RouteKillRequirement(10, GameConstants.Region.kanto, 21)],
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Seafoam Islands 2')),],
     1.1
 ));
 Routes.add(new RegionRoute(
