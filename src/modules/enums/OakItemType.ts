@@ -1,16 +1,16 @@
 enum OakItemType {
-    'Magic_Ball' = 0,
-    'Amulet_Coin',
-    'Poison_Barb',
-    'Exp_Share',
-    'Sprayduck',
-    'Shiny_Charm',
-    'Blaze_Cassette',
-    'Cell_Battery',
-    'Squirtbottle',
-    'Sprinklotad',
-    'Explosive_Charge',
-    'Treasure_Scanner',
+    'Memory_Stick' = 0,
+    'Topaz',
+    'Fancy_Cursor',
+    'Millionaire_USB',
+    '1_Megabyte',
+    'Pixel_Stone',
+    'Egg_Holder',
+    'Full_Battery',
+    'Demo_Disk',
+    'Failure_Prevent',
+    'Golden_DVD',
+    'Shiny_Mirror',
 }
 
 export default OakItemType;
