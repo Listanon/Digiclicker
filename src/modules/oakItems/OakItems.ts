@@ -29,37 +29,37 @@ export default class OakItems implements Feature {
 
     initialize() {
         this.itemList = [
-            new OakItem(OakItemType.Magic_Ball, 'Memory Stick', 'Gives a bonus to your scanrate',
+            new OakItem(OakItemType.Memory_Stick, 'Memory Stick', 'Gives a bonus to your scanrate',
                 true, [5, 6, 7, 8, 9, 10], 0, 20, 2, undefined, undefined, undefined, '%'),
-            new OakItem(OakItemType.Amulet_Coin, 'Topaz', 'Gain more money from battling',
+            new OakItem(OakItemType.Topaz, 'Topaz', 'Gain more money from battling',
                 true, [1.25, 1.30, 1.35, 1.40, 1.45, 1.50], 1, 30, 1),
-            new OakItem(OakItemType.Poison_Barb, 'Fancy Cursor', 'Clicks do more damage',
+            new OakItem(OakItemType.Fancy_Cursor, 'Fancy Cursor', 'Clicks do more damage',
                 true, [1.25, 1.30, 1.35, 1.40, 1.45, 1.50], 1, 40, 3),
-            new OakItem(OakItemType.Exp_Share, 'Millionaire USB', 'Gain more exp from battling',
+            new OakItem(OakItemType.Millionaire_USB, 'Millionaire USB', 'Gain more exp from battling',
                 true, [1.15, 1.18, 1.21, 1.24, 1.27, 1.30], 1, 50, 1),
-            new OakItem(OakItemType.Sprayduck, '1 Megabyte', 'Makes your disks burn faster',
+            new OakItem(OakItemType.Megabyte, 'Megabyte', 'Makes your disks burn faster',
                 false, [1.25, 1.30, 1.35, 1.40, 1.45, 1.50], 1, 60, 1),
-            new OakItem(OakItemType.Shiny_Charm, 'Pixel Stone', 'Encounter dot Digimon more often',
+            new OakItem(OakItemType.Pixel_Stone, 'Pixel Stone', 'Encounter dot Digimon more often',
                 true, [1.50, 1.60, 1.70, 1.80, 1.90, 2.00], 1, 70, 150),
-            new OakItem(OakItemType.Blaze_Cassette, 'Egg Holder', 'Hatch eggs faster',
+            new OakItem(OakItemType.Egg_Holder, 'Egg Holder', 'Hatch eggs faster',
                 false, [1.50, 1.60, 1.70, 1.80, 1.90, 2.00], 1, 80, 10),
-            new OakItem(OakItemType.Cell_Battery, 'Full Battery', 'More passive mining energy regen',
+            new OakItem(OakItemType.Full_Battery, 'Full Battery', 'More passive mining energy regen',
                 false, [1.5, 1.6, 1.7, 1.8, 1.9, 2], 1, 90, 20),
-            new BoughtOakItem(OakItemType.Squirtbottle, 'Demo Disk', 'Increases the chance of disk modifications', 'Johto Berry Master',
+            new BoughtOakItem(OakItemType.Demo_Disk, 'Demo Disk', 'Increases the chance of disk modifications', 'Johto Berry Master',
                 true, [1.25, 1.5, 1.75, 2, 2.25, 2.5], 1, 10, undefined, undefined, AmountFactory.createArray([2000, 5000, 10000, 20000, 50000], Currency.farmPoint)),
-            new BoughtOakItem(OakItemType.Sprinklotad, 'Failure Prevent', 'Increases the chance of disk replacing', 'Hoenn Berry Master',
+            new BoughtOakItem(OakItemType.Failure_Prevent, 'Failure Prevent', 'Increases the chance of disk replacing', 'Hoenn Berry Master',
                 true, [1.15, 1.3, 1.45, 1.6, 1.75, 1.9], 1, 2, undefined, undefined, AmountFactory.createArray([2000, 5000, 10000, 20000, 50000], Currency.farmPoint)),
-            new BoughtOakItem(OakItemType.Explosive_Charge, 'Golden DVD', 'All new mining layers start with damaged tiles', 'Cinnabar Island Shop',
+            new BoughtOakItem(OakItemType.Golden_DVD, 'Golden DVD', 'All new mining layers start with damaged tiles', 'Cinnabar Island Shop',
                 true, [2, 4, 7, 11, 15, 20], 1, 50, undefined, undefined, AmountFactory.createArray([50000, 100000, 400000, 1000000, 2000000], Currency.money)),
-            new BoughtOakItem(OakItemType.Treasure_Scanner, 'Shiny Mirror', 'Chance to multiply mining rewards', 'Cinnabar Island Shop',
+            new BoughtOakItem(OakItemType.Shiny_Mirror, 'Shiny Mirror', 'Chance to multiply mining rewards', 'Cinnabar Island Shop',
                 true, [4, 8, 12, 16, 20, 24], 1, 25, undefined, undefined, AmountFactory.createArray([50000, 100000, 250000, 500000, 1000000], Currency.money), '%'),
         ];
 
-        this.addMultiplier('clickAttack', OakItemType.Poison_Barb);
-        this.addMultiplier('exp', OakItemType.Exp_Share);
-        this.addMultiplier('money', OakItemType.Amulet_Coin);
-        this.addMultiplier('shiny', OakItemType.Shiny_Charm);
-        this.addMultiplier('eggStep', OakItemType.Blaze_Cassette);
+        this.addMultiplier('clickAttack', OakItemType.Fancy_Cursor);
+        this.addMultiplier('exp', OakItemType.Millionaire_USB);
+        this.addMultiplier('money', OakItemType.Topaz);
+        this.addMultiplier('shiny', OakItemType.Pixel_Stone);
+        this.addMultiplier('eggStep', OakItemType.Egg_Holder);
     }
 
     calculateBonus(item: OakItemType, useItem = false): number {
