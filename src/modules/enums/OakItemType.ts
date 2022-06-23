@@ -3,7 +3,7 @@ enum OakItemType {
     'Topaz',
     'Fancy_Cursor',
     'Millionaire_USB',
-    '1_Megabyte',
+    'Megabyte',
     'Pixel_Stone',
     'Egg_Holder',
     'Full_Battery',
