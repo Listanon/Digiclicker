@@ -146,45 +146,45 @@ GymList['Elite Bruno'] = new Gym(
     'Bruno',
     'Elite Bruno',
     [
-        new GymPokemon('Burpmon', 45330, 53),
-        new GymPokemon('Burpmon', 48300, 55),
-        new GymPokemon('Burpmon', 52000, 55),
-        new GymPokemon('Burpmon', 57000, 56),
-        new GymPokemon('Burpmon', 60250, 58),
+        new GymPokemon('Floramon', 45330, 53),
+        new GymPokemon('Kiwimon', 48300, 55),
+        new GymPokemon('Delumon', 52000, 55),
+        new GymPokemon('Jyureimon', 57000, 56),
+        new GymPokemon('Pinochimon', 60250, 58),
     ],
     BadgeEnums.Elite_Bruno,
     7500,
-    'My job is done! Go face your next challenge!',
+    'This can\'t be happening again!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Lorelei)]
 );
 GymList['Elite Agatha'] = new Gym(
     'Agatha',
     'Elite Agatha',
     [
-        new GymPokemon('Burpmon', 45330, 56),
-        new GymPokemon('Burpmon', 48300, 56),
-        new GymPokemon('Burpmon', 52000, 55),
-        new GymPokemon('Burpmon', 57000, 58),
-        new GymPokemon('Burpmon', 60250, 60),
+        new GymPokemon('Metal Mamemon', 45330, 56),
+        new GymPokemon('Tankmon', 48300, 56),
+        new GymPokemon('Megadramon', 52000, 55),
+        new GymPokemon('Gigadramon', 57000, 58),
+        new GymPokemon('Mugendramon', 60250, 60),
     ],
     BadgeEnums.Elite_Agatha,
     7500,
-    'You win! I see what the old duff sees in you now. I\'ve nothing else to say. Run along now, child!',
+    'I will destroy you. This isn\'t over.',
     [new GymBadgeRequirement(BadgeEnums.Elite_Bruno)]
 );
 GymList['Elite Lance'] = new Gym(
     'Lance',
     'Elite Lance',
     [
-        new GymPokemon('Burpmon', 48300, 58),
-        new GymPokemon('Burpmon', 52000, 56),
-        new GymPokemon('Burpmon', 57000, 56),
-        new GymPokemon('Burpmon', 60250, 60),
-        new GymPokemon('Burpmon', 66000, 62),
+        new GymPokemon('Devimon', 48300, 58),
+        new GymPokemon('Vamdemon', 52000, 56),
+        new GymPokemon('Waru Monzaemon', 57000, 56),
+        new GymPokemon('Lady Devimon', 60250, 60),
+        new GymPokemon('Piemon', 66000, 62),
     ],
     BadgeEnums.Elite_Lance,
     7500,
-    'I still can’t believe my dragons lost to you! You’re now the Pokémon League champion! …Or, you would have been, but you have one more challenge ahead. You have to face another trainer!',
+    'Lights out.',
     [new GymBadgeRequirement(BadgeEnums.Elite_Agatha)]
 );
 // Kanto Champion
@@ -192,31 +192,31 @@ GymList['Champion Blue'] = new Champion(
     'Blue',
     'Champion Blue',
     [
-        new GymPokemon('Burpmon', 52340, 59),
-        new GymPokemon('Burpmon', 56320, 57),
-        new GymPokemon('Burpmon', 58340, 59),
+        new GymPokemon('Skull Greymon', 52340, 59),
+        new GymPokemon('Venom Vamdemon', 56320, 57),
+        new GymPokemon('Metal Etemon', 58340, 59),
     ],
     BadgeEnums.Elite_KantoChampion,
     10000,
     'Why? Why did I lose? I never made any mistakes raising my Pokémon… Darn it! You\'re the new Pokémon League Champion! Although I don\'t like to admit it…',
     [new GymBadgeRequirement(BadgeEnums.Elite_Lance)],
-    // Burpmon
+    // Botamon
     [
-        new GymPokemon('Burpmon', 57520, 59),
-        new GymPokemon('Burpmon', 63040, 61),
-        new GymPokemon('Burpmon', 70000, 63),
+        new GymPokemon('Skull Mammon', 57520, 59),
+        new GymPokemon('King Etemon', 63040, 61),
+        new GymPokemon('Apocalymon', 70000, 63),
     ],
-    // Burpmon
+    // Punimon
     [
-        new GymPokemon('Burpmon', 65340, 59),
-        new GymPokemon('Burpmon', 57520, 61),
-        new GymPokemon('Burpmon', 70000, 63),
+        new GymPokemon('Skull Mammon', 65340, 59),
+        new GymPokemon('King Etemon', 57520, 61),
+        new GymPokemon('Apocalymon', 70000, 63),
     ],
-    // Burpmon/Burpmon
+    // Poyomon/Burpmon
     [
-        new GymPokemon('Burpmon', 63040, 59),
-        new GymPokemon('Burpmon', 65340, 61),
-        new GymPokemon('Burpmon', 70000, 63),
+        new GymPokemon('Skull Mammon', 63040, 59),
+        new GymPokemon('King Etemon', 65340, 61),
+        new GymPokemon('Apocalymon', 70000, 63),
     ]
 );
 
