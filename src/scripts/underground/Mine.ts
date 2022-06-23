@@ -64,9 +64,9 @@ class Mine {
 
         Underground.showMine();
 
-        //Check if Explosive_Charge is equipped.
-        if (App.game.oakItems.isActive(OakItemType.Explosive_Charge)) {
-            const tiles = App.game.oakItems.calculateBonus(OakItemType.Explosive_Charge);
+        //Check if Golden_DVD is equipped.
+        if (App.game.oakItems.isActive(OakItemType.Golden_DVD)) {
+            const tiles = App.game.oakItems.calculateBonus(OakItemType.Golden_DVD);
             for (let i = 1; i < tiles; i++) {
                 const x = Rand.intBetween(0, App.game.underground.getSizeY() - 1);
                 const y = Rand.intBetween(0, Underground.sizeX - 1);
@@ -322,8 +322,8 @@ class Mine {
                     type: NotificationConstants.NotificationOption.success,
                 });
 
-                if (App.game.oakItems.isActive(OakItemType.Treasure_Scanner)) {
-                    const giveDouble = App.game.oakItems.calculateBonus(OakItemType.Treasure_Scanner) / 100;
+                if (App.game.oakItems.isActive(OakItemType.Shiny_Mirror)) {
+                    const giveDouble = App.game.oakItems.calculateBonus(OakItemType.Shiny_Mirror) / 100;
                     if (Rand.chance(giveDouble)) {
                         amount++;
                         Notifier.notify({
@@ -355,7 +355,7 @@ class Mine {
                     }
                 }
 
-                App.game.oakItems.use(OakItemType.Treasure_Scanner);
+                App.game.oakItems.use(OakItemType.Shiny_Mirror);
                 Underground.gainMineItem(Mine.rewardNumbers[i], amount);
                 GameHelper.incrementObservable(Mine.itemsFound);
                 GameHelper.incrementObservable(App.game.statistics.undergroundItemsFound, amount);
@@ -404,7 +404,7 @@ class Mine {
             type: NotificationConstants.NotificationOption.info,
         });
         ko.cleanNode(document.getElementById('mineBody'));
-        App.game.oakItems.use(OakItemType.Explosive_Charge);
+        App.game.oakItems.use(OakItemType.Golden_DVD);
         Mine.loadMine();
         ko.applyBindings(null, document.getElementById('mineBody'));
     }
