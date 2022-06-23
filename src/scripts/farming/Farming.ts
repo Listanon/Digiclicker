@@ -674,13 +674,13 @@ class Farming implements Feature {
             hint: 'I\'ve heard that burning a Gossip Disk alone will cause it to change!',
         }));
         // Puzzle
-        this.mutations.push(new OakMutation(.0001, BerryType.Puzzle, BerryType.Advice, OakItemType.Blaze_Cassette));
+        this.mutations.push(new OakMutation(.0001, BerryType.Puzzle, BerryType.Advice, OakItemType.Egg_Holder));
         // Fortune
-        this.mutations.push(new OakMutation(.0001, BerryType.Fortune, BerryType.Search, OakItemType.Poison_Barb));
+        this.mutations.push(new OakMutation(.0001, BerryType.Fortune, BerryType.Search, OakItemType.Fancy_Cursor));
         // Fortune Parasite
         this.mutations.push(new ParasiteMutation(.0004, BerryType.Fortune));
         // Exercise
-        this.mutations.push(new OakMutation(.0001, BerryType.Exercise, BerryType.Gourmet, OakItemType.Sprinklotad));
+        this.mutations.push(new OakMutation(.0001, BerryType.Exercise, BerryType.Gourmet, OakItemType.Failure_Prevent));
         // Astrology
         // TODO: HLXII - Change mutation to grow spontaneously when Flying pokemon in party
         this.mutations.push(new GrowNearFlavorMutation(.0001, BerryType.Astrology,
@@ -706,7 +706,7 @@ class Farming implements Feature {
             hint: 'I\'ve heard that a special Disk can appear after being surrounded by Recording Disks!',
         }));
         // Library
-        this.mutations.push(new OakMutation(.0001, BerryType.Library, BerryType.Dictionary, OakItemType.Cell_Battery));
+        this.mutations.push(new OakMutation(.0001, BerryType.Library, BerryType.Dictionary, OakItemType.Full_Battery));
         // Action
         // No mutation, will check withers
         // Phone
