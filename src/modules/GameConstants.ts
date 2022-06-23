@@ -2094,7 +2094,7 @@ export const KantoDungeons = [
     'Viridian Forest',
     'Mt. Moon',
     'Digletts Cave Pewter',
-    'Digletts Cave Vermillion',
+    'Digletts Cave Vermilion',
     'Rock Tunnel',
     'Pokemon Tower',
     'Pokemon Tower 2',
