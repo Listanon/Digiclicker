@@ -4,8 +4,8 @@ import {
 import OakItemType from '../enums/OakItemType';
 
 export default class OakItemController {
-    private static inspectedItemKO: KnockoutObservable<OakItemType> = ko.observable(OakItemType.Magic_Ball);
-    private static selectedItemKO: KnockoutObservable<OakItemType> = ko.observable(OakItemType.Magic_Ball);
+    private static inspectedItemKO: KnockoutObservable<OakItemType> = ko.observable(OakItemType.Memory_Stick);
+    private static selectedItemKO: KnockoutObservable<OakItemType> = ko.observable(OakItemType.Memory_Stick);
 
     public static click(item: OakItemType) {
         this.selectedItem = item;
