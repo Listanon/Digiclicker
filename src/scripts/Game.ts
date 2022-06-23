@@ -154,7 +154,7 @@ class Game {
     checkAndFix() {
         // Quest box not showing (game thinking tutorial is not completed)
         if (App.game.quests.getQuestLine('Tutorial Quests').state() == QuestLineState.inactive) {
-            if (App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Pewter City')]() >= 1) {
+            if (App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Toy Town')]() >= 0) {
                 // Defeated Brock, Has completed the Tutorial
                 App.game.quests.getQuestLine('Tutorial Quests').state(QuestLineState.ended);
             } else if (player.starter() >= 0) {
