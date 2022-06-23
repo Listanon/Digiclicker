@@ -12,7 +12,7 @@ GymList['Koromon Village'] = new Gym(
     BadgeEnums.Boulder,
     250,
     'Thanks for helping Agumon. I should not have pushed him so hard.',
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Pewter'))]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Lost Colosseum'))]
 );
 GymList['Piccolomon\'s'] = new Gym(
     'Yamato',
@@ -25,7 +25,7 @@ GymList['Piccolomon\'s'] = new Gym(
     BadgeEnums.Cascade,
     500,
     'Oh! I concede defeat. You are remarkably strong.',
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower 2'))]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Etemon\'s Pyramid'))]
 );
 GymList['Vademon Dimension'] = new Gym(
     'Koushiro',
@@ -101,7 +101,7 @@ GymList['Whamon\'s Gulf'] = new Gym(
     BadgeEnums.Volcano,
     5000,
     'Wow! You are really strong!',
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Power Plant'))]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Metal Seadramon\'s Lair'))]
 );
 GymList['Primary Village'] = new Gym(
     'Takeru',
