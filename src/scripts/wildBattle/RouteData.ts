@@ -18,7 +18,7 @@ Routes.add(new RegionRoute(
         land: ['Triceramon', 'Vermillimon', 'Metal Etemon', 'Blossomon', 'Zassoumon'],
         water: ['Mega Seadramon', 'Seadramon'],
     }),
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Seafoam Islands 2')),],
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pinochimon\'s House')),],
     1.1
 ));
 Routes.add(new RegionRoute(
@@ -36,7 +36,7 @@ Routes.add(new RegionRoute(
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 2),
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Viridian Forest')),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Coelamon Beach')),
     ]
 ));
 Routes.add(new RegionRoute(
@@ -55,7 +55,7 @@ Routes.add(new RegionRoute(
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 4),
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Mt. Moon')),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Andromon\'s Factory')),
     ]
 ));
 Routes.add(new RegionRoute(
@@ -82,7 +82,7 @@ Routes.add(new RegionRoute(
         water: ['Seadramon', 'Gizamon', 'Otamamon', 'Shakomon'],
     }),
     [
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower')),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Devimon Battle')),
         new RouteKillRequirement(10, GameConstants.Region.kanto, 8),
     ]
 ));
@@ -94,7 +94,7 @@ Routes.add(new RegionRoute(
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 9),
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower')),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Devimon Battle')),
     ]
 ));
 Routes.add(new RegionRoute(
@@ -102,7 +102,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Bakemon', 'Dokunemon', 'Candmon', 'Tukaimon', 'Numemon', 'Gokimon', 'Woodmon'],
     }),
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Rock Tunnel'))],
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digivice Temple'))],
     10.1
 ));
 Routes.add(new RegionRoute(
@@ -118,7 +118,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Drimogemon', 'Meramon', 'Monochromon', 'Orgemon', 'Birdramon', 'Sand Yanmamon', 'Togemon', 'Cockatrimon'],
     }),
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Pewter'))]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Lost Colosseum'))]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 13', GameConstants.Region.kanto, 13,
@@ -139,7 +139,7 @@ Routes.add(new RegionRoute(
         water: ['Rukamon', 'Seadramon', 'Octmon'],
     }),
     [
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Tower 2')),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Etemon\'s Pyramid')),
     ]
 ));
 Routes.add(new RegionRoute(
@@ -176,7 +176,7 @@ Routes.add(new RegionRoute(
         water: ['Ebidramon', 'Gesomon', 'Karatuki Numemon', 'Raremon'],
     }),
     [
-       new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion')),
+       new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Vamdemon\'s Castle')),
     ]
 ));
 Routes.add(new RegionRoute(
@@ -194,7 +194,7 @@ Routes.add(new RegionRoute(
     [
         new OneFromManyRequirement([
             new RouteKillRequirement(10, GameConstants.Region.kanto, 19),
-            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Seafoam Islands')),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('VenomVamdemon Rampage')),
         ]),
     ]
 ));
@@ -204,7 +204,7 @@ Routes.add(new RegionRoute(
         land: ['Vermillimon', 'Triceramon', 'Ookuwamon', 'Jyureimon', 'Jyagamon'],
         water: ['Waru Seadramon', 'Mega Seadramon', 'Anomalocarimon', 'Dagomon'],
     }),
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Power Plant'))]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Metal Seadramon\'s Lair'))]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 23', GameConstants.Region.kanto, 23,
@@ -213,7 +213,7 @@ Routes.add(new RegionRoute(
         water: ['Dagomon', 'Marin Devimon'],
     }),
     [
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Vermilion')),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Mugendramon\'s Mill')),
         new GymBadgeRequirement(BadgeEnums.Volcano),
     ]
 ));
