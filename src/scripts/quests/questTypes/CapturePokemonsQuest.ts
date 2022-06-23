@@ -19,7 +19,7 @@ class CapturePokemonsQuest extends Quest implements QuestInterface {
     }
 
     get description(): string {
-        return `Capture ${this.amount.toLocaleString('en-US')} Pokémon.`;
+        return `Scan ${this.amount.toLocaleString('en-US')} Digimon.`;
     }
 
     toJSON() {
