@@ -16,5 +16,10 @@ class Trainer {
         const imageName = this.subTrainerClass ? `${this.trainerClass} ${this.subTrainerClass}` : this.trainerClass;
         return `assets/images/trainers/${imageName}.png`;
     }
+    
+    get profileimage(): string {
+        const imageName = this.subTrainerClass ? `${this.trainerClass} ${this.subTrainerClass}` : this.trainerClass;
+        return `assets/images/trainers/${imageName}.png`;
+    }
 
 }
