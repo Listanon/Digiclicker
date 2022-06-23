@@ -102,7 +102,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Bakemon', 'Dokunemon', 'Candmon', 'Tukaimon', 'Numemon', 'Gokimon', 'Woodmon'],
     }),
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Rock Tunnel')),
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Rock Tunnel'))],
     10.1
 ));
 Routes.add(new RegionRoute(
@@ -213,7 +213,7 @@ Routes.add(new RegionRoute(
         water: ['Dagomon', 'Marin Devimon'],
     }),
     [
-        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Vermilion'))
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Vermilion')),
         new GymBadgeRequirement(BadgeEnums.Volcano),
     ]
 ));
