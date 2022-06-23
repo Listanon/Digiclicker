@@ -1909,32 +1909,32 @@ export const EnergyRestoreEffect = {
 };
 
 export const FossilToPokemon = {
-    'Helix Fossil': 'Omanyte',
-    'Dome Fossil': 'Kabuto',
-    'Old Amber': 'Aerodactyl',
-    'Root Fossil': 'Lileep',
-    'Claw Fossil': 'Anorith',
-    'Armor Fossil': 'Shieldon',
-    'Skull Fossil': 'Cranidos',
-    'Cover Fossil': 'Tirtouga',
-    'Plume Fossil': 'Archen',
-    'Jaw Fossil': 'Tyrunt',
-    'Sail Fossil': 'Amaura',
+    'Helix Fossil': 'Ancient Greymon',
+    'Dome Fossil': 'Ancient Garurumon',
+    'Old Amber': 'Ancient Beatmon',
+    'Root Fossil': 'Ancient Irismon',
+    'Claw Fossil': 'Ancient Megatheriumon',
+    'Armor Fossil': 'Ancient Sphinxmon',
+    'Skull Fossil': 'Ancient Volcamon',
+    'Cover Fossil': 'Ancient Troiamon',
+    'Plume Fossil': 'Ancient Mermaimon',
+    'Jaw Fossil': 'Ancient Wisemon',
+    'Sail Fossil': 'Ancient Wisemon',
 };
 
 // Used for image name
 export const PokemonToFossil = {
-    Omanyte: 'Helix Fossil',
-    Kabuto: 'Dome Fossil',
-    Aerodactyl: 'Old Amber',
-    Lileep: 'Root Fossil',
-    Anorith: 'Claw Fossil',
-    Shieldon: 'Armor Fossil',
-    Cranidos: 'Skull Fossil',
-    Tirtouga: 'Cover Fossil',
-    Archen: 'Plume Fossil',
-    Tyrunt: 'Jaw Fossil',
-    Amaura: 'Sail Fossil',
+    AncientGreymon: 'Helix Fossil',
+    AncientGarurumon: 'Dome Fossil',
+    AncientBeatmon: 'Old Amber',
+    AncientIrismon: 'Root Fossil',
+    AncientMegatheriumon: 'Claw Fossil',
+    AncientSphinxmon: 'Armor Fossil',
+    AncientVolcamon: 'Skull Fossil',
+    AncientTroiamon: 'Cover Fossil',
+    AncientMermaimon: 'Plume Fossil',
+    AncientWisemon: 'Jaw Fossil',
+    Susanoomon: 'Sail Fossil',
 };
 
 // For random quest, name matches entry in gymList (created in Gym.ts)
@@ -2093,11 +2093,14 @@ export function getGymRegion(gym: string): Region {
 export const KantoDungeons = [
     'Viridian Forest',
     'Mt. Moon',
-    'Digletts Cave',
+    'Digletts Cave Pewter',
+    'Digletts Cave Vermillion',
     'Rock Tunnel',
     'Pokemon Tower',
+    'Pokemon Tower 2',
     'Power Plant',
     'Seafoam Islands',
+    'Seafoam Islands 2',
     'Pokemon Mansion',
     'Victory Road',
     'Cerulean Cave',
@@ -2327,7 +2330,7 @@ export const StartingRoutes = [
 ];
 
 export const DockTowns = [
-    'Vermilion City', // Kanto
+    'Cinnabar Island', // Kanto
     'Olivine City', // Johto
     'Slateport City', // Hoenn
     'Canalave City', // Sinnoh
