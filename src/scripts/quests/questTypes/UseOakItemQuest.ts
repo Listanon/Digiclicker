@@ -20,7 +20,7 @@ class UseOakItemQuest extends Quest implements QuestInterface {
             OakItemType.Topaz,
             // OakItemType.Fancy_Cursor,
             OakItemType.Millionaire_USB,
-            // OakItemType.1_Megabyte,
+            // OakItemType.Megabyte,
             // OakItemType.Pixel_Stone,
             // OakItemType.Egg_Holder,
             // OakItemType.Full_Battery,
