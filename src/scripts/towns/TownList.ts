@@ -171,16 +171,16 @@ const CinnabarIslandResearcher = new NPC('Researcher Echo', [
 ]);
 
 //Kanto Towns
-TownList['Pallet Town'] = new Town(
-    'Pallet Town',
+TownList['Primary Village'] = new Town(
+    'Primary Village',
     GameConstants.Region.kanto,
     [PewterCityShop],
     {
         npcs: [PalletProfOak],
     }
 );
-TownList['Pewter City'] = new Town(
-    'Pewter City',
+TownList['Toy Town'] = new Town(
+    'Toy Town',
     GameConstants.Region.kanto,
     [PewterCityShop],
     {
@@ -191,8 +191,8 @@ TownList['Pewter City'] = new Town(
         npcs: [PewterBattleItemRival],
     }
 );
-TownList['Cerulean City'] = new Town(
-    'Cerulean City',
+TownList['Koromon Village'] = new Town(
+    'Koromon Village',
     GameConstants.Region.kanto,
     [CeruleanCityShop],
     {
@@ -200,8 +200,8 @@ TownList['Cerulean City'] = new Town(
         npcs: [CeruleanKantoBerryMaster],
     }
 );
-TownList['Vermilion City'] = new Town(
-    'Vermilion City',
+TownList['Piccolomon\'s'] = new Town(
+    'Piccolomon\'s',
     GameConstants.Region.kanto,
     [VermilionCityShop],
     {
@@ -209,8 +209,8 @@ TownList['Vermilion City'] = new Town(
         npcs: [VermilionFanClubChairman],
     }
 );
-TownList['Lavender Town'] = new Town(
-    'Lavender Town',
+TownList['Vademon Dimension'] = new Town(
+    'Vademon Dimension',
     GameConstants.Region.kanto,
     [LavenderTownShop],
     {
@@ -218,8 +218,8 @@ TownList['Lavender Town'] = new Town(
         npcs: [LavenderMrFuji],
     }
 );
-TownList['Celadon City'] = new Town(
-    'Celadon City',
+TownList['Gennai\'s'] = new Town(
+    'Gennai\'s',
     GameConstants.Region.kanto,
     [CeladonDepartmentStoreShop],
     {
@@ -227,8 +227,8 @@ TownList['Celadon City'] = new Town(
         npcs: [BigSpender],
     }
 );
-TownList['Saffron City'] = new Town(
-    'Saffron City',
+TownList['Tokyo City'] = new Town(
+    'Tokyo City',
     GameConstants.Region.kanto,
     [SaffronCityShop],
     {
@@ -239,8 +239,8 @@ TownList['Saffron City'] = new Town(
         npcs: [SaffronBattleItemRival],
     }
 );
-TownList['Fuchsia City'] = new Town(
-    'Fuchsia City',
+TownList['ShogunGekomon\'s Castle'] = new Town(
+    'ShogunGekomon\'s Castle',
     GameConstants.Region.kanto,
     [FuchsiaCityShop],
     {
@@ -251,8 +251,8 @@ TownList['Fuchsia City'] = new Town(
         npcs: [FuchsiaKantoRoamerNPC],
     }
 );
-TownList['Cinnabar Island'] = new Town(
-    'Cinnabar Island',
+TownList['Whamon\'s Gulf'] = new Town(
+    'Whamon\'s Gulf',
     GameConstants.Region.kanto,
     [CinnabarIslandShop],
     {
@@ -260,8 +260,8 @@ TownList['Cinnabar Island'] = new Town(
         npcs: [CinnabarIslandResearcher],
     }
 );
-TownList['Viridian City'] = new Town(
-    'Viridian City',
+TownList['Pyokomon Village'] = new Town(
+    'Pyokomon Village',
     GameConstants.Region.kanto,
     [ViridianCityShop],
     {
@@ -273,8 +273,8 @@ TownList['Viridian City'] = new Town(
         npcs: [ViridianCityOldMan],
     }
 );
-TownList['Indigo Plateau Kanto'] = new Town(
-    'Indigo Plateau Kanto',
+TownList['Apocalymon Space'] = new Town(
+    'Apocalymon Space',
     GameConstants.Region.kanto,
     [GymList['Elite Lorelei'], GymList['Elite Bruno'], GymList['Elite Agatha'], GymList['Elite Lance'], GymList['Champion Blue'], pokeLeagueShop()],
     {
@@ -287,59 +287,59 @@ TownList['Indigo Plateau Kanto'] = new Town(
 );
 
 //Kanto Dungeons
-TownList['Viridian Forest'] = new DungeonTown(
-    'Viridian Forest',
+TownList['Coelamon Beach'] = new DungeonTown(
+    'Coelamon Beach',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 2)]
 );
-TownList['Mt. Moon'] = new DungeonTown(
-    'Mt. Moon',
+TownList['Andromon\'s Factory'] = new DungeonTown(
+    'Andromon\'s Factory',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto,4)]
 );
-TownList['Digletts Cave Pewter'] = new DungeonTown(
-    'Digletts Cave Pewter',
+TownList['Lost Colosseum'] = new DungeonTown(
+    'Lost Colosseum',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 11)]
 );
-TownList['Digletts Cave Vermilion'] = new DungeonTown(
-    'Digletts Cave Vermilion',
+TownList['Mugendramon\'s Mill'] = new DungeonTown(
+    'Mugendramon\'s Mill',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 22)]
 );
-TownList['Rock Tunnel'] = new DungeonTown(
-    'Rock Tunnel',
+TownList['Digivice Temple'] = new DungeonTown(
+    'Digivice Temple',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 7)]
 );
-TownList['Power Plant'] = new DungeonTown(
-    'Power Plant',
+TownList['Metal Seadramon\'s Lair'] = new DungeonTown(
+    'Metal Seadramon\'s Lair',
     GameConstants.Region.kanto,
     [
          new RouteKillRequirement(10, GameConstants.Region.kanto, 20),
          new GymBadgeRequirement(BadgeEnums.Soul),
     ]
 );
-TownList['Pokemon Tower'] = new DungeonTown(
-    'Pokemon Tower',
+TownList['Devimon Battle'] = new DungeonTown(
+    'Devimon Battle',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 8)]
 );
-TownList['Seafoam Islands'] = new DungeonTown(
-    'Seafoam Islands',
+TownList['VenomVamdemon Rampage'] = new DungeonTown(
+    'VenomVamdemon Rampage',
     GameConstants.Region.kanto,
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 19)]
 );
-TownList['Seafoam Islands 2'] = new DungeonTown(
-    'Seafoam Islands',
+TownList['Pinochimon\'s House'] = new DungeonTown(
+    'Pinochimon\'s House',
     GameConstants.Region.kanto,
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 21),
         new GymBadgeRequirement(BadgeEnums.Volcano),
     ]
 );
-TownList['Pokemon Mansion'] = new DungeonTown(
-    'Pokemon Mansion',
+TownList['Vamdemon\'s Castle'] = new DungeonTown(
+    'Vamdemon\'s Castle',
     GameConstants.Region.kanto,
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 16),
@@ -347,16 +347,16 @@ TownList['Pokemon Mansion'] = new DungeonTown(
         new GymBadgeRequirement(BadgeEnums.Marsh),
     ]
 );
-TownList['Victory Road'] = new DungeonTown(
-    'Victory Road',
+TownList['Piemon\'s Observatory'] = new DungeonTown(
+    'Piemon\'s Observatory',
     GameConstants.Region.kanto,
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 23),
         new GymBadgeRequirement(BadgeEnums.Earth)
     ]
 );
-TownList['Cerulean Cave'] = new DungeonTown(
-    'Cerulean Cave',
+TownList['Our War Game'] = new DungeonTown(
+    'Our War Game',
     GameConstants.Region.kanto,
     [new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion)]
 );
