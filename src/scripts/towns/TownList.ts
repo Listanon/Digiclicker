@@ -186,7 +186,7 @@ TownList['Toy Town'] = new Town(
     {
          requirements: [
             new RouteKillRequirement(10, GameConstants.Region.kanto, 5),
-            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Mt. Moon')),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Andromon\'s Factory')),
         ],
         npcs: [PewterBattleItemRival],
     }
@@ -234,7 +234,7 @@ TownList['Tokyo City'] = new Town(
     {
         requirements: [
             new GymBadgeRequirement(BadgeEnums.Rainbow),
-            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion')),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Vamdemon\'s Castle')),
         ],
         npcs: [SaffronBattleItemRival],
     }
@@ -268,7 +268,7 @@ TownList['Pyokomon Village'] = new Town(
         requirements: [
             new RouteKillRequirement(10, GameConstants.Region.kanto, 2),
             new RouteKillRequirement(10, GameConstants.Region.kanto, 3),
-            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Viridian Forest')),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Coelamon Beach')),
         ],
         npcs: [ViridianCityOldMan],
     }
@@ -280,7 +280,7 @@ TownList['Apocalymon Space'] = new Town(
     {
         requirements: [
             new RouteKillRequirement(10, GameConstants.Region.kanto, 23),
-            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Victory Road')),
+            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Piemon\'s Observatory')),
         ],
     }
 
