@@ -267,7 +267,7 @@ class Dungeon {
                     pokemonName = <PokemonNameType>enemy;
                 }
                 const encounter = {
-                    image: `assets/images/${(App.game.party.alreadyCaughtPokemonByName(pokemonName, true) ? 'shiny' : '')}pokemon/${pokemonMap[pokemonName].id}.png`,
+                    image: `assets/images/${(App.game.party.alreadyCaughtPokemonByName(pokemonName, true) ? 'dot' : '')}digidex/${pokemonMap[pokemonName].id}.png`,
                     shiny:  App.game.party.alreadyCaughtPokemonByName(pokemonName, true),
                     hidden: !App.game.party.alreadyCaughtPokemonByName(pokemonName),
                     lock: false,
@@ -295,7 +295,7 @@ class Dungeon {
             if (boss instanceof DungeonBossPokemon) {
                 const pokemonName = boss.name;
                 const encounter = {
-                    image: `assets/images/${(App.game.party.alreadyCaughtPokemonByName(pokemonName, true) ? 'shiny' : '')}pokemon/${pokemonMap[pokemonName].id}.png`,
+                    image: `assets/images/${(App.game.party.alreadyCaughtPokemonByName(pokemonName, true) ? 'dot' : '')}digidex/${pokemonMap[pokemonName].id}.png`,
                     shiny:  App.game.party.alreadyCaughtPokemonByName(pokemonName, true),
                     hide: boss.options?.hide ? (boss.options?.requirement ? !boss.options?.requirement.isCompleted() : boss.options?.hide) : false,
                     hidden: !App.game.party.alreadyCaughtPokemonByName(pokemonName),
