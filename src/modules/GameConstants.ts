@@ -487,7 +487,7 @@ export const ACHIEVEMENT_DEFEAT_DUNGEON_VALUES = [
 export type EnvironmentData = Partial<Record<Region, Set<string | number>>>;
 export const Environments: Record<string, EnvironmentData> = {
     Water: {
-        [Region.kanto]: new Set(['Cerulean City', 19, 20, 21, 24]),
+        [Region.kanto]: new Set(['Viridian Forest','Power Plant','Cinnabar Island', 10, 14, 20, 21]),
         [Region.johto]: new Set([40, 41, 'Slowpoke Well']),
         [Region.hoenn]: new Set([105, 106, 107, 108, 109, 118, 122, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134]),
         [Region.sinnoh]: new Set([218, 219, 220, 223, 230, 'Lake Verity', 'Lake Valor', 'Pastoria City', 'Sendoff Spring']),
@@ -498,7 +498,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     Ice: {
-        [Region.kanto]: new Set(['Seafoam Islands']),
+        [Region.kanto]: new Set([7, 23]),
         [Region.johto]: new Set(['Mahogany Town', 'Ice Path']),
         [Region.hoenn]: new Set(['Shoal Cave', 'Sootopolis City']),
         [Region.sinnoh]: new Set([216, 217, 'Lake Acuity', 'Snowpoint City']),
@@ -509,7 +509,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     Forest: {
-        [Region.kanto]: new Set([25, 'Fuchsia City', 'Viridian Forest']),
+        [Region.kanto]: new Set([22,15, 'Seafoam Islands 2', 'Viridian Forest']),
         [Region.johto]: new Set([36, 38, 43, 'Azalea Town', 'Ilex Forest']),
         [Region.hoenn]: new Set([119, 'Petalburg Woods']),
         [Region.sinnoh]: new Set([201, 204, 'Eterna Forest', 'Eterna City', 'Fullmoon Island', 'Newmoon Island']),
@@ -520,7 +520,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     Cave: {
-        [Region.kanto]: new Set(['Pewter City', 'Digletts Cave', 'Mt. Moon', 'Rock Tunnel', 'Victory Road']),
+        [Region.kanto]: new Set([4, 11, 'Digletts Cave Pewter', 12, 13, 'Pokémon Tower 2']),
         [Region.johto]: new Set(['Cianwood City', 'Ruins of Alph', 'Union Cave', 'Mt Mortar', 'Dark Cave', 'Victory Road Johto']),
         [Region.hoenn]: new Set(['Rustboro City', 'Dewford Town', 'Rusturf Tunnel', 'Granite Cave', 'New Mauville', 'Meteor Falls', 'Victory Road Hoenn', 'Seafloor Cavern']),
         [Region.sinnoh]: new Set(['Oreburgh Gate', 'Oreburgh City', 'Ravaged Path', 'Wayward Cave', 'Mt. Coronet', 'Mt. Coronet South', 'Iron Island', 'Mt. Coronet North', 'Victory Road Sinnoh']),
@@ -531,7 +531,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     GemCave: {
-        [Region.kanto]: new Set(['Viridian City', 'Cerulean Cave']),
+        [Region.kanto]: new Set([6, 16, 'Pokemon Mansion', 'Indigo Plateau Kanto', 'Cerulean Cave', 'Lavender Town']),
         [Region.johto]: new Set(['Blackthorn City', 'Mt Silver', 'Whirl Islands']),
         [Region.hoenn]: new Set(['Cave of Origin', 'Sky Pillar', 'Sealed Chamber']),
         [Region.sinnoh]: new Set(['Spear Pillar', 'Hall of Origin', 'Stark Mountain']),
@@ -542,7 +542,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     PowerPlant: {
-        [Region.kanto]: new Set(['Vermilion City', 'Power Plant']),
+        [Region.kanto]: new Set([5, 'Mt. Moon', 'Seafoam Islands', 'Digletts Cave Vermilion', 'Rock Tunnel']),
         [Region.johto]: new Set(['Tin Tower', 'Team Rockets Hideout', 'Radio Tower']),
         [Region.hoenn]: new Set(['Mauville City']),
         [Region.sinnoh]: new Set(['Team Galactic Eterna Building', 'Team Galactic HQ', 'Sunyshore City']),
@@ -553,7 +553,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     Mansion: {
-        [Region.kanto]: new Set(['Cinnabar Island', 'Pokemon Mansion']),
+        [Region.kanto]: new Set(['Saffron City', 18, 19]),
         [Region.johto]: new Set(['Olivine City', 'Burned Tower']),
         [Region.hoenn]: new Set(['Lavaridge Town', 'Petalburg City', 'Mt. Chimney', 'Jagged Pass', 'Fiery Path', 'Mt. Chimney Crater']),
         [Region.sinnoh]: new Set(['Old Chateau', 'Veilstone City', 'Canalave City', 'Snowpoint Temple']),
@@ -564,7 +564,7 @@ export const Environments: Record<string, EnvironmentData> = {
     },
 
     Graveyard: {
-        [Region.kanto]: new Set(['Saffron City', 'Pokemon Tower']),
+        [Region.kanto]: new Set([8, 'Pokemon Tower', 'Pokemon Tower']),
         [Region.johto]: new Set(['Ecruteak City']),
         [Region.hoenn]: new Set(['Mossdeep City', 'Mt. Pyre']),
         [Region.sinnoh]: new Set(['Hearthome City', 'Solaceon Ruins', 'Distortion World']),
