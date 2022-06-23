@@ -98,8 +98,8 @@ const CinnabarIslandShop = new Shop([
     ItemList['Fire_egg'],
     ItemList['SmallRestore'],
     ItemList['Explorer_kit'],
-    ItemList['Explosive_Charge'],
-    ItemList['Treasure_Scanner'],
+    ItemList['Golden_DVD'],
+    ItemList['Shiny_Mirror'],
     ItemList['HatcheryHelperKris'],
 ]);
 const ViridianCityShop = new Shop([
@@ -432,7 +432,7 @@ const JohtoBerryMaster = new BerryMasterShop([
     ItemList['Amaze_Mulch'],
     ItemList['Berry_Shovel'],
     ItemList['Mulch_Shovel'],
-    ItemList['Squirtbottle'],
+    ItemList['Demo_Disk'],
     ItemList['FarmHandBailey'],
     ItemList['PuzzleDisk'],
     ItemList['FortuneDisk'],
@@ -748,7 +748,7 @@ const HoennBerryMaster = new BerryMasterShop([
     ItemList['Amaze_Mulch'],
     ItemList['Berry_Shovel'],
     ItemList['Mulch_Shovel'],
-    ItemList['Sprinklotad'],
+    ItemList['Failure_Prevent'],
     ItemList['FarmHandKerry'],
 ]);
 
