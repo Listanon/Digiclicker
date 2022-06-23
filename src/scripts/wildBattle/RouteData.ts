@@ -118,7 +118,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Drimogemon', 'Meramon', 'Monochromon', 'Orgemon', 'Birdramon', 'Sand Yanmamon', 'Togemon', 'Cockatrimon'],
     }),
-    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Diglett Cave Pewter'))]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Pewter'))]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 13', GameConstants.Region.kanto, 13,
@@ -182,18 +182,18 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 19', GameConstants.Region.kanto, 19,
     new RoutePokemon({
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Pumpmon', 'Gottsumon', 'Geremon', 'Gerbemon', 'Mammon', 'Parrotmon'],
     }),
     [new GymBadgeRequirement(BadgeEnums.Soul)]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 20', GameConstants.Region.kanto, 20,
     new RoutePokemon({
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        water: ['Marin Devimon', 'Hangyomon', 'Whamon', 'Dagomon', 'Waru Seadramon'],
     }),
     [
         new OneFromManyRequirement([
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 21),
+            new RouteKillRequirement(10, GameConstants.Region.kanto, 19),
             new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Seafoam Islands')),
         ]),
     ]
@@ -201,20 +201,20 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'Kanto Route 21', GameConstants.Region.kanto, 21,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Vermillimon', 'Triceramon', 'Ookuwamon', 'Jyureimon', 'Jyagamon'],
+        water: ['Waru Seadramon', 'Mega Seadramon', 'Anomalocarimon', 'Dagomon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Soul)]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Power Plant'))]
 ));
 Routes.add(new RegionRoute(
     'Kanto Route 23', GameConstants.Region.kanto, 23,
     new RoutePokemon({
-        land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
-        water: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+        land: ['Death Meramon', 'Skull Satamon', 'Boltmon', 'Skull Mammon', 'Metal Tyranomon'],
+        water: ['Dagomon', 'Marin Devimon'],
     }),
     [
-        new RouteKillRequirement(10, GameConstants.Region.kanto, 22),
-        new GymBadgeRequirement(BadgeEnums.Earth),
+        new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digletts Cave Vermilion'))
+        new GymBadgeRequirement(BadgeEnums.Volcano),
     ]
 ));
 
