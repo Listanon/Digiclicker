@@ -159,7 +159,7 @@ class Egg implements Saveable {
         // Update statistics
         GameHelper.incrementObservable(App.game.statistics.pokemonHatched[pokemonID]);
         GameHelper.incrementObservable(App.game.statistics.totalPokemonHatched);
-        App.game.oakItems.use(OakItemType.Blaze_Cassette);
+        App.game.oakItems.use(OakItemType.Egg_Holder);
         return true;
     }
 
