@@ -276,7 +276,7 @@ TownList['Pyokomon Village'] = new Town(
 TownList['Apocalymon Space'] = new Town(
     'Apocalymon Space',
     GameConstants.Region.kanto,
-    [GymList['Elite Lorelei'], GymList['Elite Bruno'], GymList['Elite Agatha'], GymList['Elite Lance'], GymList['Champion Blue'], pokeLeagueShop()],
+    [GymList['Ocean Data'], GymList['Forest Data'], GymList['City Data'], GymList['Wasteland Data'], GymList['Apokalymon'], pokeLeagueShop()],
     {
         requirements: [
             new RouteKillRequirement(10, GameConstants.Region.kanto, 23),
