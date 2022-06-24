@@ -149,7 +149,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Waru Monzaemon', 'Mamemon', 'Giromon', 'Fantomon', 'Death Meramon', 'Evilmon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Marsh)]
+    [new GymBadgeRequirement(BadgeEnums.Soul)]
 ));
 Routes.add(new RegionRoute(
     'Road\'s End', GameConstants.Region.kanto, 17,
@@ -174,7 +174,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         water: ['Pumpmon', 'Gottsumon', 'Geremon', 'Gerbemon', 'Mammon', 'Parrotmon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Soul)]
+    [new GymBadgeRequirement(BadgeEnums.Marsh)]
 ));
 Routes.add(new RegionRoute(
     'Digital Ocean', GameConstants.Region.kanto, 20,
