@@ -98,7 +98,7 @@ class Preload {
                 continue;
             }
             // Skip fake towns that exist for the Elite
-            if (name.includes('Elite') || name.includes('Champion')) {
+            if (name.includes('Data') || name.includes('Champion')) {
                 continue;
             }
             Preload.itemLoading(name);
