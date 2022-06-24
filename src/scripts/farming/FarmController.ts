@@ -9,7 +9,7 @@ class FarmController {
     public static berryListEnd: KnockoutComputed<number>;
 
     public static selectedBerry: KnockoutObservable<BerryType> = ko.observable(BerryType.Games);
-    public static selectedMulch: KnockoutObservable<MulchType> = ko.observable(MulchType.Boost_Mulch);
+    public static selectedMulch: KnockoutObservable<MulchType> = ko.observable(MulchType.Speed_Boost);
     public static selectedShovel: KnockoutObservable<boolean> = ko.observable(false);
     public static selectedMulchShovel: KnockoutObservable<boolean> = ko.observable(false);
 
