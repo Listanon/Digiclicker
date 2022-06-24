@@ -7,7 +7,7 @@ export default class CapturedRequirement extends AchievementRequirement {
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.totalPokemonCaptured(), this.requiredValue);
+        return Math.min(App.game.statistics.totalDigimonScanned(), this.requiredValue);
     }
 
     public hint(): string {
