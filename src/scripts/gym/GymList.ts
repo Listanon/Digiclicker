@@ -122,7 +122,7 @@ GymList['Primary Village'] = new Gym(
         new GymBadgeRequirement(BadgeEnums.Thunder),
     ],
     () => {
-        App.game.keyItems.gainKeyItem(KeyItemType.Gem_case, true);
+        App.game.keyItems.gainKeyItem(KeyItemType.Chip_case, true);
     }
 );
 
