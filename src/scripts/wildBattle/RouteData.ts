@@ -9,7 +9,7 @@ KANTO
 Routes.add(new RegionRoute(
     'Primary Path', GameConstants.Region.kanto, 1,
     new RoutePokemon({
-        land: ['Pitchmon', 'Yuramon'],
+        land: ['Pitchmon', 'Yuramon', 'Nyokimon'],
     })
 ));
 Routes.add(new RegionRoute(
