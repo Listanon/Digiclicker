@@ -255,7 +255,7 @@ class BerryDeal {
             } else {
                 deal.item.itemType.gain(deal.item.amount * maxTrades);
             }
-            GameHelper.incrementObservable(App.game.statistics.berryDailyDealTrades);
+            GameHelper.incrementObservable(App.game.statistics.diskDailyDealTrades);
         }
     }
 }
