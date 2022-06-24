@@ -42,7 +42,7 @@ class SpecialEvents implements Feature {
 // Create our events here for now (yearly)
 
 // Lunar New Year
-SpecialEvents.newEvent('Lunar New Year', 'Encounter Fancy Pattern Vivillon for a limited time roaming Kalos.',
+SpecialEvents.newEvent('Lunar New Year', 'Placeholder Message Map 6.',
     // Start
     new Date(new Date().getFullYear(), 0, 24, 1), () => {
         RoamingPokemonList.add(GameConstants.Region.kalos, new RoamingPokemon('Burpmon'));
@@ -53,7 +53,7 @@ SpecialEvents.newEvent('Lunar New Year', 'Encounter Fancy Pattern Vivillon for a
     }
 );
 // Easter
-SpecialEvents.newEvent('Easter', 'Encounter Surprise Togepi for a limited time with a dedicated Quest Line.',
+SpecialEvents.newEvent('Easter', 'Placeholder Message Map 1-2-3.',
     // Start
     new Date(new Date().getFullYear(), 3, 8, 1), () => {
         const togepiEggHuntQuestLine = App.game.quests.getQuestLine('Burpmon');
@@ -67,22 +67,20 @@ SpecialEvents.newEvent('Easter', 'Encounter Surprise Togepi for a limited time w
     }
 );
 // First Event
-SpecialEvents.newEvent('Flying Pikachu', 'Encounter Flying Pikachu and Red Spearow for a limited time roaming Kanto.',
+SpecialEvents.newEvent('One Lost Digimon', 'Placeholder Message Map 1.',
     // Start
     new Date(new Date().getFullYear(), 6, 6, 1), () => {
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Damemon Cmon'));
     },
     // End
     new Date(new Date().getFullYear(), 6, 12, 23), () => {
-        RoamingPokemonList.remove(GameConstants.Region.kanto, 'Burpmon');
-        RoamingPokemonList.remove(GameConstants.Region.kanto, 'Burpmon');
+        RoamingPokemonList.remove(GameConstants.Region.kanto, 'Damemon Cmon');
     }
 );
 // Pokemon the first movie release date
-SpecialEvents.newEvent('Mewtwo strikes back!', 'Encounter Armored Mewtwo for a limited time in Cerulean Cave.<br/>Encounter clone Pokémon roaming in Kanto.',
+SpecialEvents.newEvent('Odaiba Memorial Day!', 'Placeholder Message Map 1.',
     // Start
-    new Date(new Date().getFullYear(), 6, 18, 1), () => {
+    new Date(new Date().getFullYear(), 6, 1, 1), () => {
         dungeonList['Cerulean Cave'].bossList.push(new DungeonBossPokemon('Burpmon', 1000000, 80));
         RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
         RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
@@ -95,7 +93,7 @@ SpecialEvents.newEvent('Mewtwo strikes back!', 'Encounter Armored Mewtwo for a l
     }
 );
 // Halloween
-SpecialEvents.newEvent('Halloween!', 'Encounter Spooky Pokémon for a limited time around Kanto, Johto and Hoenn.',
+SpecialEvents.newEvent('Halloween!', 'Placeholder Message Map 1-2-3.',
     // Start
     new Date(new Date().getFullYear(), 9, 30, 1), () => {
         SeededRand.seed(new Date().getFullYear());
@@ -121,7 +119,7 @@ SpecialEvents.newEvent('Halloween!', 'Encounter Spooky Pokémon for a limited ti
     }
 );
 // Let's Go P/E release date
-SpecialEvents.newEvent('Let\'s GO!', 'Encounter special Eevee and Pikachu roaming in the Kanto region.',
+SpecialEvents.newEvent('Survive!', 'Placeholder Message Map 1.',
     // Start
     new Date(new Date().getFullYear(), 10, 16, 1), () => {
         RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
@@ -134,14 +132,14 @@ SpecialEvents.newEvent('Let\'s GO!', 'Encounter special Eevee and Pikachu roamin
     }
 );
 // Christmas
-SpecialEvents.newEvent('Merry Christmas!', 'Encounter Santa Snorlax roaming the regions and discover the Grinch of Ilex Forest.',
+SpecialEvents.newEvent('Merry Christmas!', 'Encounter a special Agumon roaming the Adventure02 map.',
     // Start
     new Date(new Date().getFullYear(), 11, 24, 1), () => {
         // Add to every region excluding None
         GameHelper.enumNumbers(GameConstants.Region).filter(i => i != GameConstants.Region.none).forEach(region => {
-            RoamingPokemonList.add(region, new RoamingPokemon('Burpmon'));
+            RoamingPokemonList.add(region, new RoamingPokemon('Santa Agumon'));
         });
-        dungeonList['Ilex Forest'].bossList.push(new DungeonBossPokemon('Burpmon', 1600000, 100, {requirement: new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion)}));
+        dungeonList['Ilex Forest'].bossList.push(new DungeonBossPokemon('Santa Agumon', 1600000, 100, {requirement: new GymBadgeRequirement(BadgeEnums.Elite_JohtoChampion)}));
     },
     // End
     new Date(new Date().getFullYear(), 11, 30, 23), () => {
@@ -153,7 +151,7 @@ SpecialEvents.newEvent('Merry Christmas!', 'Encounter Santa Snorlax roaming the 
     }
 );
 // Golden Week
-SpecialEvents.newEvent('Golden Week', 'Enjoy your time off in the "Golden Week"! Travel tip: Visit the Flower Paradise in Sinnoh on your well earned vacation and enjoy the bloom of roses.',
+SpecialEvents.newEvent('Golden Week', 'Placeholder Message Map 4.',
     // Start
     new Date(new Date().getFullYear(), 3, 29, 1), () => {
         dungeonList['Flower Paradise'].bossList.push(new DungeonBossPokemon('Burpmon', 1600000, 100, {requirement: new ClearDungeonRequirement(10, GameConstants.getDungeonIndex('Flower Paradise'))}));
