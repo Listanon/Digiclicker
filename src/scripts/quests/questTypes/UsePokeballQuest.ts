@@ -25,7 +25,16 @@ class UsePokeballQuest extends Quest implements QuestInterface {
     }
 
     get description(): string {
-        return `Use ${this.amount.toLocaleString('en-US')} ${GameConstants.Pokeball[this.pokeball].displayName}s.`;
+        if(this.pokeball === GameConstants.Pokeball.Pokeball) {
+            var displayname = "Digiscan"
+        }
+        else if(this.pokeball === GameConstants.Pokeball.Greatball){
+            displayname = "Greatscan"
+        }
+        else{
+            displayname = "Ultrascan"
+        }
+        return `Use ${this.amount.toLocaleString('en-US')} ${displayname}s.`;
     }
 
     toJSON() {
