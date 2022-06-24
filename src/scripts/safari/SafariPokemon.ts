@@ -52,12 +52,12 @@ class SafariPokemon implements PokemonInterface {
         this.type1 = data.type1;
         this.type2 = data.type2;
         this.shiny = PokemonFactory.generateShiny(GameConstants.SHINY_CHANCE_SAFARI);
-        GameHelper.incrementObservable(App.game.statistics.pokemonEncountered[this.id]);
-        GameHelper.incrementObservable(App.game.statistics.totalPokemonEncountered);
+        GameHelper.incrementObservable(App.game.statistics.digimonEncountered[this.id]);
+        GameHelper.incrementObservable(App.game.statistics.totalDigimonEncountered);
 
         if (this.shiny) {
-            GameHelper.incrementObservable(App.game.statistics.shinyPokemonEncountered[this.id]);
-            GameHelper.incrementObservable(App.game.statistics.totalShinyPokemonEncountered);
+            GameHelper.incrementObservable(App.game.statistics.dotDigimonEncountered[this.id]);
+            GameHelper.incrementObservable(App.game.statistics.totalDotDigimonEncountered);
 
             Notifier.notify({
                 message: `👾 You encountered a dot ${name}! 👾`,
@@ -68,7 +68,7 @@ class SafariPokemon implements PokemonInterface {
 
             // Track shinies encountered, and rate of shinies
             LogEvent('encountered shiny', 'shiny pokemon', 'safari encounter',
-                Math.floor(App.game.statistics.totalPokemonEncountered() / App.game.statistics.totalShinyPokemonEncountered()));
+                Math.floor(App.game.statistics.totalDigimonEncountered() / App.game.statistics.totalDotDigimonEncountered()));
         }
         this.baseCatchFactor = data.catchRate * 1 / 6;
         this.baseEscapeFactor = 30;
