@@ -48,7 +48,7 @@ class RoamingPokemonList {
 }
 
 // Kanto
-RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
+RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Jijimon'));
 
 // Johto
 RoamingPokemonList.add(GameConstants.Region.johto, new RoamingPokemon('Burpmon', new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Burned Tower'))));
