@@ -34,12 +34,12 @@ class Party implements Feature {
     }
 
     gainPokemon(pokemon: PartyPokemon, suppressNotification = false) {
-        GameHelper.incrementObservable(App.game.statistics.pokemonCaptured[pokemon.id]);
-        GameHelper.incrementObservable(App.game.statistics.totalPokemonCaptured);
+        GameHelper.incrementObservable(App.game.statistics.digimonScanned[pokemon.id]);
+        GameHelper.incrementObservable(App.game.statistics.totalDigimonScanned);
 
         if (pokemon.shiny) {
-            GameHelper.incrementObservable(App.game.statistics.shinyPokemonCaptured[pokemon.id]);
-            GameHelper.incrementObservable(App.game.statistics.totalShinyPokemonCaptured);
+            GameHelper.incrementObservable(App.game.statistics.dotDigimonScanned[pokemon.id]);
+            GameHelper.incrementObservable(App.game.statistics.totalDotDigimonScanned);
             // Add all shiny catches to the log book
             App.game.logbook.newLog(LogBookTypes.CAUGHT, `You have scanned a Dot ${pokemon.name}!`);
             // Already caught (shiny)
