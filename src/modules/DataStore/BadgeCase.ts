@@ -22,7 +22,7 @@ export default class BadgeCase implements Feature {
     badgeCaseTooltip: PureComputed<string> = ko.pureComputed(() => {
         const maxLevel = this.maxLevel();
 
-        return `Earning badges raises the maximum possible level of your Pokémon, up to 100.<br>The max level your Pokémon can currently reach is <b>${maxLevel}</b>.`;
+        return `Earning keepsakes raises the maximum possible level of your Digimon, up to 100.<br>The max level your Digimon can currently reach is <b>${maxLevel}</b>.`;
     });
 
     badgeCount(): number {
