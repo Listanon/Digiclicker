@@ -10,7 +10,7 @@ export default class ClearGymRequirement extends AchievementRequirement {
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.gymsDefeated[this.gymIndex](), this.requiredValue);
+        return Math.min(App.game.statistics.challengesDefeated[this.gymIndex](), this.requiredValue);
     }
 
     public hint(): string {
