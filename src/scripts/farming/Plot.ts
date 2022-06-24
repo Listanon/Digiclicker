@@ -322,7 +322,7 @@ class Plot implements Saveable {
                 this.age = 0;
                 this.notifications.push(FarmNotificationType.Replanted);
                 App.game.oakItems.use(OakItemType.Failure_Prevent);
-                GameHelper.incrementObservable(App.game.statistics.totalBerriesReplanted, 1);
+                GameHelper.incrementObservable(App.game.statistics.totalDisksReplaced, 1);
                 return;
             }
 
