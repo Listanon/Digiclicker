@@ -325,7 +325,7 @@ class AchievementHandler {
             });
             // Gyms
             GameConstants.RegionGyms[region]?.forEach(gym => {
-                const gymTitle: string = gym.includes('Elite') || gym.includes('Champion') ? gym : `${gym} Gym`;
+                const gymTitle: string = gym.includes('Elite') || gym.includes('Champion') ? gym : `${gym}`;
                 if (GymList[gym]?.flags?.achievement) {
                     AchievementHandler.addAchievement(`${gym} Challenge regular`, `Clear ${gymTitle} 10 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[0], GameConstants.getGymIndex(gym)), 1, region);
                     AchievementHandler.addAchievement(`${gym} Challenge ruler`, `Clear ${gymTitle} 100 times`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[1], GameConstants.getGymIndex(gym)), 2, region);
@@ -348,9 +348,9 @@ class AchievementHandler {
             AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace`, `Scan ${amt50} unique Pokémon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniquePokemonsByRegionRequirement(region, amt50), 4, region);
             AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Digidex!`, new CaughtUniquePokemonsByRegionRequirement(region, amtAll), 6, region);
             // Caught unique shiny pokemon
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Tamer`, `Scan ${amt10} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt10), 3, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Ace`, `Scan ${amt50} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt50), 6, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Digidex!`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amtAll), 9, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Tamer`, `Scan ${amt10} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt10), 3, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Ace`, `Scan ${amt50} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt50), 6, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Digidex!`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amtAll), 9, region);
         });
 
         // load filters, filter the list & calculate number of tabs
