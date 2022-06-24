@@ -48,7 +48,7 @@ class PokemonFactory {
 
             // Track shinies encountered, and rate of shinies
             LogEvent('encountered shiny', 'shiny pokemon', 'wild encounter',
-                Math.floor(App.game.statistics.totalPokemonEncountered() / App.game.statistics.totalShinyPokemonEncountered()));
+                Math.floor(App.game.statistics.totalDigimonEncountered() / App.game.statistics.totalDotDigimonEncountered()));
         }
         return new BattlePokemon(name, id, basePokemon.type1, basePokemon.type2, maxHealth, level, catchRate, exp, new Amount(money, GameConstants.Currency.money), shiny, 1, heldItem);
     }
@@ -134,7 +134,7 @@ class PokemonFactory {
 
             // Track shinies encountered, and rate of shinies
             LogEvent('encountered shiny', 'shiny pokemon', 'dungeon encounter',
-                Math.floor(App.game.statistics.totalPokemonEncountered() / App.game.statistics.totalShinyPokemonEncountered()));
+                Math.floor(App.game.statistics.totalDigimonEncountered() / App.game.statistics.totalDotDigimonEncountered()));
         }
         return new BattlePokemon(name, id, basePokemon.type1, basePokemon.type2, maxHealth, level, catchRate, exp, new Amount(money, GameConstants.Currency.money), shiny, GameConstants.DUNGEON_GEMS, heldItem);
     }
@@ -171,7 +171,7 @@ class PokemonFactory {
 
             // Track shinies encountered, and rate of shinies
             LogEvent('encountered shiny', 'shiny pokemon', 'dungeon boss encounter',
-                Math.floor(App.game.statistics.totalPokemonEncountered() / App.game.statistics.totalShinyPokemonEncountered()));
+                Math.floor(App.game.statistics.totalDigimonEncountered() / App.game.statistics.totalDotDigimonEncountered()));
         }
         return new BattlePokemon(name, id, basePokemon.type1, basePokemon.type2, maxHealth, bossPokemon.level, catchRate, exp, new Amount(money, GameConstants.Currency.money), shiny, GameConstants.DUNGEON_BOSS_GEMS, heldItem);
     }
