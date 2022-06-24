@@ -426,10 +426,10 @@ const BlackthornCityShop = new Shop([
 // Johto NPCs
 
 const JohtoBerryMaster = new BerryMasterShop([
-    ItemList['Boost_Mulch'],
-    ItemList['Rich_Mulch'],
-    ItemList['Surprise_Mulch'],
-    ItemList['Amaze_Mulch'],
+    ItemList['Speed_Boost'],
+    ItemList['Space_Boost'],
+    ItemList['Surprise_Boost'],
+    ItemList['Quality_Boost'],
     ItemList['Berry_Shovel'],
     ItemList['Mulch_Shovel'],
     ItemList['Demo_Disk'],
@@ -742,10 +742,10 @@ const BattleFrontierShop = new Shop([
 
 //Hoenn Berry Master
 const HoennBerryMaster = new BerryMasterShop([
-    ItemList['Boost_Mulch'],
-    ItemList['Rich_Mulch'],
-    ItemList['Surprise_Mulch'],
-    ItemList['Amaze_Mulch'],
+    ItemList['Speed_Boost'],
+    ItemList['Space_Boost'],
+    ItemList['Surprise_Boost'],
+    ItemList['Quality_Boost'],
     ItemList['Berry_Shovel'],
     ItemList['Mulch_Shovel'],
     ItemList['Failure_Prevent'],
@@ -1160,10 +1160,10 @@ const PastoriaShop = new Shop([
 
 //Sinnoh Berry Master
 const SinnohBerryMaster = new BerryMasterShop([
-    ItemList['Boost_Mulch'],
-    ItemList['Rich_Mulch'],
-    ItemList['Surprise_Mulch'],
-    ItemList['Amaze_Mulch'],
+    ItemList['Speed_Boost'],
+    ItemList['Space_Boost'],
+    ItemList['Surprise_Boost'],
+    ItemList['Quality_Boost'],
     ItemList['Berry_Shovel'],
     ItemList['Mulch_Shovel'],
     ItemList['FarmHandRiley'],
