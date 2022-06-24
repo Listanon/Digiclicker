@@ -7,7 +7,7 @@ export default class UndergroundItemsFoundRequirement extends AchievementRequire
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.undergroundItemsFound(), this.requiredValue);
+        return Math.min(App.game.statistics.junkyardItemsFound(), this.requiredValue);
     }
 
     public hint(): string {
