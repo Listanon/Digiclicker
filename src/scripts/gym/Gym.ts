@@ -55,7 +55,7 @@ class Gym extends TownContent {
         if (!QuestLineHelper.isQuestLineCompleted('Tutorial Quests')) {
             return undefined;
         }
-        return App.game.statistics.gymsDefeated[GameConstants.getGymIndex(this.town)]();
+        return App.game.statistics.challengesDefeated[GameConstants.getGymIndex(this.town)]();
     }
 
     constructor(
