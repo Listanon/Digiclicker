@@ -4,7 +4,7 @@ class MineLayersQuest extends Quest implements QuestInterface {
 
     constructor(amount: number, reward: number) {
         super(amount, reward);
-        this.focus = App.game.statistics.undergroundLayersMined;
+        this.focus = App.game.statistics.junkyardLayersMined;
     }
 
     public static canComplete() {
