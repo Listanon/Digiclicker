@@ -198,7 +198,7 @@ class MapHelper {
             openModal();
         } else {
             Notifier.notify({
-                message: 'You cannot access this dock yet',
+                message: 'You cannot travel with Whamon yet',
                 type: NotificationConstants.NotificationOption.warning,
             });
         }
