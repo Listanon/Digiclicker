@@ -7,7 +7,7 @@ export default class BattleFrontierTotalStageRequirement extends AchievementRequ
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.battleFrontierTotalStagesCompleted(), this.requiredValue);
+        return Math.min(App.game.statistics.colosseumTotalStagesCompleted(), this.requiredValue);
     }
 
     public hint(): string {
