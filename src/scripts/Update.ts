@@ -142,7 +142,7 @@ class Update implements Saveable {
             // the Routes class in the future. Values are lowest/highest route
             // index
             const regionRoutes = {
-                kanto: [1, 25],
+                adventure01: [1, 23],
                 johto: [26, 48],
                 hoenn: [101, 134],
                 sinnoh: [201, 230],
