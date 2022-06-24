@@ -10,7 +10,7 @@ class ObtainedPokemonRequirement extends Requirement {
     }
 
     public getProgress() {
-        return Math.min(App.game?.statistics?.pokemonCaptured[this.pokemonID](), this.requiredValue);
+        return Math.min(App.game?.statistics?.digimonScanned[this.pokemonID](), this.requiredValue);
     }
 
     public hint(): string {
