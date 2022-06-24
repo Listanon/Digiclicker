@@ -334,7 +334,7 @@ class Update implements Saveable {
                 timeout: GameConstants.HOUR,
             });
             // Disable Master Balls
-            if (!saveData.statistics.pokeballsUsed[3]) {
+            if (!saveData.statistics.digiscansUsed[3]) {
                 Notifier.notify({
                     title: 'Active Challenge Mode?',
                     message: `Do you want to activate No Masterball challenge mode?
