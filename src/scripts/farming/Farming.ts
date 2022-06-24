@@ -1121,7 +1121,7 @@ class Farming implements Feature {
         this.gainBerry(plot.berry, amount);
 
         App.game.oakItems.use(OakItemType.Megabyte, this.berryData[plot.berry].exp);
-        GameHelper.incrementObservable(App.game.statistics.totalManualHarvests, 1);
+        GameHelper.incrementObservable(App.game.statistics.totalManualBurns, 1);
 
         player.lowerItemMultipliers(MultiplierDecreaser.Berry, this.berryData[plot.berry].exp);
 
