@@ -15,7 +15,7 @@ class BattleFrontierBattle extends Battle {
     public static pokemonAttack() {
         // attack twice as fast if we have defeated this stage
         this.alternateAttack = !this.alternateAttack;
-        if (this.alternateAttack && BattleFrontierRunner.stage() > App.game.statistics.battleFrontierHighestStageCompleted()) {
+        if (this.alternateAttack && BattleFrontierRunner.stage() > App.game.statistics.colosseumHighestStageCompleted()) {
             return;
         }
         // Limit pokemon attack speed, Only allow 1 attack per 450ms
