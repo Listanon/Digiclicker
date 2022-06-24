@@ -14,11 +14,11 @@ class Update implements Saveable {
             // Update the save data as it is no longer a part of player data
             saveData.statistics = {
                 ...playerData.statistics || {},
-                pokemonCaptured: playerData._caughtAmount || 0,
-                pokemonDefeated: playerData._defeatedAmount || 0,
-                totalShinyPokemonCaptured: playerData._shinyCatches || 0,
-                totalPokemonCaptured: playerData.statistics.digimonScanned || 0,
-                totalPokemonDefeated: playerData.statistics.digimonDefeated || 0,
+                digimonScanned: playerData._caughtAmount || 0,
+                digimonDefeated: playerData._defeatedAmount || 0,
+                totalDotDigimonScanned: playerData._shinyCatches || 0,
+                totalDigimonScanned: playerData.statistics.digimonScanned || 0,
+                totalDigimonDefeated: playerData.statistics.digimonDefeated || 0,
             };
         },
 
@@ -31,8 +31,8 @@ class Update implements Saveable {
                 ...saveData.statistics,
                 clickAttacks: saveData.statistics.clicks || 0,
                 totalDungeonTokens: saveData.statistics.totalTokens || 0,
-                undergroundItemsFound:  saveData.statistics.digItems || 0,
-                undergroundLayersMined:  saveData.statistics.digDeeper || 0,
+                junkyardItemsFound:  saveData.statistics.digItems || 0,
+                junkyardLayersMined:  saveData.statistics.digDeeper || 0,
             };
         },
 
@@ -49,7 +49,7 @@ class Update implements Saveable {
             // Rename from the old statistic name
             saveData.statistics = {
                 ...saveData.statistics,
-                totalPokemonHatched: saveData.statistics.hatchedEggs || 0,
+                totalDigimonHatched: saveData.statistics.hatchedEggs || 0,
             };
         },
 
@@ -645,23 +645,23 @@ class Update implements Saveable {
                     saveData.statistics.shinyPokemonHatched = {};
                 }
                 // Update our statistics
-                saveData.statistics.pokemonEncountered[newID] = saveData.statistics.pokemonEncountered[oldID] || 0;
-                saveData.statistics.pokemonDefeated[newID] = saveData.statistics.pokemonDefeated[oldID] || 0;
-                saveData.statistics.pokemonCaptured[newID] = saveData.statistics.pokemonCaptured[oldID] || 0;
-                saveData.statistics.pokemonHatched[newID] = saveData.statistics.pokemonHatched[oldID] || 0;
-                saveData.statistics.shinyPokemonEncountered[newID] = saveData.statistics.shinyPokemonEncountered[oldID] || 0;
-                saveData.statistics.shinyPokemonDefeated[newID] = saveData.statistics.shinyPokemonDefeated[oldID] || 0;
-                saveData.statistics.shinyPokemonCaptured[newID] = saveData.statistics.shinyPokemonCaptured[oldID] || 0;
-                saveData.statistics.shinyPokemonHatched[newID] = saveData.statistics.shinyPokemonHatched[oldID] || 0;
+                saveData.statistics.digimonEncountered[newID] = saveData.statistics.digimonEncountered[oldID] || 0;
+                saveData.statistics.digimonDefeated[newID] = saveData.statistics.digimonDefeated[oldID] || 0;
+                saveData.statistics.digimonCaptured[newID] = saveData.statistics.digimonCaptured[oldID] || 0;
+                saveData.statistics.digimonHatched[newID] = saveData.statistics.digimonHatched[oldID] || 0;
+                saveData.statistics.dotDigimonEncountered[newID] = saveData.statistics.dotDigimonEncountered[oldID] || 0;
+                saveData.statistics.dotDigimonDefeated[newID] = saveData.statistics.dotDigimonDefeated[oldID] || 0;
+                saveData.statistics.dotDigimonScanned[newID] = saveData.statistics.dotDigimonScanned[oldID] || 0;
+                saveData.statistics.dotDigimonHatched[newID] = saveData.statistics.dotDigimonHatched[oldID] || 0;
                 // Delete our old statistics
-                delete saveData.statistics.pokemonEncountered[oldID];
-                delete saveData.statistics.pokemonDefeated[oldID];
-                delete saveData.statistics.pokemonCaptured[oldID];
-                delete saveData.statistics.pokemonHatched[oldID];
-                delete saveData.statistics.shinyPokemonEncountered[oldID];
-                delete saveData.statistics.shinyPokemonDefeated[oldID];
-                delete saveData.statistics.shinyPokemonCaptured[oldID];
-                delete saveData.statistics.shinyPokemonHatched[oldID];
+                delete saveData.statistics.digimonEncountered[oldID];
+                delete saveData.statistics.digimonDefeated[oldID];
+                delete saveData.statistics.digimonScanned[oldID];
+                delete saveData.statistics.digimonHatched[oldID];
+                delete saveData.statistics.dotDigimonEncountered[oldID];
+                delete saveData.statistics.dotDigimonDefeated[oldID];
+                delete saveData.statistics.dotDigimonScanned[oldID];
+                delete saveData.statistics.dotDigimonHatched[oldID];
             });
 
             playerData.mineInventory = playerData.mineInventory?.map(i => {
@@ -938,8 +938,8 @@ class Update implements Saveable {
         }
 
         const pokemon: PartyPokemon = PokemonFactory.generatePartyPokemon(pokemonId, false);
-        saveData.statistics.pokemonCaptured[pokemonId] = 1;
-        saveData.statistics.totalPokemonCaptured++;
+        saveData.statistics.digimonScanned[pokemonId] = 1;
+        saveData.statistics.totalDigimonScanned++;
         saveData.logbook.logs.unshift({
             date: Date.now(),
             description: `You have captured ${GameHelper.anOrA(pokemon.name)} ${pokemon.name}!`,
