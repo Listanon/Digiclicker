@@ -69,7 +69,7 @@ export default class Weather {
      * The probability distribution for Weather conditions
      */
     public static weatherDistribution: { [region in Region]?: WeatherType[] } = {
-        [Region.kanto]: [
+        [Region.adventure01]: [
             WeatherType.Clear,
             WeatherType.Overcast,
             WeatherType.Rain,
