@@ -41,7 +41,7 @@ export default class OakItem extends ExpUpgrade {
         if (!this.isMaxLevel()) {
             this.gainExp(exp * scale);
         }
-        GameHelper.incrementObservable(App.game.statistics.oakItemUses[this.name]);
+        GameHelper.incrementObservable(App.game.statistics.hinaItemUses[this.name]);
     }
 
     isUnlocked(): boolean {
