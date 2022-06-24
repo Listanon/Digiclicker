@@ -125,12 +125,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Drimogemon', 'Meramon', 'Birdramon', 'Flare Lizarmon', 'Monochromon', 'Sand Yanmamon', 'Insekimon'],
     }),
-    [
-        new OneFromManyRequirement([
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 12),
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 11),
-        ]),
-    ]
+    [new RouteKillRequirement(10, GameConstants.Region.kanto, 12)]
 ));
 Routes.add(new RegionRoute(
     'Digitamamon\'s Diner', GameConstants.Region.kanto, 14,
