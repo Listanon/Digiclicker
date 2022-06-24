@@ -128,7 +128,7 @@ class QuestLineHelper {
                 timeout: 3e4,
             });
         };
-        const reachStage100 = new CustomQuest(100, reachStage100Reward, 'Defeat stage 100 in the Battle Frontier', App.game.statistics.battleFrontierHighestStageCompleted, 0);
+        const reachStage100 = new CustomQuest(100, reachStage100Reward, 'Defeat stage 100 in the Battle Frontier', App.game.statistics.colosseumHighestStageCompleted, 0);
         deoxysQuestLine.addQuest(reachStage100);
 
         App.game.quests.questLines().push(deoxysQuestLine);
