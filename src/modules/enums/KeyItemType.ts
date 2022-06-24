@@ -12,7 +12,7 @@ enum KeyItemType {
     'Employee_Pass',
     'Explorer_kit',
     'Event_calendar',
-    'Chip_Case',
+    'Chip_case',
     'DNA_splicers',
 }
 
