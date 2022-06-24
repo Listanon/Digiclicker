@@ -4,7 +4,7 @@ class MineItemsQuest extends Quest implements QuestInterface {
 
     constructor(amount: number, reward: number) {
         super(amount, reward);
-        this.focus = App.game.statistics.undergroundItemsFound;
+        this.focus = App.game.statistics.junkyardItemsFound;
     }
 
     public static canComplete() {
