@@ -103,7 +103,7 @@ class Update implements Saveable {
             // Rename from the old statistic name, add our new statistics
             saveData.statistics = {
                 ...saveData.statistics,
-                totalBerriesHarvested: saveData.statistics.berriesHarvested.reduce((sum, b) => sum + b, 0) || 0,
+                totalDisksBurned: saveData.statistics.disksBurned.reduce((sum, b) => sum + b, 0) || 0,
                 totalShardsGained: saveData.statistics.totalShards.reduce((sum, b) => sum + b, 0) || 0,
                 shardsGained: saveData.statistics.totalShards || 0,
                 pokemonHatched,
@@ -549,9 +549,9 @@ class Update implements Saveable {
             // Rename from the old statistic name
             saveData.statistics = {
                 ...saveData.statistics,
-                totalBerriesObtained: saveData.statistics.totalBerriesHarvested || 0,
-                pokeballsObtained: saveData.statistics.pokeballsBought || 0,
-                berriesObtained:  saveData.statistics.berriesHarvested || 0,
+                totalDisksObtained: saveData.statistics.totalDisksBurned || 0,
+                digiscansObtained: saveData.statistics.digiscansBought || 0,
+                disksObtained:  saveData.statistics.disksBurned || 0,
 
             };
         },
