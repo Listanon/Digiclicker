@@ -25,7 +25,7 @@ class QuestLineHelper {
         //Kill 5 on route 2
         const routeTwo = new CustomQuest(10, 20,
             'Defeat 10 Digimon on route 2. Click route 2 on the map to move there and begin fighting.',
-            () => App.game.statistics.routeKills[GameConstants.Region.kanto]['2'](),
+            () => App.game.statistics.routeKills[GameConstants.Region.adventure01]['2'](),
             0 // Initial of 0 so it auto completes if bugged
         );
         tutorial.addQuest(routeTwo);
