@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             KeyItemController.showGainModal(KeyItemType.Safari_ticket);
         }
         if (GymBattle.gym.badgeReward == BadgeEnums.Earth) {
-            KeyItemController.showGainModal(KeyItemType.Gem_case);
+            KeyItemController.showGainModal(KeyItemType.Chip_case);
         }
     });
 });
