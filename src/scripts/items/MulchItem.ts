@@ -15,7 +15,7 @@ class MulchItem extends Item {
 
 }
 
-ItemList['Speed_Boost']   = new MulchItem(MulchType.Boost_Mulch, 50, 'Speed Boost', 'Increases Disk burn speed.');
-ItemList['Space_Boost']  = new MulchItem(MulchType.Rich_Mulch, 100, 'Space Boost', 'Increases Disk production.');
-ItemList['Surprise_Boost']  = new MulchItem(MulchType.Surprise_Mulch, 150, 'Surprise Boost', 'Increases disk modification rate.');
-ItemList['Quality_Boost'] = new MulchItem(MulchType.Amaze_Mulch, 200, 'Quality Boost', 'Increases all boost effects.');
+ItemList['Speed_Boost']   = new MulchItem(MulchType.Speed_Boost, 50, 'Speed Boost', 'Increases Disk burn speed.');
+ItemList['Space_Boost']  = new MulchItem(MulchType.Space_Boost, 100, 'Space Boost', 'Increases Disk production.');
+ItemList['Surprise_Boost']  = new MulchItem(MulchType.Surprise_Boost, 150, 'Surprise Boost', 'Increases disk modification rate.');
+ItemList['Quality_Boost'] = new MulchItem(MulchType.Quality_Boost, 200, 'Quality Boost', 'Increases all boost effects.');
