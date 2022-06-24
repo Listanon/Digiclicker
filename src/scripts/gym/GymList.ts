@@ -188,15 +188,15 @@ GymList['Wasteland Data'] = new Gym(
     [new GymBadgeRequirement(BadgeEnums.City_Data)]
 );
 // Kanto Champion
-GymList['Apocalymon'] = new Champion(
+GymList['Apocalymon Data'] = new Champion(
     'Apocalymon',
-    'Apocalymon',
+    'Apocalymon Data',
     [
         new GymPokemon('Skull Greymon', 38431, 51),
         new GymPokemon('Venom Vamdemon', 38431, 51),
         new GymPokemon('Metal Etemon', 38431, 51),
     ],
-    BadgeEnums.Apocalymon,
+    BadgeEnums.Apocalymon_Data,
     10000,
     'Why? Why did I lose? I never made any mistakes. Darn it! Why do you get to taste the best that life has to offer, while all i do is choke on its leftovers?! Answer me this! Why do all of you get the pizza, while i get the crusts?!',
     [new GymBadgeRequirement(BadgeEnums.Wasteland_Data)],
