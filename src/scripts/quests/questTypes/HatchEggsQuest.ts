@@ -4,7 +4,7 @@ class HatchEggsQuest extends Quest implements QuestInterface {
 
     constructor(amount: number, reward: number) {
         super(amount, reward);
-        this.focus = App.game.statistics.totalPokemonHatched;
+        this.focus = App.game.statistics.totalDigimonHatched;
     }
 
     public static canComplete() {
