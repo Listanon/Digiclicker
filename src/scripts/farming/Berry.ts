@@ -12,7 +12,7 @@ class Berry {
     public wander: PokemonNameType[];
 
     public static baseWander: PokemonNameType[] = [
-        'Burpmon', 'Burpmon',
+        'Platinum Scumon', 'Golemon PS',
         'Burpmon', 'Burpmon',
         'Burpmon', 'Burpmon',
         'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon',
