@@ -118,7 +118,7 @@ const LavenderTownShop = new Shop([
 // Kanto NPCs
 
 const PalletProfOak = new ProfNPC('Hina',
-    GameConstants.Region.kanto,
+    GameConstants.Region.adventure01,
     'Congratulations on completing your Adventure01 journey!',
     'Your task isn\'t over yet, a whole world awaits you! Onwards to Adventure02!',
     'assets/images/oak.png');
@@ -163,7 +163,7 @@ const SaffronBattleItemRival = new NPC('Battle Item Master', [
 
 const FuchsiaKantoRoamerNPC = new RoamerNPC('Scouting Echo', [
     'There\'s been some recent sightings of roaming Digimon on {ROUTE_NAME}!',
-], GameConstants.Region.kanto);
+], GameConstants.Region.adventure01);
 
 const CinnabarIslandResearcher = new NPC('Researcher Echo', [
     'I heard what sounded like Digimon arguing from the forest last night. It was something about having a different color or something.',
