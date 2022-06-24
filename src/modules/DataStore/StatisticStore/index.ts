@@ -21,7 +21,7 @@ export default class Statistics implements Saveable {
     secondsPlayed: KnockoutObservable<number>;
     clickAttacks: KnockoutObservable<number>;
     questsCompleted: KnockoutObservable<number>;
-    totalGemsGained: KnockoutObservable<number>;
+    totalChipsGained: KnockoutObservable<number>;
     totalProteinsObtained: KnockoutObservable<number>;
     // Currency
     totalMoney: KnockoutObservable<number>;
@@ -38,67 +38,67 @@ export default class Statistics implements Saveable {
     totalIntCoins: KnockoutObservable<number>;
     totalMagicCoins: KnockoutObservable<number>;
     // Pokemon
-    totalPokemonCaptured: KnockoutObservable<number>;
-    totalPokemonDefeated: KnockoutObservable<number>;
-    totalPokemonEncountered: KnockoutObservable<number>;
-    totalPokemonHatched: KnockoutObservable<number>;
-    totalShinyPokemonCaptured: KnockoutObservable<number>;
-    totalShinyPokemonDefeated: KnockoutObservable<number>;
-    totalShinyPokemonEncountered: KnockoutObservable<number>;
-    totalShinyPokemonHatched: KnockoutObservable<number>;
+    totalDigimonScanned: KnockoutObservable<number>;
+    totalDigimonDefeated: KnockoutObservable<number>;
+    totalDigimonEncountered: KnockoutObservable<number>;
+    totalDigimonHatched: KnockoutObservable<number>;
+    totalDotDigimonScanned: KnockoutObservable<number>;
+    totalDotDigimonDefeated: KnockoutObservable<number>;
+    totalDotDigimonEncountered: KnockoutObservable<number>;
+    totalDotDigimonHatched: KnockoutObservable<number>;
     // Underground
-    undergroundItemsFound: KnockoutObservable<number>;
-    undergroundLayersMined: KnockoutObservable<number>;
-    undergroundDailyDealTrades: KnockoutObservable<number>;
+    junkyardItemsFound: KnockoutObservable<number>;
+    junkyardLayersMined: KnockoutObservable<number>;
+    junkyardDailyDealTrades: KnockoutObservable<number>;
     // Farm
-    totalManualHarvests: KnockoutObservable<number>;
-    totalBerriesObtained: KnockoutObservable<number>;
-    totalBerriesHarvested: KnockoutObservable<number>;
-    totalBerriesReplanted: KnockoutObservable<number>;
-    totalBerriesMutated: KnockoutObservable<number>;
-    totalMulchesUsed: KnockoutObservable<number>;
-    totalShovelsUsed: KnockoutObservable<number>;
+    totalManualBurns: KnockoutObservable<number>;
+    totalDisksObtained: KnockoutObservable<number>;
+    totalDisksBurned: KnockoutObservable<number>;
+    totalDisksReplaced: KnockoutObservable<number>;
+    totalDisksModified: KnockoutObservable<number>;
+    totalBoostsUsed: KnockoutObservable<number>;
+    totalDiscardsUsed: KnockoutObservable<number>;
     berryDailyDealTrades: KnockoutObservable<number>;
     // Battle Frontier
-    battleFrontierTotalStagesCompleted: KnockoutObservable<number>;
-    battleFrontierHighestStageCompleted: KnockoutObservable<number>;
+    colosseumTotalStagesCompleted: KnockoutObservable<number>;
+    colosseumHighestStageCompleted: KnockoutObservable<number>;
 
     /*
      * arrayObservables
      */
-    pokeballsUsed: Array<KnockoutObservable<number>>;
-    pokeballsBought: Array<KnockoutObservable<number>>;
-    pokeballsObtained: Array<KnockoutObservable<number>>;
+    digiscansUsed: Array<KnockoutObservable<number>>;
+    digiscansBought: Array<KnockoutObservable<number>>;
+    digiscansObtained: Array<KnockoutObservable<number>>;
     // Other
-    gemsGained: Array<KnockoutObservable<number>>;
-    oakItemUses: Array<KnockoutObservable<number>>;
+    chipsGained: Array<KnockoutObservable<number>>;
+    hinaItemUses: Array<KnockoutObservable<number>>;
     // Farm
-    berriesHarvested: Array<KnockoutObservable<number>>;
-    berriesObtained: KnockoutObservable<number>;
-    mulchesUsed: Array<KnockoutObservable<number>>;
+    disksBurned: Array<KnockoutObservable<number>>;
+    disksObtained: KnockoutObservable<number>;
+    boostsUsed: Array<KnockoutObservable<number>>;
     // Battle
     routeKills: Record<string, Record<string, KnockoutObservable<number>>>;
-    gymsDefeated: Array<KnockoutObservable<number>>;
+    challengesDefeated: Array<KnockoutObservable<number>>;
     dungeonsCleared: Array<KnockoutObservable<number>>;
     temporaryBattleDefeated: Array<KnockoutObservable<number>>;
 
     /*
      * objectObservables
      */
-    pokemonCaptured: any;
-    pokemonDefeated: any;
-    pokemonEncountered: any;
-    pokemonHatched: any;
-    shinyPokemonCaptured: any;
-    shinyPokemonDefeated: any;
-    shinyPokemonEncountered: any;
-    shinyPokemonHatched: any;
+    digimonScanned: any;
+    digimonDefeated: any;
+    digimonEncountered: any;
+    digimonHatched: any;
+    dotDigimonScanned: any;
+    dotDigimonDefeated: any;
+    dotDigimonEncountered: any;
+    dotDigimonHatched: any;
 
     observables = [
         'secondsPlayed',
         'clickAttacks',
         'questsCompleted',
-        'totalGemsGained',
+        'totalChipsGained',
         'totalProteinsObtained',
         'totalMoney',
         'totalDungeonTokens',
@@ -113,51 +113,51 @@ export default class Statistics implements Saveable {
         'totalSpeedCoins',
         'totalIntCoins',
         'totalMagicCoins',
-        'totalPokemonCaptured',
-        'totalPokemonDefeated',
-        'totalPokemonEncountered',
-        'totalPokemonHatched',
-        'totalShinyPokemonCaptured',
-        'totalShinyPokemonDefeated',
-        'totalShinyPokemonEncountered',
-        'totalShinyPokemonHatched',
-        'undergroundItemsFound',
-        'undergroundLayersMined',
-        'undergroundDailyDealTrades',
-        'totalManualHarvests',
-        'totalBerriesHarvested',
-        'totalBerriesObtained',
-        'totalBerriesReplanted',
-        'totalBerriesMutated',
-        'totalMulchesUsed',
-        'totalShovelsUsed',
-        'berryDailyDealTrades',
-        'battleFrontierTotalStagesCompleted',
-        'battleFrontierHighestStageCompleted',
+        'totalDigimonScanned',
+        'totalDigimonDefeated',
+        'totalDigimonEncountered',
+        'totalDigimonHatched',
+        'totalDotDigimonScanned',
+        'totalDotDigimonDefeated',
+        'totalDotDigimonEncountered',
+        'totalDotDigimonHatched',
+        'junkyardItemsFound',
+        'junkyardLayersMined',
+        'junkyardDailyDealTrades',
+        'totalManualBurns',
+        'totalDisksBurned',
+        'totalDisksObtained',
+        'totalDisksReplaced',
+        'totalDisksModified',
+        'totalBoostsUsed',
+        'totalDiscardsUsed',
+        'diskDailyDealTrades',
+        'colisseumTotalStagesCompleted',
+        'colisseumHighestStageCompleted',
     ];
     arrayObservables = [
-        'gymsDefeated',
+        'challengesDefeated',
         'dungeonsCleared',
-        'pokeballsUsed',
-        'pokeballsBought',
-        'pokeballsObtained',
-        'gemsGained',
-        'oakItemUses',
-        'berriesHarvested',
-        'berriesObtained',
-        'mulchesUsed',
+        'digiscansUsed',
+        'digiscansBought',
+        'digiscansObtained',
+        'chipsGained',
+        'hinaItemUses',
+        'disksBurned',
+        'disksObtained',
+        'boostsUsed',
         'temporaryBattleDefeated',
     ];
     // These will allow negative values (special events etc)
     objectObservables = [
-        'pokemonCaptured',
-        'pokemonDefeated',
-        'pokemonEncountered',
-        'pokemonHatched',
-        'shinyPokemonCaptured',
-        'shinyPokemonDefeated',
-        'shinyPokemonEncountered',
-        'shinyPokemonHatched',
+        'digimonScanned',
+        'digimonDefeated',
+        'digimonEncountered',
+        'digimonHatched',
+        'dotDigimonCaptured',
+        'dotDigimonDefeated',
+        'dotDigimonEncountered',
+        'dotDigimonHatched',
     ];
     // Observables that can be automatically generated
     autogeneratedObservables = [
