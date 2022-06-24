@@ -40,7 +40,7 @@ class DefeatDungeonQuest extends Quest implements QuestInterface {
             }
         }
         if (!route) {
-            route = 1, region = GameConstants.Region.kanto;
+            route = 1, region = GameConstants.Region.adventure01;
         }
         const tokens = PokemonFactory.routeDungeonTokens(route,region);
         const routeKillsPerDungeon = dungeonList[dungeon].tokenCost / tokens;
