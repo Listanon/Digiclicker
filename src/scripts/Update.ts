@@ -17,8 +17,8 @@ class Update implements Saveable {
                 pokemonCaptured: playerData._caughtAmount || 0,
                 pokemonDefeated: playerData._defeatedAmount || 0,
                 totalShinyPokemonCaptured: playerData._shinyCatches || 0,
-                totalPokemonCaptured: playerData.statistics.pokemonCaptured || 0,
-                totalPokemonDefeated: playerData.statistics.pokemonDefeated || 0,
+                totalPokemonCaptured: playerData.statistics.digimonScanned || 0,
+                totalPokemonDefeated: playerData.statistics.digimonDefeated || 0,
             };
         },
 
@@ -599,8 +599,8 @@ class Update implements Saveable {
             // Rename from the old statistic name
             saveData.statistics = {
                 ...saveData.statistics,
-                totalGemsGained: saveData.statistics.totalShardsGained || 0,
-                gemsGained: saveData.statistics.shardsGained || 0,
+                totalChipsGained: saveData.statistics.totalShardsGained || 0,
+                chipsGained: saveData.statistics.shardsGained || 0,
             };
 
             // Challenge update
