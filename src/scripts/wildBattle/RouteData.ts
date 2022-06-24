@@ -208,7 +208,7 @@ Routes.add(new RegionRoute(
         land: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
         headbutt: ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Apocalymon)]
+    [new GymBadgeRequirement(BadgeEnums.Apocalymon_Data)]
 ));
 Routes.add(new RegionRoute(
     'Johto Route 30', GameConstants.Region.johto, 30,
