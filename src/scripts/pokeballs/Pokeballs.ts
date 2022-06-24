@@ -93,7 +93,7 @@ class Pokeballs implements Feature {
             }, 1250, 'Increased catch rate on earlier routes', new RouteKillRequirement(10, GameConstants.Region.johto, 34)),
 
             new Pokeball(GameConstants.Pokeball.Repeatball, () => {
-                const amountCaught = App.game.statistics.pokemonCaptured[Battle.enemyPokemon().id]();
+                const amountCaught = App.game.statistics.digimonScanned[Battle.enemyPokemon().id]();
 
                 return Math.min(15,Math.pow(amountCaught,2) / 5000);
             }, 1250, 'Increased catch rate with more catches', new RouteKillRequirement(10, GameConstants.Region.johto, 34)),
