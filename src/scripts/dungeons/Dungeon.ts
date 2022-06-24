@@ -1017,11 +1017,11 @@ dungeonList['Piemon\'s Observatory'] = new Dungeon('Piemon\'s Observatory',
     [
         new DungeonBossPokemon('King Etemon', 122975, 45),
         new DungeonBossPokemon('Piemon', 151686, 51),
-        new DungeonTrainer('Cool Couple',
+        new DungeonTrainer('Backpacker (female)',
             [
                 new GymPokemon('Angewomon', 61488, 45),
                 new GymPokemon('Lady Devimon', 61488, 45),
-            ], { weight: 1 }, 'Ray & Tyra'),
+            ], { weight: 1 }, 'Tyra'),
     ],
     2000, 23);
 
