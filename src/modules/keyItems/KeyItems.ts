@@ -19,7 +19,7 @@ export default class KeyItems implements Feature {
 
     initialize(): void {
         this.itemList = [
-            new KeyItem(KeyItemType.Source_Code, 'This code allows Tamers to experience the Digital World's past events', null, true, undefined, 'Source Code'),
+            new KeyItem(KeyItemType.Source_Code, 'This code allows Tamers to experience the Digital World\'s past events', null, true, undefined, 'Source Code'),
             new KeyItem(KeyItemType.Coin_case, 'A case for holding money and all sorts of special currency', null, true, undefined, 'Coin Case'),
             new KeyItem(KeyItemType.Scanning_Goggles, 'A pair of goggles that allow Tamers to scan wild Digimon', null, true, undefined, 'Scanning Goggles'),
             new KeyItem(KeyItemType.Traveling_Gear, 'Everything a Tamer needs to travel the Digital World',
