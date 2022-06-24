@@ -363,7 +363,7 @@ TownList['Piemon\'s Observatory'] = new DungeonTown(
 TownList['Our War Game'] = new DungeonTown(
     'Our War Game',
     GameConstants.Region.kanto,
-    [new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion)]
+    [new GymBadgeRequirement(BadgeEnums.Apokalymon)]
 );
 
 //Johto Shops
