@@ -3,7 +3,7 @@
 class StoneUnlockedRequirement extends Requirement {
     constructor(stoneType: GameConstants.StoneType, option: GameConstants.AchievementOption = GameConstants.AchievementOption.more) {
         const stone = ItemList[GameConstants.StoneType[stoneType]] as EvolutionStone;
-        let requiredRegion = GameConstants.Region.kanto;
+        let requiredRegion = GameConstants.Region.adventure01;
         if (stone) {
             requiredRegion = stone.unlockedRegion;
         }
