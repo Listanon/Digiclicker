@@ -157,12 +157,7 @@ Routes.add(new RegionRoute(
         land: ['Snimon', 'Yanmamon', 'Unimon', 'Ookuwamon'],
         water: ['Seadramon', 'Mega Seadramon', 'Octmon', 'Coelamon', 'Shakomon'],
     }),
-    [
-        new OneFromManyRequirement([
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 16),
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 15),
-        ]),
-    ]
+    [new RouteKillRequirement(10, GameConstants.Region.kanto, 16)]
 ));
 Routes.add(new RegionRoute(
     'Tokyo Pier', GameConstants.Region.kanto, 18,
