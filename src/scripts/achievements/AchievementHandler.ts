@@ -173,11 +173,11 @@ class AchievementHandler {
          * GENERAL
          */
         AchievementHandler.addAchievement('My First Hundo', 'Obtain 100 Digidollars', new MoneyRequirement(100), 0.05);
-        AchievementHandler.addAchievement('I Should Buy a PokéMart', 'Obtain 1,000 Digidollars', new MoneyRequirement(1000), 0.10);
+        AchievementHandler.addAchievement('I Should Buy a Bigger Wallet', 'Obtain 1,000 Digidollars', new MoneyRequirement(1000), 0.10);
         AchievementHandler.addAchievement('A Small Fortune', 'Obtain 10,000 Digidollars', new MoneyRequirement(10000), 0.15);
         AchievementHandler.addAchievement('Annual Wage', 'Obtain 100,000 Digidollars', new MoneyRequirement(100000), 0.20);
-        AchievementHandler.addAchievement('Pfft, I Don\'t Need a Bike Voucher', 'Obtain 1,000,000 Digidollars', new MoneyRequirement(1000000), 0.25);
-        AchievementHandler.addAchievement('A billion Poképennies', 'Obtain 10,000,000 Digidollars', new MoneyRequirement(10000000), 0.5);
+        AchievementHandler.addAchievement('Officially a Millionaire', 'Obtain 1,000,000 Digidollars', new MoneyRequirement(1000000), 0.25);
+        AchievementHandler.addAchievement('A billion Digipennies', 'Obtain 10,000,000 Digidollars', new MoneyRequirement(10000000), 0.5);
 
         AchievementHandler.addAchievement('Dungeon Time', 'Obtain 100 Scan Coins', new TokenRequirement(100), 0.05);
         AchievementHandler.addAchievement('Dungeon Collector', 'Obtain 1,000 Scan Coins', new TokenRequirement(1000), 0.10);
@@ -195,13 +195,13 @@ class AchievementHandler {
         AchievementHandler.addAchievement('You pressed F12 by any chance?', 'Have 500,000 Attack', new AttackRequirement(500000), 0.40);
         AchievementHandler.addAchievement('Left Left Right Right A B A B - Hey, 1 million!', 'Have 1,000,000 Attack', new AttackRequirement(1000000), 0.40);
 
-        AchievementHandler.addAchievement('Bling', 'Obtain 100 Diamonds', new DiamondRequirement(100), 0.05);
-        AchievementHandler.addAchievement('Bling x10!', 'Obtain 1,000 Diamonds', new DiamondRequirement(1000), 0.15);
-        AchievementHandler.addAchievement('If you like it, you should\'ve put a ring on it.', 'Obtain 10,000 Diamonds', new DiamondRequirement(10000), 0.25);
+        AchievementHandler.addAchievement('Bling', 'Obtain 100 Scrap', new DiamondRequirement(100), 0.05);
+        AchievementHandler.addAchievement('Bling x10!', 'Obtain 1,000 Scrap', new DiamondRequirement(1000), 0.15);
+        AchievementHandler.addAchievement('If you like it, you should\'ve put a ring on it.', 'Obtain 10,000 Scrap', new DiamondRequirement(10000), 0.25);
 
         AchievementHandler.addAchievement('Is my thumb green yet?', 'Dig up 1 item', new UndergroundItemsFoundRequirement(1), 0.01);
-        AchievementHandler.addAchievement('My shovel is starting to crack', 'Dig up 10 items', new UndergroundItemsFoundRequirement(10), 0.02);
-        AchievementHandler.addAchievement('Why can\'t I make a diamond shovel?', 'Dig up 100 items', new UndergroundItemsFoundRequirement(100), 0.08);
+        AchievementHandler.addAchievement('My shovel is wrench to crack', 'Dig up 10 items', new UndergroundItemsFoundRequirement(10), 0.02);
+        AchievementHandler.addAchievement('Why can\'t I make a diamond wrench?', 'Dig up 100 items', new UndergroundItemsFoundRequirement(100), 0.08);
         AchievementHandler.addAchievement('This is definitely not Minecraft', 'Dig up 1,000 items', new UndergroundItemsFoundRequirement(1000), 0.1);
         AchievementHandler.addAchievement('I wonder how much is down there...', 'Dig up 10,000 items', new UndergroundItemsFoundRequirement(10000), 0.4);
 
@@ -212,7 +212,7 @@ class AchievementHandler {
 
         AchievementHandler.addAchievement('Is that how I use this?', 'Level 1 Hina Item to the maximum level', new MaxLevelOakItemRequirement(1), 0.05, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
         AchievementHandler.addAchievement('I\'ve got my hands full with all of these', 'Level 3 Hina Items to the maximum level', new MaxLevelOakItemRequirement(3), 0.1, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
-        AchievementHandler.addAchievement('Professor Oak is the best!', 'Level 8 Hina Items to the maximum level', new MaxLevelOakItemRequirement(8), 0.14, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
+        AchievementHandler.addAchievement('Hina is the best!', 'Level 8 Hina Items to the maximum level', new MaxLevelOakItemRequirement(8), 0.14, GameConstants.Region.none, () => !challenges.list.disableOakItems.active());
         AchievementHandler.addAchievement('Prepared for anything!', 'Level 11 Hina Items to the maximum level', new MaxLevelOakItemRequirement(11), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Prepared for anything!', 'Level 12 Hina Items to the maximum level', new MaxLevelOakItemRequirement(12), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && !challenges.list.disableClickAttack.active());
 
@@ -229,7 +229,7 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Are there any left?', 'Defeat 1,000,000 Digimon', new DefeatedRequirement(1000000), 0.50);
 
         AchievementHandler.addAchievement('Startin\' Out', 'Scan your first Digimon', new CaughtPokemonRequirement(1), 0.01);
-        AchievementHandler.addAchievement('Better Than Season 1 Ash', 'Scan 15 unique Digimon', new CaughtPokemonRequirement(15), 0.05);
+        AchievementHandler.addAchievement('Now you are getting it', 'Scan 15 unique Digimon', new CaughtPokemonRequirement(15), 0.05);
         AchievementHandler.addAchievement('Wonderful! Do you like to collect things?', 'Scan 50 unique Digimon', new CaughtPokemonRequirement(50), 0.10);
         AchievementHandler.addAchievement('Surpassing Ash', 'Scan 100 unique Digimon', new CaughtPokemonRequirement(100), 0.20);
 
