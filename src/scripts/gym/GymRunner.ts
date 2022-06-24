@@ -91,7 +91,7 @@ class GymRunner {
             if (!App.game.badgeCase.hasBadge(gym.badgeReward)) {
                 gym.firstWinReward();
             }
-            GameHelper.incrementObservable(App.game.statistics.gymsDefeated[GameConstants.getGymIndex(gym.town)]);
+            GameHelper.incrementObservable(App.game.statistics.challengesDefeated[GameConstants.getGymIndex(gym.town)]);
 
             // Auto restart gym battle
             if (this.autoRestart()) {
