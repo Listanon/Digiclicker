@@ -24,7 +24,7 @@ class PokedexHelper {
     public static pokemonSeen(id: number): KnockoutComputed<boolean> {
         return ko.pureComputed(() => {
             try {
-                return App.game.statistics.pokemonEncountered[id]() > 0 || App.game.statistics.pokemonDefeated[id]() > 0 || App.game.statistics.pokemonCaptured[id]() > 0 || App.game.party.alreadyCaughtPokemon(id);
+                return App.game.statistics.pokemonEncountered[id]() > 0 || App.game.statistics.pokemonDefeated[id]() > 0 || App.game.statistics.digimonScanned[id]() > 0 || App.game.party.alreadyCaughtPokemon(id);
             } catch (error) {
                 return false;
             }
@@ -33,7 +33,7 @@ class PokedexHelper {
     public static pokemonScanned(id: number): KnockoutComputed<boolean> {
         return ko.pureComputed(() => {
             try {
-                return App.game.statistics.pokemonCaptured[id]() > 0 || App.game.party.alreadyCaughtPokemon(id) || id ===0;
+                return App.game.statistics.digimonScanned[id]() > 0 || App.game.party.alreadyCaughtPokemon(id) || id ===0;
             } catch (error) {
                 return false;
             }
@@ -70,9 +70,9 @@ class PokedexHelper {
     public static getList(): Array<Record<string, any>> {
         const filter = PokedexHelper.getFilters();
 
-        const highestEncountered = App.game.statistics.pokemonEncountered.highestID;
-        const highestDefeated = App.game.statistics.pokemonDefeated.highestID;
-        const highestCaught = App.game.statistics.pokemonCaptured.highestID;
+        const highestEncountered = App.game.statistics.digimonEncountered.highestID;
+        const highestDefeated = App.game.statistics.digimonDefeated.highestID;
+        const highestCaught = App.game.statistics.digimonScanned.highestID;
         const highestDex = Math.max(highestEncountered, highestDefeated, highestCaught);
 
         return pokemonList.filter((pokemon) => {
