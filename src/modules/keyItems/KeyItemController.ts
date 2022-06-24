@@ -4,9 +4,9 @@ import {
 import KeyItemType from '../enums/KeyItemType';
 
 export default class KeyItemController {
-    private static inspectedItem: KnockoutObservable<KeyItemType> = ko.observable(KeyItemType.Teachy_tv);
-    private static selectedItem: KnockoutObservable<KeyItemType> = ko.observable(KeyItemType.Teachy_tv);
-    private static latestGainedItem: KnockoutObservable<KeyItemType> = ko.observable(KeyItemType.Teachy_tv);
+    private static inspectedItem: KnockoutObservable<KeyItemType> = ko.observable(KeyItemType.Source_Code);
+    private static selectedItem: KnockoutObservable<KeyItemType> = ko.observable(KeyItemType.Source_Code);
+    private static latestGainedItem: KnockoutObservable<KeyItemType> = ko.observable(KeyItemType.Source_Code);
 
     static showGainModal(item: KeyItemType) {
         this.latestGainedItem(item);
