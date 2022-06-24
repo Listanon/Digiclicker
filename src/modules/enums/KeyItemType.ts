@@ -1,18 +1,18 @@
 enum KeyItemType {
-    'Teachy_tv' = 0,
+    'Source Code' = 0,
     'Coin_case',
-    'Pokeball_bag',
-    'Town_map',
+    'Scanning_Goggles',
+    'Traveling_Gear',
     'Factory_key',
     'Dungeon_ticket',
     'Super_rod',
     'Holo_caster',
     'Mystery_egg',
     'Safari_ticket',
-    'Wailmer_pail',
+    'Employee_Pass',
     'Explorer_kit',
     'Event_calendar',
-    'Gem_case',
+    'Chip_Case',
     'DNA_splicers',
 }
 
