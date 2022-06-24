@@ -134,8 +134,8 @@ class Egg implements Saveable {
                 setting: NotificationConstants.NotificationSetting.Hatchery.hatched_shiny,
             });
             App.game.logbook.newLog(LogBookTypes.SHINY, `You hatched a Dot ${this.pokemon}!`);
-            GameHelper.incrementObservable(App.game.statistics.shinyPokemonHatched[pokemonID]);
-            GameHelper.incrementObservable(App.game.statistics.totalShinyPokemonHatched);
+            GameHelper.incrementObservable(App.game.statistics.dotDigimonHatched[pokemonID]);
+            GameHelper.incrementObservable(App.game.statistics.totalDotDigimonHatched);
         } else {
             Notifier.notify({
                 message: `You hatched ${GameHelper.anOrA(this.pokemon)} ${this.pokemon}!`,
@@ -157,8 +157,8 @@ class Egg implements Saveable {
         }
 
         // Update statistics
-        GameHelper.incrementObservable(App.game.statistics.pokemonHatched[pokemonID]);
-        GameHelper.incrementObservable(App.game.statistics.totalPokemonHatched);
+        GameHelper.incrementObservable(App.game.statistics.digimonHatched[pokemonID]);
+        GameHelper.incrementObservable(App.game.statistics.totalDigimonHatched);
         App.game.oakItems.use(OakItemType.Egg_Holder);
         return true;
     }
