@@ -9,7 +9,7 @@ class QuestLineHelper {
         //Defeat Starter
         const defeatStarter = new CustomQuest(1, 10,
             'Defeat the Digimon. Click to deal damage',
-            () => App.game.statistics.totalPokemonDefeated(),
+            () => App.game.statistics.totalDigimonDefeated(),
             0 // Initial of 0 so it auto completes if bugged
         );
         tutorial.addQuest(defeatStarter);
@@ -17,7 +17,7 @@ class QuestLineHelper {
         //Capture 1 pokemon
         const captureOne = new CustomQuest(1, 20,
             'Scan 1 Digimon. When you defeat a Digimon, a Scan module is used. When the Scanner reaches 100% the digimon will join your party.',
-            () => App.game.statistics.totalPokemonCaptured(),
+            () => App.game.statistics.totalDigimonScanned(),
             1 // Initial of 1 so it auto completes if bugged
         );
         tutorial.addQuest(captureOne);
@@ -33,7 +33,7 @@ class QuestLineHelper {
         //Buy pokeballs
         const buyPokeballs = new CustomQuest(10, 50,
             'Buy 10 Basic Scanners. You can find these in the Primary Village Shop.',
-            () => App.game.statistics.pokeballsBought[GameConstants.Pokeball.Pokeball](),
+            () => App.game.statistics.digiscansBought[GameConstants.Pokeball.Pokeball](),
             0 // Initial of 0 so it auto completes if bugged
         );
         tutorial.addQuest(buyPokeballs);
@@ -115,7 +115,7 @@ class QuestLineHelper {
             });
         };
         const catchPsychic = new CustomQuest(200, mindPlateReward, 'Capture 200 Virus type Digimon', () => {
-            return pokemonMap.filter(p => p.type.includes(PokemonType.Virus)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
+            return pokemonMap.filter(p => p.type.includes(PokemonType.Virus)).map(p => App.game.statistics.digimonScanned[p.id]()).reduce((a,b) => a + b, 0);
         });
         deoxysQuestLine.addQuest(catchPsychic);
 
@@ -168,7 +168,7 @@ class QuestLineHelper {
         const createVivillonQuest = (type: PokemonType, vivillon: PokemonNameType, dungeons: Array<string>, hint: string) => {
             // Capture 100 Water type Pokemon
             const catchType = new CustomQuest(100, undefined, `Capture 100 ${PokemonType[type]} type Pokémon`, () => {
-                return pokemonMap.filter(p => p.type.includes(type)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
+                return pokemonMap.filter(p => p.type.includes(type)).map(p => App.game.statistics.digimonScanned[p.id]()).reduce((a,b) => a + b, 0);
             });
             vivillonQuestLine.addQuest(catchType);
 
@@ -197,7 +197,7 @@ class QuestLineHelper {
                 1,
                 vivillonRemove,
                 `Find and capture the rare Vivillon!\nHint: ${hint}`,
-                App.game.statistics.pokemonCaptured[pokemonMap[vivillon].id],
+                App.game.statistics.digimonScanned[pokemonMap[vivillon].id],
                 undefined,
                 vivillonAdd
             );
@@ -220,7 +220,7 @@ class QuestLineHelper {
 
         // Capture 200 Normal type Pokemon
         const catchNormal = new CustomQuest(200, undefined, 'Capture 200 Neutral type Digimon', () => {
-            return pokemonMap.filter(p => p.type.includes(PokemonType.Neutral)).map(p => App.game.statistics.pokemonCaptured[p.id]()).reduce((a,b) => a + b, 0);
+            return pokemonMap.filter(p => p.type.includes(PokemonType.Neutral)).map(p => App.game.statistics.digimonScanned[p.id]()).reduce((a,b) => a + b, 0);
         });
         vivillonQuestLine.addQuest(catchNormal);
 
@@ -244,7 +244,7 @@ class QuestLineHelper {
             1,
             viviBalldone,
             'Find and capture the rare Vivillon!\nHint: Only the strongest Challengers can reach it.',
-            App.game.statistics.pokemonCaptured[666.01],
+            App.game.statistics.digimonScanned[666.01],
             undefined,
             viviBallAdd
         );
