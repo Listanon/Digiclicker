@@ -200,7 +200,7 @@ namespace GameConstants {
     declare function formatNumber(input: number): string;
     declare enum Region {
         none,
-        kanto,
+        adventure01,
         johto,
         hoenn,
         sinnoh,
