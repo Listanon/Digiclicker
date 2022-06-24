@@ -1947,11 +1947,11 @@ export const KantoGyms = [
     'Tokyo City',
     'Whamon\'s Gulf',
     'Primary Village',
-    'Elite Lorelei',
-    'Elite Bruno',
-    'Elite Agatha',
-    'Elite Lance',
-    'Champion Blue',
+    'Ocean Data',
+    'Forest Data',
+    'City Data',
+    'Wasteland Data',
+    'Apokalymon',
 ];
 
 export const JohtoGyms = [
