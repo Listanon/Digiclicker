@@ -358,7 +358,7 @@ class Mine {
                 App.game.oakItems.use(OakItemType.Shiny_Mirror);
                 Underground.gainMineItem(Mine.rewardNumbers[i], amount);
                 GameHelper.incrementObservable(Mine.itemsFound);
-                GameHelper.incrementObservable(App.game.statistics.undergroundItemsFound, amount);
+                GameHelper.incrementObservable(App.game.statistics.junkyardItemsFound, amount);
                 Mine.rewardNumbers.splice(i, 1);
                 i--;
                 Mine.checkCompleted();
