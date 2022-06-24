@@ -7,7 +7,7 @@ export default class PokeballRequirement extends AchievementRequirement {
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.pokeballsObtained[this.pokeball](), this.requiredValue);
+        return Math.min(App.game.statistics.digiscansObtained[this.pokeball](), this.requiredValue);
     }
 
     public hint(): string {
