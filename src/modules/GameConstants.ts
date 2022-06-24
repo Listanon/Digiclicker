@@ -26,7 +26,7 @@ export const TEMP_BATTLE_TICK = 0.1 * SECOND;
 
 export enum Region {
     none = -1,
-    kanto = 0,
+    adventure01 = 0,
     johto = 1,
     hoenn = 2,
     sinnoh = 3,
