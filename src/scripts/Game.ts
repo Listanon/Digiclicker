@@ -190,8 +190,8 @@ class Game {
             App.game.keyItems.gainKeyItem(KeyItemType.Safari_ticket, true);
         }
         // Check if Giovanni has been defeated, but have no gem case yet
-        if (App.game.badgeCase.badgeList[BadgeEnums.Earth]() && !App.game.keyItems.itemList[KeyItemType.Gem_case].isUnlocked()) {
-            App.game.keyItems.gainKeyItem(KeyItemType.Gem_case, true);
+        if (App.game.badgeCase.badgeList[BadgeEnums.Earth]() && !App.game.keyItems.itemList[KeyItemType.Chip_case].isUnlocked()) {
+            App.game.keyItems.gainKeyItem(KeyItemType.Chip_case, true);
         }
     }
 
