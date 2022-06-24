@@ -7,7 +7,7 @@ export default class HatchRequirement extends AchievementRequirement {
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.totalPokemonHatched(), this.requiredValue);
+        return Math.min(App.game.statistics.totalDigimonHatched(), this.requiredValue);
     }
 
     public hint(): string {
