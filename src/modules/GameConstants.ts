@@ -1951,7 +1951,7 @@ export const KantoGyms = [
     'Forest Data',
     'City Data',
     'Wasteland Data',
-    'Apokalymon',
+    'Apocalymon',
 ];
 
 export const JohtoGyms = [
