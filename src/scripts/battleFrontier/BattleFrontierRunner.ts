@@ -27,7 +27,7 @@ class BattleFrontierRunner {
     public static start(useCheckpoint: boolean) {
         this.started(true);
         this.stage(useCheckpoint ? this.checkpoint() : 1);
-        this.highest(App.game.statistics.battleFrontierHighestStageCompleted());
+        this.highest(App.game.statistics.colosseumHighestStageCompleted());
         BattleFrontierBattle.pokemonIndex(0);
         BattleFrontierBattle.generateNewEnemy();
         BattleFrontierRunner.timeLeft(GameConstants.GYM_TIME);
@@ -38,13 +38,13 @@ class BattleFrontierRunner {
     public static nextStage() {
         // Gain any rewards we should have earned for defeating this stage
         BattleFrontierMilestones.gainReward(this.stage());
-        if (App.game.statistics.battleFrontierHighestStageCompleted() < this.stage()) {
+        if (App.game.statistics.colosseumHighestStageCompleted() < this.stage()) {
             // Update our highest stage
-            App.game.statistics.battleFrontierHighestStageCompleted(this.stage());
+            App.game.statistics.colosseumHighestStageCompleted(this.stage());
         }
         // Move on to the next stage
         GameHelper.incrementObservable(this.stage);
-        GameHelper.incrementObservable(App.game.statistics.battleFrontierTotalStagesCompleted);
+        GameHelper.incrementObservable(App.game.statistics.colosseumTotalStagesCompleted);
         BattleFrontierRunner.timeLeft(GameConstants.GYM_TIME);
         BattleFrontierRunner.timeLeftPercentage(100);
 
