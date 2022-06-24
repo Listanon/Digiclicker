@@ -100,7 +100,7 @@ class DailyDeal {
             tradeTimes = Math.min(tradeTimes, maxTrades);
             player.mineInventory()[item1Index].amount(amt - (deal.amount1 * tradeTimes));
             Underground.gainMineItem(deal.item2.id, deal.amount2 * tradeTimes);
-            GameHelper.incrementObservable(App.game.statistics.undergroundDailyDealTrades, tradeTimes);
+            GameHelper.incrementObservable(App.game.statistics.junkyardDailyDealTrades, tradeTimes);
             Underground.sortMineItems(Underground.lastPropSort, false);
         }
     }
