@@ -118,7 +118,7 @@ class Game {
             let route: number = player.route() || GameConstants.StartingRoutes[region];
             if (!MapHelper.validRoute(route, region)) {
                 route = 1;
-                region = GameConstants.Region.kanto;
+                region = GameConstants.Region.adventure01;
             }
             const availablePokemonMap = RouteHelper.getAvailablePokemonList(route, region).map(name => pokemonMap[name]);
             const maxHealth: number = PokemonFactory.routeHealth(route, region);
