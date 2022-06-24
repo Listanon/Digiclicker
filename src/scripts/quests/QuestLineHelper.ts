@@ -341,7 +341,7 @@ class QuestLineHelper {
         const surpriseTogepi = pokemonMap['Burpmon'];
 
         const togepiInKantoSetup = () => {
-            dungeonList['Viridian Forest'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Burpmon', 300000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion) }));
+            dungeonList['Viridian Forest'].bossList.push(new DungeonTrainer('Egg Hunter', [new GymPokemon('Burpmon', 300000, 100)], { weight: 1, requirement: new GymBadgeRequirement(BadgeEnums.Apocalymon) }));
             App.game.statistics.pokemonDefeated[surpriseTogepi.id](0);
         };
         const afterDefeatingTogepiInKanto = () => {
