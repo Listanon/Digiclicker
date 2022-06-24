@@ -58,7 +58,7 @@ export default class Statistics implements Saveable {
     totalDisksModified: KnockoutObservable<number>;
     totalBoostsUsed: KnockoutObservable<number>;
     totalDiscardsUsed: KnockoutObservable<number>;
-    berryDailyDealTrades: KnockoutObservable<number>;
+    diskDailyDealTrades: KnockoutObservable<number>;
     // Battle Frontier
     colosseumTotalStagesCompleted: KnockoutObservable<number>;
     colosseumHighestStageCompleted: KnockoutObservable<number>;
