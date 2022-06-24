@@ -123,7 +123,7 @@ export default class Gems implements Feature {
     initialize() {}
 
     canAccess(): boolean {
-        return App.game.keyItems.hasKeyItem(KeyItemType.Gem_case);
+        return App.game.keyItems.hasKeyItem(KeyItemType.Chip_case);
     }
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
