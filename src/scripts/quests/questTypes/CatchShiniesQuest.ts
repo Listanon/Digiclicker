@@ -4,7 +4,7 @@ class CatchShiniesQuest extends Quest implements QuestInterface {
 
     constructor(amount: number, reward: number) {
         super(amount, reward);
-        this.focus = App.game.statistics.totalShinyPokemonCaptured;
+        this.focus = App.game.statistics.totalDotDigimonScanned;
     }
 
     public static generateData(): any[] {
