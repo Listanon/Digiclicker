@@ -317,7 +317,7 @@ TownList['Metal Seadramon\'s Lair'] = new DungeonTown(
     GameConstants.Region.kanto,
     [
          new RouteKillRequirement(10, GameConstants.Region.kanto, 20),
-         new GymBadgeRequirement(BadgeEnums.Soul),
+         new GymBadgeRequirement(BadgeEnums.Marsh),
     ]
 );
 TownList['Devimon Battle'] = new DungeonTown(
@@ -349,7 +349,7 @@ TownList['Vamdemon\'s Castle'] = new DungeonTown(
     [
         new RouteKillRequirement(10, GameConstants.Region.kanto, 16),
         new RouteKillRequirement(10, GameConstants.Region.kanto, 17),
-        new GymBadgeRequirement(BadgeEnums.Marsh),
+        new GymBadgeRequirement(BadgeEnums.Soul),
     ]
 );
 TownList['Piemon\'s Observatory'] = new DungeonTown(
