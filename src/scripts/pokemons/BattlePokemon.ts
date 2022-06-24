@@ -54,11 +54,11 @@ class BattlePokemon implements EnemyPokemonInterface {
     }
 
     public defeat(trainer = false): void {
-        GameHelper.incrementObservable(App.game.statistics.pokemonDefeated[this.id]);
-        GameHelper.incrementObservable(App.game.statistics.totalPokemonDefeated);
+        GameHelper.incrementObservable(App.game.statistics.digimonDefeated[this.id]);
+        GameHelper.incrementObservable(App.game.statistics.totalDigimonDefeated);
         if (this.shiny) {
-            GameHelper.incrementObservable(App.game.statistics.shinyPokemonDefeated[this.id]);
-            GameHelper.incrementObservable(App.game.statistics.totalShinyPokemonDefeated);
+            GameHelper.incrementObservable(App.game.statistics.dotDigimonDefeated[this.id]);
+            GameHelper.incrementObservable(App.game.statistics.totalDotDigimonDefeated);
         }
 
         if (this.reward.amount > 0) {
