@@ -590,7 +590,7 @@ class Update implements Saveable {
 
             // Swapping Shard Case for Gem Case
             if (saveData.badgeCase[8]) {
-                saveData.keyItems['Gem_case'] = true;
+                saveData.keyItems['Chip_case'] = true;
             }
 
             // Just incase statistics is not set
