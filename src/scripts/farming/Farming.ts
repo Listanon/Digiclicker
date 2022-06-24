@@ -78,15 +78,15 @@ class Farming implements Feature {
         this.berryData[BerryType.Games]     = new Berry(BerryType.Games,    [5,10,20,30,60],
             2, 0.5, 5, 1,
             [10, 0, 0, 0, 0], BerryColor.Red,
-            ['You shouldn\'t be suprised to know that this is our most popular item. It\'s all about making as many of them, as quickly as possible.'], undefined, ['Burpmon']);
+            ['You shouldn\'t be suprised to know that this is our most popular item. It\'s all about making as many of them, as quickly as possible.'], undefined, ['Shima Unimon']);
         this.berryData[BerryType.Security]    = new Berry(BerryType.Security,   [5, 15, 25, 40, 80],
             3, 0.5, 6, 2,
             [0, 10, 0, 0, 0], BerryColor.Blue,
-            ['A basic program to keep your device safe. Everyone needs one.'], undefined, ['Burpmon']);
+            ['A basic program to keep your device safe. Everyone needs one.'], undefined, ['Psychemon']);
         this.berryData[BerryType.Health]     = new Berry(BerryType.Health,    [10, 35, 50, 60, 120],
             4, 0.5, 7, 3,
             [0, 0, 10, 0, 0], BerryColor.Pink,
-            ['A simple diagnostics program. It won\'t fix the bugs but it will give you a form to report them.'], undefined, ['Burpmon']);
+            ['A simple diagnostics program. It won\'t fix the bugs but it will give you a form to report them.'], undefined, ['Tyumon']);
         this.berryData[BerryType.Step]     = new Berry(BerryType.Step,    [15, 30, 45, 80, 160],
             5, 0.5, 8, 4,
             [0, 0, 0, 10, 0], BerryColor.Green,
@@ -94,19 +94,19 @@ class Farming implements Feature {
         this.berryData[BerryType.Light]    = new Berry(BerryType.Light,   [10, 40, 60, 120, 240],
             6, 0.5, 9, 5,
             [0, 0, 0, 0, 10], BerryColor.Yellow,
-            ['Turns any light emitting component on and makes your device into a makeshift flashlight.'], undefined, ['Burpmon', 'Burpmon']);
+            ['Turns any light emitting component on and makes your device into a makeshift flashlight.'], undefined, ['Plotmon', 'Nyaromon']);
         this.berryData[BerryType.eBook]     = new Berry(BerryType.eBook,    [100, 120, 140, 240, 480],
             7, 0.5, 10, 6,
             [10, 0, 10, 10, 10], BerryColor.Purple,
-            ['More convenient that carrying a heavy book around. It can store thousands of books for reading on the go.'], undefined, ['Burpmon']);
+            ['More convenient that carrying a heavy book around. It can store thousands of books for reading on the go.'], undefined, ['Dark Lizamon']);
         this.berryData[BerryType.Chat]      = new Berry(BerryType.Chat,     [120, 180, 240, 300, 600],
             8, 0.5, 20, 7,
             [10, 10, 0, 10, 10], BerryColor.Blue,
-            ['A messaging program. Make groups and talk with others.'], undefined, ['Burpmon']);
+            ['A messaging program. Make groups and talk with others.'], undefined, ['Psychemon']);
         this.berryData[BerryType.Finance]    = new Berry(BerryType.Finance,   [150, 300, 450, 600, 1200],
             9, 0.5, 30, 8,
             [0, 10, 10, 10, 10], BerryColor.Yellow,
-            ['How can our shop make a profit if our customers don\'t have a digital wallet to store their hard-earned money.'], undefined, ['Burpmon', 'Burpmon']);
+            ['How can our shop make a profit if our customers don\'t have a digital wallet to store their hard-earned money.'], undefined, ['Plotmon', 'Nyaromon']);
         //#endregion
 
         //#region Second Generation
@@ -117,7 +117,7 @@ class Farming implements Feature {
         this.berryData[BerryType.Cards]      = new Berry(BerryType.Cards,     [100, 150, 200, 250, 500],
             7, 0.4, 15, 2,
             [10, 10, 0, 0, 0], BerryColor.Red,
-            ['Solitaire, FreeCell, ads every other game. What\'s not to like.'], undefined, ['Burpmon']);
+            ['Solitaire, FreeCell, ads every other game. What\'s not to like.'], undefined, ['Shima Unimon']);
         this.berryData[BerryType.Compress]      = new Berry(BerryType.Compress,     [200, 250, 300, 330, 660],
             9, 0.4, 20, 2,
             [0, 10, 10, 0, 0], BerryColor.Purple,
@@ -138,7 +138,7 @@ class Farming implements Feature {
         this.berryData[BerryType.Music]      = new Berry(BerryType.Music,     [40, 160, 230, 350, 700],
             14, 0.3, 40, 3,
             [15, 0, 0, 0, 0], BerryColor.Red,
-            ['Plays sounds that humans like. Nice of us to include all these tracks for free.'], undefined, ['Burpmon']);
+            ['Plays sounds that humans like. Nice of us to include all these tracks for free.'], undefined, ['Shima Unimon']);
         this.berryData[BerryType.Backup]      = new Berry(BerryType.Backup,     [40, 190, 210, 360, 720],
             15, 0.3, 45, 3,
             [0, 15, 0, 0, 0], BerryColor.Purple,
@@ -169,7 +169,7 @@ class Farming implements Feature {
         this.berryData[BerryType.Travel]     = new Berry(BerryType.Travel,    [200, 1200, 4000, 5400, 10800],
             20, 0.2, 500, 10,
             [10, 0, 10, 10, 0], BerryColor.Red,
-            ['Apparently, teleporting isn\'t a thing in the human world, they have to use this to plan things.'], undefined, ['Burpmon']);
+            ['Apparently, teleporting isn\'t a thing in the human world, they have to use this to plan things.'], undefined, ['Shima Unimon']);
         this.berryData[BerryType.Diary]    = new Berry(BerryType.Diary,   [240, 2000, 3400, 6000, 12000],
             21, 0.2, 525, 10,
             [0, 10, 0, 10, 10], BerryColor.Blue,
@@ -189,7 +189,7 @@ class Farming implements Feature {
         this.berryData[BerryType.News]    = new Berry(BerryType.News,   [430, 1400, 4000, 8640, 17280],
             25, 0.2, 625, 10,
             [20, 10, 0, 0, 0], BerryColor.Red,
-            ['You think I\'m shrewd…wait till you see what the people behind this one do to get you to click on things.'], undefined, ['Burpmon']);
+            ['You think I\'m shrewd…wait till you see what the people behind this one do to get you to click on things.'], undefined, ['Shima Unimon']);
 
         this.berryData[BerryType.Dictionary]     = new Berry(BerryType.Dictionary,    [1100, 4000, 8000, 9000, 18000],
             26, 0.1, 700, 10,
@@ -210,7 +210,7 @@ class Farming implements Feature {
         this.berryData[BerryType.Advice]    = new Berry(BerryType.Advice,   [2000, 7000, 12000, 15480, 30960],
             30, 0.1, 900, 10,
             [30, 10, 0, 0, 0], BerryColor.Red,
-            ['Have a question? You\'ll find an answer. Will it be correct? You can always ask.'], undefined, ['Burpmon']);
+            ['Have a question? You\'ll find an answer. Will it be correct? You can always ask.'], undefined, ['Shima Unimon']);
         this.berryData[BerryType.Search]    = new Berry(BerryType.Search,   [3000, 10000, 16400, 18000, 36000],
             31, 0.1, 950, 10,
             [0, 30, 10, 0, 0], BerryColor.Purple,
@@ -239,7 +239,7 @@ class Farming implements Feature {
             [
                 'Listen to this popular streamer, sponsored by Tyutyumon\'s of course.',
                 'It has a tendency to overwrite nearby disks.',
-            ], undefined, ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon', 'Burpmon']);
+            ], undefined, ['Shima Unimon']);
         this.berryData[BerryType.Gossip]    = new Berry(BerryType.Gossip,   [490, 3600, 10800, 21600, 43200],
             22, 0.05, 1300, 15,
             [0, 15, 0, 10, 0], BerryColor.Blue,
@@ -274,7 +274,7 @@ class Farming implements Feature {
             [
                 'Humans seem to enjoy filling squares with numbers for hours on end.',
                 'Burning these Disks will promote Digitama growth.',
-            ], new Aura(AuraType.Egg, [1.01, 1.02, 1.03]), ['Burpmon', 'Burpmon']);
+            ], new Aura(AuraType.Egg, [1.01, 1.02, 1.03]), ['Shima Unimon', 'Bumon']);
         this.berryData[BerryType.Fortune]     = new Berry(BerryType.Fortune,    [100, 200, 400, 600, 86400],
             1, 1, 50, 1,
             [0, 15, 0, 0, 10], BerryColor.Green,
