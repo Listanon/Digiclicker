@@ -39,7 +39,7 @@ GymList['Vademon Dimension'] = new Gym(
     2566,
     'Whoa! You\'re the real deal! Thank\'s for setting me free of Vademon\'s trap.',
     [
-        new RouteKillRequirement(10, GameConstants.Region.kanto, 14),
+        new RouteKillRequirement(10, GameConstants.Region.adventure01, 14),
         new GymBadgeRequirement(BadgeEnums.Cascade),
     ]
 );
@@ -55,7 +55,7 @@ GymList['ShogunGekomon\'s Castle'] = new Gym(
     BadgeEnums.Rainbow,
     2914,
     'I can\'t believe I lost! Gekomon do something!',
-    [new RouteKillRequirement(10, GameConstants.Region.kanto, 15)]
+    [new RouteKillRequirement(10, GameConstants.Region.adventure01, 15)]
 );
 GymList['Tokyo City'] = new Gym(
     'Joe',
