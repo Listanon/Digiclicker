@@ -139,7 +139,7 @@ class Item {
                     break;
             }
             Notifier.notify({
-                message: `You don't have enough ${curr} for ${n} ${GameConstants.humanifyString(this.displayName) + multiple}`,
+                message: `You don't have enough ${curr} for that.`,
                 type: NotificationConstants.NotificationOption.danger,
             });
         }
