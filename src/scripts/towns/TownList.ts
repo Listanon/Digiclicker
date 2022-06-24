@@ -363,7 +363,7 @@ TownList['Piemon\'s Observatory'] = new DungeonTown(
 TownList['Our War Game'] = new DungeonTown(
     'Our War Game',
     GameConstants.Region.kanto,
-    [new GymBadgeRequirement(BadgeEnums.Apocalymon)]
+    [new GymBadgeRequirement(BadgeEnums.Apocalymon_Data)]
 );
 
 //Johto Shops
@@ -493,7 +493,7 @@ TownList['New Bark Town'] = new Town(
     GameConstants.Region.johto,
     [NewBarkTownShop],
     {
-        requirements: [new GymBadgeRequirement(BadgeEnums.Apocalymon)],
+        requirements: [new GymBadgeRequirement(BadgeEnums.Apocalymon_Data)],
         npcs: [ProfElm, NewBarkTechnologyEnthusiast],
     }
 );
