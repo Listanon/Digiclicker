@@ -29,7 +29,7 @@ class Player {
     constructor(savedPlayer?) {
         const saved: boolean = (savedPlayer != null);
         savedPlayer = savedPlayer || {
-            _region: GameConstants.Region.kanto,
+            _region: GameConstants.Region.adventure01,
             _route: 1,
         };
         this._lastSeen = savedPlayer._lastSeen || 0;
