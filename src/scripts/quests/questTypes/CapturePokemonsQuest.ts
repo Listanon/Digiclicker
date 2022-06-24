@@ -4,7 +4,7 @@ class CapturePokemonsQuest extends Quest implements QuestInterface {
 
     constructor(capturesNeeded: number, reward: number) {
         super(capturesNeeded, reward);
-        this.focus = App.game.statistics.totalPokemonCaptured;
+        this.focus = App.game.statistics.totalDigimonScanned;
     }
 
     public static generateData(): any[] {
