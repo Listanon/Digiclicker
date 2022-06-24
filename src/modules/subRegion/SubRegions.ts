@@ -38,7 +38,7 @@ export default class SubRegions {
     }
 }
 
-SubRegions.addSubRegion(Region.kanto, new SubRegion('Kanto'));
+SubRegions.addSubRegion(Region.kanto, new SubRegion('Adventure01'));
 SubRegions.addSubRegion(Region.johto, new SubRegion('Johto'));
 SubRegions.addSubRegion(Region.hoenn, new SubRegion('Hoenn'));
 SubRegions.addSubRegion(Region.sinnoh, new SubRegion('Sinnoh'));
