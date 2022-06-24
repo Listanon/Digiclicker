@@ -493,7 +493,7 @@ TownList['New Bark Town'] = new Town(
     GameConstants.Region.johto,
     [NewBarkTownShop],
     {
-        requirements: [new GymBadgeRequirement(BadgeEnums.Elite_KantoChampion)],
+        requirements: [new GymBadgeRequirement(BadgeEnums.Apocalymon)],
         npcs: [ProfElm, NewBarkTechnologyEnthusiast],
     }
 );
