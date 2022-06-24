@@ -69,7 +69,7 @@ export const SortOptionConfigs: Record<SortOptions, SortOptionConfig> = {
 
     [SortOptions.timesHatched]: {
         text: 'Times Hatched',
-        getValue: (p) => App.game.statistics.pokemonHatched[p.id]() || 0,
+        getValue: (p) => App.game.statistics.digimonHatched[p.id]() || 0,
     },
 
     [SortOptions.category]: {
