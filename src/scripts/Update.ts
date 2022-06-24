@@ -200,7 +200,7 @@ class Update implements Saveable {
 
         '0.6.0': ({ saveData }) => {
             // Award Deoxys forms for completed Battle Frontier milestones
-            const maxBattleFrontierStage = saveData.statistics.battleFrontierHighestStageCompleted;
+            const maxBattleFrontierStage = saveData.statistics.colosseumHighestStageCompleted;
             if (maxBattleFrontierStage >= 151) {
                 Update.addPokemonToSaveData(saveData, 386.1); // Deoxys (attack)
             }
@@ -472,7 +472,7 @@ class Update implements Saveable {
                 [300, '100 x Trade Stone'],
                 [386, 'Deoxys (speed)'],
             ];
-            const highestStageCompleted = saveData.statistics?.battleFrontierHighestStageCompleted || 0;
+            const highestStageCompleted = saveData.statistics?.colosseumHighestStageCompleted || 0;
             saveData.battleFrontier = {
                 milestones: milestones.filter(([stage]) => stage <= highestStageCompleted),
             };
