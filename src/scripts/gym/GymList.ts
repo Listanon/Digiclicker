@@ -127,9 +127,9 @@ GymList['Primary Village'] = new Gym(
 );
 
 // Kanto Elite 4
-GymList['Elite Lorelei'] = new Gym(
-    'Lorelei',
-    'Elite Lorelei',
+GymList['Ocean Data'] = new Gym(
+    'Ocean',
+    'Ocean Data',
     [
         new GymPokemon('Anomalocarimon', 32623, 47),
         new GymPokemon('Dagomon', 33023, 47),
@@ -137,14 +137,14 @@ GymList['Elite Lorelei'] = new Gym(
         new GymPokemon('Hangyomon', 34023, 48),
         new GymPokemon('Metal Seadramon', 34623, 48),
     ],
-    BadgeEnums.Elite_Lorelei,
+    BadgeEnums.Ocean_Data,
     7500,
     'This is not the last you see of me!',
     [new GymBadgeRequirement(BadgeEnums.Earth)]
 );
-GymList['Elite Bruno'] = new Gym(
-    'Bruno',
-    'Elite Bruno',
+GymList['Forest Data'] = new Gym(
+    'Forest',
+    'Forest Data',
     [
         new GymPokemon('Floramon', 33552, 48),
         new GymPokemon('Kiwimon', 34052, 48),
@@ -152,14 +152,14 @@ GymList['Elite Bruno'] = new Gym(
         new GymPokemon('Jyureimon', 35052, 49),
         new GymPokemon('Pinochimon', 35552, 49),
     ],
-    BadgeEnums.Elite_Bruno,
+    BadgeEnums.Forest_Data,
     7500,
     'This can\'t be happening again!',
-    [new GymBadgeRequirement(BadgeEnums.Elite_Lorelei)]
+    [new GymBadgeRequirement(BadgeEnums.Ocean_Data)]
 );
-GymList['Elite Agatha'] = new Gym(
-    'Agatha',
-    'Elite Agatha',
+GymList['City Data'] = new Gym(
+    'City',
+    'City Data',
     [
         new GymPokemon('Metal Mamemon', 34497, 49),
         new GymPokemon('Tankmon', 35097, 49),
@@ -167,14 +167,14 @@ GymList['Elite Agatha'] = new Gym(
         new GymPokemon('Gigadramon', 36097, 50),
         new GymPokemon('Mugendramon', 36497, 50),
     ],
-    BadgeEnums.Elite_Agatha,
+    BadgeEnums.City_Data,
     7500,
     'I will destroy you. This isn\'t over.',
-    [new GymBadgeRequirement(BadgeEnums.Elite_Bruno)]
+    [new GymBadgeRequirement(BadgeEnums.Forest_Data)]
 );
-GymList['Elite Lance'] = new Gym(
-    'Lance',
-    'Elite Lance',
+GymList['Wasteland Data'] = new Gym(
+    'Wasteland',
+    'Wasteland Data',
     [
         new GymPokemon('Devimon', 35456, 50),
         new GymPokemon('Vamdemon', 36056, 50),
@@ -182,24 +182,24 @@ GymList['Elite Lance'] = new Gym(
         new GymPokemon('Lady Devimon', 37056, 51),
         new GymPokemon('Piemon', 37456, 51),
     ],
-    BadgeEnums.Elite_Lance,
+    BadgeEnums.Wasteland_Data,
     7500,
     'Lights out.',
-    [new GymBadgeRequirement(BadgeEnums.Elite_Agatha)]
+    [new GymBadgeRequirement(BadgeEnums.City_Data)]
 );
 // Kanto Champion
-GymList['Champion Blue'] = new Champion(
-    'Blue',
-    'Champion Blue',
+GymList['Apocalymon'] = new Champion(
+    'Apocalymon',
+    'Apocalymon',
     [
         new GymPokemon('Skull Greymon', 38431, 51),
         new GymPokemon('Venom Vamdemon', 38431, 51),
         new GymPokemon('Metal Etemon', 38431, 51),
     ],
-    BadgeEnums.Elite_KantoChampion,
+    BadgeEnums.Apocalymon,
     10000,
-    'Why? Why did I lose? I never made any mistakes raising my Pokémon… Darn it! You\'re the new Pokémon League Champion! Although I don\'t like to admit it…',
-    [new GymBadgeRequirement(BadgeEnums.Elite_Lance)],
+    'Why? Why did I lose? I never made any mistakes. Darn it! Why do you get to taste the best that life has to offer, while all i do is choke on its leftovers?! Answer me this! Why do all of you get the pizza, while i get the crusts?!',
+    [new GymBadgeRequirement(BadgeEnums.Wasteland_Data)],
     // Botamon
     [
         new GymPokemon('Skull Mammon', 38431, 52),
