@@ -13,7 +13,7 @@ enum BadgeEnums {
     'Forest_Data',
     'City_Data',
     'Wasteland_Data',
-    'Apocalymon',
+    'Apocalymon_Data',
     // Johto
     'Zephyr',
     'Hive',
