@@ -3605,11 +3605,9 @@ const Zudomon = new Shop([
 ], 'Zudomon');
 const HerakleKabuterimon = new Shop([
     ItemList['Herakle Kabuterimon X-Antibody'],
-    ItemList['Bubbmon'],
 ], 'Herakle Kabuterimon');
 const Holydramon = new Shop([
     ItemList['Holydramon X-Antibody'],
-    ItemList['Yukimi Botamon'],
 ], 'Holydramon');
 const MarinAngemon = new Shop([
     ItemList['Pitchmon'],
@@ -3619,14 +3617,12 @@ const MetalEtemon = new Shop([
 ], 'Metal Etemon');
 const MetalSeadramon = new Shop([
     ItemList['Giga Seadramon'],
-    ItemList['Pitchmon'],
 ], 'Metal Seadramon');
 const Pukumon = new Shop([
     ItemList['Pitchmon'],
 ], 'Pukumon');
 const SaberLeomon = new Shop([
     ItemList['Dinotigermon'],
-    ItemList['Poyomon'],
 ], 'Saber Leomon');
 const HolyAngemonPriestMode = new Shop([
     ItemList['Holy Angemon'],
