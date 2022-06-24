@@ -64,8 +64,8 @@ export default class Gems implements Feature {
         GameHelper.incrementObservable(this.gemWallet[typeNum], amt);
 
         if (amt > 0) {
-            GameHelper.incrementObservable(App.game.statistics.totalGemsGained, amt);
-            GameHelper.incrementObservable(App.game.statistics.gemsGained[typeNum], amt);
+            GameHelper.incrementObservable(App.game.statistics.totalChipsGained, amt);
+            GameHelper.incrementObservable(App.game.statistics.chipsGained[typeNum], amt);
         }
     }
 
