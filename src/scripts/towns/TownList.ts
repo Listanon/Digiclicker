@@ -256,7 +256,7 @@ TownList['Whamon\'s Gulf'] = new Town(
     GameConstants.Region.kanto,
     [CinnabarIslandShop],
     {
-        requirements: [new RouteKillRequirement(10, GameConstants.Region.kanto, 20)],
+        requirements: [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('VenomVamdemon Rampage')),],
         npcs: [CinnabarIslandResearcher],
     }
 );
