@@ -7,7 +7,7 @@ export default class BattleFrontierHighestStageRequirement extends AchievementRe
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.battleFrontierHighestStageCompleted(), this.requiredValue);
+        return Math.min(App.game.statistics.colosseumHighestStageCompleted(), this.requiredValue);
     }
 
     public hint(): string {
