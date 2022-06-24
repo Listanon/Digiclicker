@@ -24,7 +24,7 @@ class PokedexHelper {
     public static pokemonSeen(id: number): KnockoutComputed<boolean> {
         return ko.pureComputed(() => {
             try {
-                return App.game.statistics.pokemonEncountered[id]() > 0 || App.game.statistics.pokemonDefeated[id]() > 0 || App.game.statistics.digimonScanned[id]() > 0 || App.game.party.alreadyCaughtPokemon(id);
+                return App.game.statistics.pokemonEncountered[id]() > 0 || App.game.statistics.digimonDefeated[id]() > 0 || App.game.statistics.digimonScanned[id]() > 0 || App.game.party.alreadyCaughtPokemon(id);
             } catch (error) {
                 return false;
             }
