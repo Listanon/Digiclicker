@@ -166,8 +166,8 @@ const FuchsiaKantoRoamerNPC = new RoamerNPC('Scouting Echo', [
 ], GameConstants.Region.kanto);
 
 const CinnabarIslandResearcher = new NPC('Researcher Echo', [
-    'They were trying to clone an ancient Pokémon in the mansion, I wonder if they succeeded.',
-    'Apparently the ancient Pokémon escaped, And can be found roaming around Kanto!',
+    'I heard what sounded like Digimon arguing from the forest last night. It was something about having a different color or something.',
+    'Apparently others have heard the same ramblings all over the map!',
 ]);
 
 //Kanto Towns
