@@ -712,14 +712,14 @@ class Update implements Saveable {
 
             // Change Ultra Wormhole to a Temporary Battle
             saveData.statistics.temporaryBattleDefeated = new Array<number>();
-            saveData.statistics.temporaryBattleDefeated[0] = saveData.statistics.gymsDefeated[84];
+            saveData.statistics.temporaryBattleDefeated[0] = saveData.statistics.challengesDefeated[84];
             // Remove the Elite_Nihilego Gym, now a temporary battle instead of a gym
-            saveData.statistics.gymsDefeated.splice(84, 1);
+            saveData.statistics.challengesDefeated.splice(84, 1);
             saveData.badgeCase.splice(84, 1);
             // Change Ultra Megalopolis to a Temporary Battle
-            saveData.statistics.temporaryBattleDefeated[1] = saveData.statistics.gymsDefeated[88];
+            saveData.statistics.temporaryBattleDefeated[1] = saveData.statistics.challengesDefeated[88];
             // Remove the Elite_ULtraNecrozma Gym, now a temporary battle instead of a gym
-            saveData.statistics.gymsDefeated.splice(88, 1);
+            saveData.statistics.challengesDefeated.splice(88, 1);
             saveData.badgeCase.splice(88, 1);
         },
     };
