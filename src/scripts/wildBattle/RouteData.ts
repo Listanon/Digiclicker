@@ -19,7 +19,6 @@ Routes.add(new RegionRoute(
         water: ['Mega Seadramon', 'Seadramon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pinochimon\'s House')),],
-    1.1
 ));
 Routes.add(new RegionRoute(
     'Rookie Woods', GameConstants.Region.kanto, 2,
@@ -73,7 +72,6 @@ Routes.add(new RegionRoute(
         water: ['Karatuki Numemon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 10)],
-    6.1
 ));
 Routes.add(new RegionRoute(
     'Infinity Cliffs', GameConstants.Region.kanto, 9,
@@ -103,7 +101,6 @@ Routes.add(new RegionRoute(
         land: ['Bakemon', 'Dokunemon', 'Candmon', 'Tukaimon', 'Numemon', 'Gokimon', 'Woodmon'],
     }),
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Digivice Temple'))],
-    10.1
 ));
 Routes.add(new RegionRoute(
     'Frozen Tundra', GameConstants.Region.kanto, 7,
@@ -111,7 +108,6 @@ Routes.add(new RegionRoute(
         land: ['Yukidarumon', 'Mojyamon', 'Betamon', 'Icemon', 'Yuki Agumon', 'Penmon'],
     }),
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 6)],
-    10.2
 ));
 Routes.add(new RegionRoute(
     'Cockatrimon\'s Ship', GameConstants.Region.kanto, 12,
