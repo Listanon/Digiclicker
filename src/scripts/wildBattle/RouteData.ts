@@ -181,12 +181,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         water: ['Marin Devimon', 'Hangyomon', 'Whamon', 'Dagomon', 'Waru Seadramon'],
     }),
-    [
-        new OneFromManyRequirement([
-            new RouteKillRequirement(10, GameConstants.Region.kanto, 19),
-            new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('VenomVamdemon Rampage')),
-        ]),
-    ]
+    [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('VenomVamdemon Rampage'))]
 ));
 Routes.add(new RegionRoute(
     'Whamon\'s Rest', GameConstants.Region.kanto, 21,
