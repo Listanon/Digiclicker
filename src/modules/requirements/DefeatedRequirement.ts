@@ -7,7 +7,7 @@ export default class DefeatedRequirement extends AchievementRequirement {
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.totalPokemonDefeated(), this.requiredValue);
+        return Math.min(App.game.statistics.totalDigimonDefeated(), this.requiredValue);
     }
 
     public hint(): string {
