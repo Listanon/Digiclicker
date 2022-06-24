@@ -110,11 +110,11 @@ class Battle {
         this.counter = 0;
         this.enemyPokemon(PokemonFactory.generateWildPokemon(player.route(), player.region));
         const enemyPokemon = this.enemyPokemon();
-        GameHelper.incrementObservable(App.game.statistics.pokemonEncountered[enemyPokemon.id]);
-        GameHelper.incrementObservable(App.game.statistics.totalPokemonEncountered);
+        GameHelper.incrementObservable(App.game.statistics.digimonEncountered[enemyPokemon.id]);
+        GameHelper.incrementObservable(App.game.statistics.totalDigimonEncountered);
         if (enemyPokemon.shiny) {
-            GameHelper.incrementObservable(App.game.statistics.shinyPokemonEncountered[enemyPokemon.id]);
-            GameHelper.incrementObservable(App.game.statistics.totalShinyPokemonEncountered);
+            GameHelper.incrementObservable(App.game.statistics.dotDigimonEncountered[enemyPokemon.id]);
+            GameHelper.incrementObservable(App.game.statistics.totalDotDigimonEncountered);
             App.game.logbook.newLog(LogBookTypes.SHINY, `[${Routes.getRoute(player.region, player.route()).routeName}] You encountered a wild Dot ${enemyPokemon.name}.`);
         } else if (!App.game.party.alreadyCaughtPokemon(enemyPokemon.id) && enemyPokemon.health()) {
             App.game.logbook.newLog(LogBookTypes.NEW, `[${Routes.getRoute(player.region, player.route()).routeName}] You encountered a wild ${enemyPokemon.name}.`);
