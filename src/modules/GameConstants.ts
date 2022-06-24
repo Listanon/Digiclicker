@@ -487,7 +487,7 @@ export const ACHIEVEMENT_DEFEAT_DUNGEON_VALUES = [
 export type EnvironmentData = Partial<Record<Region, Set<string | number>>>;
 export const Environments: Record<string, EnvironmentData> = {
     Water: {
-        [Region.kanto]: new Set(['Coelamon Beach','Metal Seadramon\'s Lair','Whamon\'s Gulf', 10, 14, 20, 21]),
+        [Region.kanto]: new Set(['Coelamon Beach','Metal Seadramon\'s Lair','Whamon\'s Gulf', 10, 20, 21]),
         [Region.johto]: new Set([40, 41, 'Slowpoke Well']),
         [Region.hoenn]: new Set([105, 106, 107, 108, 109, 118, 122, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134]),
         [Region.sinnoh]: new Set([218, 219, 220, 223, 230, 'Lake Verity', 'Lake Valor', 'Pastoria City', 'Sendoff Spring']),
