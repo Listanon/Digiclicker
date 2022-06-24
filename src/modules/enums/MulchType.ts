@@ -1,9 +1,9 @@
 enum MulchType {
     None = -1,
-    Boost_Mulch,
-    Rich_Mulch,
-    Surprise_Mulch,
-    Amaze_Mulch,
+    Speed_Boost,
+    Space_Boost,
+    Surprise_Boost,
+    Quality_Boost,
 }
 
 export default MulchType;
