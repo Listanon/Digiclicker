@@ -70,11 +70,11 @@ SpecialEvents.newEvent('Easter', 'Placeholder Message Map 1-2-3.',
 SpecialEvents.newEvent('One Lost Digimon', 'Placeholder Message Map 1.',
     // Start
     new Date(new Date().getFullYear(), 6, 6, 1), () => {
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Damemon Cmon'));
+        RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Damemon Cmon'));
     },
     // End
     new Date(new Date().getFullYear(), 6, 12, 23), () => {
-        RoamingPokemonList.remove(GameConstants.Region.kanto, 'Damemon Cmon');
+        RoamingPokemonList.remove(GameConstants.Region.adventure01, 'Damemon Cmon');
     }
 );
 // Pokemon the first movie release date
@@ -82,14 +82,14 @@ SpecialEvents.newEvent('Odaiba Memorial Day!', 'Placeholder Message Map 1.',
     // Start
     new Date(new Date().getFullYear(), 6, 1, 1), () => {
         dungeonList['Cerulean Cave'].bossList.push(new DungeonBossPokemon('Burpmon', 1000000, 80));
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
     },
     // End
     new Date(new Date().getFullYear(), 6, 24, 23), () => {
         dungeonList['Cerulean Cave'].bossList = dungeonList['Cerulean Cave'].bossList.filter(boss => boss.name != 'Burpmon');
-        RoamingPokemonList.list[GameConstants.Region.kanto] = RoamingPokemonList.list[GameConstants.Region.kanto].filter(r => !['Burpmon', 'Burpmon', ''].includes(r.pokemon.name));
+        RoamingPokemonList.list[GameConstants.Region.adventure01] = RoamingPokemonList.list[GameConstants.Region.adventure01].filter(r => !['Burpmon', 'Burpmon', ''].includes(r.pokemon.name));
     }
 );
 // Halloween
@@ -97,7 +97,7 @@ SpecialEvents.newEvent('Halloween!', 'Placeholder Message Map 1-2-3.',
     // Start
     new Date(new Date().getFullYear(), 9, 30, 1), () => {
         SeededRand.seed(new Date().getFullYear());
-        Routes.getRoutesByRegion(GameConstants.Region.kanto).forEach(route => {
+        Routes.getRoutesByRegion(GameConstants.Region.adventure01).forEach(route => {
             SeededRand.boolean() ? route.pokemon.land.push('Burpmon') : null;
             SeededRand.boolean() ? route.pokemon.land.push('Burpmon') : null;
         });
@@ -113,7 +113,7 @@ SpecialEvents.newEvent('Halloween!', 'Placeholder Message Map 1-2-3.',
     },
     // End
     new Date(new Date().getFullYear(), 10, 5, 23), () => {
-        Routes.getRoutesByRegion(GameConstants.Region.kanto).forEach(route => route.pokemon.land = route.pokemon.land.filter(p => !['Spooky Bulbasaur', 'Gastly'].includes(p)));
+        Routes.getRoutesByRegion(GameConstants.Region.adventure01).forEach(route => route.pokemon.land = route.pokemon.land.filter(p => !['Spooky Bulbasaur', 'Gastly'].includes(p)));
         Routes.getRoutesByRegion(GameConstants.Region.johto).forEach(route => route.pokemon.land = route.pokemon.land.filter(p => !['Spooky Togepi', 'Misdreavus'].includes(p)));
         Routes.getRoutesByRegion(GameConstants.Region.hoenn).forEach(route => route.pokemon.land = route.pokemon.land.filter(p => !['Pikachu (Gengar)', 'Shuppet', 'Duskull'].includes(p)));
     }
@@ -122,13 +122,13 @@ SpecialEvents.newEvent('Halloween!', 'Placeholder Message Map 1-2-3.',
 SpecialEvents.newEvent('Survive!', 'Placeholder Message Map 1.',
     // Start
     new Date(new Date().getFullYear(), 10, 16, 1), () => {
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
-        RoamingPokemonList.add(GameConstants.Region.kanto, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
+        RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
     },
     // End
     new Date(new Date().getFullYear(), 10, 23, 23), () => {
-        RoamingPokemonList.remove(GameConstants.Region.kanto, 'Burpmon');
-        RoamingPokemonList.remove(GameConstants.Region.kanto, 'Burpmon');
+        RoamingPokemonList.remove(GameConstants.Region.adventure01, 'Burpmon');
+        RoamingPokemonList.remove(GameConstants.Region.adventure01, 'Burpmon');
     }
 );
 // Christmas
