@@ -98,15 +98,15 @@ class Update implements Saveable {
 
         '0.5.2': ({ saveData }) => {
             // Calculate hatched amount (we can't calculate the shiny hatches though)
-            const pokemonHatched = {};
-            saveData.party.caughtPokemon.forEach(p => pokemonHatched[p.id] = p.attackBonus / 25);
+            const digimonHatched = {};
+            saveData.party.caughtPokemon.forEach(p => digimonHatched[p.id] = p.attackBonus / 25);
             // Rename from the old statistic name, add our new statistics
             saveData.statistics = {
                 ...saveData.statistics,
                 totalDisksBurned: saveData.statistics.disksBurned.reduce((sum, b) => sum + b, 0) || 0,
                 totalShardsGained: saveData.statistics.totalShards.reduce((sum, b) => sum + b, 0) || 0,
                 shardsGained: saveData.statistics.totalShards || 0,
-                pokemonHatched,
+                digimonHatched,
             };
 
             // If the player has the Soul Badge already
@@ -638,8 +638,8 @@ class Update implements Saveable {
                 }
                 // Update our ID
                 pokemon.id = newID;
-                if (!saveData.statistics.pokemonHatched) {
-                    saveData.statistics.pokemonHatched = {};
+                if (!saveData.statistics.digimonHatched) {
+                    saveData.statistics.digimonHatched = {};
                 }
                 if (!saveData.statistics.shinyPokemonHatched) {
                     saveData.statistics.shinyPokemonHatched = {};
