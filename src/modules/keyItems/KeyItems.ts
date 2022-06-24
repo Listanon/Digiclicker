@@ -23,7 +23,7 @@ export default class KeyItems implements Feature {
             new KeyItem(KeyItemType.Coin_case, 'A case for holding money and all sorts of special currency', null, true, undefined, 'Coin Case'),
             new KeyItem(KeyItemType.Scanning_Goggles, 'A pair of goggles that allow Tamers to scan wild Digimon', null, true, undefined, 'Scanning Goggles'),
             new KeyItem(KeyItemType.Traveling_Gear, 'Everything a Tamer needs to travel the Digital World',
-                () => App.game.statistics.routeKills[Region.kanto][1]() >= ROUTE_KILLS_NEEDED,
+                () => App.game.statistics.routeKills[Region.adventure01][1]() >= ROUTE_KILLS_NEEDED,
                 false,
                 () => {
                     Information.show({
@@ -79,14 +79,14 @@ export default class KeyItems implements Feature {
                 });
             }, 'Dungeon Ticket'),
             new KeyItem(KeyItemType.Super_rod, 'The best fishing rod for catching wild water Digimon',
-                () => App.game.statistics.routeKills[Region.kanto][10]() >= ROUTE_KILLS_NEEDED, undefined, undefined, 'Super Rod'),
+                () => App.game.statistics.routeKills[Region.adventure01][10]() >= ROUTE_KILLS_NEEDED, undefined, undefined, 'Super Rod'),
             new KeyItem(KeyItemType.Holo_caster, 'A device that allows users to see and track Achievements. Completing Achievements gives useful bonuses.',
                 () => App.game.party.caughtPokemon.length >= 110, undefined, undefined, 'Holo Caster'),
             new KeyItem(KeyItemType.Mystery_egg, 'A mysterious Egg. This allows you to use the Digimon Day Care to help improve your Digimon attack. some baby Digimon can only be found through breeding too!',
-                () => App.game.statistics.routeKills[Region.kanto][5]() >= ROUTE_KILLS_NEEDED, undefined, undefined, 'Mystery Egg'),
+                () => App.game.statistics.routeKills[Region.adventure01][5]() >= ROUTE_KILLS_NEEDED, undefined, undefined, 'Mystery Egg'),
             new KeyItem(KeyItemType.Safari_ticket, 'This ticket grants access to the Safari Zone right outside Fuchsia City.'),
             new KeyItem(KeyItemType.Employee_Pass, 'Allows access to the Disk Shop',
-                () => MapHelper.accessToRoute(14, Region.kanto), undefined, undefined, 'Employee Pass'),
+                () => MapHelper.accessToRoute(14, Region.adventure01), undefined, undefined, 'Employee Pass'),
 
             new KeyItem(KeyItemType.Explorer_kit, 'A bag filled with convenient tools for digging. It provides access to the Junkyard', undefined, undefined, undefined, 'Explorer Kit'),
             // TODO buy for 500 quest points
