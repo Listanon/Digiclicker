@@ -10,7 +10,7 @@ class GainGemsQuest extends Quest implements QuestInterface {
     constructor(amount: number, reward: number, type: PokemonType) {
         super(amount, reward);
         this.type = type;
-        this.focus = App.game.statistics.gemsGained[this.type];
+        this.focus = App.game.statistics.chipsGained[this.type];
     }
 
     public static canComplete() {
