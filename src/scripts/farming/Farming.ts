@@ -1264,11 +1264,11 @@ class Farming implements Feature {
 
         if (amount > 0) {
             this.unlockBerry(berry);
-            GameHelper.incrementObservable(App.game.statistics.totalBerriesObtained, amount);
-            GameHelper.incrementObservable(App.game.statistics.berriesObtained[berry], amount);
+            GameHelper.incrementObservable(App.game.statistics.totalDisksObtained, amount);
+            GameHelper.incrementObservable(App.game.statistics.disksObtained[berry], amount);
             if (farming === true) {
-                GameHelper.incrementObservable(App.game.statistics.totalBerriesHarvested, amount);
-                GameHelper.incrementObservable(App.game.statistics.berriesHarvested[berry], amount);
+                GameHelper.incrementObservable(App.game.statistics.totalDisksBurned, amount);
+                GameHelper.incrementObservable(App.game.statistics.disksBurned[berry], amount);
             }
         }
     }
