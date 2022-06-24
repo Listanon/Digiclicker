@@ -390,7 +390,7 @@ class Mine {
             }
             Mine.loadingNewLayer = true;
             setTimeout(Mine.completed, 1500);
-            GameHelper.incrementObservable(App.game.statistics.undergroundLayersMined);
+            GameHelper.incrementObservable(App.game.statistics.junkyardLayersMined);
 
             if (this.skipsRemaining() < this.maxSkips) {
                 GameHelper.incrementObservable(this.skipsRemaining);
