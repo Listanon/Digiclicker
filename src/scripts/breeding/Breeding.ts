@@ -43,7 +43,7 @@ class Breeding implements Feature {
 
     initialize(): void {
         this.hatchList[EggType.Fire] = [
-            ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+            ['Revolmon', 'Agumon', 'Gabumon', 'Candmon'],
             ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon'],
             ['Burpmon'],
@@ -53,7 +53,7 @@ class Breeding implements Feature {
             ['Burpmon', 'Burpmon'],
         ];
         this.hatchList[EggType.Water] = [
-            ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+            ['Muchomon', 'Gururumon', 'Gomamon', 'Modoki Betamon'],
             ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
@@ -63,7 +63,7 @@ class Breeding implements Feature {
             ['Burpmon', 'Burpmon'],
         ];
         this.hatchList[EggType.Plant] = [
-            ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+            ['Tentomon', 'Palmon', 'Floramon', 'Dokugumon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
@@ -73,7 +73,7 @@ class Breeding implements Feature {
             ['Burpmon', 'Burpmon'],
         ];
         this.hatchList[EggType.Earth] = [
-            ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+            ['Tuchidarumon', 'Deltamon', 'Goburimon', 'Caprimon'],
             ['Burpmon'],
             ['Burpmon', 'Burpmon'],
             ['Burpmon'],
@@ -83,7 +83,7 @@ class Breeding implements Feature {
             ['Burpmon'],
         ];
         this.hatchList[EggType.Electric] = [
-            ['Burpmon', 'Burpmon', 'Burpmon', 'Burpmon'],
+            ['Tekkamon', 'Hagurumon', 'Geremon', 'Kokuwamon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon'],
@@ -93,7 +93,7 @@ class Breeding implements Feature {
             ['Burpmon', 'Burpmon'],
         ];
         this.hatchList[EggType.Wind] = [
-            ['Burpmon', 'Burpmon', 'Burpmon'],
+            ['Akatorimon', 'Piyomon', 'Patamon'],
             [],
             ['Burpmon', 'Burpmon', 'Burpmon'],
             ['Burpmon', 'Burpmon', 'Burpmon'],
