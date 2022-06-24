@@ -274,7 +274,7 @@ class Farming implements Feature {
             [
                 'Humans seem to enjoy filling squares with numbers for hours on end.',
                 'Burning these Disks will promote Digitama growth.',
-            ], new Aura(AuraType.Egg, [1.01, 1.02, 1.03]), ['Shima Unimon', 'Bumon']);
+            ], new Aura(AuraType.Egg, [1.01, 1.02, 1.03]), ['Shima Unimon', 'Būmon']);
         this.berryData[BerryType.Fortune]     = new Berry(BerryType.Fortune,    [100, 200, 400, 600, 86400],
             1, 1, 50, 1,
             [0, 15, 0, 0, 10], BerryColor.Green,
@@ -1282,7 +1282,7 @@ class Farming implements Feature {
     }
 
     canAccess(): boolean {
-        return MapHelper.accessToRoute(14, 0) && App.game.keyItems.hasKeyItem(KeyItemType.Wailmer_pail);
+        return MapHelper.accessToRoute(14, 0) && App.game.keyItems.hasKeyItem(KeyItemType.Employee_Pass);
     }
 
     unlockBerry(berry: BerryType) {
