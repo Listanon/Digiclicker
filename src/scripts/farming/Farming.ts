@@ -786,26 +786,26 @@ class Farming implements Feature {
 
         // Monitoring
         this.mutations.push(new FieldMutation(.00001, BerryType.Monitoring, BerryType.Gossip, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
+            unlockReq: () => App.game?.statistics?.digimonScanned[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // MindControl
         this.mutations.push(new FieldMutation(.00001, BerryType.MindControl, BerryType.Exercise, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
+            unlockReq: () => App.game?.statistics?.digimonScanned[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Simulation
         this.mutations.push(new FieldMutation(.00001, BerryType.Simulation, BerryType.Astrology, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
+            unlockReq: () => App.game?.statistics?.digimonScanned[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Trashbin
         this.mutations.push(new PetayaMutation(.00001));
         // Gashapon
         this.mutations.push(new FieldMutation(.00001, BerryType.Gashapon, BerryType.Slots, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
+            unlockReq: () => App.game?.statistics?.digimonScanned[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
         // Censored
         // TODO: HLXII - Add Mutation to evolve Translate when Milotic, Gardevoir, Blissey, and Togekiss in party.
         this.mutations.push(new FieldMutation(.00001, BerryType.Censored, BerryType.Hotel, undefined, {
-            unlockReq: () => App.game?.statistics?.pokemonCaptured[PokemonHelper.getPokemonByName('Burpmon').id](),
+            unlockReq: () => App.game?.statistics?.digimonScanned[PokemonHelper.getPokemonByName('Burpmon').id](),
         }));
 
         // Battery
