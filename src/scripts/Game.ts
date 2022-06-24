@@ -154,7 +154,7 @@ class Game {
     checkAndFix() {
         // Quest box not showing (game thinking tutorial is not completed)
         if (App.game.quests.getQuestLine('Tutorial Quests').state() == QuestLineState.inactive) {
-            if (App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Toy Town')]() >= 0) {
+            if (App.game.statistics.challengesDefeated[GameConstants.getGymIndex('Toy Town')]() >= 0) {
                 // Defeated Brock, Has completed the Tutorial
                 App.game.quests.getQuestLine('Tutorial Quests').state(QuestLineState.ended);
             } else if (player.starter() >= 0) {
@@ -168,7 +168,7 @@ class Game {
             if (App.game.statistics.colosseumHighestStageCompleted() >= 100) {
                 // Defeated stage 100, has obtained deoxys
                 App.game.quests.getQuestLine('Mystery of Deoxys').state(QuestLineState.ended);
-            } else if (App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Champion Wallace')]() >= 1) {
+            } else if (App.game.statistics.challengesDefeated[GameConstants.getGymIndex('Champion Wallace')]() >= 1) {
                 // Has defeated the Hoenn champion, Quest is started
                 App.game.quests.getQuestLine('Mystery of Deoxys').state(QuestLineState.started);
                 App.game.quests.getQuestLine('Mystery of Deoxys').beginQuest(App.game.quests.getQuestLine('Mystery of Deoxys').curQuest());
