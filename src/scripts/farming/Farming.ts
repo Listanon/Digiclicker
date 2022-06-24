@@ -1251,7 +1251,7 @@ class Farming implements Feature {
         const berry = GameHelper.getIndexFromDistribution(GameConstants.BerryDistribution);
         if (!disableNotification) {
             Notifier.notify({
-                message: `You got a ${BerryType[berry]} berry!`,
+                message: `You got a ${BerryType[berry]} disk!`,
                 type: NotificationConstants.NotificationOption.success,
                 setting: NotificationConstants.NotificationSetting.Items.route_item_found,
             });
