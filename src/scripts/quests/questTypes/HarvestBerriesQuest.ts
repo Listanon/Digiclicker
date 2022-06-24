@@ -7,7 +7,7 @@ class HarvestBerriesQuest extends Quest implements QuestInterface {
     constructor(amount: number, reward: number, berryType: BerryType) {
         super(amount, reward);
         this.berryType = berryType;
-        this.focus = App.game.statistics.berriesHarvested[this.berryType];
+        this.focus = App.game.statistics.disksBurned[this.berryType];
     }
 
     public static canComplete() {
