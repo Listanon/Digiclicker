@@ -105,7 +105,7 @@
                                             data-trigger="hover">
                                             </button>
                                             <button class="btn btn-primary btn-block" data-bind="click: function(){ FarmController.mulchAll(); }">
-                                                Mulch All
+                                                Boost All
                                             </button>
                                         </div>
                                     </div>
@@ -121,7 +121,7 @@
                                     tooltip: {title: 'Clear a Disk from a tray.', trigger: 'hover', animation: false}">
                                     <img src="" height="24px"
                                         data-bind="attr:{ src: ItemList['Berry_Shovel'].image }">
-                                    <span>Shovel</span>
+                                    <span>Clear</span>
                                     <span class="float-right" data-bind="text: App.game.farming.shovelAmt().toLocaleString('en-US')"></span>
                                 </li>
                                 <!-- /ko -->
@@ -134,7 +134,7 @@
                             tooltip: {title: 'Clear a Boost from a tray.', trigger: 'hover', animation: false}">
                                     <img src="" height="21px"
                                          data-bind="attr:{ src: ItemList['Mulch_Shovel'].image }">
-                                    <span>MulchShovel</span>
+                                    <span>Remove Boost</span>
                                     <span class="float-right" data-bind="text: App.game.farming.mulchShovelAmt().toLocaleString('en-US')"></span>
                                 </li>
                                 <!-- /ko -->
