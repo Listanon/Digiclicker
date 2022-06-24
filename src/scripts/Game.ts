@@ -165,7 +165,7 @@ class Game {
         }
         // Battle Frontier not accessable (chances are people broke this themselves, but whatever...)
         if (App.game.quests.getQuestLine('Mystery of Deoxys').state() == QuestLineState.inactive) {
-            if (App.game.statistics.battleFrontierHighestStageCompleted() >= 100) {
+            if (App.game.statistics.colosseumHighestStageCompleted() >= 100) {
                 // Defeated stage 100, has obtained deoxys
                 App.game.quests.getQuestLine('Mystery of Deoxys').state(QuestLineState.ended);
             } else if (App.game.statistics.gymsDefeated[GameConstants.getGymIndex('Champion Wallace')]() >= 1) {
