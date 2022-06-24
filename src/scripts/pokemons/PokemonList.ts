@@ -22047,10 +22047,10 @@ const pokemonMap = new GenericProxy<
                     return poke || (pokemon.find(p => p.id == 0) as PokemonListData);
                 };
             case 'randomRegion':
-                return (_max = GameConstants.Region.kanto, _min = GameConstants.Region.kanto) => {
+                return (_max = GameConstants.Region.adventure01, _min = GameConstants.Region.adventure01) => {
                     // minimum 0 (Kanto)
-                    const min = Math.max(GameConstants.Region.kanto, Math.min(_min, _max));
-                    const max = Math.max(GameConstants.Region.kanto, _min, _max);
+                    const min = Math.max(GameConstants.Region.adventure01, Math.min(_min, _max));
+                    const max = Math.max(GameConstants.Region.adventure01, _min, _max);
                     // Decide on a base ID first (so we aren't weighted towards pokemon with multiple forms such as Alcremie)
                     const basePokemonIDs: number[] = [...new Set(pokemon.filter(p => p.id > 0 && (p as PokemonListData).nativeRegion >= min && (p as PokemonListData).nativeRegion <= max).map(p => Math.floor(p.id)))];
                     const ID: number = Rand.fromArray(basePokemonIDs);
