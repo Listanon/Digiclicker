@@ -1,5 +1,5 @@
 enum KeyItemType {
-    'Source Code' = 0,
+    'Source_Code' = 0,
     'Coin_case',
     'Scanning_Goggles',
     'Traveling_Gear',
