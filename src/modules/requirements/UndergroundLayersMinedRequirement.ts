@@ -7,7 +7,7 @@ export default class UndergroundLayersMinedRequirement extends AchievementRequir
     }
 
     public getProgress() {
-        return Math.min(App.game.statistics.undergroundLayersMined(), this.requiredValue);
+        return Math.min(App.game.statistics.junkyardLayersMined(), this.requiredValue);
     }
 
     public hint(): string {
