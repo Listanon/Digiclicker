@@ -388,9 +388,9 @@ class Plot implements Saveable {
      */
     getGrowthMultiplier(): number {
         let multiplier = 1;
-        if (this.mulch === MulchType.Boost_Mulch) {
+        if (this.mulch === MulchType.Speed_Boost) {
             multiplier = GameConstants.BOOST_MULCH_MULTIPLIER;
-        } else if (this.mulch === MulchType.Amaze_Mulch) {
+        } else if (this.mulch === MulchType.Quality_Boost) {
             multiplier =  GameConstants.AMAZE_MULCH_GROWTH_MULTIPLIER;
         }
 
@@ -409,9 +409,9 @@ class Plot implements Saveable {
      */
     getHarvestMultiplier(): number {
         let multiplier = 1;
-        if (this.mulch === MulchType.Rich_Mulch) {
+        if (this.mulch === MulchType.Space_Boost) {
             multiplier = GameConstants.RICH_MULCH_MULTIPLIER;
-        } else if (this.mulch === MulchType.Amaze_Mulch) {
+        } else if (this.mulch === MulchType.Quality_Boost) {
             multiplier = GameConstants.AMAZE_MULCH_PRODUCE_MULTIPLIER;
         }
 
@@ -425,9 +425,9 @@ class Plot implements Saveable {
      */
     getReplantMultiplier(): number {
         let multiplier = 1;
-        if (this.mulch === MulchType.Rich_Mulch) {
+        if (this.mulch === MulchType.Space_Boost) {
             multiplier = GameConstants.RICH_MULCH_MULTIPLIER;
-        } else if (this.mulch === MulchType.Amaze_Mulch) {
+        } else if (this.mulch === MulchType.Quality_Boost) {
             multiplier = GameConstants.AMAZE_MULCH_PRODUCE_MULTIPLIER;
         }
 
@@ -441,9 +441,9 @@ class Plot implements Saveable {
      */
     getMutationMultiplier(): number {
         let multiplier = 1;
-        if (this.mulch === MulchType.Surprise_Mulch) {
+        if (this.mulch === MulchType.Surprise_Boost) {
             multiplier = GameConstants.SURPRISE_MULCH_MULTIPLIER;
-        } else if (this.mulch === MulchType.Amaze_Mulch) {
+        } else if (this.mulch === MulchType.Quality_Boost) {
             multiplier = GameConstants.AMAZE_MULCH_MUTATE_MULTIPLIER;
         }
 
