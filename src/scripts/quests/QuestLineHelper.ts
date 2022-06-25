@@ -49,7 +49,7 @@ class QuestLineHelper {
         //Clear Viridian Forest
         const clearViridianForest = new CustomQuest(1, 50,
             'Gather 50 Scan Coins by (re)scaning Digimon, then clear the Coelamon Beach dungeon.',
-            () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Viridian Forest')](),
+            () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Coelamon Beach')](),
             0
         );
         tutorial.addQuest(clearViridianForest);
@@ -72,7 +72,7 @@ class QuestLineHelper {
         };
         const pewter = new CustomQuest(1, pewterReward,
             'Gather 50 Scan Coins by (re)scaning Digimon, then clear the Coelamon Beach dungeon.',
-            () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Viridian Forest')](),
+            () => App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex('Coelamon Beach')](),
             0
         );
         tutorial.addQuest(pewter);
