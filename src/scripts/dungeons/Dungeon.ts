@@ -1966,7 +1966,7 @@ dungeonList['Weather Institute'] = new Dungeon('Weather Institute',
         {loot: 'Vigor Digizoid', weight: 2.25},
         {loot: 'Guard Digizoid', weight: 2.25},
         {loot: 'Deep Plate', weight: 2},
-        {loot: 'Love Digimental', weight: 1},
+        {loot: 'Love_Digimental', weight: 1},
     ],
     470000,
     [
