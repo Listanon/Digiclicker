@@ -48,13 +48,13 @@ class EvolutionStone extends CaughtIndicatingItem {
 }
 
 // TODO: Set prices for different kinds of stones
-ItemList['Leaf_stone']        = new EvolutionStone(GameConstants.StoneType.Leaf_stone, 250, undefined, 'Leaf Stone');
-ItemList['Fire_stone']        = new EvolutionStone(GameConstants.StoneType.Fire_stone, 250, undefined, 'Fire Stone');
-ItemList['Water_stone']       = new EvolutionStone(GameConstants.StoneType.Water_stone, 250, undefined, 'Water Stone');
-ItemList['Thunder_stone']     = new EvolutionStone(GameConstants.StoneType.Thunder_stone, 250, undefined, 'Thunder Stone');
-ItemList['Moon_stone']        = new EvolutionStone(GameConstants.StoneType.Moon_stone, 250, undefined, 'Moon Stone');
-ItemList['Trade_stone']       = new EvolutionStone(GameConstants.StoneType.Trade_stone, 250, undefined, 'Trade Stone');
-ItemList['Sun_stone']         = new EvolutionStone(GameConstants.StoneType.Sun_stone, 250, undefined, 'Sun Stone');
+ItemList['Purity_Digimental']        = new EvolutionStone(GameConstants.StoneType.Purity_Digimental, 250, undefined, 'Purity Digimental');
+ItemList['Courage_Digimental']        = new EvolutionStone(GameConstants.StoneType.Courage_Digimental, 250, undefined, 'Courage Digimental');
+ItemList['Sincerity_Digimental']       = new EvolutionStone(GameConstants.StoneType.Sincerity_Digimental, 250, undefined, 'Sincerity Digimental');
+ItemList['Knowledge_Digimental']     = new EvolutionStone(GameConstants.StoneType.Knowledge_Digimental, 250, undefined, 'Knowledge Digimental');
+ItemList['Hope_Digimental']        = new EvolutionStone(GameConstants.StoneType.Hope_Digimental, 250, undefined, 'Hope Digimental');
+ItemList['Kindness_Digimental']       = new EvolutionStone(GameConstants.StoneType.Kindness_Digimental, 250, undefined, 'Kindness Digimental');
+ItemList['Love_Digimental']         = new EvolutionStone(GameConstants.StoneType.Love_Digimental, 250, undefined, 'Love Digimental');
 ItemList['Soothe_bell']       = new EvolutionStone(GameConstants.StoneType.Soothe_bell, 250, undefined , 'Soothe Bell');
 ItemList['Metal_coat']        = new EvolutionStone(GameConstants.StoneType.Metal_coat, 250, undefined , 'Metal Coat');
 ItemList['Kings_rock']        = new EvolutionStone(GameConstants.StoneType.Kings_rock, 250, undefined , 'King\'s Rock');
@@ -63,9 +63,9 @@ ItemList['Dragon_scale']      = new EvolutionStone(GameConstants.StoneType.Drago
 ItemList['Prism_scale']       = new EvolutionStone(GameConstants.StoneType.Prism_scale, 250, undefined , 'Prism Scale');
 ItemList['Deepsea_tooth']     = new EvolutionStone(GameConstants.StoneType.Deepsea_tooth, 250, undefined , 'Deep Sea Tooth');
 ItemList['Deepsea_scale']     = new EvolutionStone(GameConstants.StoneType.Deepsea_scale, 250, undefined , 'Deep Sea Scale');
-ItemList['Shiny_stone']       = new EvolutionStone(GameConstants.StoneType.Shiny_stone, 250, undefined , 'Shiny Stone');
-ItemList['Dusk_stone']        = new EvolutionStone(GameConstants.StoneType.Dusk_stone, 250, undefined , 'Dusk Stone');
-ItemList['Dawn_stone']        = new EvolutionStone(GameConstants.StoneType.Dawn_stone, 250, undefined , 'Dawn Stone');
+ItemList['Miracles_Digimental']       = new EvolutionStone(GameConstants.StoneType.Miracles_Digimental, 250, undefined , 'Miracles Digimental');
+ItemList['Fate_Digimental']        = new EvolutionStone(GameConstants.StoneType.Fate_Digimental, 250, undefined , 'Fate Digimental');
+ItemList['Light_Digimental']        = new EvolutionStone(GameConstants.StoneType.Light_Digimental, 250, undefined , 'Light Digimental');
 ItemList['Razor_claw']        = new EvolutionStone(GameConstants.StoneType.Razor_claw, 250, undefined , 'Razor Claw');
 ItemList['Razor_fang']        = new EvolutionStone(GameConstants.StoneType.Razor_fang, 250, undefined , 'Razor Fang');
 ItemList['Electirizer']       = new EvolutionStone(GameConstants.StoneType.Electirizer, 250, undefined , 'Electirizer');
@@ -77,4 +77,4 @@ ItemList['Black_DNA']         = new EvolutionStone(GameConstants.StoneType.Black
 ItemList['White_DNA']         = new EvolutionStone(GameConstants.StoneType.White_DNA, 250, undefined, 'White DNA');
 ItemList['Sachet']            = new EvolutionStone(GameConstants.StoneType.Sachet, 250, undefined , 'Sachet');
 ItemList['Whipped_dream']     = new EvolutionStone(GameConstants.StoneType.Whipped_dream, 250, undefined , 'Whipped Dream');
-ItemList['Ice_stone']         = new EvolutionStone(GameConstants.StoneType.Ice_stone, 250, undefined , 'Ice Stone');
+ItemList['Friendship_Digimental']         = new EvolutionStone(GameConstants.StoneType.Friendship_Digimental, 250, undefined , 'Friendship Digimental');
