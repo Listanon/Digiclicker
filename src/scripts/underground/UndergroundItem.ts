@@ -100,19 +100,19 @@ UndergroundItem.addItem('Icy Rock',     14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1
 UndergroundItem.addItem('Damp Rock',    15, [[1,1,1], [1,1,1], [1,0,1]], 2);
 
 // Gem Plates
-UndergroundItem.addItem('Draco Plate',  100, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'dark');
-UndergroundItem.addItem('Dread Plate',  101, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'free');
-UndergroundItem.addItem('Earth Plate',  102, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'earth');
-UndergroundItem.addItem('Fist Plate',   103, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'vaccine');
-UndergroundItem.addItem('Flame Plate',  104, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'fire');
-UndergroundItem.addItem('Insect Plate', 106, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'data');
-UndergroundItem.addItem('Iron Plate',   107, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'neutral');
-UndergroundItem.addItem('Meadow Plate', 108, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'plant');
-UndergroundItem.addItem('Mind Plate',   109, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'virus');
-UndergroundItem.addItem('Sky Plate',    110, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'wind');
-UndergroundItem.addItem('Splash Plate', 111, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'water');
-UndergroundItem.addItem('Zap Plate',    115, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'electric');
-UndergroundItem.addItem('Pixie Plate',  116, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'light');
+UndergroundItem.addItem('Nightmare Plate',  100, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'dark');
+UndergroundItem.addItem('Release Plate',  101, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'free');
+UndergroundItem.addItem('Nature Plate',  102, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'earth');
+UndergroundItem.addItem('Cure Plate',   103, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'vaccine');
+UndergroundItem.addItem('Roar Plate',  104, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'fire');
+UndergroundItem.addItem('Code Plate', 106, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'data');
+UndergroundItem.addItem('Simple Plate',   107, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'neutral');
+UndergroundItem.addItem('Jungle Plate', 108, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'plant');
+UndergroundItem.addItem('Trojan Plate',   109, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'virus');
+UndergroundItem.addItem('Guardian Plate',    110, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'wind');
+UndergroundItem.addItem('Deep Plate', 111, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'water');
+UndergroundItem.addItem('Empire Plate',    115, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'electric');
+UndergroundItem.addItem('Buster Plate',  116, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'light');
 
 // Fossils
 UndergroundItem.addItem('Helix Fossil', 200, [[0,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,0]], 0, 'Mine Egg');
