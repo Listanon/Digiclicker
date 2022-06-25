@@ -249,14 +249,14 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Egg Factory', 'Hatch 1,000 eggs', new HatchRequirement(1000), 0.3);
         AchievementHandler.addAchievement('Offical Easter Bunny', 'Hatch 10,000 eggs', new HatchRequirement(10000), 0.4);
 
-        AchievementHandler.addAchievement('More Scans', 'Purchase your first Basic Scan', new PokeballRequirement(1, GameConstants.Pokeball.Pokeball), 0.01);
-        AchievementHandler.addAchievement('Starting a Collection', 'Purchase 10 Basic Scan', new PokeballRequirement(10, GameConstants.Pokeball.Pokeball), 0.03);
-        AchievementHandler.addAchievement('Stocking Up', 'Purchase 100 Basic Scan', new PokeballRequirement(100, GameConstants.Pokeball.Pokeball), 0.05);
-        AchievementHandler.addAchievement('Fully Stocked', 'Purchase 1,000 Basic Scan', new PokeballRequirement(1000, GameConstants.Pokeball.Pokeball), 0.10);
-        AchievementHandler.addAchievement('Maybe just a few more for the bunker', 'Purchase 10,000 Basic Scan', new PokeballRequirement(10000, GameConstants.Pokeball.Pokeball), 0.15);
-        AchievementHandler.addAchievement('Doomsday Bunker stocked with Digiscans!', 'Purchase 100,000 Basic Scan', new PokeballRequirement(100000, GameConstants.Pokeball.Pokeball), 0.20);
+        AchievementHandler.addAchievement('More Scans', 'Purchase your first DigiScan', new PokeballRequirement(1, GameConstants.Pokeball.Pokeball), 0.01);
+        AchievementHandler.addAchievement('Starting a Collection', 'Purchase 10 DigiScan', new PokeballRequirement(10, GameConstants.Pokeball.Pokeball), 0.03);
+        AchievementHandler.addAchievement('Stocking Up', 'Purchase 100 DigiScan', new PokeballRequirement(100, GameConstants.Pokeball.Pokeball), 0.05);
+        AchievementHandler.addAchievement('Fully Stocked', 'Purchase 1,000 DigiScan', new PokeballRequirement(1000, GameConstants.Pokeball.Pokeball), 0.10);
+        AchievementHandler.addAchievement('Maybe just a few more for the bunker', 'Purchase 10,000 DigiScan', new PokeballRequirement(10000, GameConstants.Pokeball.Pokeball), 0.15);
+        AchievementHandler.addAchievement('Doomsday Bunker stocked with Digiscans!', 'Purchase 100,000 DigiScan', new PokeballRequirement(100000, GameConstants.Pokeball.Pokeball), 0.20);
 
-        AchievementHandler.addAchievement('ooooo A blue one!', 'Purchase your first Greatball', new PokeballRequirement(1, GameConstants.Pokeball.Greatball), 0.03);
+        AchievementHandler.addAchievement('ooooo A blue one!', 'Purchase your first Greatscan', new PokeballRequirement(1, GameConstants.Pokeball.Greatball), 0.03);
         AchievementHandler.addAchievement('Greatscan 2', 'Purchase 10 Greatscans', new PokeballRequirement(10, GameConstants.Pokeball.Greatball), 0.05);
         AchievementHandler.addAchievement('Greatscan 3', 'Purchase 100 Greatscans', new PokeballRequirement(100, GameConstants.Pokeball.Greatball), 0.10);
         AchievementHandler.addAchievement('Greatscan 4', 'Purchase 1,000 Greatscans', new PokeballRequirement(1000, GameConstants.Pokeball.Greatball), 0.15);
