@@ -154,7 +154,7 @@ export default class Statistics implements Saveable {
         'digimonDefeated',
         'digimonEncountered',
         'digimonHatched',
-        'dotDigimonCaptured',
+        'dotDigimonScanned',
         'dotDigimonDefeated',
         'dotDigimonEncountered',
         'dotDigimonHatched',
