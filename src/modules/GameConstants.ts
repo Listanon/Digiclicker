@@ -598,13 +598,13 @@ export enum Starter {
 
 export enum StoneType {
     'None' = -1,
-    'Leaf_stone',
-    'Fire_stone',
-    'Water_stone',
-    'Thunder_stone',
-    'Moon_stone',
-    'Trade_stone',
-    'Sun_stone',
+    'Purity_Digimental',
+    'Courage_Digimental',
+    'Sincerity_Digimental',
+    'Knowledge_Digimental',
+    'Hope_Digimental',
+    'Kindness_Digimental',
+    'Love_Digimental',
     'Soothe_bell',
     'Metal_coat',
     'Kings_rock',
@@ -613,9 +613,9 @@ export enum StoneType {
     'Prism_scale',
     'Deepsea_tooth',
     'Deepsea_scale',
-    'Shiny_stone',
-    'Dusk_stone',
-    'Dawn_stone',
+    'Miracles_Digimental',
+    'Fate_Digimental',
+    'Light_Digimental',
     'Razor_claw',
     'Razor_fang',
     'Electirizer',
@@ -627,7 +627,7 @@ export enum StoneType {
     'White_DNA',
     'Sachet',
     'Whipped_dream',
-    'Ice_stone',
+    'Friendship_Digimental',
 }
 
 export enum BattleItemType {
