@@ -913,7 +913,7 @@ class Farming implements Feature {
         if (this.mutationCounter >= GameConstants.MUTATION_TICK) {
             this.mutations.forEach(mutation => {
                 if (mutation.mutate()) {
-                    GameHelper.incrementObservable(App.game.statistics.totalBerriesMutated, 1);
+                    GameHelper.incrementObservable(App.game.statistics.totalDisksModified, 1);
                     notifications.add(FarmNotificationType.Mutated);
                     change = true;
                 }
@@ -1163,7 +1163,7 @@ class Farming implements Feature {
         }
         plot.die(true);
         GameHelper.incrementObservable(this.shovelAmt, -1);
-        GameHelper.incrementObservable(App.game.statistics.totalDiscardssUsed, 1);
+        GameHelper.incrementObservable(App.game.statistics.totalDiscardsUsed, 1);
 
         this.resetAuras();
     }
