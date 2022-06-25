@@ -84,20 +84,21 @@ class UndergroundItem {
 
 // Diamond Items
 UndergroundItem.addItem('Rare Bone',    1, [[1,0,0,0,0,1], [1,1,1,1,1,1], [1,0,0,0,0,1]], 3);
-UndergroundItem.addItem('Star Piece',   2, [[0,1,0], [1,1,1], [0,1,0]], 5);
+UndergroundItem.addItem('Evil Mark',   2, [[0,1,0], [1,1,1], [0,1,0]], 5);
 UndergroundItem.addItem('Revive',       3, [[0,1,0], [1,1,1], [0,1,0]], 2);
-UndergroundItem.addItem('Max Revive',   4, [[1,1,1], [1,1,1], [1,1,1]], 4);
-UndergroundItem.addItem('Iron Ball',    5, [[1,1,1], [1,1,1], [1,1,1]], 2);
-UndergroundItem.addItem('Heart Scale',  6, [[1,0], [1,1]], 10);
-UndergroundItem.addItem('Light Clay',   7, [[1,0,1,0], [1,1,1,0], [1,1,1,1], [0,1,0,1]], 2);
-UndergroundItem.addItem('Odd Keystone', 8, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1]], 6);
-UndergroundItem.addItem('Hard Stone',   9, [[1,1],[1,1]], 4);
-UndergroundItem.addItem('Oval Stone',   10, [[1,1,1], [1,1,1], [1,1,1]], 3);
-UndergroundItem.addItem('Everstone',    11, [[1,1,1,1], [1,1,1,1]], 3);
-UndergroundItem.addItem('Smooth Rock',  12, [[0,0,1,0], [1,1,1,0], [0,1,1,1], [0,1,0,0]], 2);
-UndergroundItem.addItem('Heat Rock',    13, [[1,0,1,0], [1,1,1,1], [1,1,1,1]], 2);
-UndergroundItem.addItem('Icy Rock',     14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 2);
-UndergroundItem.addItem('Damp Rock',    15, [[1,1,1], [1,1,1], [1,0,1]], 2);
+UndergroundItem.addItem('Broken Digivice',   4, [[1,1,1], [1,1,1], [1,1,1]], 4);
+UndergroundItem.addItem('Black Gear',    5, [[1,1,1], [1,1,1], [1,1,1]], 2);
+UndergroundItem.addItem('Digicores',  6, [[1,1], [1,0]], 10);
+UndergroundItem.addItem('Holy Ring', 8, [[1,1,1], [1,1,1], 6);
+UndergroundItem.addItem('XAntibody',   9, [[1,1],[1,1]], 4);
+UndergroundItem.addItem('Empty Tag',    11, [[1,1,1,1], [1,1,1,1]], 3);
+UndergroundItem.addItem('Dreamy Digizoid',  12, [[0,0,1,0], [1,1,1,0], [0,1,1,1], [0,1,0,0]], 2);
+UndergroundItem.addItem('Rush Digizoid',  12, [[0,1,0,0], [0,1,1,1], [1,1,1,0], [0,0,1,0]], 2);
+UndergroundItem.addItem('Vigor Digizoid',    13, [[1,0,1,0], [1,1,1,1], [1,1,1,1]], 2);
+UndergroundItem.addItem('Sage Digizoid',    13, [[0,1,0,1], [1,1,1,1], [1,1,1,1]], 2);
+UndergroundItem.addItem('Guard Digizoid',     14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 2);
+UndergroundItem.addItem('Rage Digizoid',     14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 2);
+UndergroundItem.addItem('Gold Digizoid',    15, [[1,1,1], [1,1,1], [1,0,1]], 2);
 
 // Gem Plates
 UndergroundItem.addItem('Nightmare Plate',  100, [[1,1,1,1], [1,1,1,1], [1,1,1,1]], 100, 'dark');
