@@ -958,44 +958,44 @@ class Farming implements Feature {
 
         switch (farmNotiType) {
             case FarmNotificationType.Ripe:
-                message = 'A Berry is ready to harvest!';
+                message = 'A Disk is ready to collect!';
                 break;
             case FarmNotificationType.AboutToWither:
-                message = 'A Berry plant is about to wither!';
+                message = 'A Disk plant is about to fail!';
                 type = NotificationConstants.NotificationOption.warning;
                 sound = NotificationConstants.NotificationSound.Farming.berry_wither;
                 setting = NotificationConstants.NotificationSetting.Farming.about_to_wither;
                 break;
             case FarmNotificationType.Withered:
-                message = 'A Berry plant has withered!';
+                message = 'A Disk plant has failed!';
                 type = NotificationConstants.NotificationOption.warning;
                 sound = NotificationConstants.NotificationSound.Farming.berry_wither;
                 setting = NotificationConstants.NotificationSetting.Farming.berry_withered;
                 break;
             case FarmNotificationType.Mutated:
-                message = 'A Berry plant has mutated!';
+                message = 'A Disk plant has modified!';
                 sound = NotificationConstants.NotificationSound.Farming.berry_mutated;
                 setting = NotificationConstants.NotificationSetting.Farming.berry_mutated;
                 break;
             case FarmNotificationType.Replanted:
-                message = 'A Berry has been replanted!';
+                message = 'A Disk has been replaced!';
                 sound = NotificationConstants.NotificationSound.Farming.berry_replanted;
                 setting = NotificationConstants.NotificationSetting.Farming.berry_replanted;
                 break;
             case FarmNotificationType.Dropped:
-                message = 'A Berry has been dropped!';
+                message = 'A Disk has been ejected!';
                 sound = NotificationConstants.NotificationSound.Farming.berry_dropped;
                 setting = NotificationConstants.NotificationSetting.Farming.berry_dropped;
                 break;
             case FarmNotificationType.MulchRanOut:
-                message = 'A plot has run out of mulch!';
+                message = 'A tray has run out of boost!';
                 type = NotificationConstants.NotificationOption.warning;
                 sound = NotificationConstants.NotificationSound.Farming.mulch_ran_out;
                 setting = NotificationConstants.NotificationSetting.Farming.mulch_ran_out;
                 break;
             case FarmNotificationType.Wander:
                 const pokemon = wander?.shiny ? `shiny ${wander?.pokemon}` : wander?.pokemon;
-                message = `A wild ${pokemon} has wandered onto the farm!`;
+                message = `A wild ${pokemon} has wandered to the shop!`;
                 type = wander?.shiny ? NotificationConstants.NotificationOption.warning : NotificationConstants.NotificationOption.success;
                 sound = NotificationConstants.NotificationSound.Farming.wandering_pokemon;
                 setting = NotificationConstants.NotificationSetting.Farming.wandering_pokemon;
