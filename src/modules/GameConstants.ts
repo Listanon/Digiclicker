@@ -1909,32 +1909,30 @@ export const EnergyRestoreEffect = {
 };
 
 export const FossilToPokemon = {
-    'Helix Fossil': 'Ancient Greymon',
-    'Dome Fossil': 'Ancient Garurumon',
-    'Old Amber': 'Ancient Beatmon',
-    'Root Fossil': 'Ancient Irismon',
-    'Claw Fossil': 'Ancient Megatheriumon',
-    'Armor Fossil': 'Ancient Sphinxmon',
-    'Skull Fossil': 'Ancient Volcamon',
-    'Cover Fossil': 'Ancient Troiamon',
-    'Plume Fossil': 'Ancient Mermaimon',
-    'Jaw Fossil': 'Ancient Wisemon',
-    'Sail Fossil': 'Ancient Wisemon',
+    'Hono Fossil': 'Ancient Greymon',
+    'Hikari Fossil': 'Ancient Garurumon',
+    'Kaze Fossil': 'Ancient Irismon',
+    'Kori Fossil': 'Ancient Megatheriumon',
+    'Yami Fossil': 'Ancient Sphinxmon',
+    'Tsuchi Fossil': 'Ancient Volcamon',
+    'Ki Fossil': 'Ancient Troiamon',
+    'Mizu Fossil': 'Ancient Mermaimon',
+    'Hagane Fossil': 'Ancient Wisemon',
+    'Ikazuchi Fossil': 'Ancient Beatmon',
 };
 
 // Used for image name
 export const PokemonToFossil = {
-    AncientGreymon: 'Helix Fossil',
-    AncientGarurumon: 'Dome Fossil',
-    AncientBeatmon: 'Old Amber',
+    AncientGreymon: 'Hono Fossil',
+    AncientGarurumon: 'Hikari Fossil',
     AncientIrismon: 'Root Fossil',
-    AncientMegatheriumon: 'Claw Fossil',
-    AncientSphinxmon: 'Armor Fossil',
-    AncientVolcamon: 'Skull Fossil',
-    AncientTroiamon: 'Cover Fossil',
-    AncientMermaimon: 'Plume Fossil',
-    AncientWisemon: 'Jaw Fossil',
-    Susanoomon: 'Sail Fossil',
+    AncientMegatheriumon: 'Kori Fossil',
+    AncientSphinxmon: 'Yami Fossil',
+    AncientVolcamon: 'Tsuchi Fossil',
+    AncientTroiamon: 'Ki Fossil',
+    AncientMermaimon: 'Mizu Fossil',
+    AncientWisemon: 'Hagane Fossil',
+    AncientBeatmon: 'Ikazuchi Fossil',
 };
 
 // For random quest, name matches entry in gymList (created in Gym.ts)
