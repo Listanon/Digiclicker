@@ -233,7 +233,7 @@ TownList['Tokyo City'] = new Town(
     [SaffronCityShop],
     {
         requirements: [
-            new GymBadgeRequirement(BadgeEnums.Rainbow),
+            new GymBadgeRequirement(BadgeEnums.Purity_Crest),
             new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Vamdemon\'s Castle')),
         ],
         npcs: [SaffronBattleItemRival],
@@ -246,7 +246,7 @@ TownList['ShogunGekomon\'s Castle'] = new Town(
     {
         requirements: [
             new RouteKillRequirement(10, GameConstants.Region.adventure01, 15),
-            new GymBadgeRequirement(BadgeEnums.Thunder)
+            new GymBadgeRequirement(BadgeEnums.Knowledge_Crest)
         ],
         npcs: [FuchsiaKantoRoamerNPC],
     }
@@ -317,7 +317,7 @@ TownList['Metal Seadramon\'s Lair'] = new DungeonTown(
     GameConstants.Region.adventure01,
     [
          new RouteKillRequirement(10, GameConstants.Region.adventure01, 20),
-         new GymBadgeRequirement(BadgeEnums.Marsh),
+         new GymBadgeRequirement(BadgeEnums.Sincerity_Crest),
     ]
 );
 TownList['Devimon Battle'] = new DungeonTown(
@@ -340,7 +340,7 @@ TownList['Pinochimon\'s House'] = new DungeonTown(
     GameConstants.Region.adventure01,
     [
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 21),
-        new GymBadgeRequirement(BadgeEnums.Volcano),
+        new GymBadgeRequirement(BadgeEnums.Light_Crest),
     ]
 );
 TownList['Vamdemon\'s Castle'] = new DungeonTown(
@@ -349,7 +349,7 @@ TownList['Vamdemon\'s Castle'] = new DungeonTown(
     [
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 16),
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 17),
-        new GymBadgeRequirement(BadgeEnums.Soul),
+        new GymBadgeRequirement(BadgeEnums.Love_Crest),
     ]
 );
 TownList['Piemon\'s Observatory'] = new DungeonTown(
@@ -357,7 +357,7 @@ TownList['Piemon\'s Observatory'] = new DungeonTown(
     GameConstants.Region.adventure01,
     [
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 23),
-        new GymBadgeRequirement(BadgeEnums.Earth)
+        new GymBadgeRequirement(BadgeEnums.Hope_Crest)
     ]
 );
 TownList['Our War Game'] = new DungeonTown(
