@@ -190,7 +190,7 @@ const ChangelogItems = [
     new Changelog(changelogType.NEW, 'Better looting in dungeons'),
     new Changelog(changelogType.NEW, 'Added a Roamer encounter increase boost to Jaboca berries'),
     new Changelog(changelogType.CHANGE, 'Updated Logbook encounter message formatting'),
-    new Changelog(changelogType.CHANGE, 'Reduced Plume Fossil sizing'),
+    new Changelog(changelogType.CHANGE, 'Reduced Kori Fossil sizing'),
     new Changelog(changelogType.CHANGE, 'Adjusted Castform encounters'),
     new Changelog(changelogType.CHANGE, 'Adjusted some Pokémon encounter locations'),
     new Changelog(changelogType.CHANGE, 'Adjusted some items purchase locations'),
@@ -772,7 +772,7 @@ const ChangelogItems = [
     new Changelog(changelogType.CHANGE, 'Move some dungeons to be standalone'),
     new Changelog(changelogType.FIXED, 'Safari Zone should no longer lock up'),
     new Changelog(changelogType.FIXED, 'Event Pokémon can now evolve'),
-    new Changelog(changelogType.FIXED, 'Helix fossil now displays correctly when mining in the Underground'),
+    new Changelog(changelogType.FIXED, 'Hikari fossil now displays correctly when mining in the Underground'),
 
     // v0.4.16
     new ChangelogUpdate('v0.4.16', new Date(2020, 6, 30)),
