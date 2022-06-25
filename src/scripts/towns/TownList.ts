@@ -18,7 +18,7 @@ const pokeMartShop = new Shop([
     ItemList['SmallRestore'],
     ItemList['MediumRestore'],
     ItemList['LargeRestore'],
-], 'Explorers Poké Mart');
+], 'Explorers Digi Mart');
 
 const DepartmentStoreShop = new Shop([
     ItemList['Pokeball'],
