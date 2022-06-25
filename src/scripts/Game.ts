@@ -179,7 +179,7 @@ class Game {
             if (App.game.party.alreadyCaughtPokemon(142)) {
                 // Has obtained Aerodactyl
                 App.game.quests.getQuestLine('Mining Expedition').state(QuestLineState.ended);
-            } else if (App.game.badgeCase.badgeList[BadgeEnums.\]()) {
+            } else if (App.game.badgeCase.badgeList[BadgeEnums.Sincerity_Crest]()) {
                 // Has the soul badge, Quest is started
                 App.game.quests.getQuestLine('Mining Expedition').state(QuestLineState.started);
                 App.game.quests.getQuestLine('Mining Expedition').beginQuest(App.game.quests.getQuestLine('Mining Expedition').curQuest());
