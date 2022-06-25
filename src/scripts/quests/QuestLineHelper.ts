@@ -103,9 +103,9 @@ class QuestLineHelper {
 
         // Capture 200 Virus type Pokemon
         const mindPlateReward = () => {
-            const mindPlate = UndergroundItem.list.find(item => item.name == 'Mind Plate');
+            const mindPlate = UndergroundItem.list.find(item => item.name == 'Trojan Plate');
             if (!mindPlate) {
-                return console.error('Unable to find item Mind Plate');
+                return console.error('Unable to find item Trojan Plate');
             }
             Underground.gainMineItem(mindPlate.id, 20);
             Notifier.notify({
