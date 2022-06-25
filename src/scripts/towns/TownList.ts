@@ -221,22 +221,22 @@ TownList['Vademon Dimension'] = new Town(
 TownList['Gennai\'s'] = new Town(
     'Gennai\'s',
     GameConstants.Region.adventure01,
-    [CeladonDepartmentStoreShop],
+    [SaffronCityShop],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.adventure01, 17)],
-        npcs: [BigSpender],
+        npcs: [SaffronBattleItemRival],
     }
 );
 TownList['Tokyo City'] = new Town(
     'Tokyo City',
     GameConstants.Region.adventure01,
-    [SaffronCityShop],
+    [CeladonDepartmentStoreShop],
     {
         requirements: [
             new GymBadgeRequirement(BadgeEnums.Purity_Crest),
             new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Vamdemon\'s Castle')),
         ],
-        npcs: [SaffronBattleItemRival],
+        npcs: [BigSpender],
     }
 );
 TownList['ShogunGekomon\'s Castle'] = new Town(
