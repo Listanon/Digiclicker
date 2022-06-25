@@ -127,14 +127,14 @@ UndergroundItem.addItem('Ikazuchi Fossil',   209, [[0,0,1,1,1], [0,1,1,1,1], [1,
 UndergroundItem.addItem('Ki Fossil',  210, [[1,1,1,0,0], [1,1,1,1,1], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
 
 // Evolution Stones
-UndergroundItem.addItem('Fire Stone',    300, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Fire_stone]);
-UndergroundItem.addItem('Water Stone',   301, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Water_stone]);
-UndergroundItem.addItem('Thunder Stone', 302, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Thunder_stone]);
-UndergroundItem.addItem('Leaf Stone',    303, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1], [0,0,0,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Leaf_stone]);
-UndergroundItem.addItem('Moon Stone',    304, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Moon_stone]);
-UndergroundItem.addItem('Sun Stone',     305, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Sun_stone]);
-UndergroundItem.addItem('Ice Stone',     306, [[0,0,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Ice_stone]);
-UndergroundItem.addItem('Dawn Stone',    307, [[0,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Dawn_stone]);
-UndergroundItem.addItem('Dusk Stone',    308, [[0,1,1], [1,1,1], [1,1,0], [1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Dusk_stone]);
-UndergroundItem.addItem('Shiny Stone',   309, [[0,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Shiny_stone]);
-UndergroundItem.addItem('Trade Stone',   310, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1], [0,0,0,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Trade_stone]);
+UndergroundItem.addItem('Courage Digimental',    300, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Fire_stone]);
+UndergroundItem.addItem('Sincerity Digimental',   301, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Water_stone]);
+UndergroundItem.addItem('Knowledge Digimental', 302, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Thunder_stone]);
+UndergroundItem.addItem('Purity Digimental',    303, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1], [0,0,0,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Leaf_stone]);
+UndergroundItem.addItem('Hope Digimental',    304, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Moon_stone]);
+UndergroundItem.addItem('Love Digimental',     305, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Sun_stone]);
+UndergroundItem.addItem('Friendship Digimental',     306, [[0,0,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Ice_stone]);
+UndergroundItem.addItem('Light Digimental',    307, [[0,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Dawn_stone]);
+UndergroundItem.addItem('Fate Digimental',    308, [[0,1,1], [1,1,1], [1,1,0], [1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Dusk_stone]);
+UndergroundItem.addItem('Miracles Digimental',   309, [[0,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Shiny_stone]);
+UndergroundItem.addItem('Kindness Digimental',   310, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1], [0,0,0,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Trade_stone]);
