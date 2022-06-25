@@ -132,8 +132,8 @@ export default class Statistics implements Saveable {
         'totalBoostsUsed',
         'totalDiscardsUsed',
         'diskDailyDealTrades',
-        'colisseumTotalStagesCompleted',
-        'colisseumHighestStageCompleted',
+        'colosseumTotalStagesCompleted',
+        'colosseumHighestStageCompleted',
     ];
     arrayObservables = [
         'challengesDefeated',
