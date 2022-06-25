@@ -138,7 +138,7 @@ class QuestLineHelper {
         const undergroundQuestLine = new QuestLine('Mining Expedition', 'Explore the underground');
 
         //Buy Explorer Kit (no reward)
-        const buyExplorerKit = new CustomQuest(1, () => {}, 'Buy the Explorer Kit from Cinnabar Island Shop', () => +App.game.keyItems.hasKeyItem(KeyItemType.Explorer_kit), 0);
+        const buyExplorerKit = new CustomQuest(1, () => {}, 'Buy the Explorer Kit from Whamon\'s Gulf Shop', () => +App.game.keyItems.hasKeyItem(KeyItemType.Explorer_kit), 0);
         undergroundQuestLine.addQuest(buyExplorerKit);
 
         // Mine 5 layers in the Unerground
