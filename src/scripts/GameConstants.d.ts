@@ -1542,17 +1542,16 @@ namespace GameConstants {
         LargeRestore: number;
     };
     declare const FossilToPokemon: {
-        'Helix Fossil': string;
-        'Dome Fossil': string;
-        'Old Amber': string;
-        'Root Fossil': string;
-        'Claw Fossil': string;
-        'Armor Fossil': string;
-        'Skull Fossil': string;
-        'Cover Fossil': string;
-        'Plume Fossil': string;
-        'Jaw Fossil': string;
-        'Sail Fossil': string;
+        'Hikari Fossil': string;
+        'Yami Fossil': string;
+        'Tsuchi Fossil': string;
+        'Hono Fossil': string;
+        'Mizu Fossil': string;
+        'Kaze Fossil': string;
+        'Hagane Fossil': string;
+        'Kori Fossil': string;
+        'Ikazuchi Fossil': string;
+        'Ki Fossil': string;
     };
     declare const PokemonToFossil: {
         Omanyte: string;
