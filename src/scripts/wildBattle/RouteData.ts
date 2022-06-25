@@ -138,14 +138,14 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         land: ['Otamamon', 'Gekomon', 'Jungle Mojyamon', 'Karatuki Numemon', 'Mega Seadramon', 'Vermillimon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Thunder)]
+    [new GymBadgeRequirement(BadgeEnums.Knowledge_Crest)]
 ));
 Routes.add(new RegionRoute(
     'Army Grounds', GameConstants.Region.adventure01, 16,
     new RoutePokemon({
         land: ['Waru Monzaemon', 'Mamemon', 'Giromon', 'Fantomon', 'Death Meramon', 'Evilmon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Soul)]
+    [new GymBadgeRequirement(BadgeEnums.Love_Crest)]
 ));
 Routes.add(new RegionRoute(
     'Road\'s End', GameConstants.Region.adventure01, 17,
@@ -170,7 +170,7 @@ Routes.add(new RegionRoute(
     new RoutePokemon({
         water: ['Pumpmon', 'Gottsumon', 'Geremon', 'Gerbemon', 'Mammon', 'Parrotmon'],
     }),
-    [new GymBadgeRequirement(BadgeEnums.Marsh)]
+    [new GymBadgeRequirement(BadgeEnums.Sincerity_Crest)]
 ));
 Routes.add(new RegionRoute(
     'Digital Ocean', GameConstants.Region.adventure01, 20,
@@ -195,7 +195,7 @@ Routes.add(new RegionRoute(
     }),
     [
         new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Mugendramon\'s Mill')),
-        new GymBadgeRequirement(BadgeEnums.Volcano),
+        new GymBadgeRequirement(BadgeEnums.Light_Crest),
     ]
 ));
 
