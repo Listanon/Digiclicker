@@ -4,7 +4,7 @@ class BerryItem extends Item {
     public berryName: string;
 
     constructor(public berry: BerryType, basePrice: number, currency = GameConstants.Currency.farmPoint, public berryReq?: BerryType) {
-        super(`${BerryType[berry]}Berry`, basePrice, currency, { maxAmount: 1 } , undefined, `${BerryType[berry]} Berry`);
+        super(`${BerryType[berry]}Berry`, basePrice, currency, { maxAmount: 1 } , undefined, `${BerryType[berry]} Disk`);
         this.berryName = BerryType[berry];
     }
 
