@@ -56,7 +56,7 @@ abstract class Quest {
             App.game.quests.addXP(this.xpReward);
             this.claimed(true);
             if (this.pointsReward) {
-                App.game.wallet.gainQuestPoints(this.pointsReward);
+                App.game.wallet.gainFarmPoints(this.pointsReward);
                 Notifier.notify({
                     message: `You have completed your quest and claimed ${this.pointsReward} farm points!`,
                     type: NotificationConstants.NotificationOption.success,
