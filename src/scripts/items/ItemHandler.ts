@@ -1,6 +1,6 @@
 class ItemHandler {
 
-    public static stoneSelected: KnockoutObservable<string> = ko.observable('Courage Digimental');
+    public static stoneSelected: KnockoutObservable<string> = ko.observable('Courage_Digimental');
     public static pokemonSelected: KnockoutObservable<PokemonNameType> = ko.observable('V-mon');
     public static amountSelected: KnockoutObservable<number> = ko.observable(1);
     static amount: KnockoutObservable<number> = ko.observable(1);
