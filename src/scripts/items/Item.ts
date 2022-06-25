@@ -98,6 +98,17 @@ class Item {
                 });
                 return;
             }
+            if (PartyController.getCaughtStatusByName(this.name as PokemonNameType) === CaughtStatus.NotCaught) {
+                let prot = math.floor(this.baseprice / 100); 
+                if (prot >= 1){
+                    Notifier.notify({
+                        message: `${prot} Proteins obtained!`,
+                        type: NotificationConstants.NotificationOption.danger,
+                    });
+                    GameHelper.incrementObservable(App.game.statistics.totalProteinsObtained, prot);
+                    player.gainItem(protein, prot);
+                }
+            }
         }
 
         if (n <= 0) {
