@@ -55,12 +55,12 @@ const Route3Shop = new Shop([
     ItemList['Burpmon'],
 ]);
 const CeruleanCityShop = new Shop([
-    ItemList['Water_stone'],
+    ItemList['Sincerity_Digimental'],
     ItemList['xAttack'],
     ItemList['Water_egg'],
 ]);
 const VermilionCityShop = new Shop([
-    ItemList['Thunder_stone'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Lucky_pill'],
     ItemList['Electric_egg'],
 ]);
@@ -82,19 +82,19 @@ const CeladonDepartmentStoreShop = new Shop([
     ItemList['Lucky_floppy'],
 ], 'Department Store');
 const SaffronCityShop = new Shop([
-    ItemList['Moon_stone'],
+    ItemList['Hope_Digimental'],
     ItemList['xClick'],
-    ItemList['Leaf_stone'],
+    ItemList['Purity_Digimental'],
     ItemList['Earth_egg'],
 ]);
 const FuchsiaCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
     ItemList['Lucky_pill'],
     ItemList['Wind_egg'],
 ]);
 const CinnabarIslandShop = new Shop([
-    ItemList['Fire_stone'],
+    ItemList['Courage_Digimental'],
     ItemList['Fire_egg'],
     ItemList['SmallRestore'],
     ItemList['Explorer_kit'],
@@ -378,7 +378,7 @@ const VioletCityShop = new Shop([
 const AzaleaTownShop = new Shop([
     ItemList['Kings_rock'],
     ItemList['Plant_egg'],
-    ItemList['Leaf_stone'],
+    ItemList['Purity_Digimental'],
 ]);
 const GoldenrodDepartmentStoreShop = new Shop([
     ItemList['Pokeball'],
@@ -397,24 +397,24 @@ const EcruteakCityShop = new Shop([
     ItemList['Greatball'],
     ItemList['Fire_egg'],
     ItemList['Soothe_bell'],
-    ItemList['Fire_stone'],
+    ItemList['Courage_Digimental'],
 ]);
 const OlivineCityShop = new Shop([
     ItemList['Metal_coat'],
     ItemList['Water_egg'],
     ItemList['Electric_egg'],
-    ItemList['Water_stone'],
-    ItemList['Thunder_stone'],
+    ItemList['Sincerity_Digimental'],
+    ItemList['Knowledge_Digimental'],
     ItemList['HatcheryHelperCarey'],
 ]);
 const CianwoodCityShop = new Shop([
     ItemList['Ultraball'],
     ItemList['Earth_egg'],
-    ItemList['Sun_stone'],
+    ItemList['Love_Digimental'],
 ]);
 const MahoganyTownShop = new Shop([
     ItemList['Upgrade'],
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
     ItemList['HatcheryHelperDakota'],
 ]);
 const BlackthornCityShop = new Shop([
@@ -689,11 +689,11 @@ const DewfordTownShop = new Shop([
 const SlateportCityShop = new Shop([
     ItemList['Greatball'],
     ItemList['Water_egg'],
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
 ]);
 const MauvilleCityShop = new Shop([
     ItemList['Electric_egg'],
-    ItemList['Thunder_stone'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Metal_coat'],
     ItemList['HatcheryHelperJasmine'],
 ]);
@@ -703,15 +703,15 @@ const VerdanturfTownShop = new Shop([
 ]);
 const LavaridgeTownShop = new Shop([
     ItemList['Fire_egg'],
-    ItemList['Fire_stone'],
+    ItemList['Courage_Digimental'],
 ]);
 const FallarborTownShop = new Shop([
-    ItemList['Moon_stone'],
-    ItemList['Sun_stone'],
+    ItemList['Hope_Digimental'],
+    ItemList['Love_Digimental'],
 ]);
 const FortreeCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Leaf_stone'],
+    ItemList['Purity_Digimental'],
 ]);
 const MossdeepCityShop = new Shop([
     ItemList['Burpmon'],
@@ -719,7 +719,7 @@ const MossdeepCityShop = new Shop([
     ItemList['Upgrade'],
 ]);
 const SootopolisCityShop = new Shop([
-    ItemList['Water_stone'],
+    ItemList['Sincerity_Digimental'],
 ]);
 const PacifidlogTownShop = new Shop([
     ItemList['Deepsea_tooth'],
@@ -1091,30 +1091,30 @@ const TwinleafTownShop = new Shop([
     ItemList['Pokeball'],
 ]);
 const JubilifeCityShop = new Shop([
-    ItemList['Moon_stone'],
-    ItemList['Sun_stone'],
+    ItemList['Hope_Digimental'],
+    ItemList['Love_Digimental'],
 ]);
 const OreburghCityShop = new Shop([
     ItemList['Mystery_egg'],
 ]);
 const FloaromaTownShop = new Shop([
     ItemList['Kings_rock'],
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
 ]);
 const EternaCityShop = new Shop([
     ItemList['Plant_egg'],
-    ItemList['Leaf_stone'],
+    ItemList['Purity_Digimental'],
 ]);
 const HearthomeCityShop = new Shop([
     ItemList['Greatball'],
     ItemList['Soothe_bell'],
     ItemList['Fire_egg'],
-    ItemList['Fire_stone'],
+    ItemList['Courage_Digimental'],
 ]);
 const SolaceonTownShop = new Shop([
-    ItemList['Dawn_stone'],
-    ItemList['Dusk_stone'],
-    ItemList['Shiny_stone'],
+    ItemList['Light_Digimental'],
+    ItemList['Fate_Digimental'],
+    ItemList['Miracles_Digimental'],
     ItemList['Spiritomb'],
 ]);
 const CelesticTownShop = new Shop([
@@ -1137,7 +1137,7 @@ const SnowpointCityShop = new Shop([
 ]);
 const SunyshoreCityShop = new Shop([
     ItemList['Electric_egg'],
-    ItemList['Thunder_stone'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Deepsea_scale'],
     ItemList['Deepsea_tooth'],
 ]);
@@ -1154,7 +1154,7 @@ const PastoriaShop = new Shop([
     ItemList['Ultraball'],
     ItemList['Burpmon'],
     ItemList['Water_egg'],
-    ItemList['Water_stone'],
+    ItemList['Sincerity_Digimental'],
     ItemList['Prism_scale'],
 ]);
 
@@ -1567,7 +1567,7 @@ const VirbankCityShop = new Shop([
     ItemList['Greatball'],
 ]);
 const CasteliaCityShop = new Shop([
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
     ItemList['Water_egg'],
     ItemList['Kings_rock'],
 ]);
@@ -1583,7 +1583,7 @@ const DriftveilCityShop = new Shop([
 ]);
 const MistraltonCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Thunder_stone'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Upgrade'],
 ]);
 const LentimasTownShop = new Shop([
@@ -1609,21 +1609,21 @@ const IcirrusCityShop = new Shop([
     ItemList['Protector'],
 ]);
 const BlackAndWhiteParkShop = new Shop([
-    ItemList['Moon_stone'],
-    ItemList['Sun_stone'],
+    ItemList['Hope_Digimental'],
+    ItemList['Love_Digimental'],
 ]);
 const NacreneCityShop = new Shop([
     ItemList['Soothe_bell'],
 ]);
 const StriatonCityShop = new Shop([
-    ItemList['Leaf_stone'],
-    ItemList['Water_stone'],
-    ItemList['Fire_stone'],
+    ItemList['Purity_Digimental'],
+    ItemList['Sincerity_Digimental'],
+    ItemList['Courage_Digimental'],
 ]);
 const AccumulaTownShop = new Shop([
-    ItemList['Dusk_stone'],
-    ItemList['Shiny_stone'],
-    ItemList['Dawn_stone'],
+    ItemList['Fate_Digimental'],
+    ItemList['Miracles_Digimental'],
+    ItemList['Light_Digimental'],
 ]);
 const NuvemaTownShop = new Shop([
     ItemList['Electirizer'],
@@ -2038,27 +2038,27 @@ const SantaluneCityShop = new Shop([
 ]);
 const CamphrierTownShop = new Shop([
     ItemList['Greatball'],
-    ItemList['Thunder_stone'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Electric_egg'],
 ]);
 const AmbretteTownShop = new Shop([
     ItemList['Water_egg'],
-    ItemList['Water_stone'],
+    ItemList['Sincerity_Digimental'],
 ]);
 const GeosengeTownShop = new Shop([
     ItemList['Fire_egg'],
-    ItemList['Fire_stone'],
+    ItemList['Courage_Digimental'],
     ItemList['Kings_rock'],
 ]);
 const ShalourCityShop = new Shop([
     ItemList['Earth_egg'],
     ItemList['Metal_coat'],
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
 ]);
 const CoumarineCityShop = new Shop([
     ItemList['Ultraball'],
     ItemList['Plant_egg'],
-    ItemList['Leaf_stone'],
+    ItemList['Purity_Digimental'],
     ItemList['Electirizer'],
     ItemList['Magmarizer'],
 ]);
@@ -2069,14 +2069,14 @@ const LaverreCityShop = new Shop([
     ItemList['Deepsea_tooth'],
 ]);
 const DendemilleTownShop = new Shop([
-    ItemList['Dusk_stone'],
-    ItemList['Shiny_stone'],
-    ItemList['Dawn_stone'],
+    ItemList['Fate_Digimental'],
+    ItemList['Miracles_Digimental'],
+    ItemList['Light_Digimental'],
     ItemList['Upgrade'],
 ]);
 const AnistarCityShop = new Shop([
-    ItemList['Sun_stone'],
-    ItemList['Moon_stone'],
+    ItemList['Love_Digimental'],
+    ItemList['Hope_Digimental'],
     ItemList['Razor_claw'],
     ItemList['Razor_fang'],
 ]);
@@ -2367,13 +2367,13 @@ const IkiTownOutskirtsShop = new Shop([
 ]);
 const HauoliCityShop = new Shop([
     ItemList['Mystery_egg'],
-    ItemList['Shiny_stone'],
-    ItemList['Dusk_stone'],
-    ItemList['Dawn_stone'],
+    ItemList['Miracles_Digimental'],
+    ItemList['Fate_Digimental'],
+    ItemList['Light_Digimental'],
 ]);
 const HeaheaCityShop = new Shop([
     ItemList['Greatball'],
-    ItemList['Water_stone'],
+    ItemList['Sincerity_Digimental'],
     ItemList['Metal_coat'],
     ItemList['Kings_rock'],
 ]);
@@ -2383,9 +2383,9 @@ const PaniolaTownShop = new Shop([
     ItemList['Water_egg'],
 ]);
 const KonikoniCityShop = new Shop([
-    ItemList['Fire_stone'],
+    ItemList['Courage_Digimental'],
     ItemList['Soothe_bell'],
-    ItemList['Trade_stone'],
+    ItemList['Kindness_Digimental'],
 ]);
 const AetherParadiseShop = new Shop([
     ItemList['Type: Null'],
@@ -2393,13 +2393,13 @@ const AetherParadiseShop = new Shop([
 ]);
 const MalieCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Thunder_stone'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Electric_egg'],
     ItemList['Magmarizer'],
     ItemList['Electirizer'],
 ]);
 const TapuVillageShop = new Shop([
-    ItemList['Ice_stone'],
+    ItemList['Friendship_Digimental'],
     ItemList['Razor_claw'],
     ItemList['Razor_fang'],
 ]);
@@ -2413,7 +2413,7 @@ const SeafolkVillageShop = new Shop([
 ]);
 const ExeggutorIslandShop = new Shop([
     ItemList['Wind_egg'],
-    ItemList['Leaf_stone'],
+    ItemList['Purity_Digimental'],
     ItemList['Dragon_scale'],
     ItemList['Protector'],
     ItemList['Dubious_disc'],
@@ -2421,8 +2421,8 @@ const ExeggutorIslandShop = new Shop([
 ]);
 const AltaroftheSunneandMooneShop = new Shop([
     ItemList['Poipole'],
-    ItemList['Sun_stone'],
-    ItemList['Moon_stone'],
+    ItemList['Love_Digimental'],
+    ItemList['Hope_Digimental'],
 ]);
 
 //Alola NPCs
@@ -2816,7 +2816,7 @@ const WedgehurstShop = new Shop([
     ItemList['Mystery_egg'],
 ]);
 const CirchesterShop = new Shop([
-    ItemList['Ice_stone'],
+    ItemList['Friendship_Digimental'],
 ]);
 const TurffieldShop = new Shop([
     ItemList['Plant_egg'],
