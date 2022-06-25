@@ -28,7 +28,7 @@ export type SortOptionConfig = {
 
 export const SortOptionConfigs: Record<SortOptions, SortOptionConfig> = {
     [SortOptions.id]: {
-        text: 'Pokémon #',
+        text: 'Digimon #',
         getValue: (p) => p.id,
     },
 
@@ -48,7 +48,7 @@ export const SortOptionConfigs: Record<SortOptions, SortOptionConfig> = {
     },
 
     [SortOptions.shiny]: {
-        text: 'Shiny',
+        text: 'Dot',
         getValue: (p) => p.shiny,
     },
 
