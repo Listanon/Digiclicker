@@ -181,8 +181,8 @@ Settings.add(new Setting<string>('breedingTypeFilter2', 'breedingTypeFilter2',
 Settings.add(new Setting<string>('breedingShinyFilter', 'breedingShinyFilter',
     [
         new SettingOption('All', '-1'),
-        new SettingOption('Not Shiny', '0'),
-        new SettingOption('Shiny', '1'),
+        new SettingOption('Not Dot', '0'),
+        new SettingOption('Dot', '1'),
     ],
     '-1'));
 Settings.add(new Setting<string>('breedingDisplayFilter', 'breedingDisplayFilter',
