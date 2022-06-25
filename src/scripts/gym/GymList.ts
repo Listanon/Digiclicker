@@ -9,7 +9,7 @@ GymList['Koromon Village'] = new Gym(
         new GymPokemon('Greymon', 28000, 26),
         new GymPokemon('Metal Greymon', 32098, 28),
     ],
-    BadgeEnums.Boulder,
+    BadgeEnums.Courange_Crest,
     1703,
     'Thanks for helping Agumon. I should not have pushed him so hard.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Lost Colosseum'))]
@@ -22,7 +22,7 @@ GymList['Piccolomon\'s'] = new Gym(
         new GymPokemon('Garurumon', 34537, 29),
         new GymPokemon('Were Garurumon', 37537, 30),
     ],
-    BadgeEnums.Cascade,
+    BadgeEnums.Friendship_Crest,
     1925,
     'Oh! I concede defeat. You are remarkably strong.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Etemon\'s Pyramid'))]
@@ -35,12 +35,12 @@ GymList['Vademon Dimension'] = new Gym(
         new GymPokemon('Atlur Kabuterimon Red', 53642, 33),
         new GymPokemon('Vademon', 54642, 34),
     ],
-    BadgeEnums.Thunder,
+    BadgeEnums.Knowledge_Crest,
     2566,
     'Whoa! You\'re the real deal! Thank\'s for setting me free of Vademon\'s trap.',
     [
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 14),
-        new GymBadgeRequirement(BadgeEnums.Cascade),
+        new GymBadgeRequirement(BadgeEnums.Friendship_Crest),
     ]
 );
 GymList['ShogunGekomon\'s Castle'] = new Gym(
@@ -52,7 +52,7 @@ GymList['ShogunGekomon\'s Castle'] = new Gym(
         new GymPokemon('Togemon', 62685, 35),
         new GymPokemon('Lilimon', 64685, 36),
     ],
-    BadgeEnums.Rainbow,
+    BadgeEnums.Purity_Crest,
     2914,
     'I can\'t believe I lost! Gekomon do something!',
     [new RouteKillRequirement(10, GameConstants.Region.adventure01, 15)]
@@ -65,10 +65,10 @@ GymList['Tokyo City'] = new Gym(
         new GymPokemon('Ikkakumon', 100211, 41),
         new GymPokemon('Zudomon', 101211, 42),
     ],
-    BadgeEnums.Soul,
+    BadgeEnums.Sincerity_Crest,
     4144,
     'I\'m shocked! But a loss is a loss. I admit I didn\'t work hard enough to win!',
-    [new GymBadgeRequirement(BadgeEnums.Rainbow)]
+    [new GymBadgeRequirement(BadgeEnums.Purity_Crest)]
 );
 GymList['Pyokomon Village'] = new Gym(
     'Sora',
@@ -79,11 +79,11 @@ GymList['Pyokomon Village'] = new Gym(
         new GymPokemon('Birdramon', 73773, 37),
         new GymPokemon('Garudamon', 75773, 38),
     ],
-    BadgeEnums.Marsh,
+    BadgeEnums.Love_Crest,
     3300,
     'Humph! You have proven your worth! Here!',
     [
-        new GymBadgeRequirement(BadgeEnums.Rainbow)
+        new GymBadgeRequirement(BadgeEnums.Purity_Crest)
     ],
     () => {
         App.game.keyItems.gainKeyItem(KeyItemType.Safari_ticket, true);
@@ -98,7 +98,7 @@ GymList['Whamon\'s Gulf'] = new Gym(
         new GymPokemon('Tailmon', 115316, 45),
         new GymPokemon('Angewomon', 135316, 46),
     ],
-    BadgeEnums.Volcano,
+    BadgeEnums.Light_Crest,
     5208,
     'Wow! You are really strong!',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Metal Seadramon\'s Lair'))]
@@ -113,13 +113,13 @@ GymList['Primary Village'] = new Gym(
         new GymPokemon('Angemon', 160444, 51),
         new GymPokemon('Holy Angemon', 180444, 51),
     ],
-    BadgeEnums.Earth,
+    BadgeEnums.Hope_Crest,
     6533,
     'Aww... Patamon wasn\'t strong enought to beat you...',
     [
-        new GymBadgeRequirement(BadgeEnums.Volcano),
-        new GymBadgeRequirement(BadgeEnums.Marsh),
-        new GymBadgeRequirement(BadgeEnums.Thunder),
+        new GymBadgeRequirement(BadgeEnums.Light_Crest),
+        new GymBadgeRequirement(BadgeEnums.Love_Crest),
+        new GymBadgeRequirement(BadgeEnums.Knowledge_Crest),
     ],
     () => {
         App.game.keyItems.gainKeyItem(KeyItemType.Chip_case, true);
@@ -140,7 +140,7 @@ GymList['Ocean Data'] = new Gym(
     BadgeEnums.Ocean_Data,
     7500,
     'This is not the last you see of me!',
-    [new GymBadgeRequirement(BadgeEnums.Earth)]
+    [new GymBadgeRequirement(BadgeEnums.Hope_Crest)]
 );
 GymList['Forest Data'] = new Gym(
     'Forest',
