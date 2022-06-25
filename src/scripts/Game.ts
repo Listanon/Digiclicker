@@ -179,18 +179,18 @@ class Game {
             if (App.game.party.alreadyCaughtPokemon(142)) {
                 // Has obtained Aerodactyl
                 App.game.quests.getQuestLine('Mining Expedition').state(QuestLineState.ended);
-            } else if (App.game.badgeCase.badgeList[BadgeEnums.Soul]()) {
+            } else if (App.game.badgeCase.badgeList[BadgeEnums.\]()) {
                 // Has the soul badge, Quest is started
                 App.game.quests.getQuestLine('Mining Expedition').state(QuestLineState.started);
                 App.game.quests.getQuestLine('Mining Expedition').beginQuest(App.game.quests.getQuestLine('Mining Expedition').curQuest());
             }
         }
         // Check if Koga has been defeated, but have no safari ticket yet
-        if (App.game.badgeCase.badgeList[BadgeEnums.Soul]() && !App.game.keyItems.itemList[KeyItemType.Safari_ticket].isUnlocked()) {
+        if (App.game.badgeCase.badgeList[BadgeEnums.Sincerity_Crest]() && !App.game.keyItems.itemList[KeyItemType.Safari_ticket].isUnlocked()) {
             App.game.keyItems.gainKeyItem(KeyItemType.Safari_ticket, true);
         }
         // Check if Giovanni has been defeated, but have no gem case yet
-        if (App.game.badgeCase.badgeList[BadgeEnums.Earth]() && !App.game.keyItems.itemList[KeyItemType.Chip_case].isUnlocked()) {
+        if (App.game.badgeCase.badgeList[BadgeEnums.Hope_Crest]() && !App.game.keyItems.itemList[KeyItemType.Chip_case].isUnlocked()) {
             App.game.keyItems.gainKeyItem(KeyItemType.Chip_case, true);
         }
     }
