@@ -174,7 +174,7 @@ const CinnabarIslandResearcher = new NPC('Researcher Echo', [
 TownList['Primary Village'] = new Town(
     'Primary Village',
     GameConstants.Region.adventure01,
-    [PewterCityShop],
+    [ViridianCityShop],
     {
         npcs: [PalletProfOak],
     }
