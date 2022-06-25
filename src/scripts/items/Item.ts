@@ -98,7 +98,7 @@ class Item {
                 });
                 return;
             }
-            if (PartyController.getCaughtStatusByName(this.name as PokemonNameType) === CaughtStatus.NotCaught) {
+            if (PartyController.getCaughtStatusByName(this.name as PokemonNameType) != CaughtStatus.NotCaught) {
                 let prot = Math.floor(this.basePrice / 100); 
                 if (prot >= 1){
                     Notifier.notify({
