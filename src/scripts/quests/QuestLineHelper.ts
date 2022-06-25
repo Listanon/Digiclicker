@@ -61,7 +61,7 @@ class QuestLineHelper {
                 steps: [
                     {
                         element: document.getElementById('questDisplayContainer'),
-                        intro: 'Click "List" to see the current quests that can be completed for <img title="Farm points" src="assets/images/currency/farmPoint.svg" height="25px"> Quest Points.',
+                        intro: 'Click "List" to see the current quests that can be completed for <img title="Farm points" src="assets/images/currency/farmPoint.svg" height="25px"> Farm Points.',
                     },
                     {
                         element: document.getElementById('startMenu'),
