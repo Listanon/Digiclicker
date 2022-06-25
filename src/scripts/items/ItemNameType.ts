@@ -37,7 +37,7 @@ type ItemNameType
     | 'Knowledge_Digimental'
     | 'Hope_Digimental'
     | 'Kindness_Digimental'
-    | 'Love Digimental'
+    | 'Love_Digimental'
     | 'Soothe_bell'
     | 'Metal_coat'
     | 'Kings_rock'
