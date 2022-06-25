@@ -1554,17 +1554,16 @@ namespace GameConstants {
         'Ki Fossil': string;
     };
     declare const PokemonToFossil: {
-        Omanyte: string;
-        Kabuto: string;
-        Aerodactyl: string;
-        Lileep: string;
-        Anorith: string;
-        Shieldon: string;
-        Cranidos: string;
-        Tirtouga: string;
-        Archen: string;
-        Tyrunt: string;
-        Amaura: string;
+        AncientGreymon: string;
+        AncientGarurumon: string;
+        AncientIrismon: string;
+        AncientMegatheriumon: string;
+        AncientSphinxmon: string;
+        AncientVolcamon: string;
+        AncientTroiamon: string;
+        AncientMermaimon: string;
+        AncientWisemon: string;
+        AncientBeatmon: string;
     };
     declare const KantoGyms: string[];
     declare const JohtoGyms: string[];
