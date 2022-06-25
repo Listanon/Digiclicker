@@ -41,7 +41,7 @@ class ItemHandler {
     public static useStones() {
         if (!this.pokemonSelected()) {
             return Notifier.notify({
-                message: 'No Pokémon selected',
+                message: 'No Digimon selected',
                 type: NotificationConstants.NotificationOption.danger,
             });
         }
