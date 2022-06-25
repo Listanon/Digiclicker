@@ -41,7 +41,7 @@ Routes.add(new RegionRoute(
 Routes.add(new RegionRoute(
     'PowerLine Sands', GameConstants.Region.adventure01, 4,
     new RoutePokemon({
-        land: ['Gottsumon', 'Modoki Betamon', 'Betamon', 'Numemon'],
+        land: ['Gottsumon', 'Modoki Betamon', 'Goburimon', 'Numemon'],
     }),
     [
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 3),
