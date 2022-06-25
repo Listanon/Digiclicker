@@ -80,14 +80,14 @@ SpecialEvents.newEvent('One Lost Digimon', 'Placeholder Message Map 1.',
 // Pokemon the first movie release date
 SpecialEvents.newEvent('Odaiba Memorial Day!', 'Placeholder Message Map 1.',
     // Start
-    new Date(new Date().getFullYear(), 6, 1, 1), () => {
+    new Date(new Date().getFullYear(), 7, 1, 1), () => {
         dungeonList['Cerulean Cave'].bossList.push(new DungeonBossPokemon('Burpmon', 1000000, 80));
         RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
         RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
         RoamingPokemonList.add(GameConstants.Region.adventure01, new RoamingPokemon('Burpmon'));
     },
     // End
-    new Date(new Date().getFullYear(), 6, 24, 23), () => {
+    new Date(new Date().getFullYear(), 7, 24, 23), () => {
         dungeonList['Cerulean Cave'].bossList = dungeonList['Cerulean Cave'].bossList.filter(boss => boss.name != 'Burpmon');
         RoamingPokemonList.list[GameConstants.Region.adventure01] = RoamingPokemonList.list[GameConstants.Region.adventure01].filter(r => !['Burpmon', 'Burpmon', ''].includes(r.pokemon.name));
     }
