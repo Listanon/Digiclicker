@@ -86,7 +86,7 @@ Settings.add(new Setting<string>('hideHatchery', 'Hide Hatchery Modal:',
 Settings.add(new Setting<string>('farmDisplay', 'Farm timer display:',
     [
         new SettingOption('To Next Stage', 'nextStage'),
-        new SettingOption('Ripe/Death', 'ripeDeath'),
+        new SettingOption('Ready/Fail', 'ripeDeath'),
     ],
     'ripeDeath'));
 Settings.add(new BooleanSetting('currencyMainDisplayReduced', 'Shorten currency amount shown on main screen', false));
@@ -98,9 +98,9 @@ Settings.add(new CssVariableSetting('locked', 'Locked Location', [], '#000000'))
 Settings.add(new CssVariableSetting('currentPlace', 'Current Location', [], '#55ff00'));
 Settings.add(new CssVariableSetting('incomplete', 'Incomplete Area', [], '#ff9100'));
 Settings.add(new CssVariableSetting('questAtLocation', 'Quest at Location', [], '#34BF45'));
-Settings.add(new CssVariableSetting('uncaughtPokemon', 'Uncaught Pokemon', [], '#3498db'));
-Settings.add(new CssVariableSetting('uncaughtShinyPokemonAndMissingAchievement', 'Uncaught Shiny Pokemon and Missing Achievement', [], '#c939fe'));
-Settings.add(new CssVariableSetting('uncaughtShinyPokemon', 'Uncaught Shiny Pokemon', [], '#ffee00'));
+Settings.add(new CssVariableSetting('uncaughtPokemon', 'Not Scanned Digimon', [], '#3498db'));
+Settings.add(new CssVariableSetting('uncaughtShinyPokemonAndMissingAchievement', 'Not Scanned Dot Digimon and Missing Achievement', [], '#c939fe'));
+Settings.add(new CssVariableSetting('uncaughtShinyPokemon', 'Not Scanned Dot Digimon', [], '#ffee00'));
 Settings.add(new CssVariableSetting('missingAchievement', 'Missing Achievement', [], '#57e3ff'));
 Settings.add(new CssVariableSetting('completed', 'Completed Location', [], '#ffffff'));
 
@@ -150,8 +150,8 @@ const proteinSortSettings = Object.keys(SortOptionConfigs).map((opt) => (
 ));
 Settings.add(new Setting<number>('proteinSort', 'Sort:', proteinSortSettings, SortOptions.id));
 Settings.add(new BooleanSetting('proteinSortDirection', 'reverse', false));
-Settings.add(new BooleanSetting('proteinHideMaxedPokemon', 'Hide Pokémon with max protein', false));
-Settings.add(new BooleanSetting('proteinHideShinyPokemon', 'Hide shiny Pokémon', false));
+Settings.add(new BooleanSetting('proteinHideMaxedPokemon', 'Hide Digimon with max protein', false));
+Settings.add(new BooleanSetting('proteinHideShinyPokemon', 'Hide dot Digimon', false));
 
 // Breeding Filters
 Settings.add(new Setting<string>('breedingCategoryFilter', 'breedingCategoryFilter',
@@ -194,7 +194,7 @@ Settings.add(new Setting<string>('breedingDisplayFilter', 'breedingDisplayFilter
         new SettingOption('Times Hatched', 'timesHatched'),
         new SettingOption('Breeding Efficiency', 'breedingEfficiency'),
         new SettingOption('Steps per Attack Bonus', 'stepsPerAttack'),
-        new SettingOption('Pokedex ID', 'dexId'),
+        new SettingOption('Digidex ID', 'dexId'),
         new SettingOption('Proteins used', 'protiens'),
     ],
     'attack'));
@@ -232,16 +232,16 @@ Settings.add(new Setting<string>('achievementsRegion', 'achievementsRegion',
 Settings.add(new Setting('sort.saveSelector', 'Saves sort order', [], ''));
 
 // Hotkeys
-Settings.add(new HotkeySetting('hotkey.farm', 'Farm', 'F'));
+Settings.add(new HotkeySetting('hotkey.farm', 'Disk Shop', 'F'));
 Settings.add(new HotkeySetting('hotkey.hatchery', 'Hatchery', 'H'));
-Settings.add(new HotkeySetting('hotkey.oakItems', 'Oak Items', 'O'));
-Settings.add(new HotkeySetting('hotkey.underground', 'Underground', 'U'));
-Settings.add(new HotkeySetting('hotkey.pokeballSelection', 'Pokéball Selection', 'P', { suffix: ' + Number' }));
+Settings.add(new HotkeySetting('hotkey.oakItems', 'Hina Items', 'O'));
+Settings.add(new HotkeySetting('hotkey.underground', 'Junkyard', 'U'));
+Settings.add(new HotkeySetting('hotkey.pokeballSelection', 'Digiscan Selection', 'P', { suffix: ' + Number' }));
 
-Settings.add(new HotkeySetting('hotkey.farm.toggleShovel', 'Toggle Shovel', 'S'));
+Settings.add(new HotkeySetting('hotkey.farm.toggleShovel', 'Toggle Discard', 'S'));
 
 Settings.add(new HotkeySetting('hotkey.underground.hammer', 'Switch to Hammer', 'H'));
-Settings.add(new HotkeySetting('hotkey.underground.chisel', 'Switch to Chisel', 'C'));
+Settings.add(new HotkeySetting('hotkey.underground.chisel', 'Switch to Wrench', 'C'));
 Settings.add(new HotkeySetting('hotkey.underground.survey', 'Survey', 'S'));
 Settings.add(new HotkeySetting('hotkey.underground.bomb', 'Bomb', 'B'));
 
