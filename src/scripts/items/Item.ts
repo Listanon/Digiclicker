@@ -106,7 +106,7 @@ class Item {
                         type: NotificationConstants.NotificationOption.danger,
                     });
                     GameHelper.incrementObservable(App.game.statistics.totalProteinsObtained, prot);
-                    player.gainItem(Protein, prot);
+                    player.gainItem('Protein', prot);
                 }
             }
         }
