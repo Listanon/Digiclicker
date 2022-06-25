@@ -103,7 +103,7 @@ class Item {
                 if (prot >= 1){
                     Notifier.notify({
                         message: `${prot} Proteins obtained!`,
-                        type: NotificationConstants.NotificationOption.danger,
+                        type: NotificationConstants.NotificationOption.success,
                     });
                     GameHelper.incrementObservable(App.game.statistics.totalProteinsObtained, prot);
                     player.gainItem('Protein', prot);
