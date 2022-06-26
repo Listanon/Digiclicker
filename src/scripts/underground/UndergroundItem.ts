@@ -11,7 +11,7 @@ class UndergroundItem {
         public id: number,
         space: Array<Array<number>>,
         public value = 1,
-        public valueType = 'Diamond',
+        public valueType = 'Scrap',
         public requirement?: Requirement
     ) {
         this.space = space.map((r, y) => r.map((v, x) => ({
@@ -29,7 +29,7 @@ class UndergroundItem {
         id: number,
         space: Array<Array<number>>,
         value = 1,
-        valueType = 'Diamond',
+        valueType = 'Scrap',
         requirement?: Requirement
     ) {
         UndergroundItem.list.push(new UndergroundItem(name, id, space, value, valueType, requirement));
@@ -42,10 +42,10 @@ class UndergroundItem {
     }
 
     public static getFullResourceName(valuetype: string, amt: number): string {
-        if (valuetype != 'Diamond' && amt >= 50) {
+        if (valuetype != 'Scrap' && amt >= 50) {
             valuetype += ' chip';
         }
-        if (valuetype != 'Diamond' && amt >= 5 && amt <= 5) {
+        if (valuetype != 'Scrap' && amt >= 5 && amt <= 5) {
             valuetype += ' coin';
         }
         if (amt > 1) {
