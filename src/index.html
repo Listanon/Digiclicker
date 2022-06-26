@@ -162,7 +162,7 @@
                             </td>
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Scan Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/explorecoin.svg" height="25px">
+                                    <img title="Scan Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/explorecoin.svg" height="25px">
                                     <span id="animateCurrency-explorecoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.explorecoin]()) : App.game.wallet.currencies[GameConstants.Currency.explorecoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
@@ -176,19 +176,19 @@
                         <tr class="row">
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Attack Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/attackcoin.svg" height="25px">
+                                    <img title="Attack Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/attackcoin.svg" height="25px">
                                     <span id="animateCurrency-attackcoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.attackcoin]()) : App.game.wallet.currencies[GameConstants.Currency.attackcoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Defence Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/defencecoin.svg" height="25px">
+                                    <img title="Defence Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/defencecoin.svg" height="25px">
                                     <span id="animateCurrency-defencecoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.defencecoin]()) : App.game.wallet.currencies[GameConstants.Currency.defencecoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Speed Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/speedcoin.svg" height="25px">
+                                    <img title="Speed Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/speedcoin.svg" height="25px">
                                     <span id="animateCurrency-speedcoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.speedcoin]()) : App.game.wallet.currencies[GameConstants.Currency.speedcoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
@@ -196,19 +196,19 @@
                          <tr class="row">
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Health Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/healthcoin.svg" height="25px">
+                                    <img title="Health Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/healthcoin.svg" height="25px">
                                     <span id="animateCurrency-healthcoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.healthcoin]()) : App.game.wallet.currencies[GameConstants.Currency.healthcoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Intellect Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/intcoin.svg" height="25px">
+                                    <img title="Intellect Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/intcoin.svg" height="25px">
                                     <span id="animateCurrency-intcoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.intcoin]()) : App.game.wallet.currencies[GameConstants.Currency.intcoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
                             <td class="col">
                                 <span style="display: inline; position: relative;">
-                                    <img title="Magic Coins&#013;&#010;Gained by scanning Pokémon" src="assets/images/currency/magiccoin.svg" height="25px">
+                                    <img title="Magic Coins&#013;&#010;Gained by scanning Digimon" src="assets/images/currency/magiccoin.svg" height="25px">
                                     <span id="animateCurrency-magiccoin" data-bind="text: Settings.getSetting('currencyMainDisplayReduced').observableValue() ? GameConstants.formatNumber(App.game.wallet.currencies[GameConstants.Currency.magiccoin]()) : App.game.wallet.currencies[GameConstants.Currency.magiccoin]().toLocaleString('en-US')">0</span>
                                 </span>
                             </td>
@@ -255,13 +255,13 @@
 
                                 <knockout class="left">
                                     <knockout data-bind="text: Routes.getName(player.route(), player.region)"></knockout>
-                                    <!--If all Pokémon on the route are caught-->
+                                    <!--If all Digimon on the route are caught-->
                                     <knockout data-bind="if: (!RouteHelper.routeCompleted(player.route(), player.region, true) && RouteHelper.routeCompleted(player.route(), player.region, false))">
                                         <img title="You have scanned all Digimon on this route!" class="pokeball-smallest"
                                              src="assets/images/pokeball/Pokeball.png"/>
                                     </knockout>
 
-                                    <!--If all Pokémon on the route are caught shiny-->
+                                    <!--If all Digimon on the route are caught shiny-->
                                     <knockout data-bind="if: RouteHelper.routeCompleted(player.route(), player.region, true)">
                                         <img title="You have scanned all Digimon dot on this route!" class="pokeball-smallest"
                                              src="assets/images/pokeball/Pokeball-shiny.png"/>
@@ -317,14 +317,14 @@
                 </div>
 
 
-                <!-- Display Pokémon Attack, Click Attack damge values-->
+                <!-- Display Digimon Attack, Click Attack damge values-->
                 <div class="card-footer p-0" data-bind="hidden: App.game.gameState === GameConstants.GameState.town">
                     <table width="100%">
                         <tr>
                             <!-- ko ifnot: App.game.gameState === GameConstants.GameState.battleFrontier -->
                             <td width="50%">
                                 <span style="display: inline;">
-                                    Pokémon Attack:
+                                    Digimon Attack:
                                     <span data-bind="
                                         text: App.game.party.pokemonAttackObservable().toLocaleString('en-US'),
                                         tooltip: {
@@ -348,7 +348,7 @@
                             <!-- ko if: App.game.gameState === GameConstants.GameState.battleFrontier -->
                             <td width="100%">
                                 <span style="display: inline;">
-                                    Pokémon Attack:
+                                    Digimon Attack:
                                     <span data-bind="
                                         text: App.game.party.calculatePokemonAttack(
                                             PokemonType.None,
