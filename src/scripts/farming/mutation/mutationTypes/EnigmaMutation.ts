@@ -80,10 +80,10 @@ class EnigmaMutation extends GrowMutation {
      */
     get partialHint(): string {
         if (!App.game.discord.ID()) {
-            return 'There is a Berry that requires a linked <u>Discord</u> account to appear...';
+            return 'There is a program that requires a linked <u>Discord</u> account to appear...';
         }
         const idx = this.hintIndex;
-        return `There's a mysterious berry that requires ${this.getHint(idx)}.`;
+        return `There's a mysterious program that requires ${this.getHint(idx)}.`;
     }
 
     private getHint(idx: number) {
@@ -110,7 +110,7 @@ class EnigmaMutation extends GrowMutation {
      */
     get hint(): string {
         if (!App.game.discord.ID()) {
-            return 'There is a Berry that requires a linked <u>Discord</u> account to appear...';
+            return 'There is a program that requires a linked <u>Discord</u> account to appear...';
         }
 
         const hints = [];
@@ -121,7 +121,7 @@ class EnigmaMutation extends GrowMutation {
             hints.push(this.getHint(idx));
         });
 
-        let tempHint = `There's a mysterious berry that requires ${hints.join(', ').replace(/, ([\w\s]+)$/, ' and $1')}`;
+        let tempHint = `There's a mysterious program that requires ${hints.join(', ').replace(/, ([\w\s]+)$/, ' and $1')}`;
 
         if (hints.length === 0) {
             tempHint += 'a specific configuration of Berries';
