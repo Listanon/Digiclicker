@@ -371,23 +371,23 @@ class Underground implements Feature {
             case 'Diamond':
                 App.game.wallet.gainDiamonds(item.value * amount);
                 break;
-            case 'healthcoin':
-                App.game.wallet.gainhealthcoins(item.value * amount);
+            case 'Health':
+                App.game.wallet.gainhealthcoin(item.value * amount);
                 break;
-            case 'attackcoin':
-                App.game.wallet.gainattackcoins(item.value * amount);
+            case 'Attack':
+                App.game.wallet.gainattackcoin(item.value * amount);
                 break;
-             case 'defencecoin':
-                App.game.wallet.gaindefencecoins(item.value * amount);
+             case 'Defence':
+                App.game.wallet.gaindefencecoin(item.value * amount);
                 break;
-             case 'speedcoin':
-                App.game.wallet.gainspeedcoins(item.value * amount);
+             case 'Speed':
+                App.game.wallet.gainspeedcoin(item.value * amount);
                 break;
-             case 'magiccoin':
-                App.game.wallet.gainmagiccoins(item.value * amount);
+             case 'Magic':
+                App.game.wallet.gainmagiccoin(item.value * amount);
                 break;
-             case 'intcoin':
-                App.game.wallet.gainintcoins(item.value * amount);
+             case 'Intellect':
+                App.game.wallet.gainintcoin(item.value * amount);
                 break;
             case 'Mine Egg':
                 if (!App.game.breeding.hasFreeEggSlot()) {
