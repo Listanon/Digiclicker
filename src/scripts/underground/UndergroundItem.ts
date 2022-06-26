@@ -43,7 +43,7 @@ class UndergroundItem {
 
     public static getFullResourceName(valuetype: string, amt: number): string {
         if (valuetype != 'Diamond' && amt >= 50) {
-            valuetype += ' chip';
+            valuetype += ' gem';
         }
         if (amt > 1) {
             valuetype += 's';
@@ -128,10 +128,10 @@ UndergroundItem.addItem('Ikazuchi Fossil',   209, [[0,0,1,1,1], [0,1,1,1,1], [1,
 UndergroundItem.addItem('Ki Fossil',  210, [[1,1,1,0,0], [1,1,1,1,1], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
 
 // Evolution Stones
-UndergroundItem.addItem('Courage Digimental',    300, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Courage_Digimental]);
+UndergroundItem.addItem('Courage Digimental',    300, [[1,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Courage_Digimental]);
 UndergroundItem.addItem('Sincerity Digimental',   301, [[0,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Sincerity_Digimental]);
 UndergroundItem.addItem('Knowledge Digimental', 302, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Knowledge_Digimental]);
-UndergroundItem.addItem('Purity Digimental',    303, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1], [0,0,0,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Purity_Digimental]);
+UndergroundItem.addItem('Purity Digimental',    303, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Purity_Digimental]);
 UndergroundItem.addItem('Hope Digimental',    304, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Hope_Digimental]);
 UndergroundItem.addItem('Love Digimental',     305, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Love_Digimental]);
 UndergroundItem.addItem('Friendship Digimental',     306, [[0,0,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Friendship_Digimental]);
