@@ -47,7 +47,6 @@ const pokeLeagueShop = () => new Shop([
 //Kanto Shops
 const PewterCityShop = new Shop([
     ItemList['Pokeball'],
-    ItemList['Intel_floppy'],
     ItemList['Lucky_pill'],
     ItemList['Mystery_egg'],
 ]);
@@ -55,22 +54,20 @@ const Route3Shop = new Shop([
     ItemList['Burpmon'],
 ]);
 const CeruleanCityShop = new Shop([
-    ItemList['Sincerity_Digimental'],
+    ItemList['Courage_Digimental'],
     ItemList['xAttack'],
-    ItemList['Water_egg'],
+    ItemList['Fire_egg'],
 ]);
 const VermilionCityShop = new Shop([
-    ItemList['Knowledge_Digimental'],
+    ItemList['Greatball'],
     ItemList['Lucky_pill'],
-    ItemList['Electric_egg'],
+    ItemList['Intel_floppy'],
 ]);
 const CeladonCityShop = new Shop([
-    ItemList['Burpmon'],
-    ItemList['Burpmon'],
-    ItemList['Burpmon'],
-    ItemList['Burpmon'],
-    ItemList['Burpmon'],
-],   'Game Corner Shop');
+    ItemList['xClick'],
+    ItemList['Wind_egg'],
+    ItemList['HatcheryHelperKris'],
+]);
 const CeladonDepartmentStoreShop = new Shop([
     ItemList['Pokeball'],
     ItemList['Greatball'],
@@ -83,24 +80,21 @@ const CeladonDepartmentStoreShop = new Shop([
 ], 'Department Store');
 const SaffronCityShop = new Shop([
     ItemList['Hope_Digimental'],
-    ItemList['xClick'],
-    ItemList['Purity_Digimental'],
+    ItemList['SmallRestore'],
     ItemList['Earth_egg'],
 ]);
 const FuchsiaCityShop = new Shop([
     ItemList['Ultraball'],
-    ItemList['Kindness_Digimental'],
+    ItemList['Purity_Digimental'],
     ItemList['Lucky_pill'],
-    ItemList['Wind_egg'],
+    ItemList['Plant_egg'],
 ]);
 const CinnabarIslandShop = new Shop([
-    ItemList['Courage_Digimental'],
-    ItemList['Fire_egg'],
-    ItemList['SmallRestore'],
+    ItemList['Sincerity_Digimental'],
+    ItemList['Water_egg'],
     ItemList['Explorer_kit'],
     ItemList['Golden_DVD'],
     ItemList['Shiny_Mirror'],
-    ItemList['HatcheryHelperKris'],
 ]);
 const ViridianCityShop = new Shop([
     ItemList['Pokeball'],
@@ -109,10 +103,10 @@ const ViridianCityShop = new Shop([
     ItemList['Dungeon_ticket'],
 ]);
 const LavenderTownShop = new Shop([
-    ItemList['Greatball'],
+    ItemList['Knowledge_Digimental'],
     ItemList['Item_magnet'],
     ItemList['Lucky_floppy'],
-    ItemList['Plant_egg'],
+    ItemList['Electric_egg'],
 ]);
 
 // Kanto NPCs
@@ -263,7 +257,7 @@ TownList['Whamon\'s Gulf'] = new Town(
 TownList['Pyokomon Village'] = new Town(
     'Pyokomon Village',
     GameConstants.Region.adventure01,
-    [ViridianCityShop],
+    [CeladonCityShop],
     {
         requirements: [
             new RouteKillRequirement(10, GameConstants.Region.adventure01, 2),
