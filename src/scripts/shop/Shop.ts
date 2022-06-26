@@ -30,7 +30,7 @@ class Shop extends TownContent {
         if (!this.parent) {
             return 'Poké Mart';
         }
-        return `Poké Mart ${this.parent.name}`;
+        return `Digi Mart ${this.parent.name}`;
     }
 
     public amountInput = () => $('#shopModal').find('input[name="amountOfItems"]');
