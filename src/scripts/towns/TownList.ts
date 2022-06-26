@@ -328,7 +328,7 @@ TownList['VenomVamdemon Rampage'] = new DungeonTown(
     'VenomVamdemon Rampage',
     GameConstants.Region.adventure01,
     [   
-        new RouteKillRequirement(10, GameConstants.Region.adventure01, 19)
+        new RouteKillRequirement(10, GameConstants.Region.adventure01, 19),
         new RouteKillRequirement(10, GameConstants.Region.adventure01, 18)
     ]
 );
