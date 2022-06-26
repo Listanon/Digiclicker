@@ -9,7 +9,7 @@ class Trainer {
         name?: string,
         public subTrainerClass?: string
     ) {
-        this.name = name ? `${trainerClass} ${name}` : trainerClass;
+        this.name = name ? `Hacker ${name}` : trainerClass;
     }
 
     get image(): string {
