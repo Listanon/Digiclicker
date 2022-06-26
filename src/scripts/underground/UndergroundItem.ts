@@ -92,12 +92,12 @@ UndergroundItem.addItem('Digicores',         6, [[1,1], [1,0]], 10);
 UndergroundItem.addItem('Holy Ring',         7, [[1,1,1], [1,1,1]], 6);
 UndergroundItem.addItem('XAntibody',         8, [[1,1],[1,1]], 4);
 UndergroundItem.addItem('Empty Tag',         9, [[1,1,1,1], [1,1,1,1]], 3);
-UndergroundItem.addItem('Dreamy Digizoid',  10, [[0,0,1,0], [1,1,1,0], [0,1,1,1], [0,1,0,0]], 2);
-UndergroundItem.addItem('Rush Digizoid',    11, [[0,1,0,0], [0,1,1,1], [1,1,1,0], [0,0,1,0]], 2);
-UndergroundItem.addItem('Vigor Digizoid',   12, [[1,0,1,0], [1,1,1,1], [1,1,1,1]], 2);
-UndergroundItem.addItem('Sage Digizoid',    13, [[0,1,0,1], [1,1,1,1], [1,1,1,1]], 2);
-UndergroundItem.addItem('Guard Digizoid',   14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 2);
-UndergroundItem.addItem('Rage Digizoid',    15, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 2);
+UndergroundItem.addItem('Dreamy Digizoid',  10, [[0,0,1,0], [1,1,1,0], [0,1,1,1], [0,1,0,0]], 5, 'magiccoin');
+UndergroundItem.addItem('Rush Digizoid',    11, [[0,1,0,0], [0,1,1,1], [1,1,1,0], [0,0,1,0]], 5, 'speedcoin');
+UndergroundItem.addItem('Vigor Digizoid',   12, [[1,0,1,0], [1,1,1,1], [1,1,1,1]], 5, 'healthcoin');
+UndergroundItem.addItem('Sage Digizoid',    13, [[0,1,0,1], [1,1,1,1], [1,1,1,1]], 5, 'intcoin');
+UndergroundItem.addItem('Guard Digizoid',   14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 5, 'defencecoin');
+UndergroundItem.addItem('Rage Digizoid',    15, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 5, 'attackcoin');
 UndergroundItem.addItem('Gold Digizoid',    16, [[1,1,1], [1,1,1], [1,0,1]], 2);
 
 // Gem Plates
