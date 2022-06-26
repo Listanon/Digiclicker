@@ -3,10 +3,10 @@
 [![Build Status](https://img.shields.io/travis/com/pokeclicker/pokeclicker?logo=travis)](https://travis-ci.com/pokeclicker/pokeclicker)<br/>
 [![Discord](https://img.shields.io/discord/450412847017754644?color=7289DA&label=Discord&logo=discord)](https://discord.gg/a6DFe4p)
 
-# PokéClicker
-A game about catching Pokémon, defeating gym leaders, and watching numbers get bigger.
+# DigiClicker
+A game about scanning Digimon, defeating tamers, and watching numbers get bigger.
 
-NOTE: PokéClicker is still in development!
+NOTE: DigiClicker is still in development!
 
 You can try out the current state at https://www.pokeclicker.com/
 
@@ -25,12 +25,12 @@ We have an [EditorConfig](https://editorconfig.org/) and linting configured, to 
 
 First make sure you have git and npm available as command-line utilities (so you should install Git and NodeJS if you don't have them already).
 
-Open a command line interface in the directory that contains this README file, and use the following command to install PokéClicker's other dependencies locally:
+Open a command line interface in the directory that contains this README file, and use the following command to install DigiClicker's other dependencies locally:
 ```cmd
 npm clean-install
 ```
 
-Then finally, run the following command in the command line interface to start a browser running PokéClicker.
+Then finally, run the following command in the command line interface to start a browser running DigiClicker.
 ```cmd
 npm start
 ```
