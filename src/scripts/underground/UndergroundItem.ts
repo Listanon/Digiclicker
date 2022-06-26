@@ -45,6 +45,9 @@ class UndergroundItem {
         if (valuetype != 'Diamond' && amt >= 50) {
             valuetype += ' chip';
         }
+        if (valuetype != 'Diamond' && amt = 5) {
+            valuetype += '';
+        }
         if (amt > 1) {
             valuetype += 's';
         }
