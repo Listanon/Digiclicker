@@ -733,7 +733,7 @@ dungeonList['Metal Seadramon\'s Lair'] = new Dungeon('Metal Seadramon\'s Lair',
     23860,
     [
         new DungeonBossPokemon('Whamon Perfect', 100000, 43),
-        new DungeonBossPokemon('Metal Seadramon', 10737, 45),
+        new DungeonBossPokemon('Metal Seadramon', 107370, 45),
     ],
     1000, 20);
 
