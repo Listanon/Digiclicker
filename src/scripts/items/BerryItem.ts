@@ -13,7 +13,7 @@ class BerryItem extends Item {
     }
 
     get description(): string {
-        return `Obtain a ${this.berryName}<br/><i>(No Oak Item challenge runs only)</i>`;
+        return `Obtain a ${this.berryName}<br/><i>(No Hina Item challenge runs only)</i>`;
     }
 
     isAvailable(): boolean {
