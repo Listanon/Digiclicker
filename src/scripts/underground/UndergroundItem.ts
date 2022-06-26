@@ -118,14 +118,14 @@ UndergroundItem.addItem('Buster Plate',  116, [[1,1,1,1], [1,1,1,1], [1,1,1,1]],
 // Fossils
 UndergroundItem.addItem('Hikari Fossil', 200, [[0,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.hoenn));
 UndergroundItem.addItem('Yami Fossil',  201, [[1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.sinnoh));
-UndergroundItem.addItem('Tsuchi Fossil',  203, [[0,1,1,1], [0,1,1,1], [1,0,1,1], [1,1,1,1], [0,1,1,1]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.hoenn));
-UndergroundItem.addItem('Hono Fossil',  204, [[1,1,1,0,0], [1,1,1,1,0], [0,1,1,1,1], [0,0,1,1,1]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.hoenn));
-UndergroundItem.addItem('Mizu Fossil', 205, [[0,1,1,1,0], [1,1,1,1,0], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.sinnoh));
-UndergroundItem.addItem('Kaze Fossil', 206, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [0,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.sinnoh));
-UndergroundItem.addItem('Hagane Fossil', 207, [[1,1,1,1,0], [1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [0,1,1,1,1]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.unova));
-UndergroundItem.addItem('Kori Fossil', 208, [[0,0,1,1,1], [0,1,1,1,1], [1,1,1,1,0], [1,1,1,1,0], [1,1,1,0,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.unova));
-UndergroundItem.addItem('Ikazuchi Fossil',   209, [[0,0,1,1,1], [0,1,1,1,1], [1,1,1,1,1], [1,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
-UndergroundItem.addItem('Ki Fossil',  210, [[1,1,1,0,0], [1,1,1,1,1], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
+UndergroundItem.addItem('Tsuchi Fossil',  202, [[0,1,1,1], [0,1,1,1], [1,0,1,1], [1,1,1,1], [0,1,1,1]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.hoenn));
+UndergroundItem.addItem('Hono Fossil',  203, [[1,1,1,0,0], [1,1,1,1,0], [0,1,1,1,1], [0,0,1,1,1]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.hoenn));
+UndergroundItem.addItem('Mizu Fossil', 204, [[0,1,1,1,0], [1,1,1,1,0], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.sinnoh));
+UndergroundItem.addItem('Kaze Fossil', 205, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [0,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.sinnoh));
+UndergroundItem.addItem('Hagane Fossil', 206, [[1,1,1,1,0], [1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [0,1,1,1,1]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.unova));
+UndergroundItem.addItem('Kori Fossil', 207, [[0,0,1,1,1], [0,1,1,1,1], [1,1,1,1,0], [1,1,1,1,0], [1,1,1,0,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.unova));
+UndergroundItem.addItem('Ikazuchi Fossil',   208, [[0,0,1,1,1], [0,1,1,1,1], [1,1,1,1,1], [1,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
+UndergroundItem.addItem('Ki Fossil',  209, [[1,1,1,0,0], [1,1,1,1,1], [0,1,1,1,1], [0,1,1,1,0]], 0, 'Mine Egg', new MaxRegionRequirement(GameConstants.Region.kalos));
 
 // Evolution Stones
 UndergroundItem.addItem('Courage Digimental',    300, [[1,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Courage_Digimental]);
