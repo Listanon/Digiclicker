@@ -14,6 +14,6 @@ export default class GymBadgeRequirement extends Requirement {
     }
 
     public hint(): string {
-        return `Requires the ${GameConstants.camelCaseToString(BadgeEnums[this.badge])} badge.`;
+        return `Requires the ${GameConstants.camelCaseToString(BadgeEnums[this.badge])}.`;
     }
 }
