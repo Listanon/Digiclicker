@@ -197,7 +197,7 @@ class Underground implements Feature {
     public static getDiamondNetWorth(): number {
         let diamondNetWorth = 0;
         player.mineInventory().forEach(mineItem => {
-            if (mineItem.valueType == 'Diamond') {
+            if (mineItem.valueType == 'Scrap') {
                 diamondNetWorth += mineItem.value * mineItem.amount();
             }
         });
@@ -215,7 +215,7 @@ class Underground implements Feature {
                     cumulativeValues[mineItem.valueType] = cumulativeValueOfType;
                 }
 
-                if (mineItem.valueType == 'Diamond') {
+                if (mineItem.valueType == 'Scrap') {
                     cumulativeValueOfType.imgSrc = 'assets/images/underground/diamond.svg';
                 } else {
                     cumulativeValueOfType.imgSrc = Underground.getMineItemById(mineItem.id).image;
@@ -232,7 +232,7 @@ class Underground implements Feature {
         let nFossils = 0;
         let nPlates = 0;
         player.mineInventory().forEach(mineItem => {
-            if (mineItem.valueType == 'Diamond') {
+            if (mineItem.valueType == 'Scrap') {
                 nMineItems += mineItem.amount();
             } else if (mineItem.valueType == 'Mine Egg') {
                 nFossils += mineItem.amount();
@@ -368,7 +368,7 @@ class Underground implements Feature {
     private static gainProfit(item: UndergroundItem, amount: number): boolean {
         let success = true;
         switch (item.valueType) {
-            case 'Diamond':
+            case 'Scrap':
                 App.game.wallet.gainDiamonds(item.value * amount);
                 break;
             case 'Health':
