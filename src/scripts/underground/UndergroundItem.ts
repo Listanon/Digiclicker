@@ -83,7 +83,7 @@ class UndergroundItem {
 }
 
 // Diamond Items
-UndergroundItem.addItem('Black Digitron',    1, [[1,0,0,0,0,1], [1,1,1,1,1,1], [1,0,0,0,0,1]], 3);
+UndergroundItem.addItem('Black Digitron',    1, [[1,0,0,0,1], [1,1,1,1,1], [1,0,0,0,1]], 3);
 UndergroundItem.addItem('Evil Mark',         2, [[0,1,0], [1,1,1], [0,1,0]], 5);
 UndergroundItem.addItem('Guilmon Bread',     3, [[1,1,1], [0,1,0]], 2);
 UndergroundItem.addItem('Broken Digivice',   4, [[1,1,1], [1,1,1], [1,1,1]], 4);
