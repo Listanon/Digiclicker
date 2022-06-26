@@ -224,7 +224,7 @@
         <td class='vertical-middle'
             data-bind='text: upgrade.isMaxLevel() ? "" : "(" + (upgrade.increasing ? "+" : "-") + upgrade.upgradeBonus() + ")"'></td>
         <td class='vertical-middle'
-            data-bind='text: upgrade.isMaxLevel() ? "" : upgrade.calculateCost().amount + " diamonds"'></td>
+            data-bind='text: upgrade.isMaxLevel() ? "" : upgrade.calculateCost().amount + " scrap"'></td>
         <td class='vertical-middle'>
             <button class='btn btn-success btn-block'
                     data-bind='css: { disabled: !upgrade.canBuy() },
