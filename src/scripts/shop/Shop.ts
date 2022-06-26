@@ -5,7 +5,7 @@ class Shop extends TownContent {
         return 'btn btn-secondary';
     }
     public text(): string {
-        return this.name ?? 'Poké Mart';
+        return this.name ?? 'Digi Mart';
     }
     public isVisible(): boolean {
         return true;
