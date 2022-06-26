@@ -333,7 +333,10 @@ TownList['Etemon\'s Pyramid'] = new DungeonTown(
 TownList['VenomVamdemon Rampage'] = new DungeonTown(
     'VenomVamdemon Rampage',
     GameConstants.Region.adventure01,
-    [new RouteKillRequirement(10, GameConstants.Region.adventure01, 19)]
+    [   
+        new RouteKillRequirement(10, GameConstants.Region.adventure01, 19)
+        new RouteKillRequirement(10, GameConstants.Region.adventure01, 18)
+    ]
 );
 TownList['Pinochimon\'s House'] = new DungeonTown(
     'Pinochimon\'s House',
