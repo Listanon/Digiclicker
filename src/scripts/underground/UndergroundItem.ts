@@ -45,8 +45,8 @@ class UndergroundItem {
         if (valuetype != 'Diamond' && amt >= 50) {
             valuetype += ' chip';
         }
-        if (valuetype != 'Diamond' && amt = 5) {
-            valuetype += '';
+        if (valuetype != 'Diamond' && amt >= 5 && amt <= 5) {
+            valuetype += ' coin';
         }
         if (amt > 1) {
             valuetype += 's';
@@ -95,12 +95,12 @@ UndergroundItem.addItem('Digicores',         6, [[1,1], [1,0]], 10);
 UndergroundItem.addItem('Holy Ring',         7, [[1,1,1], [1,1,1]], 6);
 UndergroundItem.addItem('XAntibody',         8, [[1,1],[1,1]], 4);
 UndergroundItem.addItem('Empty Tag',         9, [[1,1,1,1], [1,1,1,1]], 3);
-UndergroundItem.addItem('Dreamy Digizoid',  10, [[0,0,1,0], [1,1,1,0], [0,1,1,1], [0,1,0,0]], 5, 'magiccoin');
-UndergroundItem.addItem('Rush Digizoid',    11, [[0,1,0,0], [0,1,1,1], [1,1,1,0], [0,0,1,0]], 5, 'speedcoin');
-UndergroundItem.addItem('Vigor Digizoid',   12, [[1,0,1,0], [1,1,1,1], [1,1,1,1]], 5, 'healthcoin');
-UndergroundItem.addItem('Sage Digizoid',    13, [[0,1,0,1], [1,1,1,1], [1,1,1,1]], 5, 'intcoin');
-UndergroundItem.addItem('Guard Digizoid',   14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 5, 'defencecoin');
-UndergroundItem.addItem('Rage Digizoid',    15, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 5, 'attackcoin');
+UndergroundItem.addItem('Dreamy Digizoid',  10, [[0,0,1,0], [1,1,1,0], [0,1,1,1], [0,1,0,0]], 5, 'Magic');
+UndergroundItem.addItem('Rush Digizoid',    11, [[0,1,0,0], [0,1,1,1], [1,1,1,0], [0,0,1,0]], 5, 'Speed');
+UndergroundItem.addItem('Vigor Digizoid',   12, [[1,0,1,0], [1,1,1,1], [1,1,1,1]], 5, 'Health');
+UndergroundItem.addItem('Sage Digizoid',    13, [[0,1,0,1], [1,1,1,1], [1,1,1,1]], 5, 'Intellect');
+UndergroundItem.addItem('Guard Digizoid',   14, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 5, 'Defence');
+UndergroundItem.addItem('Rage Digizoid',    15, [[0,1,1,0], [1,1,1,1], [1,1,1,1], [1,0,0,1]], 5, 'Attack');
 UndergroundItem.addItem('Gold Digizoid',    16, [[1,1,1], [1,1,1], [1,0,1]], 2);
 
 // Gem Plates
