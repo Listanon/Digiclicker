@@ -8,9 +8,9 @@ A game about scanning Digimon, defeating tamers, and watching numbers get bigger
 
 NOTE: DigiClicker is still in development!
 
-You can try out the current state at https://www.pokeclicker.com/
+You can try out the current state at https://www.google.com/
 
-You can reach out on discord to discuss your ideas and how to implement them: https://discord.gg/a6DFe4p
+You can reach out on discord to discuss your ideas and how to implement them: No Discord link.
 
 # Developer instructions
 
