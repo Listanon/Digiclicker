@@ -184,7 +184,7 @@ class Mine {
                 res.evoItems++;
             } else {
                 switch (reward.valueType) {
-                    case 'Diamond': {
+                    case 'Scrap': {
                         res.totalValue += reward.value;
                         break;
                     }
