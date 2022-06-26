@@ -133,7 +133,7 @@ UndergroundItem.addItem('Sincerity Digimental',   301, [[0,1,1], [1,1,1], [1,1,1
 UndergroundItem.addItem('Knowledge Digimental', 302, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Knowledge_Digimental]);
 UndergroundItem.addItem('Purity Digimental',    303, [[0,1,1,1,0], [0,1,1,1,0], [0,1,1,1,0], [1,1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Purity_Digimental]);
 UndergroundItem.addItem('Hope Digimental',    304, [[1,1,1], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Hope_Digimental]);
-UndergroundItem.addItem('Love Digimental',     305, [[1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Love_Digimental]);
+UndergroundItem.addItem('Love Digimental',     305, [[1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Love_Digimental]);
 UndergroundItem.addItem('Friendship Digimental',     306, [[0,0,1,1], [1,1,1,1], [1,1,1,1], [1,1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Friendship_Digimental]);
 UndergroundItem.addItem('Light Digimental',    307, [[0,1,0], [1,1,1], [1,1,1], [1,1,1]], 1, GameConstants.StoneType[GameConstants.StoneType.Light_Digimental]);
 UndergroundItem.addItem('Fate Digimental',    308, [[0,1,1], [1,1,1], [1,1,0], [1,1,0]], 1, GameConstants.StoneType[GameConstants.StoneType.Fate_Digimental]);
