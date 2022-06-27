@@ -216,7 +216,7 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Prepared for anything!', 'Level 11 Hina Items to the maximum level', new MaxLevelOakItemRequirement(11), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Prepared for anything!', 'Level 12 Hina Items to the maximum level', new MaxLevelOakItemRequirement(12), 0.18, GameConstants.Region.none, () => !challenges.list.disableOakItems.active() && !challenges.list.disableClickAttack.active());
 
-        AchievementHandler.addAchievement('First Team', 'Scan 100 Pokémon', new CapturedRequirement(100), 0.05);
+        AchievementHandler.addAchievement('First Team', 'Scan 100 Digimon', new CapturedRequirement(100), 0.05);
         AchievementHandler.addAchievement('Filling the Book', 'Scan 1,000 Digimon', new CapturedRequirement(1000), 0.10);
         AchievementHandler.addAchievement('Digimon Army', 'Scan 10,000 Digimon', new CapturedRequirement(10000), 0.15);
         AchievementHandler.addAchievement('Digimon Collector', 'Scan 100,000 Digimon', new CapturedRequirement(100000), 0.25);
