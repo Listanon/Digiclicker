@@ -37,7 +37,7 @@ export default class KeyItems implements Feature {
                 }, 'Traveling Gear'),
             // TODO obtain somewhere at the start
             new KeyItem(KeyItemType.Factory_key, 'This pass serves as an ID card for gaining access to the Pokéball factory that lies along Route 13', undefined, undefined, undefined, 'Factory Key'),
-            new KeyItem(KeyItemType.Dungeon_ticket, 'This ticket grants access to all dungeons in File island and beyond,<br/><strong>Tip:</strong> You gain Dungeon Tokens by scanning Digimon, the coins you will need for evolutions are also rarely obtained by scanning wild Digimon', null, false, () => {
+            new KeyItem(KeyItemType.Dungeon_ticket, 'This ticket grants access to all dungeons in File island and beyond,<br/><strong>Tip:</strong> You gain Dungeon Tokens by scanning Digimon, the coins you will need for evolutions are also rarely obtained by defeating wild Digimon', null, false, () => {
                 Information.show({
                     steps: [
                         {
