@@ -15,7 +15,7 @@ export const SpriteCredits: Credit[] = [
         link: 'https://www.google.com',
         image: 'https://www.pokecommunity.com/customavatars/avatar531836_2.gif',
         resources: [
-            'Thins go here',
+            'Things go here',
         ],
         // Notes: Permissions go here.
     },
