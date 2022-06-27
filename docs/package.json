@@ -1,7 +1,7 @@
 {
-  "name": "pokeclicker",
-  "version": "0.9.5",
-  "description": "PokéClicker repository",
+  "name": "digiclicker",
+  "version": "0.5.0",
+  "description": "Digiclicker repository",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development gulp",
@@ -24,9 +24,9 @@
   "author": "RedSparr0w",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pokeclicker/pokeclicker/issues"
+    "url": "https://github.com/Listanon/Digiclicker/issues"
   },
-  "homepage": "https://github.com/pokeclicker/pokeclicker#readme",
+  "homepage": "https://github.com/Listanon/Digiclicker#readme",
   "devDependencies": {
     "@types/gtag.js": "0.0.4",
     "@types/jquery": "^3.5.2",
