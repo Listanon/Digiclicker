@@ -55,7 +55,7 @@ const NotificationConstants = {
         },
         Items: {
             route_item_found: new NotificationSetting('notification.route_item_found', 'Item found during route battle', true),
-            dungeon_item_found: new NotificationSetting('notification.dungeon_item_found', 'Item found in dungeon chest', true),
+            dungeon_item_found: new NotificationSetting('notification.dungeon_item_found', 'Item found in dungeon box', true),
             battle_item_timer: new NotificationSetting('notification.battle_item_timer', 'Battle item about to wear off', true),
             dropped_item: new NotificationSetting('notification.dropped_item', 'Enemy Digimon dropped an item', true),
         },
