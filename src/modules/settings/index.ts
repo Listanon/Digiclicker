@@ -83,7 +83,7 @@ Settings.add(new Setting<string>('hideHatchery', 'Hide Hatchery Modal:',
         new SettingOption('Queue Slots Full', 'queue'),
     ],
     'queue'));
-Settings.add(new Setting<string>('farmDisplay', 'Farm timer display:',
+Settings.add(new Setting<string>('farmDisplay', 'Disk timer display:',
     [
         new SettingOption('To Next Stage', 'nextStage'),
         new SettingOption('Ready/Fail', 'ripeDeath'),
@@ -91,7 +91,7 @@ Settings.add(new Setting<string>('farmDisplay', 'Farm timer display:',
     'ripeDeath'));
 Settings.add(new BooleanSetting('currencyMainDisplayReduced', 'Shorten currency amount shown on main screen', false));
 Settings.add(new BooleanSetting('currencyMainDisplayExtended', 'Show Diamonds, Farm Points and Battle Points on main screen', false));
-Settings.add(new BooleanSetting('showGymGoAnimation', 'Show Gym GO animation', true));
+Settings.add(new BooleanSetting('showGymGoAnimation', 'Show GO animation', true));
 
 // CSS variable settings
 Settings.add(new CssVariableSetting('locked', 'Locked Location', [], '#000000'));
