@@ -339,13 +339,13 @@ class AchievementHandler {
                 AchievementHandler.addAchievement(`${dungeon} hermit`, `Clear ${dungeon} 250 times`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[2], GameConstants.getDungeonIndex(dungeon)), 1.6, region);
                 AchievementHandler.addAchievement(`${dungeon} dweller`, `Clear ${dungeon} 500 times`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[3], GameConstants.getDungeonIndex(dungeon)), 2.4, region);
             });
-            // Unique Pokémon
+            // Unique Digimon
             const amt10 = Math.floor(PokemonHelper.calcUniquePokemonsByRegion(region) * .1);
             const amt50 = Math.floor(PokemonHelper.calcUniquePokemonsByRegion(region) * .5);
             const amtAll = Math.floor(PokemonHelper.calcUniquePokemonsByRegion(region));
             // Caught unique pokemon
             AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Tamer`, `Scan ${amt10} unique Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniquePokemonsByRegionRequirement(region, amt10), 2, region);
-            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace`, `Scan ${amt50} unique Pokémon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniquePokemonsByRegionRequirement(region, amt50), 4, region);
+            AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace`, `Scan ${amt50} unique Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniquePokemonsByRegionRequirement(region, amt50), 4, region);
             AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Master`, `Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Digidex!`, new CaughtUniquePokemonsByRegionRequirement(region, amtAll), 6, region);
             // Caught unique shiny pokemon
             AchievementHandler.addAchievement(`${GameConstants.camelCaseToString(GameConstants.Region[region])} Dot Tamer`, `Scan ${amt10} unique Dot Digimon from ${GameConstants.camelCaseToString(GameConstants.Region[region])}`, new CaughtUniqueShinyPokemonsByRegionRequirement(region, amt10), 3, region);
