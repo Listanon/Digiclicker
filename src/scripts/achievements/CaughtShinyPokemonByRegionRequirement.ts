@@ -12,6 +12,6 @@ class CaughtUniqueShinyPokemonsByRegionRequirement extends AchievementRequiremen
     }
 
     public hint(): string {
-        return `${this.requiredValue} unique Pokémon need to be caught.`;
+        return `${this.requiredValue} unique Digimon need to be caught.`;
     }
 }
