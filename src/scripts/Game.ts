@@ -143,8 +143,8 @@ class Game {
             Notifier.notify({
                 type: NotificationConstants.NotificationOption.info,
                 title: 'Offline progress',
-                message: `Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Pokémon\nEarned: <img src="./assets/images/currency/money.svg" height="24px"/> ${moneyToEarn.toLocaleString('en-US')}`,
-                strippedMessage: `Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Pokémon\nEarned: ${moneyToEarn.toLocaleString('en-US')} money`,
+                message: `Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Digimon\nEarned: <img src="./assets/images/currency/money.svg" height="24px"/> ${moneyToEarn.toLocaleString('en-US')}`,
+                strippedMessage: `Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Digimon\nEarned: ${moneyToEarn.toLocaleString('en-US')} money`,
                 timeout: 2 * GameConstants.MINUTE,
                 setting: NotificationConstants.NotificationSetting.General.offline_earnings,
             });
