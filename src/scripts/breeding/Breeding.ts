@@ -330,7 +330,7 @@ class Breeding implements Feature {
         const pokemonNativeRegion = PokemonHelper.calcNativeRegion(pokemonName);
         if (pokemonNativeRegion > player.highestRegion()) {
             Notifier.notify({
-                message: 'You must progress further before you can uncover this fossil Pokémon!',
+                message: 'You must progress further before you can uncover this fossil Digimon!',
                 type: NotificationConstants.NotificationOption.warning,
                 timeout: 5e3,
             });
