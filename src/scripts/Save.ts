@@ -231,13 +231,13 @@ class Save {
         }
         if (converted.length > 0) {
             Notifier.notify({
-                message: `You have gained the following shiny Pokémon:</br>${converted.join(',</br>')}`,
+                message: `You have gained the following dot Digimon:</br>${converted.join(',</br>')}`,
                 type: NotificationConstants.NotificationOption.success,
                 timeout: 1e4,
             });
         } else {
             Notifier.notify({
-                message: 'No new shiny Pokémon to import.',
+                message: 'No new dot Digimon to import.',
                 type: NotificationConstants.NotificationOption.info,
             });
         }
