@@ -11,6 +11,6 @@ export default class CapturedRequirement extends AchievementRequirement {
     }
 
     public hint(): string {
-        return `${this.requiredValue} Pokémon need to be captured.`;
+        return `${this.requiredValue} Digimon need to be captured.`;
     }
 }
