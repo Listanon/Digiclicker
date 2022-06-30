@@ -11,6 +11,6 @@ export default class ShinyPokemonRequirement extends AchievementRequirement {
     }
 
     public hint(): string {
-        return `${this.requiredValue} Shiny Pokémon need to be obtained .`;
+        return `${this.requiredValue} Dot Digimon need to be obtained .`;
     }
 }
