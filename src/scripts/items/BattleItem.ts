@@ -41,7 +41,7 @@ class BattleItem extends Item {
     }
 }
 
-ItemList['xAttack']         = new BattleItem(GameConstants.BattleItemType.xAttack, '+50% Bonus to Pokémon attack for 30 seconds', 600, undefined, undefined, 'pokemonAttack', 1.5);
+ItemList['xAttack']         = new BattleItem(GameConstants.BattleItemType.xAttack, '+50% Bonus to Digimon attack for 30 seconds', 600, undefined, undefined, 'pokemonAttack', 1.5);
 ItemList['xClick']          = new BattleItem(GameConstants.BattleItemType.xClick, '+50% Bonus to click attack for 30 seconds', 400, undefined, undefined, 'clickAttack', 1.5);
 ItemList['Lucky_pill']       = new BattleItem(GameConstants.BattleItemType.Lucky_pill, '+50% Bonus to experience gained for 30 seconds', 800, undefined, 'Lucky Pill', 'exp', 1.5);
 ItemList['Intel_floppy'] = new BattleItem(GameConstants.BattleItemType.Intel_floppy, '+50% Bonus to scan coins gained for 30 seconds', 1000, undefined, 'Intel Floppy', 'explorecoin', 1.5);
