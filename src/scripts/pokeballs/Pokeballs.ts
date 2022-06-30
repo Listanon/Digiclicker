@@ -38,7 +38,7 @@ class Pokeballs implements Feature {
                     return Math.min(15,Math.pow(DungeonRunner.timeLeftPercentage(),2) / 500);
                 }
                 return 0;
-            }, 1000, 'Increased catch rate on routes with less Pokémon defeated', new RouteKillRequirement(10, GameConstants.Region.johto, 34)),
+            }, 1000, 'Increased catch rate on routes with less Digimon defeated', new RouteKillRequirement(10, GameConstants.Region.johto, 34)),
             new Pokeball(GameConstants.Pokeball.Timerball, () => {
                 if (App.game.gameState == GameConstants.GameState.fighting && player.route()) {
                     const kills = App.game.statistics.routeKills[GameConstants.Region[player.region]]?.[player.route()]?.() || 0;
@@ -52,7 +52,7 @@ class Pokeballs implements Feature {
                     return (timeLeftPercentWhenMax < timeLeftPercent) ? (200 / timeLeftPercent - 2) : maxBonus;
                 }
                 return 0;
-            }, 1000, 'Increased catch rate on routes with more Pokémon defeated', new RouteKillRequirement(10, GameConstants.Region.johto, 34)),
+            }, 1000, 'Increased catch rate on routes with more Digimon defeated', new RouteKillRequirement(10, GameConstants.Region.johto, 34)),
             new Pokeball(GameConstants.Pokeball.Duskball, () => {
                 const now = new Date();
                 // If player in a dungeon or it's night time
@@ -77,12 +77,12 @@ class Pokeballs implements Feature {
                 const numLandPokemon = Routes.getRoute(player.region,player.route()).pokemon.land.length > 0;
                 const isWaterPokemon = Routes.getRoute(player.region,player.route()).pokemon.water.includes(Battle.enemyPokemon().name);
 
-                // If route has Land Pokémon and the current pokémon is a Water Pokémon
+                // If route has Land Digimon and the current Digimon is a Water Digimon
                 if (numLandPokemon == true && isWaterPokemon == true) {
                     return 15;
                 }
                 return 0;
-            }, 1250, 'Increased catch rate on fished Pokémon', new RouteKillRequirement(10, GameConstants.Region.hoenn, 101)),
+            }, 1250, 'Increased catch rate on fished Digimon', new RouteKillRequirement(10, GameConstants.Region.hoenn, 101)),
 
             new Pokeball(GameConstants.Pokeball.Nestball, () => {
                 const maxRoute = MapHelper.normalizeRoute(Routes.getRoute(player.highestRegion(), Routes.getRoutesByRegion(player.highestRegion()).length - 1).number, player.highestRegion());
@@ -134,7 +134,7 @@ class Pokeballs implements Feature {
      * Checks the players preferences to see what pokéball needs to be used on the next throw.
      * Checks from the players pref to the most basic ball to see if the player has any.
      * @param id the pokemon we are trying to catch.
-     * @param isShiny if the Pokémon is shiny.
+     * @param isShiny if the Digimon is shiny.
      * @returns {GameConstants.Pokeball} pokéball to use.
      */
     public calculatePokeballToUse(id: number, isShiny: boolean): GameConstants.Pokeball {
