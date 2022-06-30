@@ -11,6 +11,6 @@ export default class DefeatedRequirement extends AchievementRequirement {
     }
 
     public hint(): string {
-        return `${this.requiredValue} Pokémon need to be defeated.`;
+        return `${this.requiredValue} Digimon need to be defeated.`;
     }
 }
