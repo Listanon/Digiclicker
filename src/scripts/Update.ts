@@ -104,8 +104,6 @@ class Update implements Saveable {
             saveData.statistics = {
                 ...saveData.statistics,
                 totalDisksBurned: saveData.statistics.disksBurned.reduce((sum, b) => sum + b, 0) || 0,
-                totalShardsGained: saveData.statistics.totalShards.reduce((sum, b) => sum + b, 0) || 0,
-                shardsGained: saveData.statistics.totalShards || 0,
                 digimonHatched,
             };
 
