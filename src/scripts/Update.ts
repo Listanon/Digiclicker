@@ -122,19 +122,6 @@ class Update implements Saveable {
             saveData.statistics.dungeonsCleared = Update.moveIndex(saveData.statistics.dungeonsCleared, 33); // Sealed Chamber
         },
 
-        '0.5.7': ({ saveData }) => {
-            // Update shinies
-            saveData.party.shinyPokemon.forEach(name => {
-                const id = pokemonMap[name].id;
-                if (id) {
-                    const pokemon = saveData.party.caughtPokemon.find(p => p.id == id);
-                    if (pokemon) {
-                        pokemon.shiny = true;
-                    }
-                }
-            });
-        },
-
         '0.5.8': ({ playerData, saveData }) => {
             // Hardcoded to allow upgrading from an older save, if we change
             // the Routes class in the future. Values are lowest/highest route
@@ -145,25 +132,6 @@ class Update implements Saveable {
                 hoenn: [101, 134],
                 sinnoh: [201, 230],
             };
-            const result = saveData.statistics.routeKills.reduce((acc, nextValue, nextIndex) => {
-                const [region] = Object.entries(regionRoutes).find(([, check]) => (
-                    // Find the region that contains this index
-                    check[0] <= nextIndex && nextIndex <= check[1]
-                )) || ['none'];
-                // Skip over any statistics for the 'none' region that are also 0, since
-                // these are just the gaps in the route numbers
-                if (region === 'none' && nextValue === 0) {
-                    return acc;
-                }
-
-                // Ensure the region has been prepared
-                acc[region] = (acc[region] || {});
-                // Track the route with its number in the statistics
-                acc[region][nextIndex] = nextValue;
-                return acc;
-            }, {});
-            saveData.statistics.routeKills = result;
-
             // Refund any shards spent on shard upgrades that have no effect
             // Using magic number incase any of these values change in the future
             const invalidUpgrades = {
@@ -180,13 +148,7 @@ class Update implements Saveable {
                 17: 0,
             };
             Object.entries(invalidUpgrades).forEach(([type, effectiveness]) => {
-                const index = +type * 4 + effectiveness;
-                let level = saveData.shards.shardUpgrades[index];
-                // Refund each level of upgrade purchased
-                while (level-- > 0) {
-                    const cost = (level + 1) * 500;
-                    saveData.shards.shardWallet[type] += cost;
-                }
+
             });
 
             // Give breeding slots based on highest region
@@ -348,16 +310,6 @@ class Update implements Saveable {
                     message: `Do you want to activate No Oak Item challenge mode?
 
                     <button class="btn btn-block btn-danger" onclick="App.game.challenges.list.disableOakItems.activate();" data-dismiss="toast">Activate</button>`,
-                    timeout: GameConstants.HOUR,
-                });
-            }
-            // Disable Shards
-            if (saveData.shards.shardUpgrades.every((s: number) => !s)) {
-                Notifier.notify({
-                    title: 'Active Challenge Mode?',
-                    message: `Do you want to activate No Shard challenge mode?
-
-                    <button class="btn btn-block btn-danger" onclick="App.game.challenges.list.disableShards.activate();" data-dismiss="toast">Activate</button>`,
                     timeout: GameConstants.HOUR,
                 });
             }
@@ -577,12 +529,6 @@ class Update implements Saveable {
                 return q;
             }) || [];
 
-            //Setting gems = shards
-            saveData.gems = {
-                gemWallet: saveData.shards.shardWallet || [],
-                gemCollapsed: saveData.shards.shardCollapsed || [],
-                gemUpgrades: saveData.shards.shardUpgrades || [],
-            };
 
             delete saveData.keyItems['Shard_case'];
 
