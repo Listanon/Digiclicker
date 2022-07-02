@@ -1,4 +1,3 @@
-[![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/Listanon/Digiclicker/develop?label=dev%20version)](https://github.com/Listanon/Digiclicker/tree/develop)<br/>
 [![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/Listanon/Digiclicker/master?label=live%20version)](https://www.pokeclicker.com/)<br/>
 [![Build Status](https://img.shields.io/travis/com/pokeclicker/pokeclicker?logo=travis)](https://travis-ci.com/pokeclicker/pokeclicker)<br/>
 [![Discord](https://img.shields.io/discord/450412847017754644?color=7289DA&label=Discord&logo=discord)](https://discord.gg/a6DFe4p)
