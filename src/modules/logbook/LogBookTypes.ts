@@ -10,11 +10,11 @@ export const LogBookTypes: Record<string, LogBookType> = {
     },
     SHINY: {
         display: 'warning',
-        label: 'SHINY',
+        label: 'DOT',
     },
     CAUGHT: {
         display: 'success',
-        label: 'CAUGHT',
+        label: 'SCANNED',
     },
     ESCAPED: {
         display: 'danger',
